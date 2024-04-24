@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="15" type="main">A színpadra állítás terve</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.15</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.15.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>706-708.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">A színpadra állítás terve</head>
+                <p xml:id="p.1">Semmiféle feljegyzés vagy levélbeli célzás nem utal arra, hogy
+                        <persName>Madáchot</persName> foglalkoztatta volna főművének színpadra
+                    állítása. Az eredeti magyar drámának mindig is szűkében lévő irodalmunkban a
+                    javaslat azonban szinte azonnal felvetődött. Azt követően, hogy <persName>Arany
+                            János<idno type="ITIdata">Q140423</idno></persName> részleteket olvasott
+                    fel a <orgName><abbr>KisfT</abbr><idno type="ITIdata">Q87</idno></orgName><date
+                        when="1861-10-31">1861. október 31-i</date> ülésén a műből, <date
+                        when="1861-11-02">november 2-án</date> (egy résztvevő írótól szerzett,
+                    másodkézi közlés alapján) a <title>Hölgyfutár</title> a még ismeretlen szerzőjű,
+                    kezdő literátornak tulajdonított és „eredeti szomorújáték”- nak nevezett
+                            <title><hi rend="italic">Tragédiá</hi></title>ról megjegyezte:
+                    „Óhajtjuk, hogy az elterjedt jó hir teljesen valósuljon akkor is, midőn a mű
+                    szinpadra kerül.” A hírre <date when="1861-11-06"> november 6-án</date> reagált
+                            <persName>Arany<idno corresp="Arany János"/></persName> folyóirata, a
+                        <title>SzF</title>, amely már pontosabban, „eredeti dramatizált
+                    költemény”-nek nevezte a <title><hi rend="italic">Tragédiá</hi></title>t, végül
+                    így zárta a hírt; „Ami a »színpadon megállhatást« illeti: szeretnők tudni, vajon
+                    Dante »lsteni komédiája« mint bohózat nem buknék-e meg a budai népszínházban?
+                    Pedig az már csak remekmű.” (Vö. a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#p.16"
+                                ><title><hi rend="italic">Fogadtatás</hi></title> alfejezettel:
+                        683.</ref>!)</p>
+                <p xml:id="p.2"><persName>Arany<idno corresp="Arany János"/></persName> könnyedén
+                    ironikus mondata nemcsak <title><hi rend="italic">Az ember
+                        tragédiájá</hi></title>t helyezte világirodalmi távlatba, de
+                    színháztörténeti szempontból is eligazító fontosságú. Sőt: nem is csupán
+                    általában utalt az emberiségköltemények színpadra állításának nehézségeire
+                    (magyar példánál maradva: <persName>Vörösmarty</persName><title><hi
+                            rend="italic">Csongor és Tündé</hi></title>je is csak 1866-ban, a Színi
+                    Tanoda vizsgaelőadásán kapott először színpadot), hanem kifejezésre juttatta
+                    irodalmias rosszallását a könyvdráma, a lélekszínpad nevében a látványos
+                    népszínház ellenében, amelyet <persName>Molnár György<idno type="ITIdata"
+                            >Q47042</idno></persName> Budai Népszínháza képviselt (<date from="1861"
+                        to="1864">1861 és 1864</date>, majd <date from="1867" to="1870">1867 és 1870
+                        között</date>). A szabadságharcban is résztvett <persName>Molnár</persName>,
+                    első igazi rendező-talentumunk a Nemzeti Színház megkövesedő romantikája mellett
+                    és ellen igyekezett visszaállítani a reformkor színészetének jelentőségét,
+                    közönségvonzó és közönségformáló hatását.</p>
+                <p xml:id="p.3"><date when="1861-10">1861 október</date>-<date when="1861-11"
+                        >novemberében</date><persName>Molnár</persName> természetesen nem ismerhette
+                    még a meg sem jelent <title><hi rend="italic">Tragédiá</hi></title>t ám
+                            <persName>Arany<idno corresp="Arany János"/></persName> jövőbe utalása
+                    zseniálisnak bizonyult. A színigazgató-rendező <date when="1863-05">1863
+                        májusában</date> és <date when="1863-06">júniusában</date> a színpadtechnika
+                    akkori fővárosában, <placeName>Párizsban<idno type="ITIdata"
+                        >Q131</idno></placeName>, díszletmunkásnak állva tanulmányozta a második
+                    császárság híres látványosságait. <title><hi rend="italic">Az ördög
+                        pilulái</hi></title> c. Offenbach-operettet éppúgy, mint a <title><hi
+                            rend="italic">Peking ostroma</hi></title> vagy a <title><hi
+                            rend="italic">Marengo</hi></title> c. történelmi tömegjátékokat.
+                        (<persName>Molnár Györgyre</persName> és a Budai Népszínházra l.
+                        <bibl>Mályuszné 1959<idno type="ITIdata">Q410986</idno></bibl>;
+                        <bibl>Mályuszné 1964<idno type="ITIdata">Q413075</idno></bibl>;
+                        <bibl>Pukánszkyné 1979<idno type="ITIdata">Q470111</idno></bibl>, valamint
+                        <persName>Molnár György</persName> önéletrajzi kötetét: <bibl>Molnár
+                            1881.<idno type="ITIdata">Q411569</idno></bibl>!)
+                        <persName>Molnár</persName>, aki <date when="1863-07-18">1863. július
+                        18-án</date> érkezett haza, megvásárolta és <placeName>Pestre<idno
+                            type="ITIdata">Q111</idno></placeName> szállíttatta azt a tükrös laterna
+                    magicarendszert, amelyből a „Dubosq-féle modérateur elektrum lámpa és batteria,
+                    mely 82 elemre volt összeállítva” 1.200, a „két nagy tükörüvegtábla” maga 2.200
+                    forintba került. (Vö. <bibl>Molnár 1881 389.<idno type="ITIdata"
+                        >Q411569</idno></bibl>! A mutatvány leírása uo.)</p>
+                <p xml:id="p.4">Hogy az importált színpadtechnikát működtetni tudja,
+                        <persName>Molnárnak</persName> nemcsak színházát kellett átépítenie
+                        „<persName>Bauquer Sándor</persName> ur franczia gépész” által, a
+                    kulisszaszínpad zárt terét feloldó kísérleteihez szövegkönyveket is találnia
+                    kellett. Két héttel <placeName>Párizsból</placeName> történt hazaérkezése után a
+                    fővárosi sajtó máris az immár két kiadásban megjelent drámai költemény
+                    színrevitelének tervéről adott hírt. <date when="1863-08-01">1863. augusztus
+                        l-jén</date> a Pesti Hölgy-Divatlap az Ujdonságok- rovatban jelentette, hogy
+                    „Molnár ur, a budai népszínház igazgatója, azon különös tervvel foglalkozik,
+                    jövő télre a látható, de érinthetetlen szellemekkel, <hi rend="italic">Madách
+                        Imre</hi> »<title>Ember tragoediájá</title>t« jeleneteztetni s előadni.”
+                    Másnap a <title><abbr>VU</abbr></title> hírlelte: „(<hi rend="italic"
+                        >Madách</hi>, <hi rend="italic">Ember tragédiájá</hi>t) szinpadra
+                    alkalmazva, Molnár a budai szinházban szinre hozni szándékszik, még pedig a
+                    szellemeket előtüntető gép alkalmazása mellett.”</p>
+                <p xml:id="p.5">Amikor tehát <persName>Madách</persName> halálhíre kapcsán a
+                        <title>Hölgyfutár</title><date when="1864-11-13">1864. október 13-án</date>
+                    arról írt, hogy a <title><hi rend="italic">Tragédia</hi></title> színpadra
+                    állítása <persName>Molnárnak</persName> „régi terve”, nem túlzott. A
+                        <title>Hölgyfutár</title> azt is megjegyezte, hogy
+                        <persName>Molnár</persName> „már nagyjából skizzirozta a színpad számára s
+                    nem is mond le reményéről, hogy azt a közönségnek illő kiállítással
+                    bemutathatandja.” Az említett vázlatokból a színigazgató-rendező semmit nem
+                    publikált; azok nem maradtak fenn. Mint ahogyan annak sincs nyoma, hogy
+                        <persName>Madách</persName> megfordult a Budai Népszínházban, vagy
+                        <persName>Molnár</persName> a szerzővel kapcsolatot kereste volna. A
+                        <title>Hölgyfutár</title> híre egyébiránt a <title>Sürgöny</title><date
+                        when="1864-10-09">1864. október 9-i</date> számára adott válasz volt. Ott, a
+                    tárcarovatban (szintén a halálhír kapcsán) a következő javaslat olvasható: „A
+                    nemzeti színház az elhunyt költő iránti kegyeletének szép jelét adná, ha egy pár
+                    estvét az ’Ember tragoediája’ előállitására szánna. Miként értjük mi e mű
+                    szinpadositását, alkalmilag [= alkalomadtán] el fogjuk mondani. Mindenesetre
+                    hiányzanék valami drámai művészetünkből, ha e költői mű soha se elevenittetnék
+                    meg a színpad által.” A Sürgöny azonban később nem tért vissza a dramatizálás
+                    mikéntjére; óvatos megfogalmazása („egy pár estvét”) egyébként is azt sejteti,
+                    hogy itt legalább annyira kultusztörténeti, mint színházművészeti megfontolásról
+                    van szó.</p>
+                <p xml:id="p.6">A Nemzeti Színházban <persName>Tóth József<idno type="ITIdata"
+                            >Q160703</idno></persName>, Kolozsvárott <persName>Ecsedi Kovács
+                            Gyula<idno type="ITIdata">Q46961</idno></persName> foglalkozott utóbb a
+                            <title><hi rend="italic">Tragédia</hi></title> színrevitelével (az <date
+                        when="1864">1864.</date> évi hírekre és ezekre a tervekre l. <bibl>Németh
+                        1933 7.1<idno type="ITIdata">Q469447</idno></bibl>). Az ősbemutató a Nemzeti
+                    Színházban <date when="1883-09-21">1883. szeptember 21-re</date> maradt
+                        <persName>Paulay Ede<idno type="ITIdata">Q53491</idno></persName> színre
+                    alkalmazásában és ren- dezésében. <persName>Molnár György</persName> érdeméből
+                    ez mit sem von le, sőt színháztörténeti értékét növeli, hogy bár más-más eszmei
+                    és művészi indíttatásból (<persName>Molnár</persName> a párizsi népszínházak
+                    nyomán haladva, <persName>Paulay</persName> a historizáló német meiningenizmus
+                    mintája szerint), de mindketten közérthető, közönségvonzó látványszínház
+                    lehetőségét látták a <title><hi rend="italic">Tragédia</hi></title>
+                    színrevitelében. Az ősbemutatóig pedig a Nemzeti Színházban is el kellett
+                    végezni a színpadtechnika megújítását, jelesül a játéktér megnagyobbítását és a
+                    színpadi villanyvilágítás bevezetését.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

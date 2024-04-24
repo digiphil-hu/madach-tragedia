@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="12" type="main">Fogadtatás</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.12</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.12.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>680-698.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Fogadtatás</head>
+                <p xml:id="p.1"><date when="1911">1911-ben</date> jelent meg
+                            <placeName>Budapesten<idno type="ITIdata"
+                        >Q93</idno></placeName><persName>Endrődi Sándor<idno type="ITIdata"
+                            >Q144424</idno></persName> összeállítása: <bibl><title><hi rend="italic"
+                                >Petőfi napjai a magyar irodalomban 1842-1849.</hi></title><idno
+                            type="ITIdata">Q329362</idno></bibl> Hasonmás, de mutatózott kiadása:
+                        <bibl>Bp. 1972.<idno type="ITIdata">Q337910</idno></bibl> A munkát
+                        <persName>Kiss József<idno type="ITIdata">Q147305</idno></persName>
+                    folytatta: <bibl><title><hi rend="italic">Petőfi-adattár I. Petőfi az egykorú
+                                sajtóban és egyéb nyomtatott forrásokban (Kiegészítés Endrődi Sándor
+                                „Petőfi napjai a magyar irodalomban" c., 1911-ben kiadott
+                                gyűjtéséhez)</hi></title>, gyűjtötte, s. a. r. és a jegyzeteket írta
+                            <persName>Kiss József</persName> Bp. 1987. Fontes 11.<idno
+                            type="ITIdata">Q329272</idno></bibl> Ennek az alapvető munkának
+                    mintájára állította össze <persName>Praznovszky Mihály<idno type="ITIdata"
+                            >Q155396</idno></persName><title><hi rend="italic">Madách Imre napjai a
+                            magyar irodalomban 1861-1864</hi></title> c. kéziratát, amelyet
+                    készséggel bocsátott a mostani krk. rendelkezésére. A Fogadtatás alfejezet
+                    törzsanyagát a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#p.11">683.
+                        oldaltól</ref> az ő adatgyűjtése adja, amelyet a szakirodalommal
+                    szembesítettünk és saját kutatási eredményeinkkel egészítettünk ki.</p>
+            </div>
+            <div xml:id="d.2">
+                <head type="title"><hi rend="italic">Irodalmi recepció az első kiadás
+                    előtt</hi></head>
+                <p xml:id="p.2"><title><hi rend="italic">Az ember tragédiája</hi></title>
+                    keletkezés- és kiadástörténetének felvonultatott sajátosságaiból következik,
+                    hogy ezúttal és kivételesen a megjelenés előtti irodalmi recepcióról is
+                    beszélhetünk, amelyet azonban - más helyen, időben és közegben történvén -
+                    mindenképpen indokolt megkülönböztetni <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.8"><title><hi
+                                rend="italic">A kézirat fogadtatása</hi></title></ref> c.
+                    alfejezettől.</p>
+                <p xml:id="p.3">Az irodalmi recepció kezdete <title>Arany János levele Tompa
+                        Mihályhoz</title> (<placeName>Pest<idno type="ITIdata"
+                        >Q111</idno></placeName>, <date when="1825-08-25">1861. augusztus
+                    25.</date>): „Poesisről szólván: valahára födöztem fel egy <hi rend="italic"
+                        >igazi</hi> talentumot. Egy kézirat van nálam: <title><hi rend="italic">Az
+                            ember tragédiája</hi></title>. Faust féle drámai compositió, de teljesen
+                    maga lábán jár. Hatalmas gondolatokkal teljes. Első tehetség Petőfi óta, ki
+                    egészen önálló irányt mutat. Kár, hogy verselni nem tud jól, nyelve sem ment
+                    hibáktól. (...) Mily jól esik ez örökös majmolás után egy kevés eredeti hang!”
+                            (<bibl><abbr>AJÖM XVII.</abbr> 574-575.<ref target="/aj_lev_17_1336.tei"
+                        /></bibl>)</p>
+                <p xml:id="p.4">Az alaphangot és érvelést megismételte <persName>Arany János<idno
+                            type="ITIdata">Q140423</idno></persName> a szerzőhöz intézett <date
+                        when="1861-09-12">1861. szeptember 12-i</date> levelében, amelynek néhány
+                    mondata szinte szállóigévé vált: „<title>Az »Ember Tragoediája«</title> úgy
+                    conceptióban, mint compositióban igen jeles mű. Csak itt-ott a verselésben - meg
+                    a nyelvben találok némi nehézkességet, különösen a lyrai részek nem eléggé
+                    zengők. De igy is, a mint van, egy kevés külsimítással irodalmunk legjelesb
+                    termékei közt foglalhat az helyet. (...) Fogadja leghőbb üdvözletemet a
+                    gyönyörért, melyet nekem műve által okozott, a fényért, melyre költészetünket
+                    derítni hivatva van!” (<bibl>MÖM II. 1001.<idno type="ITIdata"
+                        >Q412729</idno></bibl>, <bibl><abbr>AJÖM XVII.</abbr> 579.<ref
+                            target="/aj_lev_17_1338.tei"/></bibl><bibl><abbr>AJÖM XVII.</abbr>
+                            574-575.<ref target="/aj_lev_17_1338.tei"/></bibl> -
+                        <persName>Madách</persName> a levelet szó szerint lemásolta és elküldte a
+                            <title><hi rend="italic">Tragédia</hi></title> első olvasójának,
+                        <persName>Szontagh Pál<idno type="ITIdata">Q49539</idno></persName>
+                    barátjának, <date when="1861-09-19">1861. szeptember 19-én</date>, l. <bibl>MÖM
+                        II. 994-995.<idno type="ITIdata">Q412729</idno></bibl>!). Ami a kritikai
+                    alapvetést, az „úgy conceptióban, mint compositióban” megállapítást illeti, a
+                    mai irodalomtörténet <persName>Aranyt</persName> igazolhatja és kritikai
+                    kiadásunk <title><hi rend="italic">Tárgyi magyarázatok</hi></title> alfejezete
+                    ezt szemlélteti is: a <title><hi rend="italic">Tragédia</hi></title> eredetisége
+                    nem a részletek újszerűségében és nagyszerűségében rejlett, hanem abban, ahogyan
+                        <persName>Madách</persName> a sokféle ismert adat, előkép, sőt olykor
+                    irodalmi-művelődési közhely halmazából egyéni világlátású műalkotást
+                    alkotott.</p>
+                <p xml:id="p.5">Amint a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.9"><title><hi
+                                rend="italic">Kiadástörténet</hi></title>nél</ref> említettük,
+                        <persName>Arany János</persName> - a kiadandó mű értékeit szemléltetendő -
+                        <date when="1861-10-31">1861. október 31-én</date> a <abbr>KisfT-ban</abbr>
+                    az I-IV. szín javítatlan szövegét olvasta fel. A felolvasás hatásáról -
+                    jelenlegi ismereteink szerint - több egykorú dokumentummal rendelkezünk (vö.
+                        <bibl>Praznovszky 1998 92-93.<idno type="ITIdata">Q470110</idno></bibl>!).
+                    Maga a felolvasó így emlékezett <date when="1862-03-27">1862. március
+                        27-én</date>, a <persName>Madách</persName> székfoglalóját bevezető üdvözlő
+                    beszédében: „Oh, emlékszem én, s mindenkor édesen fogok emlékezni a napra, midőn
+                    ama nevezetes műnek, <title>az Ember tragédiájá</title>nak, habár csupán
+                    töredékeit olvasva Önök előtt, majd örvendő meglepetés, majd lelkesült
+                    csodálkozás, itt javalló elégültség, ott elmélyedő figyelem, mindenütt pedig
+                    folytonos, fokozatos érdek kifejezését láttam a hallgatók arcain.”
+                            (<bibl><abbr>AJÖM XIII.</abbr> 337.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/></bibl>)</p>
+                <p xml:id="p.6">A másik tudósító <persName>Csengery Antal<idno type="ITIdata"
+                            >Q240595</idno></persName> volt, a hajdani centralista elvbarát, aki
+                        <persName>Erdélyi Jánost<idno type="ITIdata"
+                        >Q43473</idno></persName><persName>Madách</persName> reformkori múltjára is
+                    emlékeztette: „A napokban igen derék művet olvastak fel a Kisfaludy-társaságban.
+                        »<title>Az ember tragoediája</title> « Madách Imrétől, a mi hajdani
+                    »Timon«-unktól. E név alatt írt volt rég igen jó czikkeket a P[esti]. Hirlapban.
+                        <title>Az ember tragoediája</title> byroni conceptio shakespeareileg kivéve.
+                    Roppant erő az egészben és a részletekben egyaránt; csak a verselés gyönge. Ezen
+                    igazgat Arany, a hol lehet.” (<bibl><title>Levele Erdélyi Jánoshoz, Pest 1861.
+                            november 2.</title> ErdLev II. 282.<idno type="ITIdata"
+                        >Q329605</idno></bibl>)</p>
+                <p xml:id="p.7"><persName>Madáchot</persName> hárman tudósították a felolvasás
+                    sikeréről. <persName>Arany János</persName><date when="1861-11-05">november
+                        5-én</date> írt <placeName>Sztregovára<idno type="ITIdata"
+                        >Q1731</idno></placeName>: „Ultima 8bris [okt. 31-én] felolvastam a tragédia
+                    4 első jelenetét a Kisf[aludy]. társaságban. Ha láttad volna, egy Eötvös,
+                    Csengeri stb. hogyan kiáltott fel - csupán a localis szépségeknél is - ez
+                    gyönyörű! igen szép! stb. Győztünk, barátom, eddig győztünk és fogunk ezután
+                    is.” (<bibl>MÖM II. 1014.<idno type="ITIdata">Q412729</idno></bibl>,
+                            <bibl><abbr>AJÖM XVII.</abbr> 616.<ref target="/aj_lev_17_1362.tei"
+                        /></bibl> Ezután a levélben tkp. megismételte <date when="1861-09-12"
+                        >szeptember 12-i</date> értékelését a műről.)</p>
+                <p xml:id="p.8"><persName>Bérczy Károly<idno type="ITIdata"
+                        >Q142388</idno></persName> ekkor még nem volt a
+                        <orgName><abbr>KisfT</abbr></orgName> tagja; <persName>Madáchcsal</persName>
+                    egyidőben, <date when="1862-01-30">1862. január 30-án</date> választották meg
+                    (vö. <bibl>Kéky 1936 124.<idno type="ITIdata">Q338221</idno></bibl>!). Így a
+                    felolvasáson sem vett részt, de a sikerről értesült: „Minap este a casinóban
+                    kandalló körűl ülvén többen, Csengery Antal nem győzött elég dicséretet halmozni
+                    az »<title>Ember tragoediájára</title>«, melyet Fausttal és Manfreddel helyezett
+                    párvonalba.” (<bibl><title>Levele Madách Imréhez, Pest 1861. november 5.</title>
+                        - MÖM II. 1026.<idno type="ITIdata">Q412729</idno></bibl>)</p>
+                <p xml:id="p.9"><persName>Nagy Iván<idno type="ITIdata">Q249885</idno></persName>
+                    szintén nem vett részt a felolvasó ülésen, értesüléseit másodkézből szerezte:
+                    „...Toldy Fer[enctől]. és Gregus[s] Ágosttól [ekkor a KisfT titkára] hallottam a
+                    magasztalást; az előbbi roppant elragadtatással s valóban a nemzeti irodalom
+                    iránti igaz ügyszeretetével, mellyet tőle eltagadnunk nem lehetett, nyilatkozott
+                    róla. Elmondta, hogy a Kisfaludy társaság azon gyűlése lángoló örömmel és a
+                    meglepőt, nagyszerűt követni szokott ámulattal hallgatta azon néhány jelenetet,
+                    mellyet belőle <persName>Arany<idno corresp="Arany János"/></persName>
+                    felolvasott - és olly benyomást tett az a jelen voltakra, hogy utánna
+                        <persName>Szász Károlynak</persName> kellvén (előre tett bejelentés szerint)
+                    felolvasást tartania, ez azzal fogott felolvasásához, hogy kijelenté, miszerint
+                    ő olly ritka, drága és fenséges csemege megízlelése után, millyen a Te
+                            <title><hi rend="italic">tragoediád</hi></title> volt, restelli olvasni
+                    az ő költeményét, főleg azon pillanatban, mert éreznie kell ama nagyszerűnek
+                    hatása után az ő - úgymond - különben is középszerű költeményének [<title><hi
+                            rend="italic">A kis Ilonka emlékezete</hi></title> c. versfüzér]
+                    mutatványainak gyengeségét és elhangzását. <persName>Toldy</persName> azt is
+                    mondta még, hogy müved német vagy egyéb nyelvre is lefordítva (mi okvetlen meg
+                    fog történni) biztosan világ hirűvé váland, és epochát fog csinálni a
+                    világirodalomban. Szóval pedig szerinte <hi rend="italic">Vörösmarty</hi> az
+                    első, most Te vagy a m[agyar]. irodalom második fényes csillaga. - Gregusstól is
+                    hasonló magasztalásokat hallottam. Szerinte a Te müved kerekded, egész, és olly
+                    remekül kivéve, hogy ebben Faustot meghaladta stb. S ő is szintén világ
+                    hírűségét jósolja.” (<bibl><title>Levele Madách Imréhez, Pest 1861.
+                            november.</title> - MÖM II. 1111.<idno type="ITIdata"
+                        >Q412729</idno></bibl>)</p>
+                <p xml:id="p.10">Az irodalmi recepció e sajátos szakaszának számbavétele azért is
+                    fontos a <title><hi rend="italic">Tragédia</hi></title> esetében, mert az így
+                    véleményt nyilvánítók egy része <persName>Madách</persName> életében nem írt
+                    kritikát a műről, és így alfejezetünk <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#d.6"
+                                ><title><hi rend="italic">Értékelő bírálatok</hi></title></ref> c.
+                    passzusában (685-694.) értelemszerűen nem szerepelnek.</p>
+            </div>
+            <div xml:id="d.3">
+                <head type="title"><hi rend="italic">Nem elemző híradások</hi></head>
+                <head type="title">Az első kiadásról</head>
+                <head type="title">Az első kiadást előzetesen hírlelők</head>
+                <p xml:id="p.11"><placeName>Magyarország<idno type="ITIdata">Q9</idno></placeName>,
+                        <date when="1861-10-12">1861. okt. 12.</date><persName>Greguss Ágost<idno
+                            type="ITIdata">Q242319</idno></persName> titkár jelentése a KisfT <date
+                        when="1861-10-10">okt. 10-i</date>, rendkívüli üléséről: „A pártolóknak járó
+                    hatvanívnyi könyvilletménybe »<title>Az ember tragoediája</title>« cimü eredeti
+                    mű felvétele határoztatott. Szerzője nincs megnevezve.”</p>
+                <p xml:id="p.12"><table cols="3" rows="4" xml:id="table.1">
+                        <row xml:id="row.1">
+                            <cell xml:id="cell.1"><bibl><title>Magyar Sajtó</title>, 1861. okt.
+                                    12.</bibl></cell>
+                            <cell rows="4" xml:id="cell.2">}</cell>
+                            <cell rows="4" xml:id="cell.3">a titkári jelentés átvétele </cell>
+                        </row>
+                        <row xml:id="row.2">
+                            <cell xml:id="cell.4"><bibl><title>Pesti Napló</title>, 1861. okt.
+                                    12.</bibl></cell>
+                        </row>
+                        <row xml:id="row.3">
+                            <cell xml:id="cell.5"><bibl><title>Sürgöny</title>, 1861. okt.
+                                    13.</bibl></cell>
+                        </row>
+                        <row xml:id="row.4">
+                            <cell xml:id="cell.6"><bibl><title>SzF</title>, 1861. okt.
+                                17.</bibl></cell>
+                        </row>
+                    </table></p>
+                <p xml:id="p.13"><bibl><title>Hölgyfutár</title>, 1861. nov. 2.</bibl> „Egy
+                    irótársunktól” szerzett értesülés az „eredeti szomorújáték”-nak nevezett
+                            <title><hi rend="italic">Tragédia</hi></title> „nagy irodalmi
+                    becsé”-ről; ismeretlen szerzője kezdő lehet, miután kézirata helyesírási
+                    hibákkal van tele.” Reménykedik, hogy a „mű szinpadra kerül.”</p>
+                <p xml:id="p.14"><bibl><title>Sürgöny</title>, 1861. nov. 3.</bibl><persName>Greguss
+                        Ágost</persName> titkári jelentése a KisfT <date when="1861-10-31">okt.
+                        31-i</date> üléséről: megismétli az illetménypéldányi megjelentetést, miután
+                            <persName>Arany<idno corresp="Arany János"/></persName> az ülésen
+                    mutatványt olvasott fel a <title>Tragédiá</title>ból.</p>
+                <p xml:id="p.15"><table cols="3" rows="2" xml:id="table.2">
+                        <row xml:id="row.5">
+                            <cell xml:id="cell.7"><bibl><title>Hölgyfutár</title>, 1861. nov.
+                                    5.</bibl></cell>
+                            <cell rows="2" xml:id="cell.8">}</cell>
+                            <cell rows="2" xml:id="cell.9">a titkári jelentés átvétele</cell>
+                        </row>
+                        <row xml:id="row.6">
+                            <cell xml:id="cell.10"><bibl><title>Magyarorszag</title>, 1861. nov.
+                                    6.</bibl></cell>
+                        </row>
+                    </table></p>
+                <p xml:id="p.16"><bibl><title>SzF</title>, 1861. nov. 6.</bibl><persName>Arany
+                        János</persName> glosszája vitatkozik a <title>Hölgyfutár</title><date
+                        when="1861-11-03">nov. 2-i</date> hírével: a kézirat helyesírása „még sem
+                    oly képtelenül rossz”, továbbá ironizál a színpadi bemutathatóságon: „...vajon
+                    Dante »Isteni komédiája« mint bohózat nem buknék-e meg a budai népszínházban?”
+                    Vö. <bibl><abbr>AJÖM XII.</abbr> 52-53. (főszöveg), 393. (jegyzet)<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/pr%C3%B3zai-m%C5%B1vekxn-xn-glosszk-fza.-szerkeszti-%C3%BCzenetek.-szerkeszt%C5%91i-megjegyz%C3%A9sek.-elfize/"
+                            type="url"/></bibl>!</p>
+                <p xml:id="p.17"><bibl><title>SzF</title>, 1861. nov. 14.</bibl>: a titkári jelentés
+                    átvétele a <orgName><abbr>KisfT</abbr></orgName><date when="1861-10-31">1861.
+                        okt. 31-i</date> üléséről</p>
+                <p xml:id="p.18"><bibl><title>VU</title>, 1861. dec. 1.</bibl>: az illetménypéldányi
+                    megjelentetés megerősítése; a <title><hi rend="italic">Tragédia</hi></title>
+                    „ismeretlen szerzőtől írt jeles mű”</p>
+                <p xml:id="p.19"><bibl><title>SzF</title>, 1861. dec. 5.</bibl>: <persName>Greguss
+                        Ágost</persName> titkári jelentése a KisfT <date when="1861-11-28">nov.
+                        28-i</date> üléséről, amelyen <persName>Arany<idno corresp="Arany János"
+                        /></persName> újabb részleteket olvasott fel a sajtó alatt lévő műből; az
+                    „egy pár hét alatt a pártolók kezében lesz.”</p>
+                <p xml:id="p.20"><bibl><title>Családi Kör</title>, 1861. dec. 8.</bibl>: „8-10 nap
+                    mulva” megjelenik az ismeretlen szerzőjű „jeles drámai költemény"’.</p>
+                <p xml:id="p.21"><bibl><title>Magyarország</title>, 1861. dec. 31.</bibl>:
+                        <persName>Greguss Ágost</persName> titkári jelentése a KisfT <date
+                        when="1861-12-28">dec. 28-i</date> üléséről, az illetménykötet „az uj év
+                    első napjaiban fog szétküldöztetni...”</p>
+                <p xml:id="p.22"><table cols="3" rows="2" xml:id="table.3">
+                        <row xml:id="row.7">
+                            <cell xml:id="cell.11"><bibl><title>Pesti Napló</title>, 1861. dec.
+                                    31.</bibl></cell>
+                            <cell rows="2" xml:id="cell.12">}</cell>
+                            <cell rows="2" xml:id="cell.13">a titkári jelentés átvétele</cell>
+                        </row>
+                        <row xml:id="row.8">
+                            <cell xml:id="cell.14"><bibl><title>Magyar Sajtó</title>, 1862. jan
+                                    .l.</bibl></cell>
+                        </row>
+                    </table></p>
+                <p xml:id="p.23"><bibl><title>Pesti Hölgy-Divatlap</title>, 1862. jan. 1.</bibl>;
+                    értesüléseket keverő hír a szerző nevének első említésével: „<persName>Madách
+                        Imre</persName>, kinek »<title>Az ember tragoediája</title>« című művéről
+                    annyi dicséretest írtak a lapok, legközelebb egy új drámával fogja gazdagítani
+                    irodalmunkat.”</p>
+                <p xml:id="p.24"><table cols="3" rows="4" xml:id="table.4">
+                        <row xml:id="row.9">
+                            <cell xml:id="cell.15"><bibl><title>Hölgyfutár</title>, 1862. jan.
+                                    2.</bibl></cell>
+                            <cell rows="4" xml:id="cell.16">}</cell>
+                            <cell rows="4" xml:id="cell.17">a titkári jelentés átvétele</cell>
+                        </row>
+                        <row xml:id="row.10">
+                            <cell xml:id="cell.18"><bibl><title>SzF</title>, 1862. jan.
+                                2.</bibl></cell>
+                        </row>
+                        <row xml:id="row.11">
+                            <cell xml:id="cell.19"><bibl><title>Nefelejts</title>, 1862. jan.
+                                    5.</bibl></cell>
+                        </row>
+                        <row xml:id="row.12">
+                            <cell xml:id="cell.20"><bibl><title>VU</title>, 1862. jan.
+                                5.</bibl></cell>
+                        </row>
+                    </table></p>
+            </div>
+            <div xml:id="d.4">
+                <head type="title">Az első kiadás megjelenését hírlelők</head>
+                <p xml:id="p.25"><table xml:id="table.5">
+                        <row xml:id="row.13">
+                            <cell xml:id="cell.21"><bibl><title>Divatcsarnok</title>, 1862. jan.
+                                    14.</bibl></cell>
+                            <cell rows="4" xml:id="cell.22">}</cell>
+                            <cell rows="4" xml:id="cell.23">bővebb ismertetését is ígérve</cell>
+                        </row>
+                        <row xml:id="row.14">
+                            <cell xml:id="cell.24"><bibl><title>Magyarország</title>, 1862. jan.
+                                    14.</bibl></cell>
+                        </row>
+                        <row xml:id="row.15">
+                            <cell xml:id="cell.25"><bibl><title>Pesti Napló</title>, 1862. jan.
+                                    14.</bibl></cell>
+                        </row>
+                        <row xml:id="row.16">
+                            <cell xml:id="cell.26"><bibl><title>Hölgyfutár</title>, 1862. jan.
+                                    16.</bibl></cell>
+                        </row>
+                    </table></p>
+                <p xml:id="p.26"><bibl><title>Sürgöny</title>, 1862. jan. 16.</bibl>: szintén
+                    „tüzetes ismertetést” ígér, a <title><hi rend="italic">Tragédiá</hi></title>t
+                    először nevezi „a magyar irodalom »<title>Faust</title>«-já”-nak.</p>
+                <p xml:id="p.27"><bibl><title>SzF</title>, 1862. jan. 16. </bibl>(Vö.
+                            <bibl><abbr>AJÖM XIII.</abbr> 257.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/></bibl>!)</p>
+                <p xml:id="p.28"><bibl><title>Pester Lloyd</title>, 1862. jan. 17.</bibl>: a
+                        <title>Sürgöny</title> előző napi minősítésével („der »<title>Faust</title>«
+                    der ungarischen Literatur”), először német címmel: „<title>Die Tragödie des
+                        Menschen</title>”</p>
+                <p xml:id="p.29"><bibl><title>Családi Kör</title>, 1862. jan. 19.</bibl>: bővebb
+                    ismertetést ígérve, a kiadásért megdicséri a kispénzű KisfT-ot.</p>
+                <p xml:id="p.30"><bibl><title>Napkelet</title>, 1862. jan. 19.</bibl>: visszatérő
+                    elemzést ígér a „magyar Faust” elnevezésről.</p>
+                <p xml:id="p.31"><bibl/><title>Nefelejts</title>, 1862. jan. 19.: ismét a „magyar
+                    irodalom »Faustja« megjelent” minősítés</p>
+                <p xml:id="p.32"><bibl><title>Gombostű</title>, 1862. jan. 22.</bibl>: későbbi
+                    tüzetes ismertetést ígér.</p>
+                <p xml:id="p.33"><bibl><title>Hölgyfutár</title>, 1862. jan. 30.</bibl>: a
+                        <title>Sürgöny</title> névtelen „újdondásza” megismétli, hogy ő használta
+                    először a <title><hi rend="italic">Tragédiá</hi></title>ra a „magyar Faust”
+                    minősítést.</p>
+                <p xml:id="p.34"><bibl><title>SzF</title>, 1862. jan. 30.</bibl>: az <title><hi
+                            rend="italic">Új könyvek</hi></title> c. rovatban, bolti ára nincs.</p>
+                <p xml:id="p.35"><bibl><title>Pesti Hölgy-Divatlap</title>, 1862. febr. 1.</bibl>: a
+                    KisfT <date when="1862-02-06">febr. 6-án</date> esedékes nyilvános nagygyűlését
+                    hírlelve nehezményezi, hogy pártoló tagság nélkül a <title><hi rend="italic"
+                            >Tragédia</hi></title> nem olvasható, lévén illetménykötet.</p>
+                <p xml:id="p.36"><bibl><title>Divatcsarnok</title>, 1862. febr. 11.</bibl>: a
+                    megjelenés „valóságos irodalmi esemény"’, szerzője „nagy költő”.</p>
+                <p xml:id="p.37"><bibl><title>Nővilág</title>, 1862. febr. 13.</bibl>: ugyanazon
+                    számban két, egymondatos hír, a <title><hi rend="italic">Tragédia</hi></title>
+                    KisfT-i illetménykötetként való megjelenésről, illetve
+                        <persName>Madách</persName> KisfT-i taggá választásáról</p>
+                <p xml:id="p.38"><bibl><title>Magyar Tudományos Értekező</title>, 1863.
+                    febr.</bibl>: <persName>Aigner Lajos<idno type="ITIdata"
+                        >Q237768</idno></persName> könyvészeti összeállításában az <date when="1861"
+                        >1861.</date> évi könyvtermésről</p>
+                <p xml:id="p.39"><bibl><title>KisfTÉ ÚjF</title> 1. kötet, 1860/62-1862/63. 69.<idno
+                            type="ITIdata">Q327481</idno></bibl>, a Társaság <date from="1861"
+                        to="1863">1861 és 1863 közötti</date> kiadványai sorában: „3. <title>Az
+                        ember tragédiája</title> Madách Imrétől. Pest. 1861.”</p>
+                <p xml:id="p.40"><bibl><title>Koszorú</title>, 1863. ápr. 26.</bibl>: Magyaróvárra
+                    küldött szerkesztői üzenet, az <date when="1861">1861.</date> és <date
+                        when="1862">1862.</date> évek illetménypéldányainak felsorolásában, az
+                    előbbi évnél: „<title>Ember tragédiája</title>” (Vö. <bibl><abbr>AJÖM
+                            XIII.</abbr> 267.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/></bibl>!)</p>
+            </div>
+            <div xml:id="d.5">
+                <head type="title">A „második, tetemesen javított” kiadásról</head>
+                <head type="title">[Előzetes hír nem jelent meg.]</head>
+                <head type="title">A második kiadás megjelenését hírlelők</head>
+                <p xml:id="p.41"><bibl><title>Koszorú</title>, 1863. márc. 22.</bibl>: az <title><hi
+                            rend="italic">Új könyvek</hi></title> c. rovatban, az 1 forint 80
+                    krajcár bolti ár közlésével</p>
+                <p xml:id="p.42"><bibl><title>VU</title>, 1863. ápr. 5.</bibl>: a <title><hi
+                            rend="italic">Megjelent új könyvek</hi></title> c. rovatban, a bolti ár
+                    közlésével; a „Kiállítása az előzőnél sokkal díszesebb” megjegyzéssel</p>
+            </div>
+            <div xml:id="d.6">
+                <head type="title"><hi rend="italic">Értékelő bírálatok</hi><title>Az ember
+                        tragédiá</title><hi rend="italic">járól</hi></head>
+                <p xml:id="p.43"><bibl><supplied><persName>Vajda János<idno type="ITIdata"
+                                    >Q246968</idno></persName></supplied>: <title>Nővilág</title>,
+                        1862. jan. 20. 29-30.</bibl> - Recenziós példány híján csak belelapozás, ám
+                    annak alapján is „az egyik legjelentősb műve az utóbbi évtizednek”; „első eset,
+                    hogy magyar iró felülemelkedve a szűk speciális magyar élet nézleten, az
+                    egyetemes magas világnézpontra állva, általános érdekü műben, az összes
+                    emberiség életkérdéseivel, a végtelenség eszméjével foglalkozzék”. A
+                    világirodalomban is ritka, ilyen tárgyú remekművek „után e mű nem épen gyönge
+                    utánzásnak tünik föl.” Drámai hatás és költőiség dolgában messze elmarad a
+                            <title><hi rend="italic">Faust</hi></title>tól amelyhez rögtön
+                    hasonlították. Az álom „epikai fogás”; inkább „dialogizált eposz”, mintsem
+                    drámai költemény. Hiányolja a szereplők „egyénítő jellemzés”-ét: „Mindenütt a
+                    szerző maga politizál, bölcseleg...” Legjobb „festés” a londoni színben,
+                    legerősebb „politika-bölcseleti felfogás” a IV-V. színben, leggyöngébb „a
+                    paradicsom elvesztése ábrázolásában.” A magyar irodalom jelenéhez képest így is
+                    „valóságos jótékony tisztító villámként hat” és „<persName>Madách</persName>,
+                    mint talentum, beláthatlan magasságban áll” a Nemzeti Színház frázisos
+                    drámaszerzői fölött.</p>
+                <p xml:id="p.44"><bibl>A[dolf]. D[ux].: <title>Az ember tragédiája (Die Tragödie
+                            desMenschen)</title>, Pestet Lloyd, 1862. 21. sz. jan. 26.; 27. sz.
+                        febr. 2.; 33. sz. febr. 9.</bibl> - Noha a sajtó a magyar <title><hi
+                            rend="italic">Faust</hi></title>nak nevezi a művet, az lényegében
+                    különbözik <persName>Goethe</persName> művétől és a többi faustiádától, és csak
+                    annyiban közösek, hogy az emberi lélek alapkérdéseit ábrázolják. Ádám az
+                    emberiséget reprezentálja, aki mindig új történelmi alakot ölt. Ismerteti -
+                    saját fordításszemelvényeivel (ezeket l. a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.13"><title><hi
+                                rend="italic">Fordítások</hi></title></ref> alfejezetben!) - a
+                    cselekményt. A mű középpontjának a londoni színt, a jelenkor sokszínű
+                    ábrázolását tartja. A <title><hi rend="italic">Faust</hi></title>-párhuzamokat
+                    itt is felvonultatja. A szituáció és alakpárhuzamokon túl hasonlóságot lát abban
+                    is, hogy <persName>Madách</persName> szintén világos és pontos dikcióval él.
+                    Erősebbnek látja <persName>Madáchnak</persName> a kompozícióban megnyilvánuló
+                    reflexió sajátosságait, mint poétai képességeit, ezt az Úr és Ádám viszonyával
+                    szemlélteti. Szemben a patrióta beállítottságú magyar irodalommal,
+                        <persName>Madách</persName> egyetemes szerző. Műve mégis hazafias tettnek
+                    számít: abban a harcban, amelyet az <persName>Arany<idno corresp="Arany János"
+                        /></persName> szerkesztette <title>SzF</title> folytat a nemzetieskedő
+                    dilettantizmus ellen.</p>
+                <p xml:id="p.45"><bibl><supplied>Ismeretlen</supplied>: <title><hi rend="italic">Egy
+                                hét története, - jan. 29-kén</hi></title>, <title>Családi
+                            Kör</title>, 1862. 5. sz. febr. 2. 74-76.</bibl>, a tárcarovatban. - A
+                            <title><hi rend=" italic">Tragédia</hi></title> „egy ujdonság, mely
+                    fölér egy hét történetével,” általános beszédtéma Pesten. Az igénytelen kötet a
+                    magyar irodalomban párját ritkító, halhatatlan, a világirodalomban is számottevő
+                    művet tett közzé. A <title><hi rend="italic">Toldi</hi></title> után a KisfT a
+                    második nagy költőt avatja. Felidézi emlékeit az országgyűlésben szónokló
+                        <persName>Madáchról</persName>. A továbbiakban - bő idézetekkel - ismerteti
+                    a <title><hi rend="italic">Tragédia</hi></title> cselekményét, kifelejtve a
+                    XIII. színt.</p>
+                <p xml:id="p.46"><bibl><persName>Greguss Ágost</persName>: <title><hi rend="italic"
+                                >Titoknoki jelentés a</hi>[Kisfaludy]<hi rend="italic">társaság
+                                történeteiről s munkálkodásáról az utolsó közülés óta</hi></title>,
+                        Magyarország, 1862. 31. sz. febr. 7. 2-3.</bibl> - A jelentésbe szőtte bele
+                    véleményét a kiadott műről, amelynek a <title><hi rend="italic"
+                        >Toldi</hi></title>val való hasonlóságát ő is kiemelte a társaság
+                    történetében. A <title><hi rend="italic">Tragédiá</hi></title>t megjelenése óta
+                    a <title><hi rend="italic">Faust</hi></title>hoz és
+                            <persName>Milton</persName><title><hi rend="italic">Az elveszett
+                            paradicsom</hi></title>ához hasonlítják.</p>
+                <p xml:id="p.47">A nagyívű szerkezet nem lett akadálya „a drámai egyénités szokatlan
+                    erejé”- nek, a mű „csupa jelkép, és mégis élet; csupa elvonás, és mégis
+                    költészet.” A legfőbb jóra törekvő, szabadságra vágyó ember ismételt kudarcai a
+                    történelemben „nem annyira egyetemes történelmi, hanem egyéni lélektani
+                    következetesség szerint váltogatják egymást”, azaz Ádám a históriát, amelynek
+                    folytonos fejlődése az emberiség hivatása, mint „a Lucifer karján haladó ember
+                    látja.” Ezért a mű a hívő embert nem tántorítja el. Az ember korlátolt: „vagy az
+                    istentől, vagy Lucifertől kell függnie; (...) eljátszott lelki nyugalmát csak
+                    úgy nyeri vissza, ha szent bizalommal ismét az isten gondviselése alá
+                    bocsátkozik.” (A titoknoki jelentést azonos szöveggel ugyanaznap a <title>Magyar
+                        Sajtó</title>, a <title>Pesti Napló</title> szintén közölte. Utánközlés:
+                            <bibl><title>Divatcsarnok</title>, 1862. febr. 11.</bibl>;
+                            <bibl><title>SzF</title>, 1862. febr. 20.</bibl>;
+                            <bibl><title>KisfTÉ</title> ÚjF I. (186<hi rend="super">0</hi>/<hi
+                            rend="sup">2</hi> - 186<hi rend="super">2</hi>/<hi rend="sup">3</hi>),
+                        Pest 1868. 25-27.<idno type="ITIdata">Q327481</idno></bibl> A textust l.
+                    még: <bibl><abbr>AJÖM XI.</abbr> 775-776.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/pr%C3%B3zai-m%C5%B1vek-2.-1860-1882/"
+                            type="url"/></bibl>! Vö. <bibl>Kántor 1966 15-18.<idno type="ITIdata"
+                            >Q469962</idno></bibl> és <bibl>Horváth 1989 533-534.<idno
+                            type="ITIdata">Q469933</idno></bibl>!</p>
+                <p xml:id="p.48"><bibl><supplied><persName>Vajda János</persName></supplied>:
+                            <title>A jutalomtűzésekről</title>, <title>Nővilág</title>, 1862. febr.
+                        10. 60.</bibl> (<bibl>VJÖM VII. 232.<idno type="ITIdata"
+                        >Q470160</idno></bibl>) - A Karátsonyi-díjra minden kinyomtatott vagy
+                    színpadon előadott mű is versenyezhessen. Most a <title><hi rend="italic"
+                            >Tragédia</hi></title> sem nevezhetne, pedig: „Ez bizonnyal egy félember
+                    élet <sic/> tanulmánya, s maga a kidolgozás is legalább pár évet vett igénybe,
+                    holott szerző kizárólag e művének szentelhetné idejét.”
+                        „<persName>Madách</persName> műve egy szép üstökös, mely azt [ti. a
+                    pályázatok színvonal-emelkedését] előjelezi.”</p>
+                <p xml:id="p.49"><bibl>Szász Károly: <title><hi rend="italic">Az ember
+                                tragédiája</hi></title>. <title>SzF</title>, 1862.1. félév, 15. sz.
+                        febr. 13. 228-231.; 16. sz. febr. 20. 244-246.; 17. sz. febr. 27. 260-262.;
+                        18. sz. márc. 6. 275-277.; 19. sz. márc. 13. 293-295.; 20. sz. márc. 20.
+                        308- 310.; 21. sz. márc. 27. 324-326.; 22. sz. ápr. 3. 339-342</bibl>, a
+                    Belirodalom- rovatban - A művet „költői irodalmunk igen nagy nyereségének, s
+                    átalában feltűnő jelenségnek” tartja. A magyar literatúrában sokan kezelik
+                    ügyesen a formákat, de igen kevés alkotás van, „mely mély gondolkodás
+                    eredménye.” Kitér a drámai költemény műfaji jellemzésére (példái:
+                            <persName>Goethe<idno type="ITIdata">Q396</idno></persName><title><hi
+                            rend="italic">Faust</hi></title>ja, <persName>Byron<idno type="ITIdata"
+                            >Q295</idno></persName><title><hi rend="italic">Manfred</hi></title>je,
+                            <persName>Shelleytől<idno type="ITIdata">Q334321</idno></persName> a
+                            <title><hi rend="italic">Beatrice Cenci</hi></title>), a különbséget a
+                    romantikus dramaturgiától „a szerkezet szabadságá”-ban látja. A <title><hi
+                            rend="italic">Tragédia</hi></title> világirodalmi értékű: „hatalmasan
+                    van kigondolva, gyöngébben megalkotva”; az előbbiben a <title><hi rend="italic"
+                            >Faust</hi></title>ot is felülmúlja. Elemzi a cselekményt a koncepció
+                    nézőpontjából, bő szövegidézetekkel. A befejezés nyitott: „...a tragédiának vége
+                    van, hogy a tragédia megkezdődjék.” <persName>Madách</persName> műve „az emberi
+                    szellem legmélyebb megoldásu kérdései körül forog”, vallási, filozófiai és
+                    etikai értelemben is. A történeti Ádám ábrázolásában „az egyén viszonya az
+                    egészhez” „nagyszerű eszméje” valósul meg. A tragikai erőt az ábrándokért vagy
+                    téveszmékért folytatott küzdése adja, ebből az álomkeret sem von le semmit.
+                    Sikerült Ádámot, „a typus-embert minden időkorokon át hiven s változatosan
+                    festeni”, jellemfejlődését tapasztalatainak gyarapodása adja. Szerelmeinek rajza
+                    költői. Éva egyénítése néhol gyengébb, a XI. szín zárószavai például nem illenek
+                    London Évájához. Itt „szegény, erényes munkás nőt” látna szívesebben. Lucifernél
+                    az egyénítés csaknem teljesen hiányzik: „elejétől végig csak eszme - hideg és
+                    rideg...”; jobb az I. és a XV. színben. Az ördög félelme a széptől és a
+                    kereszttől (V., VI., XI.) „annyira közönséges és néptudalmi, hogy már alig
+                    nevezhetjük jellemzetesnek.” A mellékszereplők közül Kimón és a népbeliek, Péter
+                    apostol, Helena, az Udvaronc és a londoni szín karakterfiguráit emeli ki. Hibául
+                    rója fel viszont Éva okoskodását a II. színben, Lucifer és Ádám egy-egy
+                    kizökkenését a IV. színben, Ádám-Danton szónoklata banális. Következetlen a
+                    Cigányasszony szerepe, a XII. színben Ádám túl gyorsan, tapasztalatok nélkül
+                    ábrándul ki, a XIV. színben Lucifer tőle szokatlanul dicséri „a nélkülözés
+                    szülte erényöket” az antik história nagyjainak, és „szinte lelkesül a kereszt
+                    első hőséért”, Hunyadiért. A kisebb hibák ellenére vitatkozik a
+                        <title>Nővilág</title> kritikusával, „hogy Ádám s Évája sem nőheti
+                    határozott alakká ki magát...” Noha nincs színpadra szánva, a <title><hi
+                            rend="italic">Tragédia</hi></title> stílusa „legtöbbnyire drámai.” A
+                    bíráló szembenézett a világirodalmi hasonlításokkal is. <title><hi rend="italic"
+                            >Az elveszett paradicsom</hi></title>mal „csak annyi a közösség, mennyit
+                    mindkét költő a bibliából s az eset átalános bölcselmi felfogásából merített.” A
+                            <title><hi rend="italic">Faust</hi></title>tal indokoltabb az
+                    egybevetés: a műfaj, a szereplők egy része, sőt az alapeszme vonatkozásában
+                    egyaránt. A különbségeket az irodalmi alapanyagban (ott mondai, itt bibliai)
+                    fedezi fel, valamint abban, hogy amíg <persName>Goethe</persName> tökéletesen
+                    megoldotta „az egyén határain belül lehető legtöbb oldalú tüköre az átalánosnak”
+                    vállalt feladatát, addig <persName>Madách</persName>, aki „az egyén rajzát bele
+                    olvasztotta s alárendelte az ember átalános rajzának”, „eszmei magasságának
+                    alatta maradt költői erejével...” {A <title><hi rend="italic">Faust</hi></title>
+                    második részénél viszont a <title><hi rend="italic">Tragédiá</hi></title>t
+                    tartja többre.) Egybeveti a három főszereplőt a két műben. A részletekben olykor
+                    tagadhatatlan a Goethe-hatás. Szemléltetésül az I. és a X-XIII. színből hoz
+                    példákat. A <title><hi rend="italic">Tragédiá</hi></title>ból hiányzik „a
+                    költészet csodabája”, és így „csaknem megindulás nélkül” olvasható, míg a
+                            <title><hi rend="italic">Faust</hi></title> (recenzens szerint) a
+                    „világirodalomnak már vitatáson felül álló legelső remekműve.”
+                        <persName>Madáchra</persName> voksol viszont a XV. szín és a <title><hi
+                            rend="italic">Faust</hi></title> első részének befejezését
+                    összehasonlítva. A <title><hi rend="italic">Faust</hi></title> azonban (második
+                    részét is tekintve) teljesebb, a <title><hi rend="italic"
+                    >Tragédiá</hi></title>ból hiányolja a rabszolgaság, a feudalizmus, a reformáció
+                    képeit. Elhárítja a vég néküli hasonlítgatás módszerét
+                        (<persName>Byron</persName>: <title><hi rend="italic">Heaven and
+                        Earth</hi></title>, <title><hi rend="italic">Kain</hi></title>, <title><hi
+                            rend="italic">Manfred</hi></title>, <persName>Shakespeare</persName>:
+                            <title><hi rend="italic">Hamlet</hi></title>). Közeli párhuzamnak érzi
+                    viszont <persName>Victor Hugo<idno type="ITIdata"
+                            >Q334336</idno></persName><title><hi rend="italic">Századok
+                            legendája</hi></title> „nagyszerű rege-cyclus”-át. - <persName>Szász
+                            Károly<idno type="ITIdata">Q150786</idno></persName> a bírálatot
+                    átdolgozva, kibővítve utóbb könyv alakban is megjelentette: <bibl>Győr
+                        1889.</bibl> Erre a kritikára reagált a szerző is, amikor az itt megjelölt
+                    két passzuson túlmenően is a „homályos helyek” kijelölését kérte: „<title>Az
+                        »Ember tragédiájá</title>ról« eddig tudtomra megjelent ismertetések és
+                    birálatok között csak a tied volt birálat, ha a jóakaró szava a biró szigorát
+                    jóval túl is zengte benne.” (<bibl><title>Levele Szász Károlyhoz</title>,
+                        Alsósztregova 1862. szeptember 12. - MÖM II. 945.<idno type="ITIdata"
+                            >Q412729</idno></bibl>) Maga a megrendelő. <persName>Arany<idno
+                            corresp="Arany János"/></persName> szerkesztő egyébként nem volt
+                    elégedett a bírálattal. „Nem vagyok vele (a bírálattal) megelégedve sokhelyt,
+                    különösen a felfogást hiányosnak tartom...” - írta
+                        <persName>Madáchnak</persName><date when="1862-02-13">február 13-án</date>,
+                    az első közlemény megjelenése napján, de persze az egész recenzió ismeretében
+                        (<bibl>MÖM II. 1020.<idno type="ITIdata">Q412729</idno></bibl>). (Vö.
+                        <bibl>Kántor 1966 19-21.<idno type="ITIdata">Q469962</idno></bibl> és
+                        <bibl>Horváth 1989 534-535.<idno type="ITIdata">Q469933</idno></bibl>!)</p>
+                <p xml:id="p.50"><bibl>Reviczky Szevér: <title><hi rend="italic">Az ember
+                                tragédiája</hi></title>, <title>Gombostű</title>, 1862. 18. sz.
+                        márc. 1. 550-553. h.; 19. sz. márc. 5. 585-587. h.; 20. sz. márc. 8.
+                        617-621. h.; 21. sz. márc. 12. 648-651. h.; 22. sz. márc. 15. 684-686.
+                        h.</bibl>, az Irodalmi kistükör-rovatban. - A másodlagossá vált líra és a
+                    meddő drámai kísérletek után <persName>Madách</persName> műve oly „gazdag
+                    kárpótlást nyújt egyszerre”, hogy „az elolvasott, áttanulmányozott mesteri mű
+                    impressiói” meg-megakadályozzák a tárgyilagos, elemző bírálatot. A <title><hi
+                            rend="italic">Tragédia</hi></title> éppúgy „jelmáglya”, mint annak
+                    idején a KisfT által gondozott <title><hi rend="italic">Toldi</hi></title> volt.
+                    A lap hölgyolvasói számára bő idézetekkel ismerteti az I-VII. színt, a
+                    továbbiakra azonban csak utal, hogy az olvasás iránti vágyat ezáltal is élessze.
+                    Törést lát a mű szerkezetében a XII. szín (amelyet ő az angol XVI-XVII. század
+                    ábrázolásának nevez) és „a természettudósok állitotta napkiizzás kora” között,
+                    itt megszakad az egyén a társadalom, az egyén és a történelem kapcsolata,
+                    helyébe „a jósihlettség szentjánosszerü ábrándja” lép, és csak az Úr
+                    zárószavaival köt vissza a történelem tragikumot hordozó végigéléséhez. Az
+                    eszmegazdagsághoz „egyszerü, tiszta versalkat” járul. A mű méltó büszkeségünk
+                    tárgya lehet Goethe és Lenau <title><hi rend="italic">Faust</hi></title>ja vagy
+                    kivált Byron <title><hi rend="italic">Don Juan</hi></title>ja mellé állítva. A
+                            <title><hi rend="italic">Tragédiá</hi></title>t nem érzi pesszimistának:
+                    említett hibája ellenére és többszöri átolvasás után is „nem a csüggedtség, de
+                    az alapos előretörekvési remények jogosultságát látjuk az emberiség s annak
+                    egyes tagjai működési körében.”</p>
+                <p xml:id="p.51"><bibl>Arany János: <title><hi rend="italic">Egy üdvözlő
+                            szó</hi></title>, <title>SzF</title>, 1862. I. félév, 26. sz. máj. 1.
+                        401- 402.</bibl> Elhangzott a <orgName><abbr>KisfT</abbr></orgName><date
+                        when="1862-03-27">1862. március 27-i</date> ülésén, <persName>Madách
+                        Imre</persName> székfoglalója előtt, a szokásnak megfelelően az új tag
+                    bemutatásaként. - Felidézte az <date when="1861-10-31">október 31-i</date>
+                    felolvasás hatását, hiszen „úgyszólván felelősséget, erkölcsi szolidaritást
+                    vállaltam vala a sükerre nézve...” A megjelent mű igazolta döntését-döntésüket,
+                    mégha a „világirodalmi jelességek mellett netalán érezzük, látjuk is
+                    fogyatkozásait.” Egy kérdésre tért ki, „mely inkább magán körben, mint sajtó
+                    útján felőle olykor nyilvánult: hogy t[tudni]. i[llik] e mű nagy mértékben
+                    pessimista világnézet kifejezője.” Tagadja általában (<persName>Byron</persName>
+                    példájával), hogy a pesszimizmus gátja lenne a költészetnek; a <title><hi
+                            rend="italic">Tragédiá</hi></title>ban viszont azt, hogy a Lucifer
+                    mutatta „sötét álomképek tárgyilag is egyeznek a világtörténettel”: „Ez nem a
+                    szerző pessimismusa: ez magából a szerkezetből foly így.” - Egykorú utánközlése:
+                        <bibl>VU, 1862. 21. sz. máj. 25. 241-242.</bibl> (egy
+                        <persName>Madáchot</persName> arcképpel bemutató cikk keretében); részleges
+                    utánközlése: <bibl><title><hi rend="italic">Emich Gusztáv Nagy Képes Naptára
+                                1869. évre</hi></title>, szerk. Szokoly Viktor és Vadnay Károly,
+                        Pest 1862. 3.</bibl> (szintén <persName>Madách</persName> fametszetes
+                    arcképével <persName>Rusz Károlytól<idno type="ITIdata"
+                    >Q85482</idno></persName>) A szöveg az <title>AJÖM</title>-ben kétszer is
+                    megjelent: <bibl><abbr>XI.</abbr> 369-371. (főszöveg), 774-780. (jegyzet),<ref
+                            target="/ajom11-proza-2.tei.42"/></bibl> ill. <bibl><abbr>XIII.</abbr>
+                        337-338. (főszöveg), 575. (jegyzet)<ref target="/ajom13-lev.tei.XIIIKT106"
+                        /></bibl> (Vö. <bibl>Kántor 1966 13-14.<idno type="ITIdata"
+                        >Q469962</idno></bibl> és <bibl>Horváth 1989 533.<idno type="ITIdata"
+                            >Q469933</idno></bibl>!)</p>
+                <p xml:id="p.52"><bibl>Zilahy Károly: <title><hi rend="italic">„Az ember
+                                tragédiájá”-ról (Levéltöredék.)</hi></title>, Kritikai Lapok, 1862.
+                        7. sz. jún. 1. 177-180.</bibl> - „Tetszik” <persName>Madách</persName>
+                    jelentkezése a kritikusnak, mert „irodalmunk egy tapasztalásokon megszűrt,
+                    mélyen gondolkodó fővel gyarapodott”, mert a szerző „nem a nyegleség és
+                    pajtáskodás tolvajlámpájával, hanem a hivatás és becsületes önérzés napsugara
+                    alatt jelenik meg.” E ponton túl azonban „e munka mint költemény nem ér semmit,
+                    és mint drámai költemény még kevesebbet.” Kifogásolja, hogy „minden személyben
+                    csak <persName>Madách</persName> beszél”; szóvá teszi a mű anakronizmusait; az
+                            <persName>Arany<idno corresp="Arany János"/></persName> bevezetésében
+                    említett luciferi nézőpont „a benyomás összegé”-vel és a mű címével ellentétben
+                    állnak. Véleményét nem az <persName>Arannyal</persName> és az irodalmi
+                    testületekkel való szembenállás motiválja, de a <title><hi rend="italic"
+                            >Tragédiá</hi></title>t, sok helyütt gyenge <title><hi rend="italic"
+                            >Faust</hi></title>-másolatnak tartja, és külön is szót emel
+                        <persName>Szász Károly</persName> értékelése ellen, hogy a koncepció
+                    kérdésében <persName>Madách</persName> felülmúlta <persName>Goethét</persName>
+                    is. - Megjelent még egyszer: <bibl>Zilahy 1866. II. 235-241.<idno type="ITIdata"
+                            >Q470165</idno></bibl> (Vö. <bibl>Kántor 1966 25-27.<idno type="ITIdata"
+                            >Q469962</idno></bibl> és <bibl>Horváth 1989 534-535.<idno
+                            type="ITIdata">Q469933</idno></bibl>!)</p>
+                <p xml:id="p.53"><bibl>Szász Károly: <title><hi rend="italic">Egy szó, Zilahy Károly
+                                ur „levéltöredékére”</hi></title>, Kritikai Lapok, 1862. 9. sz. júl.
+                        1. 232.</bibl> - Visszautasítja <persName>Zilahy<idno type="ITIdata"
+                            >Q60931</idno></persName> utalásait korábbi, másokat érintő
+                    értékeléseire, a <title><hi rend="italic">Faust</hi></title>-<title><hi
+                            rend="italic">Tragédia</hi></title> egybevetés passzusát viszont
+                        <persName>Z. K.<idno corresp="Zilahy Károly"/></persName> figyelmetlenül
+                    olvasta. (<persName>Riedl Szende<idno type="ITIdata">Q53847</idno></persName>
+                    szerkesztői megjegyzésével, aki méltányosságból közölte e választ, de
+                    elhatárolódik a személyeskedésektől.)</p>
+                <p xml:id="p.54"><bibl>Kronosz: <title><hi rend="italic">Olvasó-asztal. Észrevételek
+                                az Ember tragédiájából</hi></title>, <title>Nefelejts</title>, 1862.
+                        14. sz. júl. 6. 167-169.; 15. sz. júl. 13. 180-181.; 16. sz. júl. 20.
+                        192-194.; 17. sz. júl. 27. 204-205.; 18. sz. aug. 3. 215-217.</bibl> - A
+                    vallásos keretszínek csak „rámázat”-ot alkotnak, de a természet és a társadalom
+                    ilyen, „az erkölcsi és anyagi sülyedtség tragikai czéljához” irányt vett mű
+                    szerzője „sem költő sem philosoph, legkevésbbé pedig vallásos ember.” „A lázadó
+                    szellem” eddigi művei (<persName>Lamartine<idno type="ITIdata"
+                        >Q334338</idno></persName>, a fiatal <persName>Goethe<idno type="ITIdata"
+                            >Q396</idno></persName>, <persName>Milton<idno type="ITIdata"
+                            >Q334318</idno></persName>, <persName>Byron<idno type="ITIdata"
+                            >Q295</idno></persName>, <persName>Foscolo<idno type="ITIdata"
+                            >Q469627</idno></persName>; nálunk <persName>Kölcsey<idno type="ITIdata"
+                            >Q54265</idno></persName><title><hi rend="italic">Vanitatum
+                        vanitás</hi></title>a és <persName>Eötvös<idno type="ITIdata"
+                        >Q241165</idno></persName><title><hi rend="italic">A
+                    karthausi</hi></title>ja) sem merészkedtek odáig, „hogy az ember elvont
+                    fogalmának, ugyszólva az emberiség eszméjének Tragédiáját adják.” Szemben
+                    azokkal, akik szerint <persName>Madách</persName> blazírtokat szórakoztató
+                    luciferiádát akart írni és azokkal, akik az álomkerettel mentegetik a szerzőt,
+                    szerinte átélt, megérlelt élmények hatása alatt dolgozott, s így „legfölebb is
+                    az iró tragédiája s tragédiája mindazoknak, kik vele egyformán gondolkoznak.”
+                    Hiányolja - <persName>Goethe</persName><title><hi rend="italic"
+                        >Faust</hi></title>jával egybevetve - a keresztény vallásban megnyugvás
+                    jelenetét (Hippia megtérése szerinte odavetett), mint ahogyan a történeti
+                    forrásokból is csak a negatívumokat emelte ki. Noha a szerző hiszi és vallja az
+                    eszmék örök voltát, művében ez ellen dolgozik, amit bírálója a XII. színben
+                    megidézett négy történelmi személyiség jelenlétével szemléltet. A mű fő motívuma
+                    „a társadalommah elégedetlenség”, holott a létező társadalom (fejlődése révén)
+                    „a legjobb társadalom”. (Jó példái között szerepel <persName>III. Napóleon<idno
+                            type="ITIdata">Q469628</idno></persName>, az orosz cár reformpolitikája
+                    és az USA déli államainak „véghetlen liberalitássa” is.) A szerző
+                    természettudományos műveltsége hasonló irányú, az eszkimószín pedig „a
+                    legnevetségesebb valami.” Az írók ábrázolják az ördögöt, „de nem adják
+                    ördög-kézbe az emberi értelmet és szivet.” A mű népszerűsége onnan van, hogy a
+                    közönség (a magyarkodó irodalom hatására) elvesztette igazi értékítélő
+                    képességét, de ki van éhezve az igazságot hirdető művekre, és ezt ráadásul a
+                    KisfT hitelesítette. Mivel azonban <persName>Madách</persName> „philosofiája oly
+                    kevéssé emberi mint keresztény”, nem alkalmas vigasztalást nyújtani a
+                    keresőknek. Kivétel a „mesterileg kezelt” nőábrázolás. A nyelv nehézkes, a
+                    verselés gyenge, hiányzik a költőiség. A részletes ismertetés során hasonló
+                    szellemben bírál: kifogásolja, hogy „az Isten egy penzióba küldött főúrhoz
+                    hasonlit” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1">I.
+                        szín</ref>), hogy magára hagyta az embert (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2"
+                    >II.</ref>), hogy a tömeg igenis igényli az urat maga fölött (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4"
+                    >IV.</ref>), hogy hiányzik Miltiádész hazaszeretete (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6">V.</ref>).
+                    Péter apostol méltatlan statiszta (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7"
+                    >VI.</ref>), Tankréd drámai alakja nincs kibontva (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8"
+                    >VII.</ref>). A legsikerültebbnek a párizsi, a legkevésbé sikerültnek a londoni
+                    színt tartja; ez utóbbi helyen még a <title><hi rend="italic"
+                    >Faust</hi></title>hoz folyamodás sem segít a szerzőn. A <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12"
+                        >XII</ref>-<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14"
+                        >XIV.</ref> szín komikumba fullad.</p>
+                <p xml:id="p.55"><persName>Madách</persName> mentségéül szolgálhat némileg a XV.
+                    szín, az itteni motívumokat azonban nem tudta hatásosan összefogni. Javaslata: a
+                    szerző „mondjon fel a Luczifer-barátsággal...”</p>
+                <p xml:id="p.56"><bibl>Zilahy Károly: <title><hi rend="italic">Haragos válaszra
+                                szelid felelet</hi></title>, Kritikai Lapok, 1862. 11. sz. aug. 1.
+                        277-280.</bibl>(Válasz <persName>Szász Károly</persName><date
+                        when="1862-07-01">júl. 1-jén</date> közölt reflexiójára) - Folytatva
+                    többéves vitáikat, <persName>Zilahy</persName> megismétli kifogásait a
+                            <title><hi rend="italic">Tragédiá</hi></title>t a <title><hi
+                            rend="italic">Faust</hi></title> fölé helyező koncepcionális kérdésben,
+                    és hozzáteszi („az egész romanticizmussal szembeállva”) az egyénítés
+                    alárendelésének vádját. - Kötetben: <bibl>Zilahy 1866 11. 242-248.<idno
+                            type="ITIdata">Q470165</idno></bibl></p>
+                <p xml:id="p.57"><bibl>Erdélyi János: <title><hi rend="italic">Az ember
+                                tragoediája</hi></title>, Magyarország, 1862. 197. sz. aug. 28.;
+                        198. sz. aug. 29.; 199. sz. aug. 30. (mindenütt a 2-3. oldalon); 201. sz.
+                        szept. 2. 2.; 202. sz. szept. 3. 2-3. (végig a tárca-rovatban)</bibl> - A
+                    romantika széttörte a hármas egység követelményét, és megalkotta „a
+                    határtalanság költészeté”-t. Itt „a képzelődés szépsége egyúttal a dolog költői
+                    igazsága.” Ha azonban „oly tárgyakban fog tetszés szerinti alkotásokhoz a
+                    képzelem, a melyek egykor a valódiság világába lépendők, minők az emberi élet,
+                    társadalom és erkölcsök fejlődése”, a szándék visszájára fordulhat, az író
+                    „komolyság helyett idétlen tréfát, morál helyett pamphletet, tragoedia helyett
+                    comoediát” állíthat elő. Összefogottan, viszonylag kevés idézettel ismerteti
+                        <persName>Madách</persName> művét, amely „nagy nyereségül mutatkozik
+                    drámaszegény irodalmunkban,” „tartalmában egész vallás-politikai kincses ház,
+                    úgy formájában igen sok eltanulni valót rejt” - így tüzetes elemzésre érdemes. A
+                            <title><hi rend="italic">Tragédia</hi></title> a „mysteriumok sorába
+                    esik”; „az emberiségnek, mint nagy erkölcsi személynek életét” ábrázolja. A
+                    jellemzőnek vélt színek kiválasztásában <persName>Madách</persName> „inkább
+                    bölcselői, mint költészi utón járt el.” így lesz Ádám „fogalom ember”, aki
+                    egyetemességéből (...) csak <hi rend="italic"><hi rend="expanded"
+                        >félig</hi></hi> lép ki, és sehol sem bocsátkozik a valóságba egészen, hogy
+                    kiteljesedett egyénné erősödnék...” A mű „eszmeburka” (a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3">III.</ref>
+                    és a <ref target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14"
+                        >XIV.</ref> szín összevetéséből vezeti le) „az ember egyénisége isten és
+                    Luczifer között: fejlése pedig ama rengeteg pálya, mely a szabad s önérző
+                    személyiségre ébredt állapottól (...) a phalanster <hi rend="italic"><hi
+                            rend="expanded">elkényszeritett</hi></hi> alakjain keresztül a zordon
+                    éjszak <hi rend="italic"><hi rend="expanded">elkényszeredett</hi></hi>
+                    eszkimójáig terjed.” A <title><hi rend="italic">Tragédia</hi></title>
+                    „alapeszméje Lucziferben van megtestesülve, az indokok tőle származva, és a
+                    történelemből leginkább (...) az embervilági történelemnek ördögi része.” A
+                    „bölcsészi tartalom” primátusából következik, hogy „<title>Az Ember
+                        Tragédiájá</title>t a részek szerencséje magasztositja”. Kifogásolja a
+                    Pháraó alakját, amely nem történeti és nem bibliai, de nem tartja
+                    következetesnek „az egyéniség szétmállásá”-nak ábrázolását sem a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7">VI.
+                        színtől</ref> kezdve Ádám alakváltozásaiban. A falansztert mint „a költészet
+                    megtámadását” utasítja el, „mi aztán nem az ember, hanem az eszme tragoediája,”
+                    a pozitivizmus győzelme a költő-próféták felett. A <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14">XIV.
+                        szín</ref> végén pedig „nincs is egyéb hátra, mint végkövetkeztetésül
+                    kimondani, hogy »<title>Az Ember Tragoediája</title>« elhibázott czím e helyett:
+                    Az Ördög Comoediája.” A zárómondat bizalom- fogalma „kevesebb, mint a szeretet,
+                    tehát kevesebb, mint a keresztyén vallás nagy parancsa.” Ez „a megnyugvás
+                    kultusza, de a melyben főalkatrész a fatalismus.” A mű költői szépségekkel
+                    teljes, ám koncepciója nem eredeti, hanem a <title><hi rend="italic"
+                        >Faust</hi></title>ra megy vissza, amely mellé állítani a <title><hi
+                            rend="italic">Tragédiá</hi></title>t, mint <persName>Szász
+                        Károly</persName> tette, „hazai önérzetnek elég, nemzeti hiúságnak sok,
+                    kritikai igazságszolgáltatásnak kevés.” - A kritikára ismerjük
+                        <persName>Madách</persName> válaszait is. <persName>Szász
+                        Károlynak</persName> írott, <date when="1862-09-12">1862. szeptember
+                        12-i</date> levelében a szerző - még csak az első két közlemény ismeretében
+                    - így minősítette: „.- úgy látom az inkább bölcsészeti tanúlmány, mint
+                    aestheticai birálat lesz.” (<bibl>MÖM II. 945.<idno type="ITIdata"
+                            >Q412729</idno></bibl>) Ugyanaznap vagy másnap kaphatta kézhez a kritika
+                    3-5. részét („czikkeidet csak az imént vehettem”), szeptember 13-án ugyanis
+                    levelet írt - a teljes bírálatról - <persName>Erdélyinek<idno
+                            corresp="Erdélyi János"/></persName>, akit még pesti egyetemi éveiből,
+                    az Ifjú Magyarország köreiből ismert. Ebben megvédte a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4">IV.
+                        színt</ref>, a Pháraó kiválasztását („csak egyet a számtalan Pháraó közül”),
+                    indokolta kora természettudományos nézeteivel az eszkimószínt. Hosszabban írt a
+                        <ref target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12">XII.
+                        színről</ref>, a falanszterjelenetről. Nem a szocialisztikus eszmék
+                    kigúnyolása volt az írói szándék. Ennek kapcsán megfogalmazta az alapeszmét (ami
+                    jól megfeleltethető a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.7#p.12"
+                                ><title><hi rend="italic">Keletkezéstörténet</hi></title>ben</ref>
+                    említett eszmecsírának, a rájegyzésnek a <persName>Szontagh Pálnak</persName>
+                    írt, <date when="1857-02-07">1857. február 7-i</date> verses levélben): „Egész
+                    művem alap eszméje az akar lenni, hogy a mint az ember istentől el szakad s ön
+                    erejére támaszkodva cselekedni kezd: Az emberiség lég nagyobb s leg szentebb
+                    eszméin végig egymásután cselekszi ezt. Igaz, hogy mindenütt megbukik s
+                    megbuktatója mindenütt egy gyönge, mi az emberi természet lég bensőbb lényében
+                    rejlik, mellyet le vetni nem bir, (ez volna csekély nézetem szerint a tragikum)
+                    de bár kétségbe esve azt tartja, hogy eddig tett kísérlete el vesztegetett erő
+                    fogyasztás volt, azért mégis fejlődése mindég előbbre s előbbre ment, az
+                    emberiség haladt, ha a küzdő egyén nem vette is észre, s azon emberi gyöngét,
+                    mellyet saját maga le győzni nem bir, az isteni gondviselő vezérlő keze pótolja,
+                    mire az utólsó jelenet »küzdj és bizzál«ja vonatkozik. (...) Inkább irtam legyen
+                    rosz »<title>Ember tragédiájá</title>t « mellyben nagy s szent eszméket nem
+                    sikerűlt érvényre hoznom, mint jó Ördögi komédiát, mellyben azokat nevetségessé
+                    tettem.” (<bibl>MÖM II. 877.<idno type="ITIdata">Q412729</idno></bibl> és
+                        <bibl>ErdLev II. 298.<idno type="ITIdata">Q329605</idno></bibl>) -
+                            <persName>Erdélyi<idno corresp="Erdélyi János"/></persName> kritikája
+                    többször megjelent, így <title><hi rend="italic">Pályák és pálmák</hi></title>
+                    c. kötetében (<bibl>Bp. 1886. 440-487.<idno type="ITIdata"
+                    >Q465354</idno></bibl>). (Vö. <bibl>Kántor 1966 22-25.<idno type="ITIdata"
+                            >Q469962</idno></bibl> és <bibl>Horváth 1989 535-536.<idno
+                            type="ITIdata">Q469933</idno></bibl>!) Legutóbbi kritikai igényű
+                    kiadását l. <bibl>Erdélyi 1991 382-405 (főszöveg), 599-600. (jegyzet).<idno
+                            type="ITIdata">Q469849</idno></bibl>!</p>
+            </div>
+            <div xml:id="d.7">
+                <head type="title"><hi rend="italic">Nem publikált irodalmi recepció a mepfjelenés
+                        után</hi></head>
+                <p xml:id="p.58"><persName>Arany János</persName>, akinek személyes és eszmei
+                    érdekeltségét <title><hi rend="italic">Az ember tragédiája</hi></title>
+                    kiadástörténetében elemeztük, igyekezett kézben tartani a kritikai recepció
+                    megszervezését is. Erről <persName>Madáchot</persName> kétszer is tájékoztatta:
+                    „A mű kapós lesz, úgy látszik, s a kritika, ha nem föltétlen magasztalással, de
+                    még is <hi rend="italic">szépen</hi> fog róla nyilatkozni. Gyulai a
+                        <title>Budapesti Szemlé</title>ben ír róla tanulmányt; a
+                        <title>Figyelő</title>ben - én nem akartam az első szót - először Szász
+                    Károllyal olvastatom.” (<bibl><title>Pest 1862. január 22.</title> - MÖM II.
+                            1016.<idno type="ITIdata">Q412729</idno></bibl> Kiemelés az eredetiben.)
+                    Ugyanezt megismételte néhány hét múlva következő levelében. Miután megindokolta,
+                    miért nem ő ír kritikát a <title>SzF</title>-be - KisfT-i igazgatói és
+                    lapszerkesztői terhei mellett a művel való hosszú foglalkozás utáni csömörét
+                    hozva fel indítékul -, már szervező munkája eredményéről is írhatott: „...Szász
+                    Károlyra bíztam az első bemutatást, miután <persName>Gyulai</persName> a
+                        <title>B[uda]pesti Szemlé</title>be igérkezett volt,
+                        <persName>Salamon</persName> pedig (s csak ezek az én kritikusaim) három
+                    lapnál van robotban. De most ez utóbbi is ígérte hogy fog írni róla...”
+                            (<bibl><title>Pest 1862. február 13.</title> - MÖM II. 1018.<idno
+                            type="ITIdata">Q412729</idno></bibl>)</p>
+                <p xml:id="p.59">Mindez az irodalmi élet helyszíneitől távol élő
+                        <persName>Madáchot</persName> megnyugtathatta, ám nem rejtette el azokat a
+                    megosztó jeleket, amelyek a <title><hi rend="italic">Tragédia</hi></title>
+                    nyomán az eladdig egységesnek hitt írócsoporton belül jelentkeztek.
+                            <persName>Arany<idno corresp="Arany János"/></persName> - mint idéztük -
+                        <date when="1862-01-13">1862. január 13-án</date><persName>Szász
+                        Károlynak</persName> úgy küldte meg a recenzensi példányt, hogy saját és
+                        <persName>Gyulai Pál</persName> véleményét is formulázta az irányelvül
+                    szabott „erősebben gondol, mint érez” megállapításban.
+                        <persName>Gyulai</persName> szándéka publikus volt: <date when="1862-01-10"
+                        >1862. január 10-én</date>, tehát még a megjelenés előtt <persName>Csengery
+                            Antal<idno type="ITIdata">Q240595</idno></persName>, a
+                        <title>BpSz</title> szerkesztője emlékeztette is rá („»<title>Az Ember
+                        tragoediájá</title>t « illetőleg számolok igéretedre.” - <bibl>GyPLev
+                            461.<idno type="ITIdata">Q347574</idno></bibl>).
+                        <persName>Gyulai</persName> március 7-i válaszában kifejtette véleményét.
+                    Világirodalmi egybevetésben (<persName>Dante<idno type="ITIdata"
+                        >Q334387</idno></persName>, <persName>Milton</persName>,
+                        <persName>Goethe</persName>) kívánt elemezni, ám véleménye gyökeresen eltért
+                        <persName>Aranyétól</persName>, éspedig a <hi rend="italic">koncepció</hi>
+                    kérdésében: „...nem remekmű, sőt bármely nagy költő sem alkothatott volna belőle
+                    azt, mert conceptiója csak eszmében látszik nagyszerűnek, de valóban költőileg
+                    kivihetetlen, vagy legalább is nagyon kétes, aztán
+                        <persName>Madáchban</persName> épen az hiányzik, mi nélkül az ilynemű
+                    költemény, legyen bármilyen mélyen átgondolt, nem lehet halhatatlan: a phantasia
+                    rendkívüli ereje, az előadás elragadó varázsa, a nyelv souverain hatalma. Ez
+                    lesz a világirodalmi szempont, s a mű valódi kritikája. Hazai szempontból
+                    méltányolni fogom a szokatlan és merész törekvést, s mindent, ami a mű
+                    egészében, részeiben valóban szép, méltányolni fogom a kitűnő tehetségű költőt,
+                    ki óriási küzdelemre kelt, s ha nem győzött is, de a küzdelemben oly erőt
+                    fejtett ki, hogy részvétünket és tapsainkat érdemli.” (<bibl>GyPLev
+                            466-467.<idno type="ITIdata">Q347574</idno></bibl>)
+                        <persName>Gyulai</persName> egyébként nem készült éleshangú kritikára,
+                    hiszen ehhez szükséges indítékai - esztétikai silányság, rossz irodalmi
+                    tendencia, etikai problémák - ezúttal hiányoztak. A levél tanúsága szerint fél
+                    ívet meg is írt bírálatából (kézirata elveszett vagy lappang), de nem fejezte
+                    be, és nem is közölte. Annak ellenére, hogy április 4-én <persName>Csengery<idno
+                            corresp="Csengery Antal"/></persName> újra biztatta: „Bár mit írsz,
+                    kiadom.” (<bibl>GyPLev 467.<idno type="ITIdata">Q347574</idno></bibl>),
+                        <persName>Gyulaiban</persName> a taktikai- irodalompolitikai megfontolások
+                    kerekedtek felül. Véleményét sem ekkor, sem <persName>Madách</persName> halála
+                    után nem közölte, és amikor (<persName>Bérczy Károly<idno type="ITIdata"
+                            >Q142388</idno></persName> halálával) rámaradt a Madách-hagyaték
+                    irodalmi gondozása, <date when="1880">1880.</date> évi háromkötetes
+                    összkiadásának előszavában sem értékelte a <title><hi rend="italic"
+                            >Tragédiá</hi></title>t a szerző életrajza helyett pedig
+                        <persName>Bérczy</persName> KisfT-i emlékbeszédét illesztette a
+                    kiadásba.</p>
+                <p xml:id="p.60">A teljes mű ismeretében változott meg <persName>Csengery
+                        Antal</persName> véleménye. Őt (l. a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#p.6"
+                                ><title><hi rend="italic">Fogadtatás</hi></title> 681-682.
+                        oldalát</ref>!) az első felolvasás után még a lelkesedők között említhettük.
+                        <date when="1862-04-04">1862. április 4-én</date> viszont ezt írta
+                        <persName>Gyulainak</persName>: „Különben én nem tartok annyit e műről, mint
+                            <persName>Arany<idno corresp="Arany János"/></persName> s mások. Nagy
+                    baj mikor a költő nagyba vágja a fejszéjét, s nem tudja kihúzni. Reám a mű
+                    rendkivűl pessimisticus hatással volt. <persName>Arany<idno
+                            corresp="Arany János"/></persName> [a KisfT-i beköszöntő beszédében] azt
+                    vitatja, nem az volt a költő czélja. Annál roszabb. Azt mondja
+                            <persName>Arany<idno corresp="Arany János"/></persName>, csak az ördög
+                    látatja kétségbe ejtő színben a világot! De hát az eszkimó kunyhó! Ily vég után
+                    nagyon nyomorú végűl a vigasz. Általában az egészben az öreg Úr igen nyomorú
+                    szerepet viszen. Engem boszantott. A földi czudarságokkal szemben nem látom a
+                    mennyei harmóniát valódi költői lélekkel nemcsak kivívé, de gondolva sem. S nem
+                    látom kiemelve, hogy csak az ördög láttatja a ferde oldalt. Nem érzem a
+                    világtörténelmi szellemet a korszakok fölött. S e korszakok jellemzése se
+                    teljes. S a kivitel majd mindenütt mögötte marad az eszmének. Mindezek mellett
+                    én is sok becsülendőt találok e műben, sok szépet, többet a gondolatban, mint az
+                    egész és a részletek conceptiójában, mint kivitelében.” (<bibl>GyPLev 467.<idno
+                            type="ITIdata">Q347574</idno></bibl>) A szerkesztő
+                        <persName>Csengery</persName> ehhez még hozzátehette <persName>Erdélyi
+                        Jánosnak</persName>: „Szerettem volna, ha Madáchról írt czikked is a
+                        <title>Szemlé</title>ben látott volna napvilágot. Örömmel olvastuk.”
+                            (<bibl><title>Pest 1862. szeptember 28.</title> - ErdLev II. 302.<idno
+                            type="ITIdata">Q329605</idno></bibl>) <persName>Gyulai</persName>
+                    visszavonulásával a <title>BpSz</title> Madách-bírálat nélkül maradt.</p>
+                <p xml:id="p.61"><persName>Greguss Ágost</persName> kezdeti lelkesedése, KisfT-i
+                    titoknoki véleménye sem egyezett egészen későbbi ítészi és lapszerkesztői
+                    meggyőződésével, és ebben - akár <persName>Gyulait</persName> és
+                        <persName>Csengeryt</persName> - a kritikai recepcióban mind nagyobb
+                    szerephez jutott kritikus hangnem motiválta: „Be kár, hogy az »<title>Ember
+                        tragédiájá</title>«-ról irottak kicsusszantak az <title>„Ország”</title> [a
+                        <title>Magyarország</title>ot <date when="1862-10-01">1862. október
+                        1-jevel</date> felváltó lapnak <persName>Greguss</persName> volt a felelős
+                    szerkesztője] tárczájábol! Azt igazi üdülés volt olvasnom — kivált a sok izetlen
+                    lé után, melyben azt a derék sültet már émelyedésig megforgatták.”
+                            (<bibl><title>Levele Erdélyi Jánoshoz Pest 1862. szeptember 13.</title>
+                        - ErdLev II. 296.<idno type="ITIdata">Q329605</idno></bibl>,) A Sárospatakon
+                    tanító <persName>Erdélyi</persName> éppúgy nem válaszolt e szerkesztői
+                    dicséretekre, amint annak sincs nyoma, hogy <persName>Madách</persName>
+                    értelmező levelére reagált volna. Az írói körök „csalódottságára” a <title><hi
+                            rend="italic">Tragédia</hi></title> kapcsán l. <persName>Németh G.
+                            Béla<idno type="ITIdata">Q47333</idno></persName> jegyzetét
+                            (<bibl><abbr>AJÖM XI.</abbr> 774-777.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/pr%C3%B3zai-m%C5%B1vek-2.-1860-1882/"
+                            type="url"/></bibl>) és <persName>Horváth Károly<idno type="ITIdata"
+                            >Q146450</idno></persName> kritikatörténeti alapvetését (<bibl>Horváth
+                        1989 532-555.<idno type="ITIdata">Q469933</idno></bibl>)!</p>
+                <p xml:id="p.62">A <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#p.9"
+                                ><title><hi rend="italic">Fogadtatás</hi></title> c. alfejezetben
+                        (682.)</ref> lelkesedők közül nem esett szó még <persName>Toldy
+                            Ferencről<idno type="ITIdata">Q151328</idno></persName>. Ő szintén nem
+                    nyilvánult meg a <title><hi rend="italic">Tragédiá</hi></title>ról, ám közvetett
+                    álláspontjaként értékelhető, hogy folyamatosan átdolgozott-korszerűsített műve,
+                            <title><hi rend="italic">A magyar nemzeti irodalom története a legrégibb
+                            időktől a jelenkorig rövid előadásban</hi></title> aktuáhs kiadásában
+                        (<bibl>Pest 1865</bibl>), amelyben már <persName>Madách</persName> lezárt
+                    pályájával nézhetett szembe, és amelyben élő írókat is szerepeltetett,
+                        <persName>Madách</persName> és a <title><hi rend="italic"
+                        >Tragédia</hi></title> nem fordult elő.</p>
+            </div>
+            <div xml:id="d.8">
+                <head type="title"><hi rend="italic">Kezdődő kultusz a recepcióban</hi></head>
+                <p xml:id="p.63">Amióta, <persName>Dávidházi Péter<idno type="ITIdata"
+                            >Q240894</idno></persName> könyvének megjelenése óta
+                            (<bibl><title>„Isten másodszülöttje.” A magyar Shakespeare-kultusz
+                            természetrajza</title>, Bp. 1989.</bibl>), a kultusztörténet önálló
+                    diszciplinává nőtte ki magát, a recepcióadatokat ebből a szempontból is
+                    elkülönítjük. A <title><hi rend="italic">Madách-jelenség 1861-1864</hi></title>
+                    c. tanulmányában <persName>Praznovszky Mihály</persName> sikerrel mutatta ki a
+                    kultuszjelenségeket már a szerző életében (<bibl>Praznovszky 1998<idno
+                            type="ITIdata">Q470110</idno></bibl>). Adatait itt rendszerezve
+                    közöljük.</p>
+            </div>
+            <div xml:id="d.9">
+                <head type="title">Versek <persName>Madáchhoz</persName></head>
+                <p xml:id="p.64"><persName>Szontagh Pál</persName><date when="1861-05-31">1861.
+                        május 31-én</date> rövid, négysoros verssel köszöntötte
+                            <placeName>Horpácsról<idno type="ITIdata">Q11229</idno></placeName>
+                    barátját országgyűlési beszéde után, és ebben - mint a <title><hi rend="italic"
+                            >Tragédia</hi></title> eladdig egyetlen olvasója - már hármas minőségben
+                    üdvözölte <persName>Madáchot</persName>: „Honfiú; Bölcs; Művész”, mintegy
+                    megelőlegezve az általa remekműnek tudott drámai költemény sikerét (<bibl>MÖM
+                        11. 1133.<idno type="ITIdata">Q412729</idno></bibl> Legutóbb:
+                        <bibl>Praznovszky 1998 106.<idno type="ITIdata">Q470110</idno></bibl>).</p>
+                <p xml:id="p.65"><bibl><persName>Eötvös Károly</persName>: <title><hi rend="italic"
+                                >Tudomány és mivelődés. „Az ember tragoediája”
+                            szerzőjének</hi></title>, Szépművészeti Csarnok, 1862. 8. sz. nov. 24.
+                        86.</bibl> - A nyolc strófás, egyenként kilenc verssorból álló költemény
+                    szerzője ekkor a pápai kollégium végzős joghallgatója. Szövege legutóbb:
+                        <bibl>Praznovszky 1998 143-144.<idno type="ITIdata"
+                    >Q470110</idno></bibl></p>
+                <p xml:id="p.66"><bibl>Szász Károly: <title><hi rend="italic">Madách
+                            Imréhez</hi></title>, Alföldiek segélyalbuma MDCCCLXIII., szerk.
+                        Reviczky Szevér és Züahy Károly, Pest 1864. 27-28.</bibl> - A hat strófás,
+                    48 soros költemény egyike az e műfajban (is) igen termékeny
+                        <persName>Szász</persName> alkalmi verseinek. Az albumot szemléző B. O.
+                    joggal állapította meg róla: „...Szász Károlyról »Madách Imréhez«, keveset ér.”
+                        (<bibl>Kalauz, 1864. 4. sz. jan. 31. 27.</bibl>) Szövege legutóbb:
+                        <bibl>Praznovszky 1998 145.<idno type="ITIdata">Q470110</idno></bibl></p>
+                <p xml:id="p.67"><persName>Madách Imre</persName><date when="1864-02-11">1864.
+                        február 11-én</date> levelet írt <persName>Pajor István<idno type="ITIdata"
+                            >Q152405</idno></persName> balassagyarmati ügyvédnek,
+                            <placeName>Nógrád<idno type="ITIdata">Q337887</idno></placeName> alkalmi
+                    versírójának. Költőnk szemgyulladásával mentegette magát „szellemdús verseid”
+                    kései visszaigazolásáért, az esztétikai elemző értékelést azonban (egy személyes
+                    találkozás és beszélgetés ígéretével) elhárította. Nem tudjuk, volt-e a
+                    megküldött művek között <persName>Madáchhoz</persName> szóló episztola. Mivel
+                        <persName>Pajor</persName><date when="1864">1864-ben</date> két költeményben
+                    is parentálta <persName>Madáchoz</persName>, harmadik alkalmi versét pedig <date
+                        when="1890">1890-ben</date> (!) írta, <persName>Madách</persName>
+                    balassagyarmati portréjának elhelyezése alkalmából, ez nem zárható ki.</p>
+                <p xml:id="p.68">(A költő halálát követő versek és általában a halál utáni
+                    kultuszadatok természetesen nem szerepelnek kötetünkben; az érdeklődők
+                        <persName>Praznovszky</persName> tanulmányában találnak áttekintést
+                    erről.)</p>
+            </div>
+            <div xml:id="d.10">
+                <head type="title">Álhírek a szülőföldről</head>
+                <p xml:id="p.69">A <hi rend="italic">Tragédia</hi> népszerűségének közvetett hatása,
+                    hogy az országos sajtóban <persName>Madách</persName> sikerére építve két
+                    alkalommal is nógrádi vonatkozású hírek jelentek meg. Ezek ugyan mindkét esetben
+                    tévesnek bizonyultak, de - úgy tűnik - a szűkebb haza hírei nem voltak nagy fia
+                    nélkül közölhetők.</p>
+                <p xml:id="p.70">A <bibl><title>Gombostű</title> 1862. évi 13. számában, február
+                        12-én</bibl> a Hírcsarnok-rovatban jelent meg az alábbi hír: „Nógrád magyar
+                    hölgyei a jövő tavaszon a Petőfi által oly szépen megénekelt Salgóvár romjain
+                    majálist fognak rendezni, mely alkalommal azért, hogy a volt nógrádi képviselő,
+                    Madách Imre a Kisfaludy-társaság tagjául választatott, gyűjtést is fognak
+                    eszközölni, hogy a megye hölgyei a társulat alapitó tagjai közé léphessenek.” A
+                    többszörös kultuszépítő és egyben irodalompártoló vállalkozás hírét átvette a
+                        <title>Pesti Hölgy-Divatlap</title> is: <bibl>1862. 4. sz. február 15.
+                        46.</bibl> Egy losonci levelező (- z. szignó alatt) <date when="1862-03-03"
+                        >március 3-i</date> levelében cáfolta a hírt (<bibl><title>Gombostű</title>,
+                        1862. 19. sz. márc. 5.</bibl>, a belső borítón).</p>
+                <p xml:id="p.71">A következő eset sem váratott sokáig magára. A
+                            <bibl><title>VU</title> 1862. 19.</bibl> száma <date when="1862-05-11">
+                        május 11-én</date> jelentette kishírben, hogy „Jeszenszky Danó s Madách Imre
+                    politikai hetilapot szándékoznak megindítani Balassagyarmaton.” <date
+                        when="1862-05-13">Május 13-án</date> a <title>Divatcsarnok</title> is
+                    átvette a hírt a lapról, „melyet a nógrádi gazdasági egyesület rendes közlenyeül
+                    választott.” A <bibl><title>VU</title>21.</bibl> száma <date when="1862-05-23"
+                        >május 25-én</date> viszont azt közölte: „<hi rend="italic">Jeszenszky</hi>
+                    Danó tudatja, hogy a B[alassa]. Gyarmaton megjelenő vegyes tartalmú lapot <hi
+                        rend="italic">Madách</hi> Imre részvétele nélkül, egyedül ő indította meg.”
+                    Ennek a hírnek volt némi valóságalapja: <persName>Madách</persName> ugyanis az
+                        <date when="1860-11-05">1860. november 5-i</date> újjáalakulás óta a Nógrádi
+                    Gazdasági Egyesület egyik alelnöke volt. Az új lap, a <title>Felvidéki Magyar
+                        Közlöny</title> pedig első és harmadik számában, <date when="1862-07-01"
+                        >július 1-jén</date> és <date when="1862-10-07">október 7-én</date> közölte
+                        <persName>Madách</persName><title><hi rend="italic">Szabadelvűség és
+                            táblabiró-politika</hi></title> c. tanulmányát. Hogy a híresztelés
+                    valóban kultuszadatként értékelhető, bizonyítja, hogy a cáfolat és a
+                    mutatványszám megjelenése után a lapok - az élen a <title>VU</title>-val -
+                        <persName>Madách</persName> szerzői közreműködését emelték ki az új lapban.
+                    Vö. <bibl>Praznovszky 1998 108.<idno type="ITIdata">Q470110</idno></bibl>!</p>
+            </div>
+        </body>
+    </text>
+</TEI>

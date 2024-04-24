@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="9" type="main">Kiadástörténet</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.9</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.9.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>663-672.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Kiadástörténet</head>
+                <p xml:id="p.1">Mint idéztük, a <title><hi rend="italic">Tragédia</hi></title> első
+                    végighallgatójától, <persName>Szontagh Páltól<idno type="ITIdata"
+                        >Q49539</idno></persName> származott az ötlet, <persName>Arany János<idno
+                            type="ITIdata">Q140423</idno></persName> bírálatától függővé tenni a
+                    döntő pályafordulatnak tekintett kézirat sorsát. Noha
+                        <persName>Madách</persName> lírájára értelemszerűen előbb
+                            <persName>Petőfi<idno type="ITIdata">Q149546</idno></persName>, utóbb az
+                        <date when="1850">1850</date>-es években <persName>Vörösmarty<idno
+                            type="ITIdata">Q50503</idno></persName> hatott, szemében
+                            <persName>Arany<idno corresp="Arany János"/></persName><date when="1861"
+                        >1861-ben</date> a tekintélynek számított a magyar irodalomban: az ekkor már
+                            <placeName>Pesten<idno type="ITIdata">Q111</idno></placeName> dolgozó
+                            <persName>Arany<idno corresp="Arany János"/></persName> a
+                            <orgName><abbr>KisfT</abbr></orgName> igazgatója, a <orgName>Magyar
+                        Tudományos Akadémia<idno type="ITIdata">Q86</idno></orgName> rendes tagja
+                    volt, a <title><abbr>SzF</abbr></title> szerkesztője, vitán felül a legnagyobb
+                    élő magyar költő, akit <date when="1861-01-09">1861. január 9-én</date>
+                    választott meg közfelkiáltással <placeName>Nógrád megye<idno type="ITIdata"
+                            >Q337887</idno></placeName> újjászervezett bizottmánya tiszteletbeli
+                    főjegyzőnek. (A szakirodalom úgy tudta - <bibl>Szabad 1967 182.</bibl>,
+                        <bibl>Krizsán 1998 154.<idno type="ITIdata">Q470000</idno></bibl> -, hogy a
+                    javaslattevő éppen <persName>Madách</persName> volt; a
+                        <title>Nővilág</title><date when="1861-02-01">1861. február 1-jei</date>
+                    száma azonban <persName>Lisznyai Kálmánt<idno type="ITIdata"
+                        >Q53835</idno></persName> nevezi meg javaslattevőnek.)</p>
+                <p xml:id="p.2">A lehetőséget az teremtette meg a bírálatra, hogy
+                        <persName>Madách</persName> mint képviselő <date when="1861-03"
+                        >március</date> utolsó vagy <date when="1861-04">április</date> legelső
+                    napjaiban <placeName>Pestre</placeName> érkezett, hogy részt vegyen az
+                    országgyűlés munkájában, és ekkor hozta magával a <title><hi rend="italic"
+                            >Tragédia</hi></title> egyetlen kéziratát. Két, egymással összefüggő
+                    kérdés vár itt megválaszolásra: hogyan jutott el a mű
+                        <persName>Aranyhoz</persName>, és mikor történt mindez?
+                        <persName>Madách</persName> - nógrádi képviselőtársain kívül - szinte senkit
+                    nem ismerhetett az országgyűlés tagjai közül és az irodalmi életben. Ezért
+                    közvetítőt kellett keresnie <persName>Aranyhoz</persName>. Ráadásul az első
+                    hetekben még nem kéziratával volt elfoglalva: az országgyűlési regisztráltatás
+                    mellett (<date when="1861-04-17">április 17-én</date> igazolták mandátumát)
+                    szabad idejében családtörténeti kutatásokra és konzultációkra készült
+                        <persName>Nagy Ivánnal<idno type="ITIdata">Q249885</idno></persName> (<date
+                        when="1861-04-13">április 13-i</date>, hozzá idézett levelének tanúsága
+                    szerint). Mindebben köszvénye akadályozta. Orvosa, <persName>Kovács Sebestyén
+                            Endre<idno type="ITIdata">Q53893</idno></persName><date
+                        when="1861-04-20">április 20.</date> körül kétheti fekvést rendelt, ami
+                    miatt el kellett halasztani <persName>Madách Károly<idno type="ITIdata"
+                            >Q469688</idno></persName><date when="1861-05-01">május 1-jén</date>
+                    született leánya keresztelőjét, hogy azon a felgyógyult keresztapa is részt
+                    vehessen, az országgyűlésbe pedig először <date when="1861-05-08">május
+                        8-án</date> indult a felirat vagy határozat kérdésében induló vitára,
+                    „Kovách engedelmével, bár még szenvedő állapotban.” A <date when="1861-05"
+                        >májust</date> a végre megvalósult keresztelő (<date when="1861-05-11">május
+                        11-én</date> volt <placeName>Csesztvén<idno type="ITIdata"
+                        >Q11310</idno></placeName>) és főleg a <date when="1861-05-28">május
+                        28-án</date>, az országgyűlésben elmondott beszéd megírása vette igénybe,
+                    utána - orvosi tanácsra - ismét kétnapi pihenő következett. (L. öccséhez,
+                    Károlyhoz írt <date when="1861-04-29">április 29-i</date> és <date
+                        when="1861-05-08">május 8-i</date>, valamint anyjához küldött <date
+                        when="1861-05-29">május 29-i</date> levelét! Az áprilisi és májusi
+                    eseményekre, továbbá a beszéd fogadtatására: <bibl>Radó 1987 247-250.<idno
+                            type="ITIdata">Q470112</idno></bibl>) A beszéd itt nem részletezhető
+                    sikere, sajtóbeli és röpirat megjelenése adhatta meg a szükséges önbizalmat az
+                    irodalmi fellépéshez is. <persName>Szontagh Pál<idno type="ITIdata"
+                            >Q49539</idno></persName><date when="1861-05-31">május 31-én</date>,
+                            <placeName>Horpácsról<idno type="ITIdata">Q11229</idno></placeName>
+                    írott négysoros verse, amely már „hármas koszorút” tűzött barátja fejére
+                    („Honfiú; Bölcs; Művész...”), nem egyértelmű kronologizáló adat, mivel a
+                            <title><hi rend="italic">Tragédia</hi></title> első olvasójáról van szó,
+                    aki talán a művészi-irodalmi diadalnak ezzel az előlegezésével akarta
+                        <persName>Madáchot</persName> korábbi javaslata végrehajtására emlékeztetni,
+                    és így inkább buzdításnak tekinthető, mintsem a kézirat átadására tett utalásnak
+                        (<bibl>MÖM II. 1133.<idno type="ITIdata">Q412729</idno></bibl>).</p>
+                <p xml:id="p.3">Minden közvetett adat arra utal, hogy azoknak van igazuk, akik <date
+                        when="1861-06-05"><hi rend="italic">1861. június 5.</hi></date>, a felirat
+                    vagy határozat kérdésében lefolyt név szerinti szavazás utánra teszik
+                        <persName>Arany János</persName> megkeresését. Újabban - a májusra voksoló
+                            <persName>Radóval<idno type="ITIdata">Q48071</idno></persName> szemben
+                        (<bibl>250.</bibl>) - így foglalt állást <persName>Praznovszky Mihály<idno
+                            type="ITIdata">Q155396</idno></persName> (<bibl>Praznovszky 1998
+                            89-90<idno type="ITIdata">Q470110</idno>.</bibl>) és <bibl>Andor 2000
+                            158.<idno type="ITIdata">Q469798</idno></bibl> is. A szóban forgó
+                    periódus záróköve az a négy napos nógrádi tartózkodás volt, amelyet <date
+                        to="1861-07-03">július 3. előtt</date> otthon töltött, vö. id.
+                        <persName>Madách Imréné Majthényi Anna<idno type="ITIdata"
+                        >Q469703</idno></persName> levelével <persName>Károlyiné Huszár Annához<idno
+                            type="ITIdata">Q469704</idno></persName>! (<bibl>Majthényi A. 2000
+                            288-289.<idno type="ITIdata">Q470010</idno></bibl>)</p>
+                <p xml:id="p.4">Ami a kérdés másik oldalát illeti, a szereplők közül
+                        <persName>Madách</persName><date when="1861-11-02">1861. november
+                        2-án</date> írt, két levelében utalt a kézirat átadására. <persName>Nagy
+                        Ivánnak</persName> így: „...ő [ti. <persName>Szontagh Pál<idno
+                            type="ITIdata">Q49539</idno></persName>] sürgetet[t] adnám
+                        <persName>Aranynak</persName> bírálat végett. - Oda adtam...” (<bibl>MÖM II.
+                            929.<idno type="ITIdata">Q412729</idno></bibl>);
+                        <persName>Aranynak</persName> pedig az egyéves hevertetés szokásának
+                    enyhítése után: „...a próba évet ki állván, azon meggyőződésre hozott, hogy a’
+                    nekem jutott fejlődést el értem, most másnak kell ítélni, - így hoztam azt
+                    hozzád.” (<bibl>MÖM II. 867.<idno type="ITIdata">Q412729</idno></bibl>) Amíg az
+                    első megfogalmazás még megengedte a nem személyes átadás lehetőségét, az egyidős
+                    második már kizárja azt. <persName>Arany<idno corresp="Arany János"/></persName>
+                    maga nem tért vissza a megismerkedés jelenetére, ám lapjában, a
+                        <title>Koszorúban</title>, a Madách-nekrológ keretében helyt adott az
+                    emléknek: „Megkérte Jámbor Pál képviselőtársát, hogy vigye el Aranyhoz, kinek
+                    egy munkát akar átadni elolvasás végett. Jámbor teljesítette kívánságát. Arany
+                    átvette az ismeretlen költőtől, ki őszinte véleményét kérte s az egész látogatás
+                    alatt keveset beszélt.” (<bibl>Koszorú 1864. II. félév, 16. sz. okt. 16.
+                        381-382.</bibl>, legutóbb idézte <bibl>Praznovszky 1998 89.<idno
+                            type="ITIdata">Q470110</idno></bibl>) Az -U. jelű cikk írója
+                        <bibl>Gulyás Pál <title><hi rend="italic">Magyar írói
+                            álnévlexikon</hi></title>a (Bp. 1956. 450.)</bibl> szerint
+                        <persName>Arany János</persName> volt. Valószínűbb azonban, hogy a
+                    nekrológíró <persName>Gyulai Pál<idno type="ITIdata">Q145946</idno></persName>
+                    lehetett, akinek így sikerült kiegyenlítenie morális adósságát a megboldogulttal
+                    szemben: magánkörben kifejtett véleménye szerint a <title><hi rend="italic"
+                            >Tragédia</hi></title> nem világirodalmi rangú alkotás, bár a nagyívű
+                    vállalkozásába belebukott szerző így is „részvétünket és tapsainkat érdemli.”
+                        (<bibl>Levele <persName>Csengery Antalhoz</persName>, Kolozsvár 1862. márc.
+                        7. - GyPLev 467.<idno type="ITIdata">Q347574</idno></bibl>) Megígért,
+                    részletes bírálatát azonban sem <persName>Csengery<idno type="ITIdata"
+                            >Q240595</idno></persName><title><abbr>BpSz</abbr></title>-jébe, sem
+                    máshová nem írta meg. (L. erre részletesebben <title><hi rend="italic">A mű
+                            fogadtatása</hi></title><ref/> c. alfejezetet!) A jelenet elbeszélője
+                    azonban ebben az esetben maga <persName>Arany<idno corresp="Arany János"
+                        /></persName> lehetett, hiszen lapjában fikciót aligha tűrt volna meg
+                    barátja nekrológjában.</p>
+                <p xml:id="p.5">Az <date when="1861-06">1861 júniusára</date> tehető személyes
+                    találkozás, amelynek színhelye a Hárompipa utcai lakás és egyben szerkesztőség
+                    volt (ma: IX. Erkel u. 20.), <persName>Jámbor Pál<idno type="ITIdata"
+                            >Q146658</idno></persName> papköltő (1821-1897) közvetítésével jött
+                    létre. Az ő személye jól illik a képbe: Hiador álnéven publikált, az 1848/49-es
+                    szabadságharcot verseivel támogatta, az ezért török, francia és angol
+                    emigrációba kényszerült képviselőtárs nézetei közel álltak
+                        <persName>Madáchéhoz</persName>, <persName>Jámbor<idno corresp="Jámbor Pál"
+                        /></persName> szintén a 48-as jogalapon álló határozati párthoz tartozott.
+                    Nincs adatunk arról, hogy <persName>Madách</persName> korábbról ismerte volna.
+                    (Vö. <bibl>Krizsán 1998 152-155.<idno type="ITIdata">Q470000</idno></bibl>!)
+                    Jelenlegi ismereteink szerint <persName>Jámbor<idno corresp="Jámbor Pál"
+                        /></persName> sohasem tért vissza az általa közvetített találkozásra. Akadt
+                    viszont önkéntes jelentkező erre, a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.7#p.6"
+                                ><title><hi rend="italic">Keletkezéstörténet</hi></title></ref>
+                    alapfejezetében említett <persName>Pétery Károly<idno type="ITIdata"
+                            >Q245331</idno></persName>, akinek emlékezését unokaöccse <date
+                        when="1888">1888- ban</date>, már <persName>Madách</persName> és
+                            <persName>Arany<idno corresp="Arany János"/></persName> halála után adta
+                    ki (<persName>Túri Mészáros István<idno type="ITIdata">Q174929</idno></persName>
+                    i. h.). Eszerint <date when="1861-07-20">1861. július 20-i</date>,
+                        <persName>Szontagh Pálhoz</persName>, <placeName>Horpácsra<idno
+                            type="ITIdata">Q11229</idno></placeName> tett kirándulásukon
+                        <persName>Madách</persName> vetette föl az <persName>Aranynak<idno
+                            corresp="Arany János"/></persName> átadás ötletét, majd - Pestre
+                    visszatérve - együtt mentek el <persName>Aranyhoz<idno corresp="Arany János"
+                        /></persName>, „de nem találtuk otthon. Később <persName>Madách</persName>
+                    egyedül vitte és adta át neki.” Noha a legutóbbi életrajz tényként kezeli
+                            <persName>Pétery<idno corresp="Pétery Károly"/></persName> emlékezését
+                        (<bibl>Andor 2000 159.<idno type="ITIdata">Q469798</idno></bibl>), az - akár
+                    a <ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.7"
+                                ><title><hi rend="italic">Keletkezéstörténet</hi></title>ben</ref> -
+                    ezúttal sem egyeztethető más adatainkkal. Hogy pedig, a kudarctól félve, nem
+                    beszélt a <title><hi rend="italic">Tragédiá</hi></title>ról <persName>Arany<idno
+                            corresp="Arany János"/></persName> véleményezése előtt, arra a már
+                    többször idézett, <date when="1861-11-02">november 2-i</date>, <persName>Nagy
+                            Ivánnak<idno corresp="Nagy Iván"/></persName> írt levél mentegetőző
+                    passzusa utal: „...annak pedig hollétét annál kevésbbé volt kedvem el árulni,
+                    mert a’ soká tartó letartóztatás a siker nem nagy reményével biztatott.”
+                        (<bibl>MÖM II. 930.<idno type="ITIdata">Q412729</idno></bibl>) Még a
+                    földi-jóbarátnak sem szólt, nemhogy felületesebb ismerősnek.</p>
+                <p xml:id="p.6"><persName>Madách</persName> csak <persName>Arany<idno
+                            corresp="Arany János"/></persName><date when="1861-10-27">október
+                        27-i</date> leveléből tudta meg, milyen benyomást keltett a K-Kl 13-16.
+                    sora, az Úr első megszólalása a bírálóban: „Rám oly hatást tett először, hogy
+                    félretettem a művet s csak Jámbor Pali sürgetésére vettem megint elő.”
+                        (<bibl>MÖM II. 1004.<idno type="ITIdata">Q412729</idno></bibl>) Ugyanezt
+                    ismételte meg <persName>Madách</persName><persName>Nagy Ivánnak</persName><date
+                        when="1861-11-02">november 2-án</date> (<bibl>MÖM II. 930.<idno
+                            type="ITIdata">Q412729</idno></bibl>). „Jámbor Pali sürgetésé”-nek
+                    időpontját <persName>Radó György</persName> a szakirodalom áttekintése után
+                        <date when="1861-08-10">augusztus 10.</date> tájára tette (<bibl>Radó 1987
+                            254.<idno type="ITIdata">Q470112</idno></bibl>), valójában nincs adatunk
+                    erre. Az ante quem-terminus <date to="1861-08-25">augusztus 25.</date>, amikor
+                            <persName>Arany<idno corresp="Arany János"/></persName> a friss
+                    felfedezés örömével tudósította <persName>Tompa Mihályt<idno type="ITIdata"
+                            >Q156834</idno></persName>, hogy jelentkezett az „első tehetség Petőfi
+                    óta, ki egészen önálló irányt mutat.” (<bibl><abbr>AJÖM XVII.</abbr> 574.<ref
+                            target="/aj_lev_17_1336.tei"/></bibl>) Mivel <persName>Arany<idno
+                            corresp="Arany János"/></persName> itt már az egész művet jellemezte
+                    (szinte a híres, <persName>Madách</persName>ot íróvá avató levél előzményének
+                    tekinthető fordulatokkal), sőt a stiláris javítás lehetősége is felbukkant, az
+                    ujjongás élményfedezete a teljes mű ismerete lehetett. A második, ceruzával a
+                    kézben végzett újraolvasásnak viszont pontos dátumát is ismerjük: <date
+                        from="1861-09-03" to="1861-09-08">1861. szeptember 3-8.</date> Ez a K-Kl
+                    150. oldalán olvasható ma is egy kitörölt, szintén ceruzás, rövid értékelés
+                    maradványaként: „9 3/8” (Vö. a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.15#rdg.832"
+                        >SZÖVEGÁLLAPOTOK 598.</ref> oldalával!) Egyetértünk <persName>Tolnai
+                            Vilmossal<idno type="ITIdata">Q151361</idno></persName> a dátum ilyen
+                    értelmezésében (<bibl>Tolnai 1923. 248.<idno type="ITIdata"
+                        >Q470154</idno></bibl>).</p>
+                <p xml:id="p.7">Ezután kerülhetett sor a szerző írásos megkeresésére, a híres, 1861.
+                    szeptember 12-i levél megírására és elküldésére (<bibl>MÖM II. 1001.<idno
+                            type="ITIdata">Q412729</idno></bibl>). Felvetődhet a kérdés: miért nem
+                    személyesen kereste meg <persName>Madáchot</persName>? A választ ismét
+                        <persName>Madách</persName> életrajzi kronológiája adja meg:
+                        <persName>Madách</persName><date when="1861-08">augusztusban</date> mint a
+                    nemzetiségi bizottságnak <date when="1861-06-26"> június 26-án</date>
+                    megválasztott tagja <hi rend="italic">A nemzetiségiek ügyében</hi> elmondandó
+                    beszédére készült, amelyre azonban (az országgyűlés <date when="1861-08-22"
+                        >augusztus 22-diki</date> feloszlatása miatt) már nem kerülhetett sor.
+                    Ezután megírta a választókhoz írt beszédét, <date when="1861-08-27"
+                            >27-én</date><placeName>Balassagyarmaton<idno type="ITIdata"
+                            >Q18295</idno></placeName> részt vett (mint megyei bizottmányi tag)
+                    Nógrád vármegye kisgyűlésén; a székvárosból <date when="1861-09-01">szeptember
+                        1-jén</date> érkezett haza <placeName>Alsósztregovára<idno type="ITIdata"
+                            >Q1731</idno></placeName> (<bibl>Radó 1987 255.<idno type="ITIdata"
+                            >Q470112</idno></bibl>). Tehát: <persName>Madáchnak</persName> ezúttal
+                    sem volt érkezése kézirata sorsával törődnie.</p>
+                <p xml:id="p.8">A <date when="1861-09-12">szeptember 12-i</date> levélben
+                            <persName>Arany<idno corresp="Arany János"/></persName> már kiforrott
+                    kiadói elképzeléssel jelentkezett. A <orgName><abbr>KisfT</abbr></orgName> lesz
+                    a kiadó: „...sorról sorra kijelölném a helyeket, hol - semmi esetre sem lényeges
+                    - változtatást gondolnék célszerűnek; vagy belenyugvása esetében magam tennék
+                    rajta egy-két tollvonást, aztán bemutamám a társaságnak.” A terv jobb
+                    megértéséhez utalnunk kell arra, hogy a tevékenységét <date when="1860-05-24"
+                        >1860. május 24-én</date> újrakezdett <orgName><abbr>KisfT</abbr></orgName>,
+                    amely <date when="1860-08-01">1860. augusztus 1-jén</date> választotta
+                    igazgatójául <persName>Aranyt<idno corresp="Arany János"/></persName>, alapító
+                    és pártoló tagokat toborzott kiadói tevékenysége támogatására, akiket
+                    illetménypéldányokkal honoráltak, évi 60 ív terjedelemben. Az első évben a 750
+                    főt meghaladó pártolói kar kielégítése máris nehézségekbe ütközött: a
+                        <persName>George Eliot</persName> művésznéven író angol szerző,
+                        <persName>Mary Ann Evans<idno type="ITIdata"
+                            >Q469744</idno></persName><title><hi rend="italic">Adam
+                        Bede</hi></title> c. fordításra kiszemelt regénye (<date when="1859"
+                        >1859</date>) mellől hiányzott a másik mű. (<persName>Arany<idno
+                            corresp="Arany János"/></persName> ekkori igazgatói tevékenységére l.
+                        <bibl>Kéky 1936 118.<idno type="ITIdata">Q338221</idno></bibl> és
+                        <persName>Gergely Pál<idno type="ITIdata">Q44422</idno></persName>
+                    jegyzeteit: <bibl><abbr>AJÖM XII.</abbr> 1966 525-527.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/></bibl>!) <persName>Madách</persName> terjedelmes kézirata
+                    nemcsak az <date when="1861">1861.</date> évi illetménypéldány adósságát rótta
+                    volna le, de jelentős és eredeti művel, szerzőt avatva toborzott volna új
+                    pártolókat a Társaságnak. Ez volt - ha úgy tetszik - <persName>Arany
+                        János</persName> személyes érdekeltsége a <title><hi rend="italic"
+                            >Tragédia</hi></title> gyors és minél jobb minőségű
+                    megjelentetésében.</p>
+                <p xml:id="p.9">Többi kiadói motívuma már irodalmi - erős etikai töltéssel. A
+                    költőszerkesztő literatúrai örömét növelte a Tompa-levélben jelzett „önálló
+                    irány", amelyet a Petőfi-epigonok elleni indulata magyaráz. A másik motívum -
+                    ami viszont az I. szín félretételét indokolhatja -, hogy <date when="1860"
+                        >1860-ban</date> jelent meg <persName>Nagy István<idno type="ITIdata"
+                            >Q249323</idno></persName> fordításában <persName>Goethe<idno
+                            type="ITIdata">Q396</idno></persName><title><hi rend="italic"
+                        >Faust</hi></title>ja és az átültetés költői értékeiről
+                            <persName>Aranynak<idno corresp="Arany János"/></persName> lesújtó
+                    véleménye volt. Ezt a faustiáda <title><hi rend="italic">Tragédia</hi></title>
+                    részletes bírálatában <persName>Madáchnak</persName> is kifejtette, amikor a II.
+                    szín luciferi verse kapcsán („Segítsetek / Ti elemek / Az embert nektek /
+                    Szerezni meg”) roszszallóan megjegyezte: „...ez olyan, mint a <persName>Nagy
+                        István</persName> fordításában <persName>Goethe</persName>.” (L. még a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4"
+                        >SZÖVEGKRITIKAI DOKUMENTUMOK</ref> között!) (<bibl><title>Levele Madáchnak,
+                            Pest 1861. október 27.</title> - MÖM II. 1006.<idno type="ITIdata"
+                            >Q412729</idno></bibl>, <bibl><abbr>AJÖM XVII.</abbr> 603.<ref
+                            target="/aj_lev_17_1359.tei"/></bibl>) Mindenféle epigonizmus
+                    elutasítása - ez volt <persName>Arany<idno corresp="Arany János"/></persName><hi
+                        rend="italic">irodalmi</hi> érdekeltsége.</p>
+                <p xml:id="p.10">Nem véletlenül került említésre <persName>Petőfi<idno
+                            type="ITIdata">Q149546</idno></persName> neve - az irodalomba befogadás
+                    gesztusainak etikai többletét az adta, hogy <persName>Arany<idno
+                            corresp="Arany János"/></persName> mindazt, amit pályakezdéskor
+                            <persName>Petőfitől<idno corresp="Petőfi Sándor"/></persName> kapott,
+                    most a „fiatal képviselő”-nek (<persName>Tompának<idno corresp="Tompa Mihály"
+                        /></persName> nevezte így meg <persName>Madáchot</persName>) adta vissza. Ha
+                    volt valaki, aki a vidékiesség, a gátlásosság érzését, sőt az olykori stiláris
+                    esetlenség jelenségét megérthette <persName>Madáchban</persName>, az
+                            <persName>Arany<idno corresp="Arany János"/></persName>,
+                            <placeName>Szalonta<idno type="ITIdata">Q2455</idno></placeName> egykori
+                    aljegyzője volt. A külsőségek is hasonlóak: <persName>Arany<idno
+                            corresp="Arany János"/></persName> már a második levelében tegezésre
+                    fordította az önözést, <date when="1862">1862</date> nyarán
+                            <placeName>Csesztvén<idno type="ITIdata">Q11310</idno></placeName> és
+                            <placeName>Alsósztregován<idno type="ITIdata">Q1731</idno></placeName>
+                    is felkereste új barátját stb.</p>
+                <p xml:id="p.11">Az első Arany-levél „Tisztelt Hazafi!” megszólítása pedig arra is
+                    utal, hogy az új tehetség feltűnése az irodalomban olyan történelmi pillanatra
+                    esett, amikor - mint már sokszor korábban - a felfüggesztett politikai
+                    tevékenység feladatkörét átmenetileg a kultúrának, a literatúrának kellett
+                    átvennie. <persName>Madách</persName> ehhez hiteles személyiség volt.</p>
+                <p xml:id="p.12"><persName>Arany<idno corresp="Arany János"/></persName> ezeket az
+                    érdekeltségeit mindvégig egyensúlyban tudta tartani, ráadásul a mű és a szerző
+                    javára. Megfontolásait a sajtó alá rendezés és a kiadás során két, etikai
+                    töltésű, de gyakorlati kérdés köré kellett szerveznie:</p>
+                <p xml:id="p.13">- a javítások és ennek kapcsán az írói szándék problémája;</p>
+                <p xml:id="p.14">- a névhasználat, azaz a szerző felfedésének időpontja és
+                    módja.</p>
+                <p xml:id="p.15"><persName>Arany<idno corresp="Arany János"/></persName><date
+                        when="1861-09-12">szeptember 12-i</date>, beköszöntő levelének tanúsága
+                    szerint - amint idéztük is - még azt tervezte, hogy előbb javít, majd a
+                    jobbított művet mutatja be a <orgName><abbr>KisfT</abbr></orgName>-ban.
+                    Helyzetét nehezítette, hogy <persName>Madách</persName><date when="1861-10-03"
+                        >október 3-i</date> válaszában nem a <title><hi rend="italic"
+                        >Tragédia</hi></title> jövőjéről intézkedett, hanem az <date
+                        from="1861-08-12" to="1861-09-28">1861. augusztus 12. és szeptember 28.
+                        között</date> átdolgozott, <date when="1843">1843-ban</date> írt akadémiai
+                    pályázati dicséretet nyert <title><hi rend="italic">Csák Máté</hi></title> c.
+                    drámáját küldte meg (<bibl>MÖM II. 863- 864.<idno type="ITIdata"
+                        >Q412729</idno></bibl>). A <orgName><abbr>KisfT</abbr></orgName><date
+                        when="1861-10-10">október lO-i</date> ülésén <persName>Arany<idno
+                            corresp="Arany János"/></persName> ezért még csak szövegszemelvények s a
+                    szerző megnevezése nélkül méltathatta a művet, de elérte, hogy megbízták, „a mű
+                    fölvétele után saját belátása szerint intézkedjék.” (<bibl>Kéky 1936 122.<idno
+                            type="ITIdata">Q338221</idno></bibl> és <bibl>Gergely <abbr>AJÖM
+                            XIII.</abbr> 527.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/></bibl>) Ezzel az üléssel kezdődött a <title><hi
+                            rend="italic">Tragédia</hi></title> hírlelése a nyilvánosság előtt (vö.
+                    a <title><hi rend="italic">Fogadtatás</hi></title> c. alfejezettel: <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#p.11"
+                        >683.</ref>!) - és a szerző nevének találgatása, illetve kiszivárogtatása.
+                        <persName>Nagy Iván</persName><placeName>Pestről<idno type="ITIdata"
+                            >Q111</idno></placeName>, <date when="1861-10-21">október 21-ről</date>
+                    küldött levelében már azonosítva köszöntötte <persName>Madáchot</persName>:
+                    „...Toldytól kelljen azt nekem meg tudni (vagy sejteni), hogy az irodalmunkban
+                    páratlan ’s nagyszerű ,az ember tragoedia’-jának atyja Te légy?” (<bibl>MÖM II.
+                            1110.<idno type="ITIdata">Q412729</idno></bibl>)</p>
+                <p xml:id="p.16"><persName>Arany<idno corresp="Arany János"/></persName> a
+                    felhatalmazás birtokában <date from="1861-10-10" to="1861-10-27">október 10. és
+                        27. között</date> újraolvasta a kéziratot, és kijelölte a javításra szánt
+                    helyeket. Erről <persName>Madáchnak</persName><date when="1861-10-27">október
+                        27-i</date> levelében számolt be: „Nem akartam írni, míg tragédiádon végig
+                    nem haladtam észrevételeimmel, de úgy látom, hogy ez kissé több időt vesz
+                    igénybe, s én másfelé is el lévén foglalva, nem ülhetek rajta folyvást.”
+                        (<bibl>MÖM II. 1001-1002.<idno type="ITIdata">Q412729</idno></bibl>,
+                            <bibl><abbr>AJÖM XVII.</abbr> 599.<ref target="/aj_lev_17_1359.tei"
+                        /></bibl>) <persName>Arany<idno corresp="Arany János"/></persName> szavait a
+                    sürgetős munkáról az írásszakértői vizsgálat igazolta. Javításait fekete, kék,
+                    piros grafitceruzával és tollal végezte, amelyek között rétegzett felülírás
+                    azonban nem állapítható meg: vagyis <persName>Arany<idno corresp="Arany János"
+                        /></persName> meg-megszakítva munkáját, mindig az éppen keze ügyében lévő
+                    íróeszközzel folytatta azt.</p>
+                <p xml:id="p.17"><persName>Arany<idno corresp="Arany János"/></persName> e levélben
+                    nemcsak az I-VII. színre tett észrevételeit és javítási javaslatait közölte
+                        <persName>Madáchcsal</persName> (l. ezeket a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4"
+                        >SZÖVEGKRITIKAI DOKUMENTUMOK</ref> között!), hanem egyúttal tájékoztatta a
+                    kiadói feltételekről is: „Az e vállalatba fölvett művekért mérsékelt
+                    tiszteletdij is jár (kis ive 20-30 f[orin]t)...” (<bibl>MÖM II. 1002.<idno
+                            type="ITIdata">Q412729</idno></bibl>, <bibl><abbr>AJÖM XVII.</abbr>
+                            600.<ref target="/aj_lev_17_1359.tei"/></bibl>) Egyben bejelentette,
+                    hogy <date when="1861-10-31">október 31-én</date>, a Társaság következő ülésén
+                    részleteket olvas föl a műből. Az erre vonatkozó „Föltéve, hogy nem ellenzed...”
+                    fordulat tkp. udvariasságnak tekinthető, hiszen a <placeName>Pest<idno
+                            type="ITIdata">Q111</idno></placeName>-<placeName>Alsósztregova<idno
+                            type="ITIdata">Q1731</idno></placeName> posta útján, amelynek
+                    lassúságára - egy postaforduló tíz napot jelentett - <persName>Madách</persName>
+                    mindig panaszkodott (vö. <bibl>MÖM II. 871.<idno type="ITIdata"
+                        >Q412729</idno></bibl>!), válasza csak utólagos beleegyezés lehetett.</p>
+                <p xml:id="p.18"><persName>Arany<idno corresp="Arany János"/></persName> csak a
+                    helyesírás korszerűsítését tartotta a megjelenés feltételének, a többi javítást
+                    a szerző belátására bízta: „Ha módosításaim nem tetszenének, vagy ha átalában
+                    semmit nem akarnál is módositni (...), azt is ird meg. A munka megjelenésére ez
+                    nem akadály; csupán <hi rend="italic">éretted</hi> ajánlottam változtatást.”
+                    (Uo. Kiemelés az eredetiben.) Ugyancsak <persName>Madách</persName>tól függött:
+                    „Neved még tudva nincs: tőled függ, mikor legyen napfényre hozva.”</p>
+                <p xml:id="p.19">A sztregovai szerző maradéktalanul megbízott
+                            <persName>Aranyban<idno corresp="Arany János"/></persName>: a
+                    névhasználat kérdésében egyáltalán nem nyilatkozott meg; <date when="1861-11-02"
+                        >november 2-i</date> válaszlevelében pedig, miközben a I-IV. szín egyes
+                    megoldásait magyarázni igyekezett (l. ezeket a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1"
+                        >SZÖVEGKRITIKAI DOKUMENTUMOK </ref>között!), az egyetlen és másolat nélküli
+                    kézirat tényéből kiindulva, generális felhatalmazást adott a javításokra:
+                    „...arra kérlek tehát, hogy kivévén, ha egészen érthetetlen helyet találsz,
+                    mellyen eligazodni nem birsz s kérdést tartanál szükségesnek, megjegyzéseidet
+                    mintegy revisioúl ne is küld hozzám, valóban megszégyenitő az reám nézve, ki
+                    annyira megbízom benned...” (<bibl>MÖM II. 867.<idno type="ITIdata"
+                            >Q412729</idno></bibl>, <bibl><abbr>AJÖM XVII.</abbr> 614.<ref
+                            target="/aj_lev_17_1361.tei"/></bibl>)</p>
+                <p xml:id="p.20">A felhatalmazás birtokában <persName>Arany<idno
+                            corresp="Arany János"/></persName> egyrészt most már
+                    szövegszemelvényekkel érvelhetett a <orgName><abbr>KisfT</abbr></orgName>-ban
+                        <persName>Madách</persName> műve mellett, másrészt (végrehajtva a
+                    javításokat) nyomdába adhatta az íveket. Az előbbi keretében kétszer, <date
+                        when="1861-10-31">1861. október 31-én</date> és <date when="1861-11-28"
+                        >november 28-án</date>, a felolvasó ülésen saját maga olvasott fel
+                    részleteket. „Ultima 8bris [octobris] felolvastam a tragédia 4 első jelenetét a
+                    Kisf[aludy]. társaságban.” - írta <persName>Madáchnak</persName><date
+                        when="1861-11-05">november 5-én</date> (<bibl>MÖM II. 1014.<idno
+                            type="ITIdata">Q412729</idno></bibl>, <bibl><abbr>AJÖM XVII.</abbr>
+                            616.<ref target="/aj_lev_17_1362.tei"/></bibl>). Mivel felhatalmazásával
+                    a javításokra ekkor még nem rendelkezett, az I-IV. szín az eredeti formában
+                    hangzott el. Ezt magától <persName>Aranytól<idno corresp="Arany János"
+                        /></persName> tudjuk, aki a beszámoló levélben ismét visszatért az <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.13">I.
+                        szín 13-16.</ref> sorának javítására, megjegyezve: „...melyre egyébiránt
+                    rajtam kivúl senki sem tett gáncsot...” (<bibl>Uo.<ref
+                            target="/aj_lev_17_1362.tei"/></bibl>) <date when="1861-11-28">November
+                        28-án</date> a már sajtó alatt lévő műnek javított és alkalmasint nyomtatott
+                    íveiből olvasott fel <persName>Arany<idno corresp="Arany János"/></persName>;
+                    hogy mely színekből, nem tudjuk. (E felolvasások hatására l. a <title><hi
+                            rend="italic">Fogadtatás</hi></title> c. alfejezetet: 681-682.!)</p>
+                <p xml:id="p.21">A nyomdai munkálatok kezdő dátumát nem ismerjük.
+                            <persName>Arany<idno corresp="Arany János"/></persName> - <date
+                        when="1861-11-27">október 27-i</date> levele szerint - még csak kijelölte,
+                    de nem hajtotta végre a javításokat („kéziratodon nem változtattam semmit”), ám
+                    a felhatalmazás vélhetően november 4/5-i megérkezése után nyilvánvalóan úgy járt
+                    el, mint ígérte: „Mihelyt az első küldeményt, észrevételeiddel megkaptam,
+                    azonnal kezdhetnők a nyomást.” (<bibl>MÖM II 1002.<idno type="ITIdata"
+                            >Q412729</idno></bibl>, <bibl><abbr>AJÖM XVII.</abbr> 600.<ref
+                            target="/aj_lev_17_1359.tei"/></bibl>) <date when="1861-11-18">November
+                        18-án</date> az első ív kinyomásával már végeztek; <persName>Bérczy
+                            Károly<idno type="ITIdata">Q142388</idno></persName>, a balassagyarmati
+                    születésű, ifjúkori jóbarát ugyanis erről a napról keltezte levelét
+                        <persName>Madáchhoz</persName>: „...olvastam Emich nyomdájában az első
+                    levonati ívet...” (<bibl>MÖM II. 1027.<idno type="ITIdata"
+                    >Q412729</idno></bibl>) Az viszont szintén <persName>Aranytól<idno
+                            corresp="Arany János"/></persName> tudható, hogy tudományos munkának
+                    kijáró, három korrektúrafordulóval igyekezett a nehéz, agyonjavított levonatból
+                    készülő és menet közben véglegesülő szövegben a sajtóhibáknak elejét venni:
+                    „...legnagyobb gonddal magam háromszor javítottam minden ívet...”
+                            (<bibl><title>Levele Madáchnak, Pest 1862. január 24.</title> - MÖM II.
+                            1016.<idno type="ITIdata">Q412729</idno></bibl>) <persName>Arany<idno
+                            corresp="Arany János"/></persName> nem túlzott: a SZÖVEGÁLLAPOTOK-ban
+                    észlelhető, jelentős számú eltérés a K-K1 és az <bibl><abbr>1861</abbr></bibl>
+                    között érdemi javító munkáról tanúskodik. Az első kiadásba ezenfelül
+                    errata-lapot is fűztek („Egy papir szalagon kijelöltem, hogy megigazíthassa az
+                    olvasó.”); ezek sh.-javításai a SZÖVEGÁLLAPOTOK lapalji jegyzeteiben
+                    olvashatók.</p>
+                <p xml:id="p.22"><persName>Madách</persName><date from="1861-09-01" to="1861-12-31"
+                        >1861 őszén</date> nem járt <placeName>Pesten</placeName>
+                        (<placeName>Alsósztregován</placeName><date when="1861-11-16">1861. november
+                        16-án</date> fejezte be az <date when="1860-06-09">1860. június 9-én</date>
+                    kezdett és az <orgName><abbr>MTA</abbr></orgName> Karátsonyi-drámajutalmának
+                    pályázatára szánt <title><hi rend="italic">Mózes</hi></title>t, ezért a nyomdai
+                    munkák szervezése, vezetése, a folyamatos kapcsolattartás <persName>Emich
+                            Gusztáv<idno type="ITIdata">Q241231</idno></persName> akadémiai
+                    nyomdásszal szintén <persName>Aranyra<idno corresp="Arany János"/></persName>
+                    hárult, amint arról egy pesti, <date when="1862-08-03">1862. augusztus
+                        3-diki</date>, <persName>Kazinczy Gábornak<idno type="ITIdata"
+                            >Q152549</idno></persName> írt levele tanúskodik, amelyben a szintén
+                    illetménykötetnek szánt Moliére-fordítása kapcsán <persName>Kazinczynak<idno
+                            type="ITIdata">Q45911</idno></persName> (összehasonlítási alapul) a
+                            <title><hi rend="italic">Tragédia</hi></title> nyomdai megoldásait
+                    elemezte: „A szólók nevei középre esnek, majusculával, ez tán legcsinosabb. A
+                    betű faja garmond. Azon igen apró versaliák, melyekkel az <title><hi
+                            rend="italic">E. Tragédia</hi></title> személyei a szövegben nyomvák,
+                    nem lesznek. Akkor is csak nyomdai ügyetlenségből, korrektúra után csúsztak az
+                    első ívbe; az én szándékom nagyobb betűk használása volt. Hanem azután az első
+                    ív másfél ezer példánya úgy lévén nyomva, meg kellett tartanom végig
+                        (<bibl>Arany 1982 531.<idno type="ITIdata">Q469799</idno></bibl>)
+                            <persName>Arany<idno corresp="Arany János"/></persName> nyomdai
+                    utasításai mostani kiadásunkban olvashatók.</p>
+                <p xml:id="p.23">Mivel a kiadó a
+                        <orgName><orgName><abbr>KisfT</abbr></orgName></orgName> volt, a szerzővel
+                    külön szerződés nem készült. Innen van, hogy levelezésükben <persName>Arany<idno
+                            corresp="Arany János"/></persName> ismételten visszatért a honorárium
+                    kérdésére. A pártoló tagok megnyerését szolgáló illetménykötetek ügyében a „róka
+                    fogta csuka” klasszikus esete állt fenn: a tiszteletdíjat a befolyó pártolói
+                    támogatásokból kellett fedezni. Az <date when="1861-10-27">1861. október
+                        27-i</date> levelében - amint azt más összefüggésben idéztük -
+                            <persName>Arany<idno corresp="Arany János"/></persName> még a fordított
+                    művekre tervezett honoráriumot ígérte: „Az e vállalatra fölvett művekért
+                    mérsékelt tiszteletdij is jár (kis ive 20-30 f[orin]t); a mi ugyan nincs
+                    arányban műved értékével...” (<bibl>MÖM II. 1002.<idno type="ITIdata"
+                            >Q412729</idno></bibl>, <bibl><abbr>AJÖM XVII.</abbr> 600.<ref
+                            target="/aj_lev_17_1359.tei"/></bibl>) A mentegetőzés innen
+                    vezérmotívumként érzékelhető <persName>Arany<idno corresp="Arany János"
+                        /></persName> híradásaiban; kivált, hogy az anyagi előnyöket nem kereső
+                        <persName>Madách</persName> nem reagált ígéretére. A megjelenés időpontjáig
+                    annyit sikerült elérnie, hogy: „Az ivenkénti nehány forint helyett, kerek
+                    számmal 50 <hi rend="italic">arany</hi> lesz nálam rendelkezésedre. Még ugyan
+                    beváltva nincs - mert van ugyan a tavalyi befizetésekből nehány száz forint, de
+                    mivel betettem kamatozni a tak[arék]. pénztárba, s most az új befizetések már
+                    folynak, ezekből akarom illetményedet megküldeni, a mi pár hét alatt
+                    megtörténhetik.” (<bibl><title>Levele Madáchnak, Pest 1862. január 24.</title> -
+                        MÖM II. 1016.<idno type="ITIdata">Q412729</idno></bibl>) A katonai
+                    beszállásolással terhelt, amúgyis rossz levélíró <persName>Madách</persName> nem
+                    válaszolván azonnal a tiszteletpéldányok megküldésére, <date when="1862-02-13"
+                        >február 13-án</date><persName>Arany<idno corresp="Arany János"/></persName>
+                    már-már a szerző sértődöttségére gondolt: vagy a javitások olvastán vagy a
+                    honorárium összege miatt. Ezért ekkor részletezte is
+                        <persName>Madáchnak</persName> (<date when="1862-01-30">1862. január
+                        30.</date> óta a <orgName><abbr>KisfT</abbr></orgName> tagjának) anyagi
+                    helyzetüket: „A Kisfaludy-társaság oly társaság, melynek, mint a titoknoki
+                    jelentésből olvashatod, egész évi bevétele alapítványai után nem tesz 400
+                    f[o]r[in]tot, s így ebből folyó (benső) költségeit sem bírja fedezni; csupán
+                    azon 4 f[orin] t-os befizetésekből honorálhat tehát, melyeket pártolóitól kap.
+                    Ezek összege [ti. a pártoló tagok száma] még most is alig haladja az ezeret, s
+                    ebből kell [évi] 60 ívet kiállítani, póstán szétküldeni stb. Tiszteletdíjra
+                    tehát csak annyit fordíthat, mennyi ebből aránylag esik.” (<bibl>MÖM II.
+                            1017.<idno type="ITIdata">Q412729</idno></bibl>) Az ívenkénti honorárium
+                    50 aranyra átváltása nem jelentett ugyan emelést (a <title><hi rend="italic"
+                            >Tragédia</hi></title> 14,5 íve az eredeti kalkuláció szerint is 290-435
+                    forint tiszteletdíjat jelentett volna), ám a gesztus ismét a befogadásé: „...az
+                    én follépésem némileg hasonló volt a tiedhez, s bár én <title>Toldi</title>ért
+                    15 - mondd: tizenöt aranyra versenyeztem, s 20-at kaptam, sokért nem válnék meg
+                    e début emlékétől.” (Uo.)</p>
+                <p xml:id="p.24"><persName>Madách</persName>, bár anyagi helyzete ez idő tájt is
+                    igen rossz volt (vö. <bibl>MID 384-387<idno type="ITIdata">Q470047</idno></bibl>
+                    és <bibl>ÚMID 299-305.<idno type="ITIdata">Q470148</idno></bibl>!), a <title><hi
+                            rend="italic">Tragédiá</hi></title>ért kapott összeget a nemzeti
+                    művelődés és irodalom közintézményeinek szánta: ,,...e’ tisztelet dijból egy
+                    dupla alapítványt akarnék csinálni a Kisfaludy-társaságnál, gondolom hogy az
+                    egyszerű alapítvány 60 f[o]r[in]t, úgy 120 f[o]r[in]tot kívánnék alapítani. A
+                    többit 200 f[o]r[in]tig kiegészítve, az Akadémia tőkéjéhez szántam.”
+                            (<bibl><title>Levele Aranynak, Alsósztregova 1862. február 20.</title> -
+                        MÖM II. 870.<idno type="ITIdata">Q412729</idno></bibl>) A helyzet végül úgy
+                    alakult, hogy a napi kurzuson számított 50 arany ~ 328 forint tiszteletdíjból az
+                    MTA 200, a <orgName><abbr>KisfT</abbr></orgName> 100 forint adományt kapott, és
+                    csak a maradékot vette föl, vö. <persName>Arany János</persName> levelével
+                        (<title>Pest, 1862. március 6.</title> - <bibl>MÖM II. 1020.<idno
+                            type="ITIdata">Q412729</idno></bibl>) és a Társaság <date
+                        when="1864-04-28">1864. április 28-i</date> ülésének jegyzőkönyvével
+                        (<bibl>Kéky 1936 122.<idno type="ITIdata">Q338221</idno></bibl>)! A pénzügyi
+                    adminisztrációt is a mindenes igazgató, <persName>Arany<idno
+                            corresp="Arany János"/></persName> végezte: „Ezt én mind elintézem.
+                    Nyugtatóra [= nyugtára] semmi szükség.” (<bibl>MÖM II. 1020.<idno type="ITIdata"
+                            >Q412729</idno></bibl>) Az alapítványtételről <persName>Arany<idno
+                            corresp="Arany János"/></persName> a
+                        <title><abbr>SzF</abbr></title><date when="1862-03-20">1862. március
+                        20-i</date> számában adott hírt (<bibl><abbr>AJÖM XIII.</abbr> 259.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/></bibl>). <date when="1861-12-18">1861. december
+                        18-án</date> jelentette <persName>Arany<idno corresp="Arany János"
+                        /></persName> a Társaságnak a <title><hi rend="italic">Tragédia</hi></title>
+                    első kiadása nyomdai munkáinak befejezését (vö. <bibl><abbr>AJÖM XIII.</abbr>
+                            527.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/><idno type="ITIdata">Q347966</idno></bibl>!), a tényleges
+                    megjelenés azonban - ismeretlen ok miatt - átcsúszott <date when="1862-01">1862
+                        januárjára</date>, bár az illetménykötet címlapján értelemszerűen <date
+                        when="1861">1861</date> olvasható. (A húzódó megjelenés sajtóanyagát l. a
+                            <title><hi rend="italic">Fogadtatás</hi></title> c. alfejezetben: <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#d.3"
+                        >683-684.</ref>!) A pontosabb időmeghatározás a szakirodalom máig vitatott
+                    részkérdése. <persName>Balogh Károly<idno type="ITIdata"
+                        >Q83972</idno></persName> csak „1862. január havában” megjelöléssel élt, ő
+                    maga <date when="1862-01-20">január 20-án</date> említette levélben a művet
+                    (1996 158.); <persName>Morvay Győző<idno type="ITIdata"
+                        >Q148955</idno></persName><date when="1862-01-24">január 24-re</date>
+                        (<bibl>Morvay 1897 152.<idno type="ITIdata">Q470085</idno></bibl>),
+                        <persName>Voinovich Géza<idno type="ITIdata">Q247156</idno></persName> és az
+                    életrajzíró <persName>Balogh Károly<idno type="ITIdata"
+                        >Q238980</idno></persName><date when="1862-01-16">január 16-ra</date> tette
+                    a megjelenést (<bibl>Voinovich 1922 175.<idno type="ITIdata"
+                        >Q470164</idno></bibl>, <bibl>Balogh 1934 188.<idno type="ITIdata"
+                            >Q469804</idno></bibl>). Újabban konszenzus alakult ki: 1862. január
+                    12-ben (<bibl>Radó 1987 267-268.<idno type="ITIdata">Q470112</idno></bibl>;
+                        <bibl>MKK 297.<idno type="ITIdata">Q470077</idno></bibl>; <bibl>Praznovszky
+                        1998 94.<idno type="ITIdata">Q470110</idno></bibl>) - annak alapján, hogy
+                        <bibl>Arany</bibl> erről a napról keltezte levelét, amelynek mellékletében
+                    megküldte <persName>Szász Károlynak<idno type="ITIdata"
+                        >Q150786</idno></persName> a recenzensi példányt saját lapja, a
+                            <title><abbr>SzF</abbr></title> számára írandó kritikához (<bibl>Arany
+                        1982 519.<idno type="ITIdata">Q469799</idno></bibl>). Legújabban ugyan
+                        <persName>Andor Csaba<idno type="ITIdata">Q144907</idno></persName>
+                    megváltoztatta <title><abbr>MKK</abbr></title>-beli álláspontját, és - <date
+                        when="1862-01-12">január 12.</date> vasárnapra esvén - egy vélt munkaszüneti
+                    nap beiktatásával <date when="1862-01-13">január 13-ra</date>, hétfőre
+                    „csúsztatta át” a megjelenést (<bibl>Andor 2000 167.<idno type="ITIdata"
+                            >Q469798</idno></bibl>); ám mivel egyéb érvelést nem vonultatott fel,
+                    nincs okunk, hogy az elfogadott dátumon változtassunk.</p>
+                <p xml:id="p.25"><title><hi rend="italic">Az ember tragédiája</hi></title>
+                    megjelenési dátumának így - jelenlegi ismereteink alapján - <date
+                        when="1862-01-12">1862. január 12-dikét</date> tekintjük, amit megerősít,
+                    hogy <date when="1862-01-14">január 14-én</date> három újság is egyidőben adott
+                    hírt a megjelenésről, l. a <title><hi rend="italic">Fogadtatás</hi></title> c.
+                    alfejezetet: <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#p.25"
+                        >684.</ref>! (Ami persze, nem zárja ki annak lehetőségét, hogy a könyv
+                    egy-két nappal korábban készült el az Emich-nyomdában.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

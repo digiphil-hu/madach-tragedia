@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="body" n="1" type="main">Az ember tragédiája – Első szín (szinoptikus
+                    átirat).</title>
+                <author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                            type="ITIdata">Q56413</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-genetic.tei.1</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragediablob/main/mi-aet-genetic.tei.1.xml"
+                    type="url">A szín TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>14-28.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+                <listWit>
+                    <witness xml:id="K">Madách kézirata: Madách Imre és Arany János javításaival
+                        módosított szöveg <idno type="ITIdata">Q473519</idno></witness>
+                    <witness xml:id="EK61">Első kiadás <idno type="ITIdata">Q473521</idno></witness>
+                    <witness xml:id="MK63">Második kiadás <idno type="ITIdata"
+                        >Q473522</idno></witness>
+                </listWit>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Budapest</settlement>
+                        <institution>Magyar Tudományos Akadémia Könyvtár és Információs
+                            Központ</institution>
+                        <repository>Kézirattár</repository>
+                        <idno>MTAK Kt. K 531.</idno>
+                        <msName>Kisfaludy Társaság hagyatéka</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <handDesc>
+                            <handNote xml:id="MI"> Madách Imre autográf javítása. </handNote>
+                            <handNote xml:id="AJ"> Arany János autográf javítása. </handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <variantEncoding location="internal" method="parallel-segmentation"/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title"><app xml:id="app.1">
+                        <rdg wit="#K" xml:id="rdg.1">Az ember trag<del hand="#MI"
+                            >ö</del>édiája.</rdg>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.2">AZ<milestone unit="p" xml:id="p.9"
+                            />EMBER TRAGÉDIÁJA</rdg>
+                    </app></head>
+                <head type="subtitle"><app xml:id="app.2">
+                        <rdg wit="#K" xml:id="rdg.3"><del hand="#MI">d</del><add hand="#MI"
+                                type="corr">D</add>rámai költemény.</rdg>
+                        <rdg wit="#EK61" xml:id="rdg.4">Drámai költemény.</rdg>
+                        <rdg wit="#MK63" xml:id="rdg.5"/>
+                    </app></head>
+                <head type="subtitle"><app xml:id="app.3">
+                        <rdg wit="#K" xml:id="rdg.6"><del hand="#AJ"><hi rend="underline"
+                                >1860</hi></del></rdg>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.7"/>
+                    </app></head>
+                <p xml:id="p.1"><app xml:id="app.4">
+                        <rdg wit="#K" xml:id="rdg.8"/>
+                        <rdg wit="#MK63 #EK61" xml:id="rdg.9">ÍRTA</rdg>
+                    </app></p>
+                <p xml:id="p.2"><app xml:id="app.5">
+                        <rdg wit="#K" xml:id="rdg.10"/>
+                        <rdg wit="#MK63 #EK61" xml:id="rdg.11">MADÁCH IMRE</rdg>
+                    </app></p>
+                <p xml:id="p.3"><app xml:id="app.6">
+                        <rdg wit="#K" xml:id="rdg.12"/>
+                        <rdg wit="#EK61" xml:id="rdg.13">KIADTA A KISFALUDY-TÁRSASÁG.<note
+                                type="critic" xml:id="note.1">a Társaság embélmájával</note></rdg>
+                        <rdg wit="#MK63" xml:id="rdg.14"/>
+                    </app></p>
+                <p xml:id="p.4"><app xml:id="app.7">
+                        <rdg wit="#K #EK61" xml:id="rdg.15"/>
+                        <rdg wit="#MK63" xml:id="rdg.16">(MÁSODIK TETEMESEN JAVÍTOTT KIADÁS)</rdg>
+                    </app></p>
+                <app xml:id="app.8">
+                    <rdg wit="#K" xml:id="rdg.17"/>
+                    <rdg wit="#EK61" xml:id="rdg.18">PEST.<milestone unit="p" xml:id="p.10"/>EMICH
+                        GUSZTÁV, MAGYAR AKADÉMIAI NYOMDÁSZ</rdg>
+                    <rdg wit="#MK63" xml:id="rdg.19">PEST. EMICH GUSZTÁV SAJÁTJA.</rdg>
+                </app>
+                <p xml:id="p.5"><app xml:id="app.9">
+                        <rdg wit="#K" xml:id="rdg.20"/>
+                        <rdg wit="#EK61" xml:id="rdg.21">MDCCCLXI.</rdg>
+                        <rdg wit="#MK63" xml:id="rdg.22">MDCCCLXIII.</rdg>
+                    </app></p>
+                <p xml:id="p.6"><app xml:id="app.10">
+                        <rdg wit="#K #EK61" xml:id="rdg.23"/>
+                        <rdg wit="#MK63" xml:id="rdg.24">Pest, 1863. Nyomtatott Emich Gusztáv magyar
+                            akad. nyomdásznál.<note type="critic" xml:id="note.2">A címlap
+                                verzóján.</note></rdg>
+                    </app></p>
+                <p xml:id="p.7"><app xml:id="app.11">
+                        <rdg wit="#K" xml:id="rdg.25"/>
+                        <rdg wit="#EK61" xml:id="rdg.26">AZ EMBER TRAGÉDIÁJA.<note type="critic"
+                                xml:id="note.3">Második, belső címlap:</note></rdg>
+                        <rdg wit="#MK63" xml:id="rdg.27">AZ<milestone unit="p" xml:id="p.11"/>EMBER
+                                TRAGÉDIÁJA.<note type="critic" xml:id="note.4">Második, belső
+                                címlap:</note></rdg>
+                    </app></p>
+            </div>
+            <div xml:id="d.2">
+                <head type="title"><app xml:id="app.12">
+                        <rdg wit="#K" xml:id="rdg.28"><fw corresp="Arany János" type="pageNum"
+                                >1</fw><hi rend="doubleunderline"><del hand="#AJ">1<hi rend="sup"
+                                        >ö</hi></del><add corresp="Arany János" type="corr"
+                                    >Első</add> szín.</hi></rdg>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.29">ELSŐ SZÍN.</rdg>
+                    </app></head>
+                <stage xml:id="stage.1"><p xml:id="p.12"><app xml:id="app.13">
+                            <rdg wit="#K" xml:id="rdg.30"/>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.31">(</rdg>
+                        </app>A mennyekben. <app xml:id="app.14">
+                            <rdg wit="#K" xml:id="rdg.32">Az úr</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.33">AZ ÚR</rdg>
+                        </app> dicstől környezetten trónján. <app xml:id="app.15">
+                            <rdg wit="#K" xml:id="rdg.34">Angyalok <milestone unit="p" xml:id="p.17"
+                                /> serege</rdg>
+                            <rdg wit="#EK61" xml:id="rdg.35">ANGYA-<milestone unit="p" xml:id="p.18"
+                                />LOK SEREGE</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.36">ANGYALOK SE-<milestone unit="p"
+                                    xml:id="p.19"/>REGE</rdg>
+                        </app>térden. A <app xml:id="app.16">
+                            <rdg wit="#K" xml:id="rdg.37">négy főangyal</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.38">NÉGY FŐANGYAL</rdg>
+                        </app> a trón mellett áll. <app xml:id="app.17">
+                            <rdg wit="#K #MK63" xml:id="rdg.39">Nagy fényesség.<note type="critic"
+                                    xml:id="note.5">Arany nyomdai utasítása tollal a lapszegélyen:
+                                    "pet."</note></rdg>
+                            <rdg wit="#EK61" xml:id="rdg.40">Nagy<milestone unit="p" xml:id="p.20"
+                                />fényesség.</rdg>
+                        </app><app xml:id="app.18">
+                            <rdg wit="#K" xml:id="rdg.41"/>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.42">)</rdg>
+                        </app></p></stage>
+                <sp xml:id="speak.1">
+                    <speaker><app xml:id="app.19">
+                            <rdg wit="#K" xml:id="rdg.43"><hi rend="italic">Angyalok kara.</hi><note
+                                    type="critic" xml:id="note.6">Arany nyomdai utasítása tollal:
+                                    "kleine Kompakt"; a dialógusszöveg mellett fekete
+                                    grafitceruzával: "garmond."</note></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.44">ANGYALOK KARA.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.1">Dicsőség <app xml:id="app.20">
+                            <rdg wit="#K" xml:id="rdg.45">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.46">a</rdg>
+                        </app> magasban <app xml:id="app.21">
+                            <rdg wit="#K #EK61" xml:id="rdg.47">istenemnek,</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.48">istenünknek,</rdg>
+                        </app><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.13"
+                        /></l>
+                    <l xml:id="l.2">Dicsérje őt <app xml:id="app.22">
+                            <rdg wit="#K" xml:id="rdg.49">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.50">a</rdg>
+                        </app> föld és <app xml:id="app.23">
+                            <rdg wit="#K" xml:id="rdg.51">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.52">a</rdg>
+                        </app> nagy ég,</l>
+                    <l xml:id="l.3">Ki egy szavával hív életre mindent</l>
+                    <l xml:id="l.4"><app xml:id="app.24">
+                            <rdg wit="#K" xml:id="rdg.53">'S</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.54">S</rdg>
+                        </app> pillantásától függ ismét <app xml:id="app.25">
+                            <rdg wit="#K" xml:id="rdg.55">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.56">a</rdg>
+                        </app> vég.</l>
+                    <fw type="lineNum">[5]</fw>
+                    <l xml:id="l.5">Ő az erő, tudás, gyönyör egésze,</l>
+                    <l xml:id="l.6">Részünk csak az árny, mellyet ránk vetett,</l>
+                    <l xml:id="l.7">Imádjuk őt <app xml:id="app.26">
+                            <rdg wit="#K" xml:id="rdg.57">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.58">a</rdg>
+                        </app> végetelen kegyért, hogy<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.15"
+                        /></l>
+                    <l xml:id="l.8">Fényében <app xml:id="app.27">
+                            <rdg wit="#K" xml:id="rdg.59">i<del hand="#AJ">l</del>ly</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.60">íly</rdg>
+                        </app> osztályrészt engedett.<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.14"
+                        /></l>
+                    <l xml:id="l.9"><app xml:id="app.28">
+                            <rdg wit="#K" xml:id="rdg.61"><del hand="#AJ">Meg testesűlt</del><add
+                                    hand="#AJ" type="corr">Megtestesűlt</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.62">Megtestesült</rdg>
+                        </app> az örökös nagy eszme,</l>
+                    <fw type="lineNum">[10]</fw>
+                    <l xml:id="l.10">Ím <app xml:id="app.29">
+                            <rdg wit="#K" xml:id="rdg.63">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.64">a</rdg>
+                        </app> teremtés befejezve <app xml:id="app.30">
+                            <rdg wit="#K #EK61" xml:id="rdg.65">áll,</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.66">már,</rdg>
+                        </app><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.16"
+                        /></l>
+                    <l xml:id="l.11"><app xml:id="app.31">
+                            <rdg wit="#K" xml:id="rdg.67">'S</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.68">S</rdg>
+                        </app> az <app xml:id="app.32">
+                            <rdg wit="#K" xml:id="rdg.69">úr</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.70">Úr</rdg>
+                        </app> mindentől, mit leheni <app xml:id="app.33">
+                            <rdg wit="#K" xml:id="rdg.71">enged</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.72">enged,</rdg>
+                        </app></l>
+                    <l xml:id="l.12">Méltó adót szent zsámolyra vár.</l>
+                </sp>
+                <sp xml:id="speak.2">
+                    <speaker><app xml:id="app.34">
+                            <rdg wit="#K" xml:id="rdg.73"><hi rend="italic">Az <del hand="#AJ"
+                                        >ú</del>Úr.</hi><note type="critic" xml:id="note.7">Arany
+                                    nyomdai utasítása kék grafitceruzával: "comp."</note></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.74">AZ ÚR.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.13"><app xml:id="app.35">
+                            <rdg wit="#K #EK61" xml:id="rdg.75">Be van fejezve</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.76">befejezve<note type="critic"
+                                    xml:id="note.8">sh.</note></rdg>
+                        </app><app xml:id="app.36">
+                            <rdg wit="#K" xml:id="rdg.77">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.78">a</rdg>
+                        </app> nagy <app xml:id="app.37">
+                            <rdg wit="#K" xml:id="rdg.79"><del hand="#AJ">mű</del><add hand="#AJ"
+                                    type="corr">mű,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.80">mű,</rdg>
+                        </app> igen<app xml:id="app.38">
+                            <rdg wit="#K" xml:id="rdg.81"><del hand="#AJ">,</del><add hand="#AJ"
+                                    type="corr">.</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.82">.</rdg>
+                        </app></l>
+                    <l xml:id="l.14"><app xml:id="app.39">
+                            <rdg wit="#K" xml:id="rdg.83"><del hand="#AJ">'S úgy ö<del hand="#AJ"
+                                        >szv</del>ssze vág minden, hogy azt hiszem</del><add
+                                    hand="#AJ" type="corr">A gép forog, az alkotó<del hand="#AJ"
+                                        >ás</del>pihen.</add><note type="critic" xml:id="note.9">A
+                                    13. sor kékkel aláhúzott három zárószava mellett Arany kék
+                                    ceruzás, nehezen olvasható megjegyzése: „komisch”, vö.
+                                            <bibl><abbr>Tolnai 1925</abbr> 90.!<idno type="ITIdata"
+                                            >Q470155</idno></bibl></note></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.84">A gép forog, az alkotó
+                                pihen.</rdg>
+                        </app></l>
+                    <fw type="lineNum">[15]</fw>
+                    <l xml:id="l.15">Év-milliókig <app xml:id="app.40">
+                            <rdg wit="#K" xml:id="rdg.85"><del hand="#AJ">szépen el forog</del><add
+                                    hand="#AJ" type="corr">eljár tengelyén,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.86">eljár tengelyén,</rdg>
+                        </app></l>
+                    <l xml:id="l.16"><app xml:id="app.41">
+                            <rdg wit="#K" xml:id="rdg.87"/>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.88"><fw corresp="EK61 MK63"
+                                    type="pageNum">3</fw></rdg>
+                        </app>Mig egy kerékfogát <app xml:id="app.42">
+                            <rdg wit="#K" xml:id="rdg.89">ú</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.90">u</rdg>
+                        </app>jítni kell.<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.17"
+                        /></l>
+                    <l xml:id="l.17">Fel <app xml:id="app.43">
+                            <rdg wit="#K" xml:id="rdg.91">hát</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.92">hát,</rdg>
+                        </app> világim véd-nemtői, fel<app xml:id="app.44">
+                            <rdg wit="#K" xml:id="rdg.93"><del hand="#AJ">.</del><add hand="#AJ"
+                                    type="corr">,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.94">,</rdg>
+                        </app><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.20"
+                        /></l>
+                    <l xml:id="l.18">Kezdjétek végtelen pályátokat.</l>
+                    <l xml:id="l.19">Gyönyörködjem még egyszer bennetek</l>
+                    <fw type="lineNum">[20]</fw>
+                    <l xml:id="l.20"><app xml:id="app.45">
+                            <rdg wit="#K" xml:id="rdg.95"><del hand="#AJ">A mint</del><add
+                                    hand="#AJ" type="corr">Amint</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.96">A mint</rdg>
+                        </app><app xml:id="app.46">
+                            <rdg wit="#K" xml:id="rdg.97"><del hand="#AJ">el zúgtok</del><add
+                                    hand="#AJ" type="corr">elzúgtok</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.98">elzúgtok</rdg>
+                        </app> lábaim alatt.</l>
+                </sp>
+                <stage xml:id="stage.2"><app xml:id="app.47">
+                        <rdg wit="#K" xml:id="rdg.99"/>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.100">(</rdg>
+                    </app>A <app xml:id="app.48">
+                        <rdg wit="#K" xml:id="rdg.101">csillagok védszellemei</rdg>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.102">CSILLAGOK VÉDSZELLEMEI</rdg>
+                    </app> külö<app xml:id="app.49">
+                        <rdg wit="#K" xml:id="rdg.103"><del hand="#AJ">m</del><add hand="#AJ"
+                                type="corr">n</add></rdg>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.104">n</rdg>
+                    </app>böző nagyságú, sz<app xml:id="app.50">
+                        <rdg wit="#K" xml:id="rdg.105">í</rdg>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.106">i</rdg>
+                    </app>nű, <app xml:id="app.51">
+                        <rdg wit="#K" xml:id="rdg.107">egyes, kettes <milestone unit="p"
+                                xml:id="p.21"/> csillaggömbök<del hand="#MI">kel</del><add
+                                hand="#MI" type="corr">et</add>,</rdg>
+                        <rdg wit="#EK61" xml:id="rdg.108">egyes, <milestone unit="p" xml:id="p.22"/>
+                            kettes csillaggömböket,</rdg>
+                        <rdg wit="#MK63" xml:id="rdg.109">egyes, ket-<milestone unit="p"
+                                xml:id="p.23"/>tes csillaggömböket,</rdg>
+                    </app> üstökösöket és ködcsillagokat <app xml:id="app.52">
+                        <rdg wit="#K" xml:id="rdg.110">görgetve rohannak <milestone unit="p"
+                                xml:id="p.24"/> el</rdg>
+                        <rdg wit="#EK61" xml:id="rdg.111">gör-<milestone unit="p" xml:id="p.25"
+                            />etve rohannak el</rdg>
+                        <rdg wit="#MK63" xml:id="rdg.112">görgetve rohan-<milestone unit="p"
+                                xml:id="p.26"/>nak el</rdg>
+                    </app> a trón előtt. S<app xml:id="app.53">
+                        <rdg wit="#K" xml:id="rdg.113"><del hand="#AJ">v</del><add hand="#AJ"
+                                type="corr">z</add></rdg>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.114">z</rdg>
+                    </app>férák <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.21"/>
+                    zenéje halkan.<note type="critic" xml:id="note.10">Arany nyomdai utasítása
+                        tollal: „petit”.</note><app xml:id="app.54">
+                        <rdg wit="#K" xml:id="rdg.115"/>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.116">)</rdg>
+                    </app></stage>
+                <sp xml:id="speak.3">
+                    <speaker><app xml:id="app.55">
+                            <rdg wit="#K" xml:id="rdg.117"><del hand="#AJ"><hi rend="underline"
+                                        >Angyalok</hi></del> kara<note type="critic"
+                                    xml:id="note.11">Az Angyalok áthúzása Aranytól, de (visz. a
+                                    korrektúrában) visszaállítva.</note></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.118">ANGYALOK KARA.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.21"><app xml:id="app.56">
+                            <rdg wit="#K" xml:id="rdg.119">Millyen</rdg>
+                            <rdg wit="#EK61" xml:id="rdg.120">Mílyen</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.121">Milyen</rdg>
+                        </app> büszke láng-golyó jő</l>
+                    <l xml:id="l.22">Önfényében elbizottan,</l>
+                    <l xml:id="l.23">S egy szerény <app xml:id="app.57">
+                            <rdg wit="#K" xml:id="rdg.122"><del hand="#AJ">csillag
+                                    csoportnak</del><add hand="#AJ" type="corr"
+                                    >csillagcsoportnak</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.123">csillagcsoportnak</rdg>
+                        </app></l>
+                    <l xml:id="l.24">Ép ő szolgál öntudatlan. -</l>
+                    <fw type="lineNum">[25]</fw>
+                    <l xml:id="l.25">Pislog e parányi <app xml:id="app.58">
+                            <rdg wit="#K" xml:id="rdg.124">csillag</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.125">csillag,</rdg>
+                        </app></l>
+                    <l xml:id="l.26">Azt hinnéd, <app xml:id="app.59">
+                            <rdg wit="#K" xml:id="rdg.126"><del hand="#AJ">hogy dőre szikra</del>,
+                                egy <del hand="#AJ">égi</del><del hand="#AJ">messzi</del> gyönge
+                                lámpa,</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.127">egy gyönge lámpa,</rdg>
+                        </app><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.22"
+                        /></l>
+                    <l xml:id="l.27"><app xml:id="app.60">
+                            <rdg wit="#K" xml:id="rdg.128">'S</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.129">S</rdg>
+                        </app> mégis millió teremtés</l>
+                    <l xml:id="l.28">Mérhetetlen nagy világa. <ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.23"
+                        /></l>
+                    <l xml:id="l.29">Két golyó küzd egymás ellen</l>
+                    <fw type="lineNum">[30]</fw>
+                    <l xml:id="l.30"><app xml:id="app.61">
+                            <rdg wit="#K" xml:id="rdg.130"><del hand="#AJ">Szét szakadni, ö<del
+                                        hand="#MI">szv</del>szsze esni</del><add hand="#AJ"
+                                    type="corr">Összehullni, szétsietni:</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.131">Összehullni, szétsietni:</rdg>
+                        </app><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.24"
+                            /><app xml:id="app.62">
+                            <rdg wit="#K" xml:id="rdg.132"><fw corresp="Arany János" type="pageNum"
+                                    >2</fw></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.133"/>
+                        </app></l>
+                    <l xml:id="l.31"><app xml:id="app.63">
+                            <rdg wit="#K" xml:id="rdg.134">'S</rdg>
+                            <rdg wit="#EK61" xml:id="rdg.135">S e'</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.136">e</rdg>
+                        </app> küzdés <app xml:id="app.64">
+                            <rdg wit="#K" xml:id="rdg.137"><hi corresp="Arany János"
+                                    rend="underline">a</hi><del hand="#AJ">'</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.138">a</rdg>
+                        </app> nagyszerű fék,</l>
+                    <l xml:id="l.32">Pályáján tovább vezetni. -</l>
+                    <l xml:id="l.33">Mennydörögve zúg amaz le,</l>
+                    <l xml:id="l.34"><app xml:id="app.65">
+                            <rdg wit="#K" xml:id="rdg.139">Táv<del hand="#AJ">olról</del><add
+                                    hand="#AJ" type="corr">u<del hand="#AJ">n</del>lnan</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.140">Távulnan</rdg>
+                        </app> rettegve nézed:</l>
+                    <fw type="lineNum">[35]</fw>
+                    <l xml:id="l.35">S kebelében milljó lény lel</l>
+                    <l xml:id="l.36">B<app xml:id="app.66">
+                            <rdg wit="#K" xml:id="rdg.141"><del hand="#AJ">ó</del><add hand="#AJ"
+                                    type="corr">o</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.142">o</rdg>
+                        </app>ldogságot, enyhe béket. -</l>
+                    <l xml:id="l.37"><app xml:id="app.67">
+                            <rdg wit="#K" xml:id="rdg.143">Mil<del hand="#AJ">l</del>y szerény<del
+                                    hand="#AJ">en pislog</del> ott<del hand="#AJ">an</del><add
+                                    hand="#AJ" type="corr">- egykor majdan</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.144">Mily szerény ott - egykor
+                                majdan</rdg>
+                        </app></l>
+                    <l xml:id="l.38">Csillaga <app xml:id="app.68">
+                            <rdg wit="#K" xml:id="rdg.145">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.146">a</rdg>
+                        </app> szerelemnek, <ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.25"
+                        /></l>
+                    <l xml:id="l.39">Óvja őt meg ápoló kéz</l>
+                    <fw type="lineNum">[40]</fw>
+                    <l xml:id="l.40">Vígasz<app xml:id="app.69">
+                            <rdg wit="#K" xml:id="rdg.147"><del hand="#AJ">á</del><add hand="#AJ"
+                                    type="corr">úl</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.148">úl</rdg>
+                        </app><app xml:id="app.70">
+                            <rdg wit="#K" xml:id="rdg.149"><del hand="#AJ">sok vak éjnek.</del><add
+                                    hand="#AJ" type="corr">a földi nemnek. -</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.150">a földi nemnek. -</rdg>
+                        </app></l>
+                    <l xml:id="l.41"><app xml:id="app.71">
+                            <rdg wit="#K" xml:id="rdg.151"/>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.152"><fw corresp="EK61 MK63"
+                                    type="pageNum">4</fw></rdg>
+                        </app>Ott születendő világok,</l>
+                    <l xml:id="l.42">Itt enyészők <app xml:id="app.72">
+                            <rdg wit="#K" xml:id="rdg.153"><del hand="#AJ">romladéka,</del><add
+                                    hand="#AJ" type="corr">koporsója:</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.154">koporsója:</rdg>
+                        </app><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.26"
+                        /></l>
+                    <l xml:id="l.43">Intő szóza<app xml:id="app.73">
+                            <rdg wit="#K" xml:id="rdg.155"><hi corresp="Arany János"
+                                    rend="underline">t</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.156">t</rdg>
+                        </app><app xml:id="app.74">
+                            <rdg wit="#K" xml:id="rdg.157">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.158">a</rdg>
+                        </app> hiúnak,</l>
+                    <l xml:id="l.44">Csüggedőnek biztatója. -</l>
+                    <fw type="lineNum">[45]</fw>
+                    <l xml:id="l.45"><app xml:id="app.75">
+                            <rdg wit="#K" xml:id="rdg.159"><del hand="#AJ">Mint rendbontó</del><add
+                                    hand="#AJ" type="corr">Rendzavarva</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.160">Rendzavarva</rdg>
+                        </app> jő amott az</l>
+                    <l xml:id="l.46">Üstökös rettentő képe:</l>
+                    <l xml:id="l.47"><app xml:id="app.76">
+                            <rdg wit="#K" xml:id="rdg.161">'S</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.162">S</rdg>
+                        </app> ím, az <app xml:id="app.77">
+                            <rdg wit="#K" xml:id="rdg.163">ú</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.164">Ú</rdg>
+                        </app>r szavát <app xml:id="app.78">
+                            <rdg wit="#K" xml:id="rdg.165"><del hand="#AJ">meg hallva,</del><add
+                                    hand="#AJ" type="corr">meghallva,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.166">meghallva,</rdg>
+                        </app></l>
+                    <l xml:id="l.48"><app xml:id="app.79">
+                            <rdg wit="#K" xml:id="rdg.167"><del hand="#AJ">Lesz a' rendnek
+                                    hirdetője.</del><add hand="#AJ" type="corr">Rend lesz útja
+                                    ferdesége.</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.168">Rend lesz útja ferdesége.
+                                -</rdg>
+                        </app></l>
+                    <l xml:id="l.49">Jösz <app xml:id="app.80">
+                            <rdg wit="#K" xml:id="rdg.169"><del hand="#AJ">te</del><add hand="#AJ"
+                                    type="corr">te,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.170">te,</rdg>
+                        </app> kedves<app xml:id="app.81">
+                            <rdg wit="#K" xml:id="rdg.171"><del hand="#AJ">,</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.172"/>
+                        </app> ifj<app xml:id="app.82">
+                            <rdg wit="#K" xml:id="rdg.173"><del hand="#AJ">ú</del><add hand="#AJ"
+                                    type="corr">u</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.174">u</rdg>
+                        </app> szellem<app xml:id="app.83">
+                            <rdg wit="#K" xml:id="rdg.175"><del hand="#AJ">!</del><add hand="#AJ"
+                                    type="corr">,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.176">,</rdg>
+                        </app><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.27"
+                        /></l>
+                    <fw type="lineNum">[50]</fw>
+                    <l xml:id="l.50">Változó <app xml:id="app.84">
+                            <rdg wit="#K" xml:id="rdg.177"><del hand="#AJ">világ
+                                    gömböddel,</del><add hand="#AJ" type="corr"
+                                    >világgömböddel,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.178">világgömböddel,</rdg>
+                        </app></l>
+                    <l xml:id="l.51"><app xml:id="app.85">
+                            <rdg wit="#K" xml:id="rdg.179"><del hand="#AJ">Aki</del><add hand="#AJ"
+                                    type="corr">A ki</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.180">A ki</rdg>
+                        </app> gyászt és fénypalástot,</l>
+                    <l xml:id="l.52">Zöld <app xml:id="app.86">
+                            <rdg wit="#K" xml:id="rdg.181">'s</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.182">s</rdg>
+                        </app> fehér mezt váltogatsz fel.</l>
+                    <l xml:id="l.53">A nagy ég áldá<app xml:id="app.87">
+                            <rdg wit="#K" xml:id="rdg.183"><hi corresp="Arany János"
+                                    rend="underline">s</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.184">s</rdg>
+                        </app>a rajtad<app xml:id="app.88">
+                            <rdg wit="#K" xml:id="rdg.185"><del hand="#AJ">,</del><add hand="#AJ"
+                                    type="corr">!</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.186">!</rdg>
+                        </app></l>
+                    <l xml:id="l.54">Csak előre csüggedetlen;</l>
+                    <fw type="lineNum">[55]</fw>
+                    <l xml:id="l.55">Kis határodon nagy eszmék</l>
+                    <l xml:id="l.56">Fognak lenni küzdelemben.</l>
+                    <l xml:id="l.57"><app xml:id="app.89">
+                            <rdg wit="#K" xml:id="rdg.187">'S</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.188">S</rdg>
+                        </app> bár <app xml:id="app.90">
+                            <rdg wit="#K" xml:id="rdg.189">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.190">a</rdg>
+                        </app> szép s rút, a mosoly <app xml:id="app.91">
+                            <rdg wit="#K" xml:id="rdg.191">'s</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.192">s</rdg>
+                        </app> köny,</l>
+                    <l xml:id="l.58">Mint tavasz <app xml:id="app.92">
+                            <rdg wit="#K" xml:id="rdg.193">'s</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.194">s</rdg>
+                        </app><app xml:id="app.93">
+                            <rdg wit="#K" xml:id="rdg.195">tél</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.196">tél,</rdg>
+                        </app><app xml:id="app.94">
+                            <rdg wit="#K" xml:id="rdg.197"><del hand="#AJ">helyt
+                                    cserélnek;</del><add hand="#AJ" type="corr">kört vesz
+                                    rajta,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.198">kört vesz rajta,</rdg>
+                        </app></l>
+                    <fw type="pageNum">[58a]</fw>
+                    <l xml:id="l.59"><app xml:id="app.95">
+                            <rdg wit="#K" xml:id="rdg.199"><add hand="#AJ" type="corr">Fénye, árnya
+                                    lészen együtt:</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.200">Fénye, árnya lészen
+                                együtt:</rdg>
+                        </app></l>
+                    <l xml:id="l.60">Az <app xml:id="app.96">
+                            <rdg wit="#K" xml:id="rdg.201">úr</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.202">Úr<note type="critic"
+                                    xml:id="note.12">sh.</note></rdg>
+                        </app>úr kedve és haragja.</l>
+                    <fw type="lineNum">[60]</fw>
+                    <l xml:id="l.61"><app xml:id="app.97">
+                            <rdg wit="#K" xml:id="rdg.203"><del hand="#AJ">Lesz a' fény és árny
+                                    felettek.</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.204"/>
+                        </app><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.28"
+                        /></l>
+                </sp>
+                <stage xml:id="stage.3"><app xml:id="app.98">
+                        <rdg wit="#K" xml:id="rdg.205"/>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.206">(</rdg>
+                    </app>A csillagok védszellemei <app xml:id="app.99">
+                        <rdg wit="#K" xml:id="rdg.207"><del hand="#AJ">el vonúltak.</del><add
+                                hand="#AJ" type="corr">elvonúltak.</add></rdg>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.208">elvonultak.</rdg>
+                    </app><note type="critic" xml:id="note.13">Arany nyomdai utasítása tollal;
+                        „petit”.</note><app xml:id="app.100">
+                        <rdg wit="#K" xml:id="rdg.209"/>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.210">)</rdg>
+                    </app></stage>
+                <sp xml:id="speak.4">
+                    <speaker><app xml:id="app.101">
+                            <rdg wit="#K" xml:id="rdg.211"><hi rend="italic">Gábor
+                                    főangyal</hi><note type="critic" xml:id="note.14">Arany nyomdai
+                                    utasítása kék grafitceruzával: „compact”.</note></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.212">GÁBOR FŐANGYAL.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.62">Ki <app xml:id="app.102">
+                            <rdg wit="#K" xml:id="rdg.213">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.214">a</rdg>
+                        </app> végetlen ürt kimérted,</l>
+                    <l xml:id="l.63">Anyagot alkotván beléje,</l>
+                    <l xml:id="l.64">Me<app xml:id="app.103">
+                            <rdg wit="#K" xml:id="rdg.215"><del hand="#AJ">l</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.216"/>
+                        </app>ly <app xml:id="app.104">
+                            <rdg wit="#K" xml:id="rdg.217">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.218">a</rdg>
+                        </app> nagyságot <app xml:id="app.105">
+                            <rdg wit="#K" xml:id="rdg.219">'s</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.220">s</rdg>
+                        </app> messzeséget</l>
+                    <l xml:id="l.65">Egyetlen szódra hozta létre<app xml:id="app.106">
+                            <rdg wit="#K" xml:id="rdg.221">,</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.222">:</rdg>
+                        </app></l>
+                    <fw type="lineNum">[65]</fw>
+                    <l xml:id="l.66">Hozsána <app xml:id="app.107">
+                            <rdg wit="#K" xml:id="rdg.223"><del hand="#AJ">néked</del><add
+                                    hand="#AJ" type="corr">néked,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.224">néked,</rdg>
+                        </app><app xml:id="app.108">
+                            <rdg wit="#K" xml:id="rdg.225"><del hand="#AJ">e</del><add hand="#AJ"
+                                    type="corr">E</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.226">E</rdg>
+                        </app>szme<app xml:id="app.109">
+                            <rdg wit="#K" xml:id="rdg.227"><del hand="#AJ">.</del><add hand="#AJ"
+                                    type="corr">!</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.228">!</rdg>
+                        </app><stage xml:id="stage.4">(<app xml:id="app.110">
+                                <rdg wit="#K" xml:id="rdg.229"><del hand="#AJ">le borúl.</del><add
+                                        hand="#AJ" type="corr">Leborúl.</add><note type="critic"
+                                        xml:id="note.15">A kéziraton az aláhúzás ebben az esetben -
+                                        szemben a 70. és a 75. sorral - hiányzik; th.-nak
+                                        tekinthető. Arany nyomdai utasítása piros grafitceruzával:
+                                        „petit”.</note></rdg>
+                                <rdg wit="#EK61 #MK63" xml:id="rdg.230">Leborúl.</rdg>
+                            </app>)</stage></l>
+                </sp>
+                <sp xml:id="speak.5">
+                    <speaker><app xml:id="app.111">
+                            <rdg wit="#K" xml:id="rdg.231"><hi rend="italic">Mihály
+                                    főangyal.</hi><note type="critic" xml:id="note.16">Arany nyomdai
+                                    utasítása kék grafitceruzával: „comp.”</note></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.232">MIHÁLY FŐANGYAL.</rdg>
+                        </app><app xml:id="app.112">
+                            <rdg wit="#K" xml:id="rdg.233"><fw corresp="Arany János" type="pageNum"
+                                    >3</fw></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.234"/>
+                        </app></speaker>
+                    <l xml:id="l.67">Ki az örö<app xml:id="app.113">
+                            <rdg wit="#K" xml:id="rdg.235"><del hand="#AJ">k</del><add hand="#AJ"
+                                    type="corr">k</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.236">k</rdg>
+                        </app>ké <ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#p.29"/>
+                            változ<app xml:id="app.114">
+                            <rdg wit="#K" xml:id="rdg.237"><del hand="#AJ">ót és</del><add
+                                    hand="#AJ" type="corr">andót,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.238">andót,</rdg>
+                        </app></l>
+                    <l xml:id="l.68"><app xml:id="app.115">
+                            <rdg wit="#K" xml:id="rdg.239"><del hand="#AJ">A</del><add hand="#AJ"
+                                    type="corr">S</add> a változatlant</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.240">S változatlant<note
+                                    type="critic" xml:id="note.17">sh.</note></rdg>
+                        </app> egyesíted,<app xml:id="app.116">
+                            <rdg wit="#K" xml:id="rdg.241"/>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.242"><fw corresp="EK61 MK63"
+                                    type="pageNum">5</fw></rdg>
+                        </app></l>
+                    <l xml:id="l.69">Végetlent és időt alkotva,</l>
+                    <l xml:id="l.70">Egyéneket és nemzedéket<app xml:id="app.117">
+                            <rdg wit="#K" xml:id="rdg.243">,</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.244">:</rdg>
+                        </app></l>
+                    <fw type="lineNum">[70]</fw>
+                    <l xml:id="l.71">Hozsána <app xml:id="app.118">
+                            <rdg wit="#K" xml:id="rdg.245"><del hand="#AJ">néked</del><add
+                                    hand="#AJ" type="corr">néked,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.246">néked,</rdg>
+                        </app><app xml:id="app.119">
+                            <rdg wit="#K" xml:id="rdg.247"><del hand="#AJ">e</del><add hand="#AJ"
+                                    type="corr">E</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.248">E</rdg>
+                        </app>rő<app xml:id="app.120">
+                            <rdg wit="#K" xml:id="rdg.249"><del hand="#AJ">.</del><add hand="#AJ"
+                                    type="corr">!</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.250">!</rdg>
+                        </app><stage xml:id="stage.5">(<app xml:id="app.121">
+                                <rdg wit="#K" xml:id="rdg.251"><del hand="#AJ">le borúl.</del><add
+                                        hand="#AJ" type="corr"><hi rend="italic"
+                                        >Leborúl.</hi></add><note type="critic" xml:id="note.18"
+                                        >Arany nyomdai utasítása piros grafitceruzával:
+                                        „pet.”</note></rdg>
+                                <rdg wit="#EK61 #MK63" xml:id="rdg.252">Leborúl.</rdg>
+                            </app>)</stage></l>
+                </sp>
+                <sp xml:id="speak.6">
+                    <speaker><app xml:id="app.122">
+                            <rdg wit="#K" xml:id="rdg.253"><hi rend="italic">R<del hand="#AJ"
+                                        >á</del><add hand="#AJ" type="corr">á</add>fáel
+                                    főangyal.</hi><note type="critic" xml:id="note.19">Arany nyomdai
+                                    utasítása kék grafitceruzával: „comp.”</note></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.254">RÁFAEL FŐANGYAL.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.72">Ki b<app xml:id="app.123">
+                            <rdg wit="#K" xml:id="rdg.255"><del hand="#AJ">ó</del><add hand="#AJ"
+                                    type="corr">o</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.256">o</rdg>
+                        </app>ldogságot árjadoztatsz,<note type="critic" xml:id="note.20">Az utolsó
+                            szó -j- betűjét Arany kékceruzás aláhúzással jav.-ra kijelölte, de utóbb
+                            nem tért vissza rá.</note></l>
+                    <l xml:id="l.73">A testet öntudatra hozva,</l>
+                    <l xml:id="l.74">És bölcseséged részesévé</l>
+                    <l xml:id="l.75">Egész világot felavatva<app xml:id="app.124">
+                            <rdg wit="#K" xml:id="rdg.257">,</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.258">:</rdg>
+                        </app></l>
+                    <fw type="lineNum">[75]</fw>
+                    <l xml:id="l.76">Hozsána <app xml:id="app.125">
+                            <rdg wit="#K" xml:id="rdg.259"><del hand="#AJ">néked</del><add
+                                    hand="#AJ" type="corr">néked,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.260">néked,</rdg>
+                        </app><app xml:id="app.126">
+                            <rdg wit="#K" xml:id="rdg.261"><del hand="#AJ">j</del><add hand="#AJ"
+                                    type="corr">J</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.262">J</rdg>
+                        </app>óság<app xml:id="app.127">
+                            <rdg wit="#K" xml:id="rdg.263"><del hand="#AJ">.</del><add hand="#AJ"
+                                    type="corr">!</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.264">!</rdg>
+                        </app><stage xml:id="stage.6">(<app xml:id="app.128">
+                                <rdg wit="#K" xml:id="rdg.265"><del hand="#AJ">le borúl.</del><add
+                                        hand="#AJ" type="corr"><hi rend="italic"
+                                        >Leborúl.</hi></add><note type="critic" xml:id="note.21"
+                                        >Arany nyomdai utasítása piros grafitceruzával:
+                                        „pet.”</note></rdg>
+                                <rdg wit="#EK61 #MK63" xml:id="rdg.266"><hi rend="italic"
+                                        >Leborúl.</hi></rdg>
+                            </app>)</stage></l>
+                </sp>
+                <stage xml:id="stage.7">(<app xml:id="app.129">
+                        <rdg wit="#K" xml:id="rdg.267"><del hand="#AJ">s</del><add hand="#AJ"
+                                type="corr">S</add></rdg>
+                        <rdg wit="#EK61 #MK63" xml:id="rdg.268">S</rdg>
+                    </app>zünet.)<note type="critic" xml:id="note.22">Arany nyomdai utasítása piros
+                        grafitceruzával: „p.” [= petit]</note></stage>
+                <sp xml:id="speak.7">
+                    <speaker><app xml:id="app.130">
+                            <rdg wit="#K" xml:id="rdg.269"><hi rend="italic">Az <del hand="#AJ"
+                                        >ú</del><add corresp="Arany János" type="corr"
+                                    >Ú</add>r.</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.270">AZ ÚR.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.77"><app xml:id="app.131">
+                            <rdg wit="#K" xml:id="rdg.271">'S</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.272">S</rdg>
+                        </app><app xml:id="app.132">
+                            <rdg wit="#K" xml:id="rdg.273"><del hand="#AJ">te</del><add hand="#AJ"
+                                    type="corr">te,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.274">te,</rdg>
+                        </app><app xml:id="app.133">
+                            <rdg wit="#K" xml:id="rdg.275">Lúc<del hand="#AJ">z</del>ifer,</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.276">Lucifer</rdg>
+                        </app><app xml:id="app.134">
+                            <rdg wit="#K" xml:id="rdg.277">hallgatsz</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.278">hallgatsz,</rdg>
+                        </app><app xml:id="app.135">
+                            <rdg wit="#K" xml:id="rdg.279"><del hand="#AJ">Lucifer</del>,</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.280"/>
+                        </app>önhitten állsz,</l>
+                    <l xml:id="l.78">Dicséretemre nem találsz-e szót,</l>
+                    <l xml:id="l.79">Vagy nem tetszik tán, <app xml:id="app.136">
+                            <rdg wit="#K" xml:id="rdg.281"><del hand="#AJ">amit</del><add hand="#AJ"
+                                    type="corr">a mit</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.282">a mit</rdg>
+                        </app> alkoték?</l>
+                </sp>
+                <sp xml:id="speak.8">
+                    <speaker><app xml:id="app.137">
+                            <rdg wit="#K" xml:id="rdg.283"><hi rend="italic">Lucifer.</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.284">LUCIFER.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.80"><app xml:id="app.138">
+                            <rdg wit="#K" xml:id="rdg.285">'S</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.286">S</rdg>
+                        </app> mi tessék rajta? Hogy nehány anyag</l>
+                    <fw type="lineNum">[80]</fw>
+                    <l xml:id="l.81"><app xml:id="app.139">
+                            <rdg wit="#K" xml:id="rdg.287"><del hand="#AJ">Más más</del><add
+                                    hand="#AJ" type="corr">Más-más</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.288">Más-más</rdg>
+                        </app> tulajdonokkal felruházva,</l>
+                    <l xml:id="l.82">Miket előbb, hogysem nyilatkozának,</l>
+                    <l xml:id="l.83">Nem is sejtettél bennök, <app xml:id="app.140">
+                            <rdg wit="#K" xml:id="rdg.289">úgylehet</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.290">úgy lehet,</rdg>
+                        </app></l>
+                    <l xml:id="l.84"><app xml:id="app.141">
+                            <rdg wit="#K" xml:id="rdg.291"><del hand="#AJ">De <del
+                                        corresp="Madách Imre">már</del> még hais</del><add
+                                    hand="#AJ" type="corr">Vagy, ha igen,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.292">Vagy, ha igen,</rdg>
+                        </app> másítni nincs erőd, <ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.30"
+                        /></l>
+                    <l xml:id="l.85">Nehány golyóba <app xml:id="app.142">
+                            <rdg wit="#K" xml:id="rdg.293">össze-vissza</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.294">összevissza</rdg>
+                        </app> gyúrva,</l>
+                    <fw type="lineNum">[85]</fw>
+                    <l xml:id="l.86">Most vonzza, űzi, és taszítja egymást,</l>
+                    <l xml:id="l.87">Nehány <app xml:id="app.143">
+                            <rdg wit="#K" xml:id="rdg.295">f<gap extent="2" reason="illegible"
+                                    unit="char"/>éregben</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.296">féregben</rdg>
+                        </app> öntudatra kél,</l>
+                    <l xml:id="l.88">Míg minden megtelt, míg minden <app xml:id="app.144">
+                            <rdg wit="#K" xml:id="rdg.297">kihűlt,</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.298">kihűlt</rdg>
+                        </app></l>
+                    <l xml:id="l.89">És megmarad <app xml:id="app.145">
+                            <rdg wit="#K" xml:id="rdg.299">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.300">a</rdg>
+                        </app> semleges salak. -</l>
+                    <l xml:id="l.90">Az ember <app xml:id="app.146">
+                            <rdg wit="#K" xml:id="rdg.301">ezt</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.302">ezt,</rdg>
+                        </app> ha egykor <app xml:id="app.147">
+                            <rdg wit="#K" xml:id="rdg.303"><del hand="#AJ">el lesi</del><add
+                                    hand="#AJ" type="corr">ellesi</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.304">ellesi,</rdg>
+                        </app></l>
+                    <fw type="lineNum">[90]</fw>
+                    <l xml:id="l.91"><app xml:id="app.148">
+                            <rdg wit="#K" xml:id="rdg.305">Vegy<gap extent="unknown"
+                                    reason="illegible" unit="char"/>konyhájában</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.306">Vegykonyhájában</rdg>
+                        </app> szintén megteszi. -<app xml:id="app.149">
+                            <rdg wit="#K" xml:id="rdg.307"/>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.308"><fw corresp="EK61 MK63"
+                                    type="pageNum">6</fw></rdg>
+                        </app></l>
+                    <l xml:id="l.92"><app xml:id="app.150">
+                            <rdg wit="#K" xml:id="rdg.309"><del hand="#MI">E</del><add hand="#MI"
+                                    type="corr">Te</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.310">Te</rdg>
+                        </app> nagy konyhá<app xml:id="app.151">
+                            <rdg wit="#K" xml:id="rdg.311"><del hand="#MI">ban</del><add hand="#MI"
+                                    type="corr">dba</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.312">dba</rdg>
+                        </app> helyzéd embered</l>
+                    <l xml:id="l.93"><app xml:id="app.152">
+                            <rdg wit="#K" xml:id="rdg.313">'S</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.314">elnézed</rdg>
+                        </app><app xml:id="app.153">
+                            <rdg wit="#K" xml:id="rdg.315"><del hand="#MI">ő is</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.316"/>
+                        </app><app xml:id="app.154">
+                            <rdg wit="#K" xml:id="rdg.317">néki</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.318">néki,</rdg>
+                        </app> hogy kontárkodik,</l>
+                    <fw type="pageNum">[92a]</fw>
+                    <l xml:id="l.94">Kotyvaszt <app xml:id="app.155">
+                            <rdg wit="#K" xml:id="rdg.319">'s</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.320">s</rdg>
+                        </app> magát istennek <app xml:id="app.156">
+                            <rdg wit="#K" xml:id="rdg.321">képzeli</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.322">képzeli.</rdg>
+                        </app></l>
+                    <l xml:id="l.95">De hogyha elfecsérli <app xml:id="app.157">
+                            <rdg wit="#K" xml:id="rdg.323">'s</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.324">s</rdg>
+                        </app> rontja majd</l>
+                    <l xml:id="l.96">A főztet, akkor gyúlsz késő haragra.</l>
+                    <fw type="lineNum">[95]</fw>
+                    <l xml:id="l.97">Pedig mit vársz mást egy m<app xml:id="app.158">
+                            <rdg wit="#K" xml:id="rdg.325">ű</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.326">ü</rdg>
+                        </app>kedvelőtől<app xml:id="app.159">
+                            <rdg wit="#K" xml:id="rdg.327"><del hand="#MI">--</del><add hand="#MI"
+                                    type="corr">?</add>--</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.328">? -</rdg>
+                        </app></l>
+                    <l xml:id="l.98">Aztán mi végre az egész teremtés?</l>
+                    <l xml:id="l.99">Dicsőségedre írtál költeményt,</l>
+                    <l xml:id="l.100"><app xml:id="app.160">
+                            <rdg wit="#K" xml:id="rdg.329"><del hand="#AJ">Azt bé</del><add
+                                    hand="#AJ" type="corr">Belé</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.330">Belé</rdg>
+                        </app>helyezted egy rosz gépezetbe</l>
+                    <l xml:id="l.101">És meg nem únod véges végtelen,<app xml:id="app.161">
+                            <rdg wit="#K" xml:id="rdg.331"><fw corresp="Arany János" type="pageNum"
+                                    >4</fw></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.332"/>
+                        </app></l>
+                    <fw type="lineNum">[100]</fw>
+                    <l xml:id="l.102">Hogy az <app xml:id="app.162">
+                            <rdg wit="#K" xml:id="rdg.333">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.334">a</rdg>
+                        </app> nóta mind<app xml:id="app.163">
+                            <rdg wit="#K" xml:id="rdg.335"><del hand="#MI">é</del><add hand="#MI"
+                                    type="corr">i</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.336">i</rdg>
+                        </app>g úgy megyen.</l>
+                    <l xml:id="l.103">Méltó-e <app xml:id="app.164">
+                            <rdg wit="#K #EK61" xml:id="rdg.337">illyen</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.338">ilyen</rdg>
+                        </app><app xml:id="app.165">
+                            <rdg wit="#K" xml:id="rdg.339"><del hand="#AJ">öreg úrhoz</del><add
+                                    hand="#AJ" type="corr">aggastyánhoz</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.340">aggastyánhoz</rdg>
+                        </app><app xml:id="app.166">
+                            <rdg wit="#K" xml:id="rdg.341">i<del hand="#AJ">l</del><add hand="#AJ"
+                                    type="corr">ily</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.342">e</rdg>
+                        </app><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.31"
+                        /></l>
+                    <l xml:id="l.104"><app xml:id="app.167">
+                            <rdg wit="#K" xml:id="rdg.343">J<hi corresp="Arany János" rend="italic"
+                                    >á</hi>t<hi corresp="Arany János" rend="italic">é</hi>k,</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.344">Játék,</rdg>
+                        </app><app xml:id="app.168">
+                            <rdg wit="#K" xml:id="rdg.345">me<del hand="#AJ">l</del>lyen</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.346">melyen</rdg>
+                        </app> csak gyermekszív <app xml:id="app.169">
+                            <rdg wit="#K" xml:id="rdg.347"><del hand="#MI">ör</del><add hand="#MI"
+                                    type="corr">hev</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.348">hev</rdg>
+                        </app>űlhet<app xml:id="app.170">
+                            <rdg wit="#K" xml:id="rdg.349"><del hand="#AJ">,</del><add hand="#AJ"
+                                    type="corr">?</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.350">?</rdg>
+                        </app></l>
+                    <l xml:id="l.105">Hol sárba gyúrt kis szikra mímeli</l>
+                    <l xml:id="l.106">Urát, de torzalak csak, képe nem<app xml:id="app.171">
+                            <rdg wit="#K" xml:id="rdg.351"><del hand="#AJ">:</del><add hand="#AJ"
+                                    type="corr">;</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.352">;</rdg>
+                        </app></l>
+                    <fw type="lineNum">[105]</fw>
+                    <l xml:id="l.107"><app xml:id="app.172">
+                            <rdg wit="#K" xml:id="rdg.353"><del hand="#AJ">Végzet</del><add
+                                    hand="#AJ" type="corr">Végzet,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.354">Végzet,</rdg>
+                        </app><app xml:id="app.173">
+                            <rdg wit="#K" xml:id="rdg.355"><del hand="#AJ">s</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.356"/>
+                        </app> szabadság egymást <app xml:id="app.174">
+                            <rdg wit="#K" xml:id="rdg.357"><del hand="#AJ">üldözi</del><add
+                                    hand="#AJ" type="corr">üldözi,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.358">üldözi,</rdg>
+                        </app></l>
+                    <l xml:id="l.108">S hiányzik az öszhangzó értelem. -</l>
+                </sp>
+                <sp xml:id="speak.9">
+                    <speaker><app xml:id="app.175">
+                            <rdg wit="#K" xml:id="rdg.359"><hi rend="italic">Az <del hand="#AJ"
+                                        >ú</del><add corresp="Arany János" type="corr"
+                                >Ú</add>r</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.360">AZ ÚR.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.109">Csak hódolat illet meg, nem birálat.</l>
+                </sp>
+                <sp xml:id="speak.10">
+                    <speaker><app xml:id="app.176">
+                            <rdg wit="#K" xml:id="rdg.361"><del hand="#AJ"><hi rend="underline"
+                                        >Luci</hi></del><add hand="#AJ" type="corr"><hi
+                                        rend="underline">Lucifer.</hi></add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.362">LUCIFER.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.110">Nem adhatok mást, <app xml:id="app.177">
+                            <rdg wit="#K" xml:id="rdg.363"><del hand="#AJ">mint</del><add hand="#AJ"
+                                    type="corr">csak</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.364">csak</rdg>
+                        </app> mi lényegem.</l>
+                </sp>
+                <sp xml:id="speak.11">
+                    <stage xml:id="stage.8">(Az angyalokra mutatva.)</stage>
+                    <l xml:id="l.111">Dicsér eléggé e<app xml:id="app.178">
+                            <rdg wit="#K" xml:id="rdg.365"><del hand="#AJ">'</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.366"/>
+                        </app> hitvány sereg,</l>
+                    <fw type="lineNum">[110]</fw>
+                    <l xml:id="l.112">És illik is, hogy ők dicsérjenek.</l>
+                    <l xml:id="l.113">Te szülted őket, mint árnyát <app xml:id="app.179">
+                            <rdg wit="#K" xml:id="rdg.367">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.368">a</rdg>
+                        </app> fény,</l>
+                    <l xml:id="l.114">De mindöröktől fogva élek én.</l>
+                </sp>
+                <sp xml:id="speak.12">
+                    <speaker><app xml:id="app.180">
+                            <rdg wit="#K" xml:id="rdg.369"><hi rend="italic">Az <del hand="#AJ"
+                                        >ú</del><add corresp="Arany János" type="corr"
+                                    >Ú</add>r.</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.370">AZ ÚR.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.115"><app xml:id="app.181">
+                            <rdg wit="#K" xml:id="rdg.371"><del hand="#AJ">Hah</del><add hand="#AJ"
+                                    type="corr">Hah,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.372">Hah,</rdg>
+                        </app> szemtelen! nem-<note type="critic" xml:id="note.23">Bizonytalanság a
+                            K-n, talán félbehagyott nem-e alak.</note> szült-e <app xml:id="app.182">
+                            <rdg wit="#K" xml:id="rdg.373"><del hand="#MI"><gap extent="3"
+                                        reason="illegible" unit="char"/>z</del><add hand="#MI"
+                                    type="corr">az</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.374">az</rdg>
+                        </app> anyag,</l>
+                    <l xml:id="l.116"><app xml:id="app.183">
+                            <rdg wit="#K" xml:id="rdg.375"/>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.376"><fw corresp="EK61 MK63"
+                                    type="pageNum">7</fw></rdg>
+                        </app>Hol v<app xml:id="app.184">
+                            <rdg wit="#K" xml:id="rdg.377"><del hand="#AJ">ó</del><add hand="#AJ"
+                                    type="corr">o</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.378">o</rdg>
+                        </app>lt köröd, hol v<app xml:id="app.185">
+                            <rdg wit="#K" xml:id="rdg.379"><del hand="#AJ">ó</del><add hand="#AJ"
+                                    type="corr">o</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.380">o</rdg>
+                        </app>lt erőd előbb?</l>
+                </sp>
+                <sp xml:id="speak.13">
+                    <speaker><app xml:id="app.186">
+                            <rdg wit="#K" xml:id="rdg.381"><hi rend="italic"><del hand="#AJ"
+                                        >Luci</del>Luci<add corresp="Arany János" type="corr"
+                                        >fer.</add></hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.382">LUCIFER.</rdg>
+                        </app></speaker>
+                    <fw type="lineNum">[115]</fw>
+                    <l xml:id="l.117">Ezt tőled én is <app xml:id="app.187">
+                            <rdg wit="#K #EK61" xml:id="rdg.383">szintúgy</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.384">szintugy</rdg>
+                        </app> kérdhetem.</l>
+                </sp>
+                <sp xml:id="speak.14">
+                    <speaker><app xml:id="app.188">
+                            <rdg wit="#K" xml:id="rdg.385"><hi rend="italic">Az <del hand="#AJ"
+                                        >ú</del><add corresp="Arany János" type="corr"
+                                    >Ú</add>r.</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.386">AZ ÚR.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.118">Én végtelen időtől tervezem</l>
+                    <l xml:id="l.119"><app xml:id="app.189">
+                            <rdg wit="#K" xml:id="rdg.387">'S</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.388">S</rdg>
+                        </app> már <app xml:id="app.190">
+                            <rdg wit="#K" xml:id="rdg.389"><del hand="#AJ"><hi rend="super"
+                                    >.</hi></del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.390"/>
+                        </app> bennem élt<app xml:id="app.191">
+                            <rdg wit="#K" xml:id="rdg.391"><hi corresp="Arany János"
+                                    rend="underline">,</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.392">,</rdg>
+                        </app> mi mostan léte<app xml:id="app.192">
+                            <rdg wit="#K" xml:id="rdg.393"><hi corresp="Arany János" rend="italic"
+                                    >s</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.394">s</rdg>
+                        </app>űlt.</l>
+                </sp>
+                <sp xml:id="speak.15">
+                    <speaker><app xml:id="app.193">
+                            <rdg wit="#K" xml:id="rdg.395"><del hand="#AJ"><hi rend="underline"
+                                        >Luci</hi></del><add hand="#AJ" type="corr"><hi
+                                        rend="underline">Lucifer.</hi></add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.396">LUCIFER.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.120"><app xml:id="app.194">
+                            <rdg wit="#K" xml:id="rdg.397">'s</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.398">S</rdg>
+                        </app> nem érzéd<app xml:id="app.195">
+                            <rdg wit="#K #EK61" xml:id="rdg.399">-é</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.400">-e</rdg>
+                        </app> eszméid közt az <app xml:id="app.196">
+                            <rdg wit="#K" xml:id="rdg.401">űrt</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.402">ürt,</rdg>
+                        </app></l>
+                    <l xml:id="l.121"><app xml:id="app.197">
+                            <rdg wit="#K" xml:id="rdg.403">Me<del hand="#AJ">l</del>ly</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.404">Mely</rdg>
+                        </app> minden létnek gátjaúl vala,</l>
+                    <fw type="lineNum">[120]</fw>
+                    <l xml:id="l.122">S teremtni kényszerűltél <app xml:id="app.198">
+                            <rdg wit="#K" xml:id="rdg.405">á<del hand="#AJ">l</del>ltala</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.406">általa</rdg>
+                        </app>?</l>
+                    <l xml:id="l.123"><app xml:id="app.199">
+                            <rdg wit="#K" xml:id="rdg.407"><del hand="#MI">E gátnak</del><gap
+                                    extent="unknown" reason="illegible" unit="char"/></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.408"/>
+                        </app>Lucifer volt <app xml:id="app.200">
+                            <rdg wit="#K" xml:id="rdg.409">e'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.410">e</rdg>
+                        </app> gátnak <app xml:id="app.201">
+                            <rdg wit="#K" xml:id="rdg.411">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.412">a</rdg>
+                        </app> neve,</l>
+                    <l xml:id="l.124"><app xml:id="app.202">
+                            <rdg wit="#K" xml:id="rdg.413"><del hand="#MI">A'</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.414"/>
+                        </app> Ki <app xml:id="app.203">
+                            <rdg wit="#K" xml:id="rdg.415">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.416">a</rdg>
+                        </app><app xml:id="app.204">
+                            <rdg wit="#K" xml:id="rdg.417">tagadás<del hand="#MI">nak</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.418">tagadás</rdg>
+                        </app><app xml:id="app.205">
+                            <rdg wit="#K" xml:id="rdg.419"><del hand="#MI">örök</del><add hand="#MI"
+                                    type="corr">ősi</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.420">ősi</rdg>
+                        </app> szelleme. -</l>
+                    <l xml:id="l.125">Győztél felettem, mert az végzetem,</l>
+                    <l xml:id="l.126">Hogy harc<app xml:id="app.206">
+                            <rdg wit="#K" xml:id="rdg.421"><hi corresp="Arany János" rend="italic"
+                                    >z</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.422">z</rdg>
+                        </app>aimban bukjam szüntelen,</l>
+                    <fw type="lineNum">[125]</fw>
+                    <l xml:id="l.127">De új erővel <app xml:id="app.207">
+                            <rdg wit="#K" xml:id="rdg.423"><del hand="#AJ">fel keljek</del><add
+                                    hand="#AJ" type="corr">felkeljek</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.424">felkeljek</rdg>
+                        </app> megint.</l>
+                    <l xml:id="l.128">Te anyagot szültél, én tért nyerék,</l>
+                    <l xml:id="l.129">Az élet mellett ott van <app xml:id="app.208">
+                            <rdg wit="#K" xml:id="rdg.425">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.426">a</rdg>
+                        </app> halál,</l>
+                    <l xml:id="l.130">A b<app xml:id="app.209">
+                            <rdg wit="#K" xml:id="rdg.427"><del hand="#AJ">ó</del><add hand="#AJ"
+                                    type="corr">o</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.428">o</rdg>
+                        </app>ldogságnál a leh<app xml:id="app.210">
+                            <rdg wit="#K" xml:id="rdg.429">o<note type="critic" xml:id="note.24"
+                                    >Madách sh.-ját Arany kijelölés nélkül, vlsz. a korrektúrában
+                                    jav.</note></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.430">a</rdg>
+                        </app>ngolás,</l>
+                    <l xml:id="l.131">A fénynél árnyék, kétség és remény. -</l>
+                    <fw type="lineNum">[130]</fw>
+                    <l xml:id="l.132">Ott állok, <app xml:id="app.211">
+                            <rdg wit="#K" xml:id="rdg.431"><gap extent="3" reason="illegible"
+                                    unit="char"/></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.432"/>
+                        </app> látod, <app xml:id="app.212">
+                            <rdg wit="#K" xml:id="rdg.433"><gap extent="3" reason="illegible"
+                                    unit="char"/><add hand="#MI" type="corr">hol te,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.434">hol te,</rdg>
+                        </app> mindenütt <app xml:id="app.213">
+                            <rdg wit="#K" xml:id="rdg.435"><del hand="#AJ">ahol te</del><add
+                                    hand="#AJ" type="corr">,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.436">,</rdg>
+                        </app><app xml:id="app.214">
+                            <rdg wit="#K" xml:id="rdg.437"><fw corresp="Arany János" type="pageNum"
+                                    >5</fw></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.438"/>
+                        </app></l>
+                    <l xml:id="l.133"><app xml:id="app.215">
+                            <rdg wit="#K" xml:id="rdg.439">'S</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.440">S</rdg>
+                        </app> ki így <app xml:id="app.216">
+                            <rdg wit="#K" xml:id="rdg.441"><del hand="#AJ">i</del><add hand="#AJ"
+                                    type="corr">ö</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.442">ö</rdg>
+                        </app>sm<app xml:id="app.217">
+                            <rdg wit="#K" xml:id="rdg.443"><hi corresp="Arany János" rend="italic"
+                                    >é</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.444">é</rdg>
+                        </app>rlek, még hódoljak-e?</l>
+                </sp>
+                <sp xml:id="speak.16">
+                    <speaker><app xml:id="app.218">
+                            <rdg wit="#K" xml:id="rdg.445"><hi rend="italic">Az <del hand="#AJ"
+                                        >ú</del><add corresp="Arany János" type="corr"
+                                    >Ú</add>r.</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.446">AZ ÚR.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.134">Hah pártos szellem! el előlem, el,</l>
+                    <l xml:id="l.135"><app xml:id="app.219">
+                            <rdg wit="#K" xml:id="rdg.447"><del hand="#AJ">Meg
+                                    semmíthetnélek,</del><add hand="#AJ" type="corr"
+                                    >Megsemmíthetnélek,</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.448">Megsemmíthetnélek,</rdg>
+                        </app> de nem teszem,</l>
+                    <l xml:id="l.136">Száműzve minden szellemkapcsolatból</l>
+                    <fw type="lineNum">[135]</fw>
+                    <l xml:id="l.137"><app xml:id="app.220">
+                            <rdg wit="#K" xml:id="rdg.449">Küzdj'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.450">Küzdj</rdg>
+                        </app><app xml:id="app.221">
+                            <rdg wit="#K" xml:id="rdg.451"><del hand="#MI">az anyag</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.452"/>
+                        </app><app xml:id="app.222">
+                            <rdg wit="#K" xml:id="rdg.453">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.454">a</rdg>
+                        </app> salak közt, gyűlölt, <app xml:id="app.223">
+                            <rdg wit="#K" xml:id="rdg.455">ídegen</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.456">idegen.</rdg>
+                        </app></l>
+                    <l xml:id="l.138"><app xml:id="app.224">
+                            <rdg wit="#K" xml:id="rdg.457">'S</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.458">S</rdg>
+                        </app> rideg magányod fájó érzetében</l>
+                    <l xml:id="l.139">Gyötörjön <app xml:id="app.225">
+                            <rdg wit="#K" xml:id="rdg.459">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.460">a</rdg>
+                        </app><app xml:id="app.226">
+                            <rdg wit="#K #EK61" xml:id="rdg.461">végetlen</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.462">végtelen</rdg>
+                        </app> gondolat,</l>
+                    <l xml:id="l.140">Hogy hasztalan rázod porlánczodat,</l>
+                    <l xml:id="l.141"><app xml:id="app.227">
+                            <rdg wit="#K" xml:id="rdg.463"/>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.464"><fw corresp="EK61 MK63"
+                                    type="pageNum">8</fw></rdg>
+                        </app><app xml:id="app.228">
+                            <rdg wit="#K #EK61" xml:id="rdg.465">Csatád</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.466">Csatád,</rdg>
+                        </app><app xml:id="app.229">
+                            <rdg wit="#K #EK61" xml:id="rdg.467">hiú,</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.468">hiú</rdg>
+                        </app> az <app xml:id="app.230">
+                            <rdg wit="#K" xml:id="rdg.469"><del hand="#AJ">ú</del><add hand="#AJ"
+                                    type="corr">Ú</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.470">Ú</rdg>
+                        </app>rnak ellenében.</l>
+                </sp>
+                <sp xml:id="speak.17">
+                    <speaker><app xml:id="app.231">
+                            <rdg wit="#K" xml:id="rdg.471"><del hand="#AJ"><hi rend="underline"
+                                        >Luci</hi></del><add hand="#AJ" type="corr"><hi
+                                        rend="underline">Lucifer.</hi></add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.472">LUCIFER.</rdg>
+                        </app></speaker>
+                    <fw type="lineNum">[140]</fw>
+                    <l xml:id="l.142">Nem úgy, <app xml:id="app.232">
+                            <rdg wit="#K" xml:id="rdg.473">illy</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.474">ily</rdg>
+                        </app> könnyen nem löksz el magadtól,</l>
+                    <l xml:id="l.143">Mint hitvány eszközt, <app xml:id="app.233">
+                            <rdg wit="#K" xml:id="rdg.475">melly</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.476">mely</rdg>
+                        </app> felesleges lett<app xml:id="app.234">
+                            <rdg wit="#K" xml:id="rdg.477"><del hand="#MI">,</del><add hand="#MI"
+                                    type="corr">.</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.478">.</rdg>
+                        </app> -</l>
+                    <l xml:id="l.144">Együtt teremténk<app xml:id="app.235">
+                            <rdg wit="#K" xml:id="rdg.479"><del hand="#AJ">,</del><add hand="#AJ"
+                                    type="corr">:</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.480">:</rdg>
+                        </app> osztályrészemet</l>
+                    <l xml:id="l.145">Követelem.</l>
+                </sp>
+                <sp xml:id="speak.18">
+                    <speaker><app xml:id="app.236">
+                            <rdg wit="#K" xml:id="rdg.481"><hi rend="italic">Az <del hand="#AJ"
+                                        >u</del><add corresp="Arany János" type="corr"
+                                    >Ú</add>r.</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.482">AZ ÚR.</rdg>
+                        </app></speaker>
+                    <stage xml:id="stage.9">(<app xml:id="app.237">
+                            <rdg wit="#K" xml:id="rdg.483"><del hand="#MI">g</del><add hand="#MI"
+                                    type="corr">G</add>únynyal.</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.484">Gúnnyal.</rdg>
+                        </app>)</stage>
+                    <l xml:id="l.146">Legyen, <app xml:id="app.238">
+                            <rdg wit="#K" xml:id="rdg.485">amint</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.486">a mint</rdg>
+                        </app> kivánod.</l>
+                    <l xml:id="l.147"><app xml:id="app.239">
+                            <rdg wit="#K" xml:id="rdg.487"><del hand="#MI">Nézd ott a' földön
+                                        éden<del hand="#MI">fái közt</del></del><add hand="#MI"
+                                    type="corr">Tekints</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.488">Tekints</rdg>
+                        </app><app xml:id="app.240">
+                            <rdg wit="#K" xml:id="rdg.489">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.490">a</rdg>
+                        </app> földre, Éden fái közt</l>
+                    <fw type="lineNum">[145]</fw>
+                    <l xml:id="l.148"><app xml:id="app.241">
+                            <rdg wit="#K" xml:id="rdg.491"><del hand="#MI">Két fát megátkozok 's
+                                    tiéd legyen</del><add hand="#MI" type="corr">E két sudar
+                                    fát</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.492">E két sudar fát</rdg>
+                        </app><app xml:id="app.242">
+                            <rdg wit="#K" xml:id="rdg.493">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.494">a</rdg>
+                        </app> kellő középen</l>
+                    <fw type="lineNum">[145a]</fw>
+                    <l xml:id="l.149">Megátkozom, <app xml:id="app.243">
+                            <rdg wit="#K" xml:id="rdg.495">S</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.496"/>
+                        </app> a<app xml:id="app.244">
+                            <rdg wit="#K" xml:id="rdg.497"><hi corresp="Arany János" rend="italic"
+                                    >z</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.498">z</rdg>
+                        </app>tán tiéd legyen.</l>
+                </sp>
+                <sp xml:id="speak.19">
+                    <speaker><app xml:id="app.245">
+                            <rdg wit="#K" xml:id="rdg.499"><del hand="#AJ"><hi rend="underline"
+                                        >Luci</hi></del><add hand="#AJ" type="corr"><hi
+                                        rend="underline">Lucifer.</hi></add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.500">LUCIFER.</rdg>
+                        </app></speaker>
+                    <l xml:id="l.150">Fukar kezekkel mérsz, de <app xml:id="app.246">
+                            <rdg wit="#K" xml:id="rdg.501"><del hand="#MI">hadd legyen,</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.502"/>
+                        </app> hi<app xml:id="app.247">
+                            <rdg wit="#K" xml:id="rdg.503"><hi corresp="Arany János" rend="italic"
+                                    >sz</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.504">sz</rdg>
+                        </app> nagy úr <app xml:id="app.248">
+                            <rdg wit="#K" xml:id="rdg.505">vagy -</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.506">vagy</rdg>
+                        </app></l>
+                    <l xml:id="l.151"><app xml:id="app.249">
+                            <rdg wit="#K" xml:id="rdg.507"><del hand="#MI">E</del><add hand="#MI"
+                                    type="corr">'S</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.508">S</rdg>
+                        </app> egy talpalatnyi föld <app xml:id="app.250">
+                            <rdg wit="#K" xml:id="rdg.509">nekem elég<del hand="#MI">,</del></rdg>
+                            <rdg wit="#EK61" xml:id="rdg.510">nekem elég.</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.511">elég nekem.</rdg>
+                        </app><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.32"
+                        /></l>
+                    <l xml:id="l.152"><app xml:id="app.251">
+                            <rdg wit="#K" xml:id="rdg.512"><del hand="#MI">A'</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.513"/>
+                        </app>Hol <app xml:id="app.252">
+                            <rdg wit="#K" xml:id="rdg.514">a'</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.515">a</rdg>
+                        </app> tagadás lábát megvet<app xml:id="app.253">
+                            <rdg wit="#K" xml:id="rdg.516"><del hand="#MI">het</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.517"/>
+                        </app>i,</l>
+                    <l xml:id="l.153"><app xml:id="app.254">
+                            <rdg wit="#K" xml:id="rdg.518"><del hand="#MI">'S v</del><add hand="#MI"
+                                    type="corr">V</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.519">V</rdg>
+                        </app>ilágodat meg fogja dönteni. <stage xml:id="stage.10">(<app
+                                xml:id="app.255">
+                                <rdg wit="#K" xml:id="rdg.520"><del hand="#AJ">i</del><add
+                                        hand="#AJ" type="corr">I</add></rdg>
+                                <rdg wit="#EK61 #MK63" xml:id="rdg.521">I</rdg>
+                            </app>ndúl.)</stage></l>
+                </sp>
+                <sp xml:id="speak.20">
+                    <speaker><app xml:id="app.256">
+                            <rdg wit="#K" xml:id="rdg.522"><hi rend="italic">Angyalok
+                                kara.</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.523">ANGYALOK KARA.</rdg>
+                        </app></speaker>
+                    <fw type="lineNum">[150]</fw>
+                    <l xml:id="l.154">El isten <app xml:id="app.257">
+                            <rdg wit="#K #EK61" xml:id="rdg.524">színétől</rdg>
+                            <rdg wit="#MK63" xml:id="rdg.525">szinétől,</rdg>
+                        </app> megátkozott<app xml:id="app.258">
+                            <rdg wit="#K" xml:id="rdg.526"><hi corresp="Arany János" rend="italic"
+                                    >.</hi></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.527">,</rdg>
+                        </app></l>
+                    <fw type="lineNum">[151]</fw>
+                    <l xml:id="l.155">Hozsán’ <app xml:id="app.259">
+                            <rdg wit="#K" xml:id="rdg.528"><del hand="#AJ">a</del>'<add hand="#AJ"
+                                    type="corr">az</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.529">az</rdg>
+                        </app><app xml:id="app.260">
+                            <rdg wit="#K" xml:id="rdg.530"><del hand="#AJ">u</del><add hand="#AJ"
+                                    type="corr">U</add>r<add hand="#AJ" type="corr">nak</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.531">Úrnak</rdg>
+                        </app><app xml:id="app.261">
+                            <rdg wit="#K" xml:id="rdg.532">!</rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.533">,</rdg>
+                        </app> ki <app xml:id="app.262">
+                            <rdg wit="#K" xml:id="rdg.534"><del hand="#MI">szent</del></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.535"/>
+                        </app> törvényt <app xml:id="app.263">
+                            <rdg wit="#K" xml:id="rdg.536"><del hand="#AJ">szabott.</del><add
+                                    hand="#AJ" type="corr">hozott.</add></rdg>
+                            <rdg wit="#EK61 #MK63" xml:id="rdg.537">hozott.</rdg>
+                        </app> -<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.33"
+                            /><note type="critic" xml:id="note.25">A sokat javított [151] első
+                            változatát megismételjük: „Hozsána ur! ki szent törvényt: szabott.” A
+                            szín össz-sorszámát Madách maga rögzítette a munkalapom „1 Mennyország
+                            151”</note></l>
+                </sp>
+            </div>
+        </body>
+    </text>
+</TEI>

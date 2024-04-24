@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="13" type="main">Fordítások, külföldi recepció</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.13</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.13.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>699-703.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Fordítások, külföldi recepció</head>
+                <p xml:id="p.1">Amint arra a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#p.9"
+                                ><title><hi rend="italic">Fogadtatás</hi></title> c. alfejezetben
+                        (682.)</ref> utaltunk, az <date when="1861-10-31">1861. október 31-i</date>,
+                            <orgName><abbr>KisfT</abbr></orgName>-i felolvasás sikere már felvetette
+                    a világirodalmi befogadás és egyben a drámai költemény fordítói lehetőségeit is.
+                        <persName>Nagy Iván<idno type="ITIdata">Q249885</idno></persName>
+                    másodkézből szerzett információi szerint „<persName>Toldy</persName> azt is
+                    mondta még, hogy müved német vagy egyéb nyelvre is lefordítva (mi okvetlen meg
+                    fog történni) biztosan világ hirüvé váland, és epochát fog csinálni a
+                    világirodalomban.” <persName>Greguss Ágost<idno type="ITIdata"
+                        >Q242319</idno></persName> „szintén világ hirüségét jósolja.”
+                            (<bibl><title>Levele Madách Imréhez</title>, Pest 1861. november-MÖM II.
+                            1111.<idno type="ITIdata">Q412729</idno></bibl>)</p>
+                <p xml:id="p.2">A szerző életében négy nyelvterület érdeklődésével számolhatunk, és
+                    megdőlni látszik a nézet, hogy <persName>Madách</persName> életében a <title><hi
+                            rend="italic">Tragédiá</hi></title>nak teljes, idegen nyelvű fordítása
+                    nem jelent meg. Áttekintésünkhöz ezúttal is alapvető <persName>Radó György<idno
+                            type="ITIdata">Q48071</idno></persName> életrajzi kronológiája és
+                        <persName>Praznovszky Mihály<idno type="ITIdata">Q155396</idno></persName>
+                    sajtó történeti anyaggyűjtése. Ezekhez társul <persName>Radó György</persName>
+                    többrészes tanulmánya: <title><hi rend="italic">Az ember tragédiája a világ
+                            nyelvein</hi></title> (<bibl>Radó FK<idno type="ITIdata"
+                        >Q409000</idno></bibl>). Mindezt kiegészítette - már 40 nyelven 113
+                    fordítással - <persName>Praznovszky Mihály</persName> korlátozott
+                    példányszámban, kézirat gyanánt megjelent összeállítása a Nemzetközi Madách
+                    Társaság számára: <bibl>Praznovszky 1995<idno type="ITIdata"
+                        >Q470108</idno></bibl>. Azóta az alábbi fordítások jelentek meg:</p>
+                <p xml:id="p.3">- <bibl><title>Le manusheski tragedija</title> (cigány, lovari
+                        nyelvjárás; ford. <persName>Nagy Gusztáv</persName>, Bp. 1996. - MK UjF
+                        4.</bibl>), vö. <bibl>Praznovszky 1995 7.<idno type="ITIdata"
+                        >Q470108</idno></bibl>!</p>
+                <p xml:id="p.4"><bibl><title>Di tragedye funem mentshn</title>(jiddis; ford.
+                            <persName>Yosef Holder</persName>, Balassagyarmat 2000. - MK ÚjfF
+                        17.</bibl>), vö. <bibl>Praznovszky 1995. 11.<idno type="ITIdata"
+                            >Q470108</idno></bibl>!</p>
+                <p xml:id="p.5"><bibl><title>Tragedy of the Man</title> (angol; ford.
+                            <persName>Tomschey Ottó</persName>, Bp. 2000. - MK ÚjF 21.</bibl>)</p>
+                <p xml:id="p.6"><bibl><title>A traxedia do home</title> (galego; ford.
+                            <persName>Asztalos Lajos</persName> és <persName>Gonzalo Navaza
+                            Blanco</persName>, Bp. 2002. - MK ÚjF 28.</bibl>)</p>
+            </div>
+            <milestone unit="emptyLine"/>
+            <div xml:id="d.2">
+                <head type="title"><hi rend="italic">Német</hi></head>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.7">1. <bibl><title>Die Tragödie des Menschen. Dramatisches Gedicht von
+                            Emerich Madách.</title> - Pester Lloyd, 1862. 21. sz. jan. 26. 2.; 27.
+                        sz. febr. 2. 2.; 33. sz. febr. 9. 2.</bibl> - A három közlemény elemzés a
+                            <title><hi rend="italic">Tragédiá</hi></title>ról (vö. a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#p.44"
+                                ><title><hi rend="italic">Fogadtatás</hi></title> c. alfejezettel:
+                        686.</ref>!), szemléltetésül <persName>A. D.</persName> (<persName>Adolf
+                            Dux<idno type="ITIdata">Q43305</idno></persName>, a <title>Pester
+                        Lloyd</title> főmunkatársa, a magyar írók szorgalmas fordítója) saját
+                    átültetésében 335 sort mutatott be, vö. <bibl>Radó FK 1964. 317.<idno
+                            type="ITIdata">Q409000</idno></bibl> és <bibl>Praznovszky 1995 12.<idno
+                            type="ITIdata">Q470108</idno></bibl>! A szövegek (a közlés
+                    sorrendjében): III. 505-555., XV. 40I7-4II7., XI. 2550- 2623. 2664-2676.
+                    2697-2698. 2747-2752. 3074-3098. 3099-3141. </p>
+                <p xml:id="p.8">A mutatványközléshez egy, jelenlegi adataink birtokában véglegesen
+                    el nem dönthető filológiai vita is kötődik. <persName>Madách</persName><date
+                        when="1862">1862-ben</date> levelet kapott <persName>Eötvös Józseftől<idno
+                            type="ITIdata">Q241165</idno></persName>, amelynek kelete:
+                    „Széchenyi-hegy, 1/9 862”. Ebben „jeles műved” fordítását küldte meg az
+                    eredetivel egybevetésre <persName>Madáchnak</persName> (<bibl>MÖM II.
+                            1027-1028.<idno type="ITIdata">Q412729</idno></bibl>, vö. még <bibl>MKK
+                            273.<idno type="ITIdata">Q470077</idno></bibl>!). A levél kapcsán két
+                    kérdés vethető fel: hogyan olvasandó a dátum, és mi az a „jeles mű”.&gt; A levél
+                    első közlése: <bibl>Palágyi 1900 438.<idno type="ITIdata">Q470099</idno></bibl>
+                    Ő, majd nyomán <persName>Staud Géza<idno type="ITIdata">Q48925</idno></persName>
+                        (<bibl>1942 II. 216.<idno type="ITIdata">Q412730</idno></bibl>),
+                        <persName>Halász Gábor<idno type="ITIdata">Q242427</idno></persName>
+                        (<bibl>MÖM II. 1210.<idno type="ITIdata">Q412729</idno></bibl>) és
+                        <persName>Andor Csaba<idno type="ITIdata">Q144907</idno></persName>
+                        (<bibl>MKK 273.<idno type="ITIdata">Q470077</idno></bibl>) <date
+                        when="1862-09-01">1862. szeptember 1-jének</date> értelmezte,
+                        <persName>Radó</persName> (<bibl>1987 267.</bibl> és <bibl>EK 1964
+                        317.</bibl>) <date when="1862-01-09">január 9-nek</date> olvasta. Ugyanő nem
+                    a nemzetiségi tanulmányt (<bibl><title><hi rend="italic">A nemzetiségek
+                                ügyében</hi></title></bibl>, <bibl>MÖM II. 694—703.<idno
+                            type="ITIdata">Q412729</idno></bibl>) sejti a fordított mű mögött, hanem
+                    a <title><hi rend="italic">Tragédia</hi></title> Dux-féle
+                    fordításszemelvényeinek autorizálását látja a levélben. Kérdésnek maradtak:
+                    hogyan juthattak Duxhoz a még meg sem jelent mű (korrektúra)ívei? Hogyan került
+                            <persName>Eötvös<idno corresp="Eötvös József"/></persName> a képbe?
+                    Ennek ti. csak úgy van értelme, hogy <persName>Eötvös<idno
+                            corresp="Eötvös József"/></persName> volt az <date when="1861"
+                        >1861.</date> évi országgyűlés nemzetiségi bizottságának elnöke,
+                        <persName>Madách</persName> pedig tagja; - <date when="1861-11-02">1861.
+                        november 2-i</date>, <persName>Nagy Ivánhoz</persName> küldött levelének
+                    tanúsága szerint - el nem mondott beszédét eljuttatta
+                        <persName>Eötvöshöz</persName>, aki azt „olly kitűnőnek találta, hogy mint
+                    mondá e’ tárgyban jobbat készíteni nem lehet.” (<bibl>MÖM II. 930.<idno
+                            type="ITIdata">Q412729</idno></bibl>) Ezért - szemben <persName>Radó
+                        György</persName> véleményével - a levelet és ismeretlen mellékletét nem
+                    kapcsolhatjuk a Dux-szemelvények megjelenéséhez.</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.9">2. <bibl><title>Magazin für die Literatur des Auslandes
+                            (Leipzig)</title>, 1862. márc. 19.</bibl> - A <title>PN</title> híre
+                    szerint „Opitz Tivadar ur a Kisfaludy-társaság utolsó közgyűléséről szólván
+                    (...) következik egy rövid kivonata a titoknoki jelentésnek...” (<bibl>1862. 73.
+                        sz. márc. 29. I.</bibl>)</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.10"><bibl><title>Koszorú</title>, 1863. 18. sz. máj. 3.
+                    427-428.</bibl>: Egy német lap a Madách „<title>Ember tragédiájá</title>”-ról (a
+                    Külföldi szemle-rovatban) - <persName>Theodor Opitz</persName>, aki eredetiben
+                    olvas magyar irodalmat, <title><hi rend="italic">Egy magyar philosoph
+                        költő</hi></title> címen a Magazinban ismerteti <persName>Madách</persName>
+                    művét. Az ismertetés után <persName>Arany<idno corresp="Arany János"
+                        /></persName> véleményével értékel; utal az <title><hi rend="italic">Egy
+                            üdvözlő szó</hi></title>ra, amelyben <persName>Arany<idno
+                            corresp="Arany János"/></persName> „azt hitte, hogy védenie kell őt [ti.
+                        <persName>Madáchot</persName>] az ellenében felhozott pessimismus vádja
+                    ellen.” Egy kérdésben <persName>Arannyal</persName> is vitatkozik: Lucifer az
+                    embert nem fizikai értelemben, hanem „csak erkölcsileg kivánja megsemmisiteni”,
+                    a XV. szín térdre hulló Ádámja azonban Lucifer tervének kudarcát jelenti az
+                    ember előtt „mind inkább eredeti fényében megjelenő örök hatalom”, a vallás
+                    ellenében. - Noha <persName>Gergely Pál<idno type="ITIdata"
+                        >Q44422</idno></persName><persName>Arany<idno corresp="Arany János"
+                        /></persName> ismertetésének nevezte a cikket (<bibl><abbr>AJÖM XIII.</abbr>
+                            546.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/></bibl>), az sem az <bibl><abbr>AJÖM XI.</abbr><idno
+                            type="ITIdata">Q347963</idno></bibl>, sem <bibl>XII.<idno type="ITIdata"
+                            >Q347965</idno></bibl> kötetébe nem került bele.</p>
+                <p xml:id="p.11">3. <persName>Alexander Dietze<idno type="ITIdata"
+                        >Q66805</idno></persName> fordítása (<bibl><title><hi rend="italic">Die
+                                Tragödie des Menschen</hi></title>, Pest, 1865, két
+                    kiadásban</bibl>) kötetben ugyan már <persName>Madách</persName> halála után
+                    jelent meg, ám hírverése, sőt mutatványközlése és füzetes kiadása még a költő
+                    életében történt. A fordító németországi születésű, aki <date from="1859"
+                        >1859-től</date> mint a br. Splényi család nevelője élt
+                            <placeName>Erdélyben<idno type="ITIdata">Q17341</idno></placeName> és
+                    tanult meg magyarul, <date when="1864">1864</date>/<date when="1865"
+                        >65-ben</date> a pesti evangélikus gimnázium német nyelvtanára volt, majd
+                    visszatért <placeName>Németországba<idno type="ITIdata">Q151</idno></placeName>.
+                    Más, a magyar irodalommal kapcsolatos tevékenységéről nem tudunk, mint ahogyan
+                    annak sincs nyoma, hogy <persName>Madáchcsal</persName> felvette volna a
+                    kapcsolatot. (A fordítóra l. <bibl>Károsy 1935.<idno type="ITIdata"
+                            >Q469970</idno></bibl>!) A fordítás értékelésére l. <bibl>Erdélyi K.
+                            1895.<idno type="ITIdata">Q469916</idno></bibl>, <bibl>Morvay 1897
+                            228-230.<idno type="ITIdata">Q470085</idno></bibl> és <bibl>Radó FK 1964
+                            318-320.<idno type="ITIdata">Q409000</idno></bibl>!</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.12"><bibl><title>Szépművészeti Csarnok</title>, 1862. 6. sz. nov. 9.
+                        72.</bibl>: a sikerültnek mondott fordítást késznek jelzi.</p>
+                <p xml:id="p.13"><bibl><title>VU</title>, 1862. 45. sz. nov. 9. 537.</bibl>: az
+                    egymondatos hír még munkában lévőnek mondja az átültetést.</p>
+                <p xml:id="p.14"><bibl><title>Ungarische Nachrichten</title>, 1863. 9. sz. jan. 9.
+                        2. és 10. sz. jan. 10. 2.</bibl>: késznek jelzi a fordítást, és mutatványt
+                    közöl belőle, a teljes <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4">IV.
+                        színt.</ref></p>
+                <p xml:id="p.15"><bibl><title>Koszorú</title>, 1863. 16. sz. ápr. 19. 383.</bibl>: a
+                            <title><hi rend="italic">Tragédiá</hi></title>t a
+                        <sic>berlini</sic><title>Magazin für die Literatur des Auslandes</title>
+                    méltatta; miért nem talált <persName>Dietze</persName> kiadóra? A kétmondatos
+                    glossza a szerkesztőtől való, vö. <bibl>Arany 1993 104. (13. glossza)<idno
+                            type="ITIdata">Q469801</idno></bibl>!</p>
+                <p xml:id="p.16"><bibl><title>Koszorú</title>, 1863. 19. sz. máj. 10. 455.</bibl>; a
+                    fordítást <persName>Király János<idno type="ITIdata">Q261657</idno></persName>,
+                    a <title>Pesti Hölgy-Divatlap</title> kiadó-tulajdonosa fogja a német verzió, a
+                        <title>Mode Zeitung</title> mellékleteként, hat füzetben kiadni, <date
+                        when="1863-06">1863 júniusában</date> kezdve a közlést, „a mű minden esetre
+                    sokat veszt érdekéből a szakadozott megjelenés által.” Vö. <bibl><abbr>AJÖM
+                            XII.</abbr> 111. (főszöveg), 434. (jegyzet)<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/pr%C3%B3zai-m%C5%B1vekxn-xn-glosszk-fza.-szerkeszti-%C3%BCzenetek.-szerkeszt%C5%91i-megjegyz%C3%A9sek.-elfize/"
+                            type="url"/></bibl> és <bibl><abbr>AJÖM XIII.</abbr> 268. (főszöveg),
+                        569. (jegyzet)<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/></bibl>!</p>
+                <p xml:id="p.17">A Dietze-fordításnak erről a füzetes kiadványáról a szakirodalom
+                    eddig nem vett tudomást. Minden bizonnyal azért nem, mert könyvtárainkban
+                    egyetlen példány sem található a <title>Mode Zeitung</title>ból és füzetes
+                    mellékletéből; magánarchívumokban, családi könyvtárakban lappanghat belőle. A
+                    két, 1865. évi kiadást megvizsgálva (eltérő előszóval, de azonos
+                    szedéstükörrel), kizárható a lehetőség, hogy ezek bármelyike azonos lenne az
+                        <date when="1863">1863-as</date> füzetkiadással, annak el nem kelt
+                    példányaiból készült volna. Hogy a füzetkiadás valóban megvalósult, arra a
+                        <title>Pesti Hölgy-Divatlap</title><date when="1864-09-01">1864. szept.
+                        1-jei</date>, alább még hivatkozandó híre utalt, megjegyezve
+                        <persName>Dietze</persName> fordításáról: „...melyet laptársunk [ti. a
+                        <title>Mode Zeitung</title>] hozott volt...”</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.18">A következő híradások ismét a kötetkiadásra vonatkoznak:</p>
+                <p xml:id="p.19"><bibl><title>Pesti Hölgy-Divatlap</title>, 1863. 14. sz. júl.
+                        15.</bibl>: a borítón keretezett hirdetés a Dietze-fordítás előfizetési
+                    felhívásával, egy forint/példány áron. Előfizetési pénzek a lap szerkesztőségébe
+                    irányítandók. Hogy ez valóban a kötetkiadás tervére vonatkozott, arra l. a
+                        <title>Koszorú</title> megjegyzését az <date when="1864-06-05">1864. jún.
+                        5-i</date> számban az előfizetés sikertelenségéről! (<bibl>Arany 1993 115.
+                        102. glossza)<idno type="ITIdata">Q469801</idno></bibl></p>
+                <p xml:id="p.20"><bibl><title>A Hon</title>, 1863. 160. sz. júl. 16. 5.</bibl>: az
+                    Újdonságok-rovatban az előfizetés rövid megismétlése</p>
+                <p xml:id="p.21"><bibl><title>Magyar Tudomány Értekező</title>, 1863. 5-6. sz. dec.
+                        492-493.</bibl>: a <title>Kolozsvári Közlöny</title>re hivatkozással a
+                    Dietze-fordítás befejezésének híre - azzal a megjegyzéssel, hogy korábban már
+                    fordított <persName>Vörösmartyt<idno type="ITIdata">Q50503</idno></persName>,
+                            <persName>Petőfit<idno type="ITIdata">Q149546</idno></persName>,
+                            <persName>Aranyt<idno type="ITIdata">Q140423</idno></persName>,
+                        <persName>Dózsa Dánielt<idno type="ITIdata">Q43185</idno></persName> és
+                    másokat is.</p>
+                <p xml:id="p.22"><bibl><title>Koszorú</title>, 1864. 18. sz. máj. 1. 431.</bibl>:
+                        <persName>Dietze</persName> (<persName>Adolf Sternberg<idno type="ITIdata"
+                            >Q156113</idno></persName> társaságában) a <title><hi rend="italic">Buda
+                            halála</hi></title> német fordításán dolgozik. A hírt melankolikus
+                    kérdés követi: „Hát <persName>Dietze</persName> több rendbeli fordításaiból -
+                        »<title>Ember tragédiája</title><title>Petőfi elbeszélő költeményei</title>«
+                    - mi lett?” A hír mind az <bibl><title>AJÖM</title><idno type="ITIdata"
+                            >Q25815</idno></bibl> köteteiből, mind a kiegészítő <bibl>Arany
+                            1993<idno type="ITIdata">Q469801</idno></bibl>-ból hiányzik ugyan, de
+                    Arany János-írásnak tekinthető.</p>
+                <p xml:id="p.23"><bibl><title>VU</title>, 1864. 35. sz. aug. 28. 360.</bibl>:
+                        <persName>Adolf Kugler<idno type="ITIdata"/></persName> kiadásában a
+                    fordítás rövidesen megjelenik, <placeName>Lipcsében<idno type="ITIdata"
+                            >Q12147</idno></placeName> nyomják majd. Ismerői dicsérik az
+                    átültetést.</p>
+                <p xml:id="p.24"><bibl><title>Pesti Hölgy-Divatlap</title>, 1864. 17. sz. szept.
+                        1.</bibl>, a borítón: <placeName>Lipcsében</placeName> készül a
+                    Dietze-fordítás kötetkiadása.</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.25">4. <persName>Kari Maria Benkert</persName> (<persName>Kertbeny
+                            Károly<idno type="ITIdata">Q243342</idno></persName>) fordítása [?]. A
+                    fordító brüsszeli levele alapján <persName>Arany János</persName> adta hírül az
+                    átültetés létét és közeli megjelenését, bár ez utóbbiban - a Dietze-fordítás
+                    sorsának alakulását látva - kételkedett: <bibl><title>Koszorú</title>, 1864. 23.
+                        sz. jún. 5. 551.</bibl>, vö. <bibl>Arany 1993 (102. gloszsza)<idno
+                            type="ITIdata">Q469801</idno></bibl>! A fordításról semmiféle más
+                    adatunk nincs, ezért <bibl>Radó EK 1964</bibl> és <bibl>Praznovszky 1995<idno
+                            type="ITIdata">Q470108</idno></bibl> sem tud róla.</p>
+            </div>
+            <div xml:id="d.3">
+                <head type="title"><hi rend="italic">Francia</hi></head>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.26">A hazánkban tartózkodott <persName>Ludovic Rigoudaud</persName>
+                    újságíró <date when="1863-10-12">1863. október 12-én</date> francia nyelvű
+                    levelet írt <persName>Madáchnak</persName> a pozsonyi Zöldfa-fogadó 68.
+                    szobájából. A magyarul gyengén tudó vendég, akiről nincsenek közelebbi adataink,
+                    a magyar irodalom tanulmányozása közben találkozott <persName>Madách</persName>
+                    „szép és értékes munkájával” („une oeuvre de gout et mérite”), amelyet teljesen
+                    lefordított, ám a véglegesítéshez szüksége volna a szerző magyarázataira és
+                    felvilágosításaira (<bibl>MÖM 11. 1119-1120.<idno type="ITIdata"
+                        >Q412729</idno></bibl>).</p>
+                <p xml:id="p.27">Mint <persName>Madách</persName><date when="1864-02-17">1864.
+                        február 17-i</date>, szintén francia nyelvű válaszleveléből kiderül, a
+                    levelet <persName>Rigoudaud</persName> a <title><hi rend="italic"
+                        >Tragédia</hi></title> kiadója, <persName>Emich<idno type="ITIdata"
+                            >Q241231</idno></persName> útján juttatta el, jókora késéssel,
+                            <placeName>Alsósztregovára<idno type="ITIdata">Q1731</idno></placeName>.
+                    Válaszát <persName>Madách</persName><placeName>Pestre<idno type="ITIdata"
+                            >Q111</idno></placeName> küldte <persName>Nagy Iván<idno type="ITIdata"
+                            >Q249885</idno></persName> útján, szintén <persName>Emichnek</persName>.
+                    (Maga a francia válasz: <bibl>MÖM II. 944.<idno type="ITIdata"
+                        >Q412729</idno></bibl>, a kísérőlevél: uo. <bibl>II. 937.</bibl>) A késés
+                    miatt a fordító, aki időközben <placeName>Pesten</placeName> is időzött,
+                    ismeretlen helyre távozott, és így <persName>Madách</persName> hiába adta meg
+                    címét és fejezte ki készségét az együttműködésre, a munkakapcsolat nem jött
+                    létre (vö. <persName>Nagy Iván</persName> rájegyzésével
+                        <persName>Madách</persName> francia válaszára - <bibl>MÖM II. 944.<idno
+                            type="ITIdata">Q412729</idno></bibl>!); a fordítás pedig elveszett vagy
+                    lappang.</p>
+            </div>
+            <div xml:id="d.4">
+                <head type="title"><hi rend="italic">Szláv nyelvek (orosz, szerb-horvát)</hi></head>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.28"><title>A Hon</title> c. hírlap két nappal
+                        <persName>Madách</persName> halála után adta hírül Ujdonságok-rovatában,
+                    hogy a pesti egyetemen <persName>Ferencz József<idno type="ITIdata"
+                            >Q469645</idno></persName> professzor az induló szemeszterben a
+                            <title><hi rend="italic">Tragédiá</hi></title>t „széptanilag méltatja
+                    orosz és szerb-horvát hason méretű műfordításokban.” (<bibl>1864. 229. sz. okt.
+                        7. 4.</bibl>) A „hason méretű” nehezen értelmezhető megfogalmazás:
+                    feltehetően nem két teljes átültetésről volt szó, hanem a két nyelv egyenlő
+                    arányáról a felolvasások során. Így valószínűleg csak részletek készültek
+                    illusztrálás céljával. (A hírt a <title>PN</title><date when="1864-10-11"
+                        >október 11-i</date> száma is megerősítette, vö. <bibl>Praznovszky 1995 17.
+                        és 20.1<idno type="ITIdata">Q470108</idno></bibl>) A szlavisztika
+                    professzorának nem ez volt az egyetlen irodalmi kapcsolata: ő tanította oroszul
+                        <persName>Bérczy Károlyt<idno type="ITIdata">Q142388</idno></persName>, hogy
+                    az eredetiből készíthesse el <title><hi rend="italic"
+                    >Anyegin</hi></title>-fordítását.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

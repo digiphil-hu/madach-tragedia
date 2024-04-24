@@ -1,0 +1,2467 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="1" type="main">Szövegkritikai dokumentumok</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.1</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.1.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>603-628.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Szövegkritikai dokumentumok</head>
+                <p xml:id="p.1">A SZÖVEGÁLLAPOTOK oldalain °<note type="editorial">A kritikai kiadás
+                        informatizálása során nem vettük át a nyomtatott kiadásban alkalmazott °
+                        szimbólumot, a szöveghelyeket összekapcsoltuk a jegyzetek megfelelő
+                        pontjaival.</note> jelöli azokat a helyeket, amelyek esetében a végzett
+                    szövegmunkához azt értelmező dokumentumok kapcsolhatók. Ezek felsorolásában
+                    utalunk az <bibl><abbr>MKK</abbr><idno type="ITIdata">Q470077</idno></bibl>
+                    jelzetére, és megadjuk a szóban forgó dokumentum közléseit az elmúlt
+                    évtizedekben. Ilyen a <bibl>MÖM<idno type="ITIdata">Q412729</idno></bibl>,
+                        <bibl>Staud 1942<idno type="ITIdata">Q412730</idno></bibl> (négy dokumentum
+                    vonatkozásában), az <bibl>AJÖM<idno type="ITIdata">Q25815</idno></bibl> (három
+                    dokumentum vonatkozásában) és a <bibl>MVM<idno type="ITIdata"
+                        >Q470093</idno></bibl>. Az előbbi betűhív kiadás, az utóbbit azért
+                    emelhettük ki a válogatások közül, mert emendált ugyan, de a <title><hi
+                            rend="italic">Tragédia</hi></title>ra vonatkozó textológiai érdekű
+                    levelezésanyagot teljes egészében (1-6. dok.) tartalmazza.</p>
+                <p xml:id="p.2">A továbbiakban a SZÖVEGKRITIKAI DOKUMENTUMOK-ra itteni sorszámukkal
+                    utalunk. A közlések pontatlansága miatt valamennyi forrásunkat a kéziratból
+                    ellenőriztük.</p>
+                <p xml:id="p.3">Dokumentumaink a következők:</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.4">1. <title><hi rend="italic"><persName>Arany János<idno
+                                    type="ITIdata">Q140423</idno></persName><persName>Madách
+                                Imrének</persName> küldött levelében (<placeName>Pest<idno
+                                    type="ITIdata">Q111</idno></placeName>, <date when="1861-10-27"
+                                >1861. október 27.</date>)</hi></title> melléklet volt az a 4 fólió
+                    megjegyzés, amelyen <persName>Arany<idno corresp="Arany János"/></persName> - a
+                        <date when="1861-09-12">szeptember 12-i</date> levelében megígért módon -
+                    kijelölte a javítandókat a <title><hi rend="italic">Tragédia</hi></title> I-VII.
+                    színében. A levél és melléklete elszakadt egymástól, hiszen
+                        <persName>Madách</persName> - kézirata nem lévén nála - <date
+                        when="1861-11-02">november 2-i</date> levelében visszaküldte
+                            <persName>Aranynak<idno corresp="Arany János"/></persName>. A kéziraton
+                    lévő piros grafitceruzás jelek <persName>Madách</persName> kezétől származnak,
+                    azokat a megjegyzéseket jelölte így, amelyekre <date when="1861-11-02">november
+                        2-i</date> levelében tételesen válaszolt, indokolva megoldását. L. <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.5">2. sz.
+                        dok.</ref>! Régi jelzete: MTAK Kt. Irodalom 4-r. 395. Mai jelzete: K 531. ,
+                    a drámai költemény kéziratához kötve. Leírása: <bibl>MKK 217. (471. tétel)<idno
+                            type="ITIdata">Q470077</idno></bibl> Kiadásai: <bibl>MÖM II.
+                            1001-1013.<idno type="ITIdata">Q412729</idno></bibl>, <bibl><abbr>AJÖM
+                            XIII.</abbr> 284-291<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/></bibl>, <bibl>MVM 357-367.<idno type="ITIdata"
+                            >Q470093</idno></bibl>, <bibl><abbr>AJÖM XVII.</abbr> 599-610.<ref
+                            target="/aj_lev_17_1359.tei"/></bibl>. <bibl>Staudnál<idno
+                            type="ITIdata">Q412730</idno></bibl> a melléklet közlése hiányzik.</p>
+                <p xml:id="p.5">2. <title><hi rend="italic">Madách Imre levele Arany Jánosnak
+                                (Alsósztregova<idno type="ITIdata">Q1731</idno>, 1861. november
+                            2.)</hi></title>, benne viszontmegjegyzései <persName>Arany
+                        János</persName> fenti levelének mellékletére, 1. sz. dokumentumunkra:
+                    MTAKKt. Arany-levelezésgyűjtemény, K 513/374. - <bibl>MKK 221. (483. tétel)<idno
+                            type="ITIdata">Q470077</idno></bibl> - <bibl>MÖM II. 864-868.<idno
+                            type="ITIdata">Q412729</idno></bibl>, <bibl>Staud 1942 II. 92-98<idno
+                            type="ITIdata">Q412730</idno></bibl>, <bibl><abbr>AJÖM XIII.</abbr>
+                            540.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/><idno type="ITIdata">Q347966</idno></bibl>, <bibl>MVM
+                            367-372.<idno type="ITIdata">Q470093</idno></bibl>, <bibl><abbr>AJÖM
+                            XVII.</abbr> 611-616 (Az első oldal hasonmásával: 1176.)<ref
+                            target="/aj_lev_17_1361.tei"/></bibl>.</p>
+                <p xml:id="p.6">3. <title><hi rend="italic">Madách Imre levele Arany Jánosnak
+                            (Alsósztregova, 1862. február 20.)</hi></title>, amelyben a szerző
+                    köszönetet mondott a sajtó alá rendezésért és a kötet kiállításáért, pusztán a
+                        <ref target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.158"
+                        >SZÖVEGÁLLAPOTOK IV: 143.</ref> / <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-critical.tei.4#l.157"
+                        >MEGÁLLAPÍTOTT SZÖVEG IV: 145.</ref> során végrehajtott változtatást
+                    kérdőjelezte meg: MTAK Kt. Arany-levelezésgyűjtemény, K 513/375. - <bibl>MKK
+                        221. (484. tétel)<idno type="ITIdata">Q470077</idno></bibl> - <bibl>MÖM II.
+                            869-870.<idno type="ITIdata">Q412729</idno></bibl>, <bibl>Staud 1942 II.
+                            124-127.<idno type="ITIdata">Q412730</idno></bibl>, <bibl>MVM 387.<idno
+                            type="ITIdata">Q470093</idno></bibl></p>
+                <p xml:id="p.7">4. <title><hi rend="italic">Arany János levele Madách Imrének (Pest,
+                            1862. március 6.)</hi></title>, amelyben a SZÖVEGÁLLAPOTOK <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l."
+                        >I:14-15.</ref>, <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.">IV:
+                        143.</ref> / MEGÁLLAPÍTOTT SZÖVEG <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l."
+                        >I:14-15.</ref>, <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.">IV:
+                        145.</ref> során végzett és a <bibl><abbr>61-ben</abbr></bibl> megjelent
+                    javításait magyarázta: OSZK Kt. Levelestár - <bibl>MKK 270. (657. tétel)<idno
+                            type="ITIdata">Q470077</idno></bibl> - <bibl>MÖM II. 1019-1021.<idno
+                            type="ITIdata">Q412729</idno></bibl>, <bibl>Staud 1942 II. 127-131.<idno
+                            type="ITIdata">Q412730</idno></bibl>, <bibl><abbr>AJÖM XIII.</abbr>
+                            545.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/><idno type="ITIdata">Q347966</idno></bibl>, <bibl>MVM
+                            388-391.<idno type="ITIdata">Q470093</idno></bibl></p>
+                <p xml:id="p.8">5. <title><hi rend="italic">Madách Imre levele Szász Károlynak
+                            (Alsósztregova, 1862. szeptember 12.)</hi></title>, amelyben a szerző a
+                    címzett 61-kritikájának (<bibl>SzF 1862. február 13. 228-231.</bibl>,
+                        <bibl>február 20. 244-246.</bibl>, <bibl>február 27. 260-262.</bibl>,
+                        <bibl>március 6. 275-277.</bibl>, <bibl>március 13. 293-295.</bibl>,
+                        <bibl>március 20. 308-310.</bibl>, <bibl>március 27. 324-326.</bibl>,
+                        <bibl>április 3. 339-343.</bibl>) két konkrét javítási javaslatára reagálva
+                    egyrészt megígérte a SZÖVEGÁLLAPOTOK <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.15#l.97"
+                        >XV:94.</ref> / MEGÁLLAPÍTOTT SZÖVEG <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-critical.tei.15#l.96"
+                        >XV:94.</ref> sorának és a SZÖVEGÁLLAPOTOK <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14#l.33"
+                        >XIV:29-32.</ref> / MEGÁLLAPÍTOTT SZÖVEG <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-critical.tei.14#l.29"
+                        >XIV:29-32.</ref> sorának jobbítását, másrészt kérte a további homályos
+                    helyek kijelölését: OSZK Kt. Levelestár. - <bibl>MKK 257. (613. tétel)<idno
+                            type="ITIdata">Q470077</idno></bibl> - <bibl>MÖM II. 945-946.<idno
+                            type="ITIdata">Q412729</idno></bibl>, <bibl>MVM 391-392.<idno
+                            type="ITIdata">Q470093</idno></bibl><bibl>Staudnál<idno type="ITIdata"
+                            >Q412730</idno></bibl> hiányzik.</p>
+                <p xml:id="p.9">6. <title><hi rend="italic">Szász Károly levele Madách Imrének
+                            (Kunszentmiklós, 1862. október 6.)</hi></title>, amelyben a fenti
+                    kérésre kijelölte a 61 javítandónak ítélt helyeit: OSZK Kt. Levelestár. -
+                        <bibl>MKK 294. (740. tétel)<idno type="ITIdata">Q470077</idno></bibl> -
+                        <bibl>MÖM II. 112-1126.<idno type="ITIdata">Q412729</idno></bibl>,
+                        <bibl>Staud II. 150-156.<idno type="ITIdata">Q412730</idno></bibl>,
+                        <bibl>MVM 397-401.<idno type="ITIdata">Q470093</idno></bibl></p>
+                <p xml:id="p.10">Végül itt idézzük azokat a megjegyzéseket és a
+                            <bibl><abbr>63-ban</abbr></bibl> nem közölt szövegváltozatokat,
+                    amelyeket <persName>Madách</persName> csak a <bibl><abbr>61</abbr></bibl>
+                    szerzői kézipéldányán szerepeltetett, s így értelemszerűen nincs helyük a
+                    SZÖVEGÁLLAPOTOKban. Mint említettük, maga a példány lappang; ezeket ma csak
+                        <persName>Kozocsa Sándor<idno type="ITIdata">Q46588</idno></persName> eddig
+                    is hivatkozott leírásából ismerjük és idézzük: <bibl>Kozocsa 1968 366-373.<idno
+                            type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.11">Megjegyezzük még, hogy <persName>Arany<idno corresp="Arany János"
+                        /></persName> a javítási munkák korai fázisában vetette papírra javaslatait.
+                        <persName>Madách</persName> nem mindig könnyen értelmezhető kézírásának még
+                    nem elmélyült ismerete és a sietős levélírás együttesen okozhatta, hogy az
+                            <persName>Arany<idno corresp="Arany János"/></persName> rögzítette
+                    idézetek 1. sz. dokumentumunkban nem mindig pontosak, olykor már emendálás is
+                    látszik rajtuk. Mivel az eltérések a SZÖVEGÁLLAPOTOK-kal való egybevetéssel
+                    megállapíthatók, a SZÖVEGKRITIKAI DOKUMENTUMOK mostani fejezetében külön nem
+                    jelöljük őket.</p>
+            </div>
+            <div xml:id="d.2">
+                <head type="title">A SZÖVEGÁLLAPOTOK rendjében haladva:</head>
+                <p xml:id="p.12">I. szín</p>
+                <p xml:id="p.13"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.1"
+                        >I:1.</ref><persName>Arany<idno type="ITIdata">Q140423</idno></persName>
+                    megjegyzése: „’Dicsőség a magasban isten<hi rend="underline">em</hi>nek!’ Ez <hi
+                        rend="underline">em</hi> nagyon személyes, erőlteti a hangot: s a mérték
+                    miatt látszik betoldva lenni.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) <persName>Madách</persName> erre nem reagált, de a
+                            <bibl><abbr>61-ben</abbr></bibl><persName>Szász<idno type="ITIdata"
+                            >Q150786</idno></persName> is szóvá tette: „Legelső sor: isten<hi
+                        rend="underline">em</hi>nek helyett jobb volna: isten<hi rend="underline"
+                        >ünk</hi>nek, mert angyalok <hi rend="underline">kara</hi> énekli.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) Madách kézipéldányában is javította: <bibl>Kozocsa 1968 366<idno
+                            type="ITIdata">Q469997</idno></bibl>.</p>
+                <p xml:id="p.14"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.6"
+                        >I:6-8.</ref><persName>Arany<idno corresp="Arany János"/></persName>
+                    megjegyzése: „’Részünk csak az <hi rend="underline">árny</hi>’ s alább: ’<hi
+                        rend="underline">Fényében</hi> ily osztály részt’ - Ellenmondásnak látszik,
+                    ha csak úgy nem vesszük hogy az <hi rend="underline">árny</hi> része a <hi
+                        rend="underline">fénynek</hi>. Lehet talán így is.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.15"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.7"
+                        >I:7.</ref><persName>Arany<idno corresp="Arany János"/></persName>
+                    megjegyzése: „’Imádjuk őt a végtelen kegyért, <hi rend="underline">hogy’</hi> ez
+                    a <hi rend="underline">hogy</hi> kivált <del>sorvégen</del> lyrában, sorvégen,
+                    rosz. Nem lehetne segítni rajta?” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.16"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.10"
+                        >I:10.</ref><persName>Szász<idno corresp="Szász Károly"/></persName>
+                    megjegyzése: „10. sorban: béfejezve <hi rend="underline">áll</hi>, h. jobb
+                    volna: - <hi rend="underline">már</hi>, a rímért.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) <persName>Madách</persName> kézipéldányában is javította:
+                        <bibl>Kozocsa 1968 366<idno type="ITIdata">Q469997</idno></bibl>.</p>
+                <p xml:id="p.17"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.13"
+                        >I:13-16.</ref><persName>Arany</persName> megjegyzése:</p>
+                <lg xml:id="lg.1">
+                    <l xml:id="l.1">„’Be van fejezve a nagy mű, igen</l>
+                    <l xml:id="l.2">S úgy összevág minden, hogy <hi rend="underline">azt
+                        hiszem</hi></l>
+                    <l xml:id="l.3">Év milliókig szépen elforog</l>
+                    <l xml:id="l.4">Mig egy kerékfogát ujítni kell.’</l>
+                </lg>
+                <p xml:id="p.18">- E sorokban az <hi rend="underline">azt hiszem</hi>, kissé furcsa:
+                    de az egész négy sor <hi rend="underline">mester emberes</hi> önelégültsége is
+                    komikai szinben tűnik fel. Annyival inkább, mert a darab elején van, s első
+                    szava istennek. Nem lehetne majestaticusabb hangúval cserélni föl? Rám olyan
+                    hatást tett először, hogy félretettem a művet s csak Jámbor Pali sürgetésére
+                    vettem megint elő.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) <persName>Madách</persName> idevágó felhatalmazása a javításra:
+                    „...a szöveget nem tudom annyira, hogy a változtatás alá eső helyeket új, s bele
+                    illőkkel pótolni képes legyek. S miután ily hely úgyis csak kevés van (a többek
+                    közt az ominosus ’Be van fejezve a nagy mű’ é. u. t.) kérlek, pótold azokat is,
+                    mint a többieket pótolád.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.5">2. sz.
+                        dok.</ref>) <persName>Madách</persName><persName>Arany</persName>
+                    megjegyzését, a négy sort is idézve, ugyanaznap <persName>Nagy Ivánnak<idno
+                            type="ITIdata">Q249885</idno></persName> is megírta (<bibl>MÖM II.
+                            929-930.<idno type="ITIdata">Q412729</idno></bibl>, <bibl>MVM 373.<idno
+                            type="ITIdata">Q470093</idno></bibl>). <persName>Arany János</persName>
+                    saját javításával sem volt elégedett: „Hasonló megjegyzést tehettél volna már az
+                    első négy soron véghezvitt operatiómra: ott is van <hi rend="underline"
+                        >látszó</hi> zavar:</p>
+                <lg xml:id="lg.2">
+                    <l xml:id="l.5">’A gép forog, az <hi rend="underline">alkotó</hi> pihen.</l>
+                    <l xml:id="l.6">Évmilliókig <hi rend="underline">eljár</hi> tengelyén.’</l>
+                </lg>
+                <p xml:id="p.19">Az <hi rend="underline">alkotó</hi>? kérdhetné valaki, hisz az a
+                    legközelebbi subjectum. De a költői nyelv gyakran tesz ily ugrásokat; Olvasd
+                    Horáczot, vagy Virgilt. Mindamellett nem kardoskodom javításomért, azt teszed
+                    vele jövő kiadásban, a mit akarsz.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.7">4. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.20"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.17"
+                        >I:17.</ref><persName>Szász<idno corresp="Szász Károly"/></persName>
+                    megjegyzése: „4. 1., 1. sor: világ<hi rend="underline">im</hi> szokatlan, jobb:
+                        vilá<hi rend="underline">gom</hi>.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.21"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#stage.2"
+                        >I:20/21.</ref><persName>Arany</persName> megjegyzése: „’Sverák’ (több
+                    helyen). Szférák, vagy sphaerák (δφαιρα = gömb)” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.22"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.26"
+                        >I:26.</ref><persName>Arany</persName> megjegyzése: „’dőre szikra’ - a <hi
+                        rend="underline">dőre</hi> csak hézagpótló epithetonnak tetszik.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.23"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.28"
+                        >I:26-28.</ref><persName>Arany</persName> megjegyzése: „'<hi
+                        rend="underline">Szikra</hi>’ és ’világa’ képtelen rosz rím, egyikben <hi
+                        rend="underline">i</hi>-<hi rend="underline">a</hi> hangzók, másikban <hi
+                        rend="underline">á</hi>-<hi rend="underline">a</hi>.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.24"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.29"
+                        >I:29-30.</ref><persName>Arany</persName> megjegyzése: „’Két golyó küzd
+                    egymás ellen. <hi rend="underline">Szétszakadni</hi>, <hi rend="underline"
+                        >összeesni</hi> - az utóbbi sor syntactice és grammatice homályosan fejezi
+                    ki a gondolatot.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.25"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.38"
+                        >I:38.</ref><persName>Arany</persName> megjegyzése: „’Csillaga a
+                    szerelemnek’ - ez talán frivol itt, annyival inkább, mert még akkor nem volt <hi
+                        rend="underline">az</hi>, de különben is csak a föld fia nézheti <hi
+                        rend="underline">csillag</hi>nak azon sphaerákat, angyal nincs oly opticai
+                    csalódásban.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.26"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.42"
+                        >I:42.</ref><persName>Arany</persName> megjegyzése: „’ltt <hi
+                        rend="underline">enyészők</hi> omladéka’ - Ha a teremtés után mindjárt
+                    kezdődik a színmű, talán nincs helyén enyésző világokat látni még.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) <persName>Madách</persName> válaszában megmagyarázta a
+                    fordulatot, de nem ragaszkodott hozzá: „1<hi rend="super">ő</hi><hi
+                        rend="underline">szín</hi> ’ltt enyészők omladéka’ azért írtam, mert Lucifer
+                    is csakhamar e’ hely után taglalván a’ teremtés művét, csak az anyagok össze
+                    gyúrásáról, keveréséről beszél, nem semmiből teremtéséről. - Mert a’ mű folytán
+                    sokszor jő elő illy vonatkozás: ’kezdet, vég, bolond megkülönböztetés, egynek
+                    vég másnak kezdet.’ (...) a publicumnak nem magyarázhatok ’s így csak bátran ki
+                    vele.-” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.5">2. sz.
+                        dok.</ref>) Az Arany-megjegyzés előtt <persName>Madách</persName> piros
+                    grafitceruzás jele: X</p>
+                <p xml:id="p.27"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.49"
+                        >I:49.</ref><persName>Szász</persName> megjegyzése: „5. 1., 8. sor: <hi
+                        rend="underline">jősz te</hi> helyett, <hi rend="underline">jöszte!</hi>”
+                        (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                        sz. dok.</ref>) <persName>Szász</persName> sem pontos: a 61-ben „Jösz te”
+                    áll. <persName>Madách</persName> a 61 házipéldányában összekapcsolta a két szót,
+                    a <bibl><abbr>63-ban</abbr></bibl> azonban változatlanul „Jösz te” olvasható:
+                        <bibl>Kozocsa 1968 366.<idno type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.28"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.58"
+                        >I:58-60.</ref><persName>Arany</persName> megjegyzése: „’cserélnek -
+                    felettek’ nem igen jó rím: <hi rend="underline">é</hi>-<hi rend="underline"
+                        >e</hi> = <hi rend="underline">e</hi>-<hi rend="underline">e</hi>.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.29"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.67"
+                        >I:66.</ref><persName>Arany</persName> megjegyzése: „’öröké’ - örök<hi
+                        rend="underline">k</hi>é (mert örök<hi rend="doubleunderline">v</hi>é-ből).
+                    A helyesírási hibákat ezentúl nem jelelöm ki, majd kijavítom, ha kezemen megy át
+                    a correctura.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) A javítást azonban <persName>Arany</persName> is fontolgatta, l.
+                    a SZÖVEGÁLLAPOTOK-at! Sőt, mintegy emlékeztetőül, a -vé betűcsoportot is a szó
+                    alá írta, utóbb törölve.</p>
+                <p xml:id="p.30"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.84"
+                        >I:83.</ref><persName>Arany</persName> megjegyzése: „’De még <hi
+                        rend="underline">ha is</hi>, másitni nincs erőd’. A <hi rend="underline">ha
+                        is</hi> nem magyar. (Vagy, ha igen, másitni nincs erőd’.)” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.31"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.103."
+                        >I:101.</ref><persName>Arany</persName> megjegyzése: „’Méltó-e illyen <hi
+                        rend="underline">öreg urhoz’...</hi> Az öreg úr nagyon Goethés, Mephistós. -
+                    Nem lehetne mindenütt más czímet adni. Bornirt ember ilyesekből ordítja az <hi
+                        rend="underline">utánzás</hi> vádját.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.32"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.151"
+                        >I:147.</ref><persName>Szász</persName> megjegyzése: „9. 1., 10. sor: <hi
+                        rend="underline">nekem elég</hi> h. <hi rend="underline">elég nekem.</hi>”
+                        (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                        sz. dok.</ref>) <persName>Madách</persName> a <bibl>61</bibl> kézipéldányán
+                    javította, a <bibl>63-ban</bibl> is javítva: <bibl>Kozocsa 1968 366.<idno
+                            type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.33"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.155"
+                        >I:151.</ref><persName>Arany</persName> megjegyzése: „’Hozsánna, úr! (2<hi
+                        rend="super">ik</hi> személy) ’ki szent törvényt <hi rend="underline"
+                        >szabott</hi>’ (3<hi rend="underline"><hi rend="super">ik</hi></hi> sz.) Jó
+                    volna egyeztetni, kissé visszás.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+            </div>
+            <div xml:id="d.3">
+                <p xml:id="p.34">II. szín</p>
+                <p xml:id="p.35"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#stage.1"
+                        >II:0/1. [szerzői utasítás]</ref><persName>Arany<idno corresp="Arany János"
+                        /></persName> megjegyzése: „(Verő <hi rend="underline">nap</hi>’ - Verőfényt
+                    mondanak, verő <hi rend="underline">nap</hi>ot nem.)” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.36"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.1"
+                        >II:1.</ref><persName>Arany</persName> megjegyzése: „’Ah, milyen édes,
+                    milyen szép <hi rend="underline">az élni</hi>’. - Nem tudom, comma jö-e az <hi
+                        rend="underline">az</hi> után, vagy <hi rend="underline">élni</hi> főnév
+                    helyett áll. Mindenkép bajos. Így kiáltatnám fel Évát: ’Ah, élni, élni! mily
+                    édes, mi szép’! emphaticusabb is, vers, nyelv is jobb.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) <persName>Arany<idno corresp="Arany János"/></persName> mindkét
+                    értelmezés rögzítésével kísérletezett a K1-en: az <hi rend="underline">az</hi>
+                    után kitette a vesszőt, végül azonban az egész sort átírta, az itt jelzett
+                    módon, 1. a SZÖVEGÁLLAPOTOK- at!</p>
+                <p xml:id="p.37"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.27"
+                        >II:18.</ref><persName>Arany</persName> megjegyzése: „’<hi rend="underline"
+                        >Mint hogy ha</hi> ellenséges idegen’... E többször előforduló ’mint hogy
+                    ha’ nagyon ki tűnteti a vers nyűgét. Tán inkább egy egytagú interjectio kellene
+                    elébe: Hah! nézd! ah! <hi rend="underline">mintha...</hi>” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.38"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.31"
+                        >II:21.</ref><persName>Arany</persName> megjegyzése: „’ltt kebleden, úgy
+                    látszik, hallom azt még.’ (Az égi zengzetet) - A <hi rend="underline"
+                        >látszik</hi> helyett jobb <hi rend="underline">tetszik</hi>, mert nem <hi
+                        rend="underline">látható</hi>ról beszél Ádám. Az egész <hi rend="underline"
+                        >édeskés modern</hi> bókja a szerelemnek, valamint az Éva complimentje is
+                    Ádám <hi rend="underline">szemére</hi>.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) <persName>Madách</persName> piros grafitceruzás jele a
+                    megjegyzés előtt, indokolva válaszolt rá: „’ltt kebleden é[s]. u[gy]. t[ovább].
+                    Tökéletes igazod van, a két bók bóltos legény és komorna ömlengése. De úgy
+                    tartottam valamit kell a paradicsomi párral mondatnom, az egésznek teljessége
+                    végett, mi szerelmöket érintse. Igyekeztem is azt mentől rövidebben tenni. Azt
+                    ugyan gyanítom, hogy nem így beszéltek szerelemről mint én irok, de attól
+                    tartok, hogy úgy meg nem írhatok ahogy ők beszéltek. - Azonban tréfa nélkűl, e
+                    hely megint ollyan, hogy a’ kézirat nélkűl nem itélhetem meg, kimaradhat-e
+                    tisztán, vagy pótolni kell nehány más szóval s mivel? Itéld meg kérlek és segíts
+                    te, vagy Ádám nem tud szerelmet vallani, s kihal a világ!” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.5">2. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.39"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.47"
+                        >II:36.</ref><persName>Arany</persName> megjegyzése: „’fejelne’ helyett
+                    talán <hi rend="underline">feselne</hi>; az a <hi rend="underline">fejelés</hi>
+                    először a csizmát juttatja eszünkbe.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.40"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.61"
+                        >II:50.</ref><persName>Arany</persName> megjegyzése: „’Kétkedve állok mégis
+                    újra meg’ - k<hi rend="underline">ét</hi>edve-e, vagy k<hi rend="underline"
+                        >és</hi>kedve? az utóbbi szokatlan.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) <persName>Madách</persName> a ’késkedve’ alakot pirossal kihúzta
+                    a visszaküldött megjegyzésen. A problémát <persName>Madách</persName> alig
+                    rajzolt <hi rend="underline">t</hi> betűje okozta, vö. még a 13. sz.
+                    szövegkritikai jegyzettel!</p>
+                <p xml:id="p.41"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.65"
+                        >II:54.</ref><persName>Szász</persName> megjegyzése: „13. 1., 11. sor: hogy
+                    az érzelem fogadja be a szivet, különösnek tetszik. Jobb volna tán a sor így:
+                    ’Mely védve árnyaljá á lankadt szívet.’ ámbár egy anapesztussal.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) <persName>Madách</persName> a 61 kézipéldányába először ezt a
+                    változatot írta be, ezután kihúzta, és beírta a 63- ból ismert, véglegesnek
+                    szánt szöveget: „Melly lankadástól óvja szivöket.” A „Melly” a kiadásban, akár a
+                    61-ben, „Mely”-re változott (<bibl>Kozocsa 1968 367.<idno type="ITIdata"
+                            >Q469997</idno></bibl>).</p>
+                <p xml:id="p.42"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.81"
+                        >II:67.</ref><persName>Arany</persName> megjegyzése: „’az <hi
+                        rend="underline">öreg úr</hi>...’ L. fentebb.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.43"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.86"
+                        >II:72.</ref><persName>Arany</persName> megjegyzése: „’mint <hi
+                        rend="underline">bamba gyermeket</hi>’ Anachronismus Ádám irányában. Neki
+                    nem lehet fogalma erről. Később (midőn <hi rend="underline">visióban</hi> él)
+                    nincs anachronismus, mert mindent tudhat, most még nem.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.44"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.87"
+                        >II:73.</ref><persName>Szász</persName> megjegyzése: „14.1., 14. sor: Nem
+                    világos a kifejezés, tán így lehetne fordítani: ’Így, eszméletre szükséged se
+                    lesz!’ Vagy: ’Eszmélned, így szükséged sem leend.’” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) <persName>Madách</persName> a javaslatra nem reagált, így
+                    kézipéldányán sem szerepelt.</p>
+                <p xml:id="p.45"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.99"
+                        >II:85.</ref><persName>Madách</persName> saját javítása a 61 kézipéldányán:
+                        <bibl>Kozocsa 1968 367.<idno type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.46"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.100"
+                        >II:85-87.</ref><persName>Szász</persName> megjegyzése: „15. 1., 5-7. sor:
+                        habj<hi rend="underline">ai</hi> és med<hi rend="underline">rök</hi>nek, -
+                    hogy talál a csill<hi rend="underline">ag</hi> és vissza<hi rend="underline"
+                        >hull</hi>, - többes egyessel?” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) <persName>Madách</persName> javította, vö. <bibl>Kozocsa 1968
+                            367.<idno type="ITIdata">Q469997</idno></bibl>!</p>
+                <p xml:id="p.47"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.108"
+                        >II:94.</ref><persName>Arany</persName> megjegyzése: „’trágya<hi
+                        rend="underline">túrony</hi>’ a <hi rend="underline">túrony</hi>t nem
+                    ismerem. Tán érthetőbb volna, ha nem szebb is: ’De trágya<hi rend="underline"
+                        >domb gyanánt...</hi>” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) <persName>Madách</persName> piros grafitceruzás X-szel
+                    megjelölte a helyet, és így indokolta: „Trágyaturony’ tudtomra ez van műszóúl
+                    behozva a’ Mistkáfer’ értelmében, az akadémia szótárában azonban 'Trágyabogár
+                    áll.” (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.5"
+                        >2. sz. dok.</ref>) A Kl-en <persName>Arany<idno corresp="Arany János"
+                        /></persName> egy negyedik változatra javított: „Trágyaféregül”, vö. a
+                    SZÖVEGÁLLAPOTOK-kal!</p>
+                <p xml:id="p.48"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.109"
+                        >II:95.</ref><persName>Arany</persName> megjegyzése: „Tenyészni kis körödnek
+                    lágy ölé<hi rend="underline">ben</hi>’... lágy öl<hi rend="underline">én</hi>. A
+                    nélkűl is sok a catalecticus (5 1/2) vers sor. Ritkítni kell, a hol lehet, mert
+                    végre sem <hi rend="underline">szabály</hi> ez a jámbusban, hanem <hi
+                        rend="underline">kivétel</hi>.” (1. sz. dok.) Maradt.</p>
+                <p xml:id="p.49"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.118"
+                        >II:104.</ref><persName>Arany</persName> megjegyzése: „’arasz<hi
+                        rend="underline">t</hi>' helyett mindenütt jobb <hi rend="underline"
+                        >arasz</hi>, ha csak mérték nem parancsolja úgy.” (1. sz. dok.)</p>
+                <p xml:id="p.50"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.121"
+                        >II:107.</ref><persName>Arany</persName> megjegyzése: „’Ha azt<hi
+                        rend="doubleunderline">at</hi> élvezed’... Azt<hi rend="doubleunderline"
+                        >at</hi> elég népies, de megtagadja a nyelvtan. El is lehetne kerülni:
+                    Tudsz, mint <table cols="3" xml:id="table.1">
+                        <row xml:id="row.1">
+                            <cell rows="2" xml:id="cell.1">{</cell>
+                            <cell xml:id="cell.2">az</cell>
+                            <cell rows="2" xml:id="cell.3">isten</cell>
+                        </row>
+                        <row xml:id="row.2">
+                            <cell xml:id="cell.4">egy</cell>
+                        </row>
+                    </table>, <hi rend="underline">azt</hi> ha élvezed.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.51"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.123"
+                        >II:109.</ref><persName>Arany</persName> megjegyzése: „’Még is <hi
+                        rend="underline">csak</hi> zsar<hi rend="underline">nok</hi>...’ kemény.
+                    ’Még is <hi rend="underline">nagy</hi> zsarnok’....&gt;” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Nem ez lett <persName>Arany<idno corresp="Arany János"
+                        /></persName> megoldása, hanem: „Mégis kegyetlen...”, vö. a
+                    SZÖVEGÁLLAPOTOK-kal!</p>
+                <p xml:id="p.52"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#stage.12"
+                        >II:110.</ref><persName>Arany</persName> megjegyzése: „’A <hi
+                        rend="underline">dics</hi> kissé kitisztúl’... Ez a <hi rend="underline"
+                        >dics</hi> igy magában szokatlan, a gloria helyett, melyet dicsfénynek
+                    fordítnak. Azonban látom, hogy erősebb volna, ha megszoknók. -" (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) A „dics = gloria” magyarázatot <persName>Arany<idno
+                            corresp="Arany János"/></persName> a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#stage.1"
+                        >II. szín szerzői utasításába</ref> is beleírta, bár első előfordulása nem
+                    itt, hanem mindjárt az <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#stage.1">I.
+                        szín szerzői utasításában</ref> található.</p>
+                <p xml:id="p.53"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.126"
+                        >II:111.</ref><persName>Arany</persName> megjegyzése: „’A vén tagadás
+                    kisért’... A metrum jajgat. Tagadás, lehetne <table cols="3" rows="0"
+                        xml:id="table.2">
+                        <row role="label" xml:id="row.3">
+                            <cell xml:id="cell.5">–</cell>
+                            <cell xml:id="cell.6">◡</cell>
+                            <cell xml:id="cell.7">–</cell>
+                        </row>
+                    </table>mert az első syllaba hangsúlyos, de <table cols="7" xml:id="table.3">
+                        <row xml:id="row.4">
+                            <cell xml:id="cell.8">'a</cell>
+                            <cell xml:id="cell.9">vén</cell>
+                            <cell xml:id="cell.10">|</cell>
+                            <cell xml:id="cell.11">ta</cell>
+                            <cell xml:id="cell.12">ga</cell>
+                            <cell xml:id="cell.13">|</cell>
+                            <cell xml:id="cell.14">dás'</cell>
+                        </row>
+                        <row xml:id="row.5">
+                            <cell xml:id="cell.15">–</cell>
+                            <cell xml:id="cell.16">–</cell>
+                            <cell xml:id="cell.17">|</cell>
+                            <cell xml:id="cell.18">–</cell>
+                            <cell xml:id="cell.19">◡</cell>
+                            <cell xml:id="cell.20">|</cell>
+                            <cell xml:id="cell.21">–</cell>
+                        </row>
+                    </table> bajosabb. - De látom, nehéz igazítni, hogy meg ne rontsuk a
+                    praecisiót.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) A <bibl><abbr>61-ben</abbr></bibl> a sor maradt is, ám
+                    következett <persName>Szász</persName> megjegyzése: „16.1., 8. sor: A <hi
+                        rend="underline">vén</hi> tagadás helyett jobb volna: a <hi rend="underline"
+                        >régi</hi>, vagy ha a mérték nem üt, az <hi rend="underline">ős</hi>.”
+                        <persName>Madách</persName> a <bibl><abbr>61</abbr></bibl> kézipéldányában
+                    az utóbbira javította, s így került át a <bibl><abbr>63-ba</abbr></bibl> is:
+                        <bibl>Kozocsa 1968 367.<idno type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.54"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.130"
+                        >II:113-116.</ref><persName>Arany</persName> megjegyzése:<table
+                        xml:id="table.4">
+                        <row xml:id="row.6">
+                            <cell xml:id="cell.22"><lg xml:id="lg.3">
+                                    <l xml:id="l.7">"'Segítsetek</l>
+                                    <l xml:id="l.8">Ti elemek</l>
+                                    <l xml:id="l.9">Az embert nektek</l>
+                                    <l xml:id="l.10">Szerezni meg...'</l>
+                                </lg></cell>
+                            <cell xml:id="cell.23">}</cell>
+                            <cell xml:id="cell.24">Ilyenekben mutat Goethe nagy lyrai
+                                virtuositást...ez olyan, mint a Nagy István fordításában Goethe.
+                                Hanem rövid, s maradjon." (<ref
+                                    target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4"
+                                    >1. sz. dok.</ref>) Maradt.</cell>
+                        </row>
+                    </table></p>
+                <p xml:id="p.55"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.139"
+                        >II:121.</ref><persName>Arany</persName> megjegyzése: „’Mindkettőt más-más
+                    látkör <hi rend="underline">vesz</hi> körűl.’ Határozottan hibás a syntaxis. <hi
+                        rend="underline">Veszi</hi> kell, okvetetlen. Talán így: Mindkettőt más-más
+                        <hi rend="underline">láthatár övedzi</hi>.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.56"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.140"
+                        >II:122.</ref><persName>Arany</persName> megjegyzése: „’látköröd <hi
+                        rend="underline">kivűl</hi>’ - lehet, mint kétség <hi rend="underline"
+                        >kívül</hi>. De megakad ám rajta Boeotia!” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Maradt is.</p>
+                <p xml:id="p.57"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.141"
+                        >II:123.</ref><persName>Arany</persName> megjegyzése: „’A legmagasbat
+                    embernek tekinted’... Talán nem tiszta. Azt akarja-e mondani: istent is
+                    antropomorphisálod, vagy csak ezt: <hi rend="underline">És ember, a mi legmagasb
+                        neked?</hi>” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Csekély módosítással ez lett <persName>Arany</persName>
+                    javítása. Megjegyzését <persName>Arany</persName> utóbb - ismeretlen okból -
+                    áthúzta.</p>
+                <p xml:id="p.58"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.147"
+                        >II:129.</ref><persName>Arany</persName> megjegyzése: „’Ép úgy tekintünk <hi
+                        rend="underline">meg</hi> mi...’ ’Meg mi’ szokatlan rend: ’<hi
+                        rend="underline">Mi meg</hi> ép úgy tekintünk... volna helyes rendben. ’Mi
+                    meg szint’úgy’ - a vers roszabb, de érthetőbb.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) <persName>Arany</persName> végül megtalálta a jó megoldást is,
+                    vö. a SZÖVEGÁLLAPOTOK-kal!</p>
+                <p xml:id="p.59"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.154"
+                        >II:136.</ref><persName>Arany</persName> megjegyzése: „’E porvilágot
+                        választ<hi rend="underline">ván</hi>’... A participium visszás. Könnyű volna
+                    segitni: E porvilágra közzénk mért jövél?” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.60"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.156"
+                        >II:138.</ref><persName>Arany</persName> megjegyzése: „’kimér<hi
+                        rend="underline">ett</hi> élet<hi rend="underline">et</hi>’, rosz hang. <hi
+                        rend="underline">Szabályos életet?</hi>” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.61"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.163"
+                        >II:145.</ref><persName>Arany</persName> megjegyzése: „’De mondt<hi
+                        rend="underline">a</hi><hi rend="underline">a</hi>z úr, hogy büntetni fog.’
+                    Hiatus is, a <hi rend="underline">meg</hi> szócskának nem szabad volna
+                    elmaradni: ’Megmondta isten, hogy büntetni fog!” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.62"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.2#l.172"
+                        >II:154.</ref><persName>Arany</persName> megjegyzése: „’<hi rend="underline"
+                        >nap</hi>sugaras napok közt’ - egyik <hi rend="underline">nap</hi>
+                    pleonasmus.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+            </div>
+            <div xml:id="d.4">
+                <p xml:id="p.63">III. szín</p>
+                <p xml:id="p.64"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.6"
+                        >III:6.</ref><persName>Arany</persName> megjegyzése a kötőszóra vonatkozott:
+                        „<hi rend="underline">Minőnk</hi> egykor volt ...nehéz. ’Mint egykoron
+                    volt?” (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4"
+                        >1. sz. dok.</ref>) Végül más megoldást talált a Kl-en.</p>
+                <p xml:id="p.65"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.13"
+                        >III:12.</ref><persName>Arany</persName> megjegyzése: „’A míg ipar lesz és
+                    hӑzӑ belőle’ - Tán igy: ’A míg belőle <hi rend="underline">hon</hi> lesz és <hi
+                        rend="underline">ipar</hi>.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.66"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.26"
+                        >III:24.</ref><persName>Arany</persName> megjegyzése: „...daczolni valami<hi
+                        rend="doubleunderline">vel</hi>. Inkább vesszen a rím.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) A <bibl><abbr>61</abbr></bibl> javítása (’dacot hánysz’)
+                        <persName>Szász</persName>t nem elégítette ki: „...magyartalan is, nem is
+                    világos.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) <persName>Madách</persName> javította is: <bibl>Kozocsa 1968
+                            367.<idno type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.67"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.27"
+                        >III:25.</ref> A kézipéldányban a „villámok ha” szókapcsolatot
+                        <persName>Madách</persName> kihúzta, de mégis beírta és maradt, vö.
+                        <bibl>Kozocsa 1968 367.<idno type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.68"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.33"
+                        >III:31-32.</ref><persName>Szász</persName> megjegyzése az „érdemes leszen /
+                    Fáradságára” fordulatra: „...magyartalan s dísztelen.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) <persName>Madách</persName> a kézipéldányban a két sort először
+                    így javította hárommal:</p>
+                <lg xml:id="lg.4">
+                    <l xml:id="l.11">Hisz az a lét, <hi rend="underline">ki tudja, érdemes.</hi></l>
+                    <l xml:id="l.12"><hi rend="underline">Lesz tán terhére, mely majd véle
+                        jár.</hi></l>
+                    <l xml:id="l.13"><hi rend="underline">S ha az csupán munkám gyümölcse
+                        lesz.</hi></l>
+                </lg>
+                <p xml:id="p.69">Végül visszatért a kétsoros megoldáshoz:</p>
+                <lg xml:id="lg.5">
+                    <l xml:id="l.14">Hisz az a lét, ha érdemes leszen</l>
+                    <l xml:id="l.15">Terhére, csak fáradságom gyümölcse.</l>
+                </lg>
+                <p xml:id="p.70">(<bibl>Kozocsa 1968 367.<idno type="ITIdata"
+                    >Q469997</idno></bibl>)</p>
+                <p xml:id="p.71"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.35"
+                        >III:33.</ref><persName>Szász</persName> megjegyzése a sorkezdésre: „...’<hi
+                        rend="underline">kéjet</hi>’ nem megy.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.72"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.38"
+                        >III:36.</ref><persName>Arany</persName> a ragrímet kifogásolta: „'Mely jár
+                        nyomá<hi rend="underline">ban</hi>, a lehangolás<hi rend="doubleunderline"
+                        >ban</hi>...’ rimel. Lehetne így: ’A mely nyomán jár, a lehangolásban.”
+                        (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                        sz. dok.</ref>)</p>
+                <p xml:id="p.73"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.39"
+                        >III:37.</ref><persName>Arany</persName> a ’pánt’ szót kifogásolta:
+                    „...csúnya ez a nem is tiszta magyar <hi rend="underline">pánt</hi>... <hi
+                        rend="underline">kapcsa</hi>? <hi rend="underline">csatja</hi>? <hi
+                        rend="underline">örve</hi>? stb.” (1. sz. dok.) A második javasolt változat
+                    valósult.</p>
+                <p xml:id="p.74"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.40"
+                        >III:38.</ref><persName>Madách</persName> a kézipéldányon a
+                            <bibl><abbr>61</abbr></bibl> sorát („Lehulla is, habár szabad levék”)
+                    először a „Lehullt is, habár szabad levék” változatra, majd a
+                            <bibl><abbr>63-ban</abbr></bibl> véglegesült „Le is hullt rólam, bár
+                    szabad levék” sorra javította, helyreállítva egyszersmind a megdöccent
+                    szótagszámot is: <bibl>Kozocsa 1968 367.<idno type="ITIdata"
+                        >Q469997</idno></bibl></p>
+                <p xml:id="p.75"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.42"
+                        >III:40.</ref><persName>Arany</persName> megjegyzése a sorra: „...nem tudom,
+                    magáról szól e Ádám, vagy másról. Ha az első, akkor visszás, hogy önbizalma
+                    daczára tervét <hi rend="underline">dőré</hi>nek mondja, ha a leendő nemzedékről
+                    - anachronismus tudnia, hogy <hi rend="underline">dőre</hi> tervek is lesznek.
+                    Olyannak kell képzelnie ivadékát, mint maga.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) A <bibl><abbr>61</abbr></bibl>-ben mégis a K-Kl madáchi
+                    változata maradt. <persName>Szásznak</persName> a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.39"
+                        >III:37-42.</ref> sorára vonatkozó megjegyzése nyomán (l. alább a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.77"
+                        >III:42.</ref> sornál!) a szerző a sort a kézipéldányon „Tapogatózva amit
+                    tervezék” változatra javította, ami - helyesírási szempontból egységesítve - a
+                            <bibl><abbr>63</abbr></bibl> szövegébe is belekerült: <bibl>Kozocsa 1968
+                            367.<idno type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.76"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.43"
+                        >III:41.</ref><persName>Arany</persName> a K sorának ’szükségelém’ szavát
+                    kifogásolta: „...Nem versbe való ez a <hi rend="underline">szükségből</hi>
+                    faragott szó. 'Ahhoz segélyed tán fölösleges'?” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) A Kl-en <persName>Arany<idno corresp="Arany János"/></persName>
+                    még jobb megoldást talált.</p>
+                <p xml:id="p.77"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.44"
+                        >III:37-42.</ref><persName>Szász</persName> a hat sort egészében
+                    kifogásolta: „Telyességgel nem értem. Nyelvtanilag is nehéz, de azon mégis
+                    áttörök valahogy, logikailag homályosabb.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) <persName>Madách</persName> csak a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.42"
+                        >40.</ref> és <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.44">42.
+                        sort</ref> változtatta meg, l. SZÖVEGÁLLAPOTOK! (<bibl>Kozocsa 1968
+                            367.<idno type="ITIdata">Q469997</idno></bibl>)</p>
+                <p xml:id="p.78"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.45"
+                        >III:43.</ref> A sort <persName>Madách</persName> javította át, külső
+                    késztetés nélkül: <bibl>Kozocsa 1968 367.<idno type="ITIdata"
+                        >Q469997</idno></bibl></p>
+                <p xml:id="p.79"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.48"
+                        >III:46.</ref><persName>Arany</persName> a ’czérna szál’ ellen emelt
+                    kifogást: „...gemein [közönséges] ez a czérna... <hi rend="underline">fonál</hi>
+                    kellene inkább. Vagy hajszál etc.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) A Kl-en az utóbbira javított.</p>
+                <p xml:id="p.80"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.62"
+                        >III:60.</ref><persName>Arany</persName> visszautalt a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.66"
+                        >III:24.</ref> sorhoz fűzött megjegyzésére: „’<hi rend="underline"
+                        >Néked</hi> még <hi rend="underline">daczolhat</hi>. L. feljebb, ’bir <hi
+                        rend="underline">veled</hi> daczolni’...” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.81"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.63"
+                        >III:61</ref>. Ugyanarról az állandó határozóról ismét <persName>Arany<idno
+                            corresp="Arany János"/></persName>: „S csak is ez az... mi <hi
+                        rend="underline">énvelem</hi> daczol.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Fordított sorrendben ugyan, de mindkét javítás megtörtént.</p>
+                <p xml:id="p.82"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.65"
+                        >III:63.</ref><persName>Arany</persName> a madáchi sort így bírálta:
+                    „’Elrejtve zajtalan <hi rend="underline">mert</hi> működik’ - Az inversio nagyon
+                    kemény. ’Hogy, mert elrejtve munkál, s zajtalan’,” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.83"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.71"
+                        >III:69.</ref><persName>Arany</persName> a sor verseléséről: „’Hadd
+                    meglátnom hát <hi rend="underline">azt a</hi> működést’... Nehéz a spondeustól
+                    ’Hagyd megtekintnem hát e működést?-”’ (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.84"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.73"
+                        >III:71.</ref><persName>Arany</persName> megjegyzése a sort nyitó
+                    szószerkezetre: „’<hi rend="underline">Mely</hi> rám befolyhat’ - messze van a
+                    praedicatum a subjectumtól. Az incisumok [közbevetések] nagyon elfordítják a
+                    beszéd értelmét.-” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.85"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.101"
+                        >III:97.</ref><persName>Arany</persName> a tájszóra tett megjegyzést: „’<hi
+                        rend="underline">silledsz</hi>’ = sűlyedsz... Az ilyet majd az
+                    ortographiánál meg kell javítnunk.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.86"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.104"
+                        >III:100.</ref><persName>Szász</persName> egy-egy szót kifogásolt: <table
+                        cols="3" xml:id="table.5">
+                        <row xml:id="row.7">
+                            <cell xml:id="cell.25">"voltammal</cell>
+                            <cell rows="2" xml:id="cell.26">}</cell>
+                            <cell rows="2" xml:id="cell.27">szokatlanok."</cell>
+                        </row>
+                        <row xml:id="row.8">
+                            <cell xml:id="cell.28">gondviseletet</cell>
+                        </row>
+                    </table> (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) Maradtak, a kézipéldányban sincs nyoma a javítási szándéknak:
+                        <bibl>Kozocsa 1968 367.<idno type="ITIdata">Q469997</idno></bibl> A második
+                    kifogásolt szó: <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.114">III:
+                        110.</ref></p>
+                <p xml:id="p.87"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.125"
+                        >III:121.</ref><persName>Arany</persName> megjegyzése: „’más felettetek <hi
+                        rend="underline">ha</hi> nincs’ - nehézkes inversio. ’Hogy fáztok ápoló gond
+                    s kéz ne'kűl’,” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.88"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.128"
+                        >III:124.</ref><persName>Arany</persName> - a szakirodalomtól eltérően, vö.
+                        <bibl>Dénes 1925 37<idno type="ITIdata">Q405741</idno></bibl>! - nem
+                    tartalmi kérdésen, az Úr jelzőjén akadt fenn, hanem verstani szempontól és a jó
+                    hangzás okán javított: „<table xml:id="table.6">
+                        <row xml:id="row.9">
+                            <cell xml:id="cell.29"/>
+                            <cell xml:id="cell.30">–</cell>
+                            <cell xml:id="cell.31">◡</cell>
+                        </row>
+                        <row xml:id="row.10">
+                            <cell xml:id="cell.32">Rokon</cell>
+                            <cell xml:id="cell.33"><hi rend="underline">ib</hi></cell>
+                            <cell xml:id="cell.34"><hi rend="underline">bat</hi></cell>
+                        </row>
+                    </table> mint a <hi rend="underline">rideg</hi><hi rend="underline">öreg</hi>
+                    volt.’ Rosz vers, rosz hang.” ’Ki nyájasabb lesz, mint a zord öreg.’ (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.89"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.130"
+                        >III:126.</ref><persName>Arany</persName> megjegyzése: „’szép szerény fiú
+                        <hi rend="underline">az</hi>'. - <hi rend="underline">az</hi> nem kell.”
+                        (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                        sz. dok.</ref>)</p>
+                <p xml:id="p.90"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.131"
+                        >III:127-128.</ref><persName>Arany</persName> megjegyzése a két, összecsengő
+                    sorvégre: „<table xml:id="table.7">
+                        <row xml:id="row.11">
+                            <cell xml:id="cell.35">– ◡</cell>
+                            <cell rows="2" xml:id="cell.36"> = </cell>
+                            <cell xml:id="cell.37">◡ ◡</cell>
+                        </row>
+                        <row xml:id="row.12">
+                            <cell xml:id="cell.38">’szellem</cell>
+                            <cell xml:id="cell.39">vélem’</cell>
+                        </row>
+                    </table> - nem jó rím, mert – ◡ = ◡ ◡” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Maradtak.</p>
+                <p xml:id="p.91"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.142"
+                        >III:138-139.</ref><persName>Arany</persName> megjegyzés nélkül a
+                    megvalósult két sort jegyezte fel (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>).</p>
+                <p xml:id="p.92"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.146"
+                        >III:142.</ref><persName>Szász</persName> megjegyzése a sorra:
+                    „’Elrészletezve...stb.’ Ki? az ember vagy a föld szelleme? A vonatkozás előttem
+                    nem elég világos.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.93"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.156"
+                        >III:152.</ref><persName>Aranynak</persName> a sorral olvasati problémája
+                    támadt: „’A mint kértek, már határozások’ (vannak). Nehéz magyarban az ilyen.
+                    Vagy határozá<hi rend="doubleunderline">t</hi>ok? úgy jó.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) <persName>Madách</persName> a 'határozások’ téves olvasatát
+                    áthúzta az <persName>Arany</persName>nak visszaküldött jegyzéken.</p>
+                <p xml:id="p.94"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.181"
+                        >III:177.</ref><persName>Arany</persName> a sorvéget kifogásolta: „’és az
+                    egynapos <hi rend="underline">légy</hi>’ - A <hi rend="underline">légy</hi>, egy
+                    az hogy nem igen poétai, más meg hogy a catalecticus verset szaporítja. Nem
+                    volna jobb: ’A százados fa s egynapos <hi rend="underline">rovar</hi>?’ (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) <persName>Madách</persName> magyarázatát adta a valóban szokadan
+                    jelzős szerkezetnek: „’Az egynapos légy’ - ezt biz én németből fordítottam [=
+                    Eintagsfliege], magyar neve ’kérész’, de ezt meg nem értik, s igy csakugyan leg
+                    jobb lesz az 'egynapos rovar’ - ” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.5">2. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.95"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.184"
+                        >III:180.</ref><persName>Arany</persName> megjegyzése a sor végére: „...a
+                        <hi rend="underline">csak</hi> nélkűl is ugyanazt az értelmet adná, több
+                    emphasissal, jobb verssel.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.96"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.185"
+                        >III:181.</ref><persName>Madách</persName> a kézipéldányon a 61 'szintén'
+                    szavát (<persName>Arany</persName> javítása volt a Kl-en) visszaállította a K
+                    'szinte' alakjára, a <bibl><abbr>63</abbr></bibl>-ban így véglegesült:
+                        <bibl>Kozocsa 1968 367.<idno type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.97"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.186"
+                        >III:182.</ref><persName>Arany</persName> megjegyzése, ismét a sor végére:
+                    „A <hi rend="underline">hát</hi> megint kimaradhat.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.98"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.188"
+                        >III:184.</ref><persName>Arany</persName> megjegyzése: „'szorítv<hi
+                        rend="underline">a</hi><hi rend="underline">az</hi>’ hiatus.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.99"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.193"
+                        >III:189.</ref><persName>Szász</persName> a sor első szavát kifogásolta:
+                    „...bölcselmi műszó, nem költői irályhoz való.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.100"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.203"
+                        >III:199-201.</ref><persName>Arany</persName> észrevételei e sorokra: „’Ez
+                        visszapillantás<hi rend="underline">a</hi><hi rend="underline">a</hi>z
+                    öregnek’ - nem értem tisztán. A másik sor nem tudom, szándékosan rimel-é? Tán
+                        <hi rend="underline">könnyebb</hi> volna igy:</p>
+                <lg xml:id="lg.6">
+                    <l xml:id="l.16">De ifju keblem forró vágya más:</l>
+                    <l xml:id="l.17">Jövőnkbe vetni egy pillantatot.”</l>
+                </lg>
+                <p xml:id="p.101">(<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.102"><persName>Madách</persName>, megjelölve az észrevételt, válaszolt
+                    is rá: „’Ez vissza pillantása e<supplied>és</supplied>.
+                    u<supplied>gy</supplied>. t<supplied>ovább</supplied>’ Lucifer úgy emlékszem
+                    azzal bíztatja Ádámot, hogy csak tűrjön, hisz lassanként majd keresztűl megy sok
+                    iskolán, de tapasztalatai meg maradnak, s ezekből abstrahálhatja a’ tudást. Erre
+                    Ádám azt mondja, hogy köszöni, de nem él vele, mert hisz ez nem vólna egyéb mint
+                    visszapillantása az öregnek<del>,</del>. - Igy akartam én e’ helyet érteni, s
+                    midőn azt írod, hogy nem érted egészen, csak rám illested[!] a ’Gut gedacht und
+                    schlecht gesprochen’-t.</p>
+                <p xml:id="p.103">Ha lehet ez irányban javíts rajta kérlek.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.5">2. sz.
+                        dok.</ref>) A javítás részleges lett: a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l."
+                        >199.</ref> sor hiátusának jobbítását és a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.3#l.">201.
+                        sor</ref> javasolt két szómódosítását <persName>Arany</persName> nem
+                    hajtotta végre.</p>
+            </div>
+            <div xml:id="d.5">
+                <p xml:id="p.104">IV. szín</p>
+                <p xml:id="p.105"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#stage.1"
+                        >IV: 0/1.</ref> A szerzői utasítás HÁRAÓ sh.-ját
+                    <persName>Madách</persName>, akár <persName>Arany<idno corresp="Arany János"
+                        /></persName> az errata-lapon, a kézipéldányon is javította: <bibl>Kozocsa
+                        1968 367.<idno type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.106"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.31"
+                        >IV:31.</ref> Ugyanez történt a <bibl><abbr>61</abbr></bibl> 'víz’
+                    sh.-jával, <persName>Madách</persName> (és <persName>Arany<idno
+                            corresp="Arany János"/></persName> az errata-lapon) ’vész’-re javította:
+                        <bibl>Kozocsa 1968 367.<idno type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.107"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.47"
+                        >IV:45.</ref><persName>Szász</persName> megjegyzése: „régi sik<hi
+                        rend="underline">ereddel</hi>, azaz: siker<hi rend="underline">telenűl</hi>,
+                    ezt így nem használják, vagy nem értik.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.108"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.49"
+                        >IV:46.</ref><persName>Arany</persName> megjegyzése a második félsor
+                    igéjére: „A hivod (rufst) magyarban nem teszi azt ki: <hi rend="underline"
+                        >segélyűl</hi>. Talán <hi rend="underline">kéred</hi>, noha ez gemeinabb.”
+                        (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                        sz. dok.</ref>)</p>
+                <p xml:id="p.109"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.57"
+                        >IV:53.</ref><persName>Madách</persName> a kézipéldányban is javította -
+                    akár <persName>Arany</persName> az erratalapon - a sorkezdet téves, sh.-s
+                    egybeírását: „Kie nő”...: vö. <bibl>Kozocsa 1968 367.<idno type="ITIdata"
+                            >Q469997</idno></bibl>! A sor végét <persName>Arany<idno
+                            corresp="Arany János"/></persName> kifogásolta: „’mi bűbájt bir sajátul’
+                    - veszett hang, rosz syntaxis. ’Ki e nő és miféle bája van&gt;’” (1. sz. dók.) A
+                    K len még jobb megoldást talált.</p>
+                <p xml:id="p.110"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.59"
+                        >IV:55.</ref><persName>Arany</persName> megjegyzése a sorra: „’lényéhez <hi
+                        rend="underline">ragadja</hi>’ - nem volna jobb: ’Lerántja porban fetrengő
+                    magához’?” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.111"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.63"
+                        >IV:59.</ref><persName>Madách</persName> a ’lepkek<hi rend="underline"
+                        >i</hi>nt’ alakot jav.: ’lepkek<hi rend="underline">é</hi>nt’: <bibl>Kozocsa
+                        1968 367.<idno type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.112"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.69"
+                        >IV:63-65.</ref><persName>Arany</persName> megjegyzése: „’Mit <hi
+                        rend="underline">tegyek</hi> tehát?’ - Nem volna jobb <hi rend="unerline"
+                        >tegyen</hi>? (t. i. a <hi rend="underline">bölcs király</hi>, kiről Pharaó
+                    beszél) akkor jobban jőne a következő két sora Luczifernek. Vagy ott a <hi
+                        rend="underline">tudás</hi> a subjectum, meg az <hi rend="underline"
+                        >erő</hi>? Nehéz érteni e két sort: ’Nincsen más hátra, mint hogy a
+                    tudás(nak) létét tagadja (a bölcs király) s az erő kaczagja (a bölcs királyt);
+                    vagy pedig: nincsen más hátra, minthogy a <hi rend="underline">tudás</hi>
+                    (saját) létét tagadja, s az erő (ugyanazt) kaczagja.’ - Kell vele tenni valamit,
+                    mert <hi rend="underline">’brevis esse laborat, obscurus fit.</hi>’ <note
+                        type="critic" xml:id="note.1">„Tömörítve akar írni, homályos lesz.” Horatius
+                            <hi rend="underline">Ars poeticá</hi>jának idealkalmazott sora.</note>”
+                        (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                        sz. dok.</ref>) <persName>Madách</persName> válasza a megjegyzésre: „Ez is
+                    olly homályos hely mint az előbbi. - <note type="critic" xml:id="note.2">Vö.
+                            <ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.100"
+                            >III:199-201.</ref></note> Kimagyarázom ezt is. - Szó van mint emlékszem
+                    épen e’ hely előtt sympathiákról ’s más olly tényezőkről, mellyek magukban
+                    semmiknek látszanak, kézzel nem foghatók s még is mélyen hatnak az emberek
+                    sorsába. - E tényezőket sem a’ tudomány nem bírja megmagyarázni, sem a’ phisicai
+                    erő hatalma alá hajtani. - Erre vonatkozik Lucifer gúnyoros megjegyzése, hogy ha
+                    így van, nincs más hátra, mint hogy a’ tudomány kereken tagadja meg létezésöket
+                    is illy rejtett erőknek; a phisicai hatalom pedig kaczagja, gúnyolja,
+                    kicsínyelje azokat, hogy compromittáló <sic>tehetedenséget</sic> e semmik
+                    irányában elpalástolja. - Hisz ez napjainkban is így történik ugy-e bár?- Ezen
+                    értelemben kellene tehát fentebbi helyet némileg megvilágosítani. -” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.5">2. sz.
+                        dok.</ref>) E válaszával a szerző be is fejezte a magyarázatokat, és
+                    teljeskörű felhatalmazást adott <persName>Aranynak</persName> a homályosnak
+                    érzett sorok javítására: „...megjegyzéseidet mint egy revisioúl ne is küld
+                    hozzám...” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.5">2. sz.
+                        dok.</ref>) A sor elejére viszont <persName>Szász Károly</persName> tett
+                    megjegyzést: „<hi rend="underline">Nincsen más hátra</hi>, prózai fordulat.” (6.
+                    sz. dók.) Maradt.</p>
+                <p xml:id="p.113"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.80"
+                        >IV:71.</ref> A sor záró szavaira („a mint meglelél.”) <persName>Szász
+                        Károly</persName> megjegyzése: „nem világos; így tán jobb volna: a mint rám
+                    találtál.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) <persName>Madách</persName> kézipéldányában előbb így javította
+                    a sorvéget, utóbb azonban jobb megoldást talált: „föllelél.” (<bibl>Kozocsa 1968
+                            367-368.<idno type="ITIdata">Q469997</idno></bibl>)</p>
+                <p xml:id="p.114"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.82"
+                        >IV:73-74.</ref><persName>Arany</persName> megjegyzése a két sorra: „’Mit az
+                        <hi rend="underline">erős</hi> rak, s állitván utódot Jármába, meghal.’ Az
+                    utóbbi két praedicatumot az olvasó az <hi rend="underline">erősre</hi> értheti
+                    inkább.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.115"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.90"
+                        >IV:80.</ref><persName>Arany</persName> megjegyzése, a jobb jambus
+                    érdekében: „’Neked <hi rend="underline">hitvány</hi> szám’ - jobb metrumot ad:
+                        <hi rend="underline">silány</hi>.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.116"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.96"
+                        >IV:86.</ref><persName>Arany</persName> megjegyzése: „...a hatály jobb
+                    metrum ugyan, mint a kitörlött <hi rend="underline">erő</hi>, de ez erősebb.
+                    ’Mint az <hi rend="underline">erőnek</hi> én.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.117"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.105">IV:
+                        94.</ref><persName>Madách</persName> a kézipéldányon korrigálta a
+                            <bibl><abbr>61</abbr></bibl> ’<hi rend="underline">i</hi>rigyeld’
+                    ritmikai szövegromlását: <bibl>Kozocsa 1968 368.<idno type="ITIdata"
+                            >Q469997</idno></bibl></p>
+                <p xml:id="p.118"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.109"
+                        >IV:98-99.</ref><persName>Szász</persName> megjegyzése a két sorra: „<hi
+                        rend="underline">Törekvésünkre</hi>- - <hi rend="underline">mosoly</hi> -
+                    érthetlen így: tán ezt teszi: törekvésünk izgatottságára gúny e nyugalom vagy
+                    annak (törekv.) hiú voltára szánalmas mosoly az...?” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) <persName>Madách</persName> a kézipéldányon több változattal
+                    kísérletezett: „Törekvésünknek nyúgodalma gúny.” - „E nyugalom, vagy büszke
+                    terveink / Hiúságunkra szánalmas mosoly.” Végül visszatért a K-Kl és a
+                            <bibl><abbr>61</abbr></bibl> némi módosításához: „Törekvésünkre gúny e
+                    nyúgalom, / Vagy hivságunkra szánalmas mosoly.” (<bibl>Kozocsa 1968 368.<idno
+                            type="ITIdata">Q469997</idno></bibl>)</p>
+                <p xml:id="p.119"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.124">IV:
+                        110.</ref><persName>Arany</persName> megjegyzése a sorkezdetre: „...hatályos
+                    de erőszak látszik. ’<hi rend="underline">Csitítsd</hi> el’?” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) A Kl-en Arany még jobb megoldást talált: „némítsd el.”</p>
+                <p xml:id="p.120"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.126">IV:
+                        112.</ref><persName>Arany</persName> ritmikai javítási javaslata: „’az<hi
+                        rend="underline">tat</hi> az igával’ - az igával <hi rend="underline"
+                        >azt</hi>.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.121"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.132">IV:
+                        118.</ref><persName>Arany</persName> megjegyzése: „<table xml:id="table.8">
+                        <row xml:id="row.13">
+                            <cell xml:id="cell.40">◡</cell>
+                            <cell xml:id="cell.41">◡</cell>
+                            <cell xml:id="cell.42">–</cell>
+                            <cell xml:id="cell.43"/>
+                        </row>
+                        <row xml:id="row.14">
+                            <cell xml:id="cell.44">’Hogy</cell>
+                            <cell xml:id="cell.45"> az</cell>
+                            <cell xml:id="cell.46"> a </cell>
+                            <cell xml:id="cell.47">népjaj.’</cell>
+                        </row>
+                    </table> - ’Hogy a nép jajja’, vagy’ <hi rend="underline">e</hi> nép jajja, ha a
+                    specziális vonatkozás el nem maradhat.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) <persName>Arany</persName> a Kl-en az előbbi értelmezést és
+                    javítást választotta.</p>
+                <p xml:id="p.122"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.134"
+                        >IV.120.</ref><persName>Szász</persName> megjegyzése a sorzáró szóra: „<hi
+                        rend="underline">Mulatni</hi> h<supplied>elyett</supplied>. <hi
+                        rend="underline">mulattatni</hi> értendő.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.123"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.143">IV:
+                        129.</ref><persName>Arany</persName> megjegyzése: „...a <hi rend="underline"
+                        >véled</hi> ige is: olvashatja szórakozott igy: ’És véled, én?...’ - És én
+                        <hi rend="underline">veled</hi>. Semmi a metrum.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.124"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.158">IV:
+                        142.</ref> A sorra <persName>Arany<idno corresp="Arany János"/></persName>
+                    észrevétele: „Nehéz hang. Talán:</p>
+                <p xml:id="p.125"><table xml:id="table.9">
+                        <row xml:id="row.15">
+                            <cell rows="2" xml:id="cell.48">’A</cell>
+                            <cell rows="2" xml:id="cell.49">{</cell>
+                            <cell xml:id="cell.50">végzés</cell>
+                            <cell rows="2" xml:id="cell.51">}</cell>
+                            <cell rows="2" xml:id="cell.52"><hi rend="underline">arra</hi> ítélt
+                                állata’ (a mit t. i. Ádám elmondott)</cell>
+                        </row>
+                        <row xml:id="row.16">
+                            <cell xml:id="cell.53">végzet</cell>
+                        </row>
+                    </table>” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.126">A <bibl><abbr>61</abbr></bibl>-ben megjelent Arany-javításra („A
+                    végzet arra itélt állata”) <persName>Madách</persName> a példányokat kézhez
+                    kapva, visszatért: „Egyedül a 39<hi rend="super">ik</hi> lapon a’ második sorban
+                        ’<hi rend="underline">arra</hi> ítélt állata, me<del>l</del>ly minden
+                    rendnek malmán húzni fog’ nem cohereal talán egészen, itt nem tudom eredetileg
+                    már én hibáztam-e el a’ constructiot s te észre nem vetted, vagy máskép jött
+                    bele a’ kis zavar...” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.6">3. sz.
+                        dok.</ref>) <persName>Arany</persName> a következőképpen magyarázta
+                    javítását: „Az általad felhozott ’sajtóhibára’ pedig töredelmesen megvallom,
+                    hogy az <hi rend="underline">nem</hi> sajtóhiba, hanem egyike azon soi-disant
+                    [úgynevezett] ’javításoknak’ melyekre kissé bőkezűen is felhatalmaztál, de a
+                    melyekkel iparkodtam csínján bánni. Sorod így volt:</p>
+                <p xml:id="p.127">’A végezet elítélt állata’</p>
+                <p xml:id="p.128">A vég<hi rend="doubleunderline">e</hi>zet szó nekem nem tetszett,
+                    minthogy némü eröltetés látszott a szóban a metrumért, mivel rendesen végzet-nek
+                    mondjuk. De nem tetszett még azért se, mert daczára e kis erőszaknak, mérete
+                    mégsem tiszta, lévén a két utótag rövid (◡ ◡). Én hát a syntaxisban tettem egy
+                    fordítást: ’a végzet <hi rend="underline">arra</hi> ítélt állata.’ Az ’arra’ e
+                    szerint nem a <hi rend="underline">mely</hi>-lyel függ össze, mert akkor ily
+                    szerkezet kéne ’arra, <hi rend="underline">hogy</hi> huzzon.’ Az ’arra’
+                    vonatkozik egészben Ádám előbbi beszédére, hogy t. i. a milliók az egyért
+                    vannak; oly syntacticai fordulat, mely kivált classicus költőknél nem mindennapi
+                    ugyan de nem is példátlan, s a beszéd figúráihoz számittatik.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.7">4. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.129"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.171">IV:
+                        152-160.</ref><persName>Szász</persName> megjegyzése e sorokra: „Mert minden
+                    — álmait, jobban helyén volna a következő színben, Miltiades kisérleteivel
+                    szemben.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.130"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.193">IV:
+                        169.</ref><persName>Szász</persName> megjegyzése: „A <hi rend="underline"
+                        >gazda</hi> nem marad meg, hanem a szolgaság vagy azon állapot, mely szerint
+                    gazda <hi rend="underline">van</hi>.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.131"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.219">IV:
+                        194.</ref><persName>Arany</persName> megjegyzése: „’<hi rend="underline"
+                        >Mit</hi> vágyol <hi rend="underline">mást</hi> - ’ vágyni <hi
+                        rend="underline">valamit</hi>? Igazitni könnyű volna: ’Mi vágyad más’?”
+                        (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                        sz. dok.</ref>)</p>
+                <p xml:id="p.132"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.226">IV:
+                        198.</ref><persName>Arany</persName> javaslata a jelző cseréjére: „...a dőre
+                    igen sokszor jő már elé. Itt lehetne: <hi rend="underline">balga</hi> fecsegés.”
+                        (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                        sz. dok.</ref>)</p>
+                <p xml:id="p.133"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.249"
+                        >IV:216.</ref><persName>Arany</persName> megjegyzése: „’mely <hi
+                        rend="underline">arczaid</hi>nál’ - úgy tetszik, hogy <hi rend="underline"
+                        >arcz</hi> egy van (Gesicht) <hi rend="underline">orcza</hi> kettő (Wangen)
+                    ’Mely <hi rend="underline">arczodat legyinti</hi> s elröpűl” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.134"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.250"
+                        >IV:217.</ref><persName>Arany</persName> észrevétele: „’Vékonyka porréteg
+                    marad <hi rend="underline">utána</hi>’ = az <hi rend="underline">arczon</hi>?
+                    nem, a földön. De amúgy érthetni előbb, ’marad, <hi rend="underline">hol
+                        elszáll</hi>’ (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.135"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.256"
+                        >IV:223.</ref><persName>Arany</persName> a sorzáró szóról: „Lehet s jobb is:
+                        <hi rend="underline">tanyáz</hi>.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.136"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.257"
+                        >IV:224.</ref><persName>Arany</persName> metrikai megjegyzése: „’nem az
+                    égrázó fergeteg’ - ’S mindezt nem ég- s földrázó fergeteg’ vagy ------- a
+                    mennyrázó fergeteg.’- (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Az utóbbi javítás valósult meg.</p>
+                <p xml:id="p.137"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.272"
+                        >IV:238.</ref><persName>Arany</persName> a sorról: „...nem zeng. Talán igy:
+                    ’Mely egyesekből nagy egészt csinál’.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.138"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.275"
+                        >IV:241.</ref><persName>Arany</persName> a sort így javasolta és javította
+                    is: „’Vezess, v<supplied>ezess</supplied>. <hi rend="underline">új czélra</hi>,
+                    Lucifer.(?)” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.139"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.278"
+                        >IV:243.</ref><persName>Arany</persName> a második félsorról: „Nehézkes. De
+                    maradhat is.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Maradt.</p>
+            </div>
+            <div xml:id="d.6">
+                <p xml:id="p.140">V. szín</p>
+                <p xml:id="p.141"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.2"
+                        >V:2.</ref>, <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.8"
+                        >8.</ref><persName>Arany</persName> megjegyzés nélkül tette meg szórendi
+                    javítási javaslatát (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>). Az utóbbi sor ’közzénk’ szavából a szerző kihúzta az egyik z-t,
+                    a <bibl><abbr>63</abbr></bibl>-ban is így jelent meg: <bibl>Kozocsa 1968
+                            368.<idno type="ITIdata">Q469997</idno></bibl> (téves értékelésével a
+                            <bibl><abbr>63</abbr></bibl> helyének).</p>
+                <p xml:id="p.142"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.11">V
+                        :ll.</ref><persName>Arany</persName> a sorzáró szóról: „...Csak: <hi
+                        rend="underline">honn</hi>.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.143"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.13"
+                        >V:13., 14.</ref><persName>Arany</persName> megjegyzés nélkül csak javítási
+                    javaslatát tette meg (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>).</p>
+                <p xml:id="p.144"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.31"
+                        >V:30.</ref><persName>Arany</persName> megjegyzése: „’túlerőre <hi
+                        rend="underline">jőne</hi>’ = jutna v[agy]. kapna.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Az első változatra javított a Kl-en.</p>
+                <p xml:id="p.145"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.35"
+                        >V:34.</ref><persName>Szász</persName> észrevétele a sor kezdetére: „...<hi
+                        rend="underline">mint hogyha</hi> igen dísztelen, <hi rend="underline"
+                        >mintha</hi> helyett (csaknem mindenütt, hol e szó előfordul, így van).”
+                        (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                        sz. dok.</ref>)</p>
+                <p xml:id="p.146"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.41"
+                        >V:40.</ref><persName>Arany</persName> megjegyzése a sorvégre: „Miatt nem
+                    jó. <hi rend="underline">Ért</hi>, vagy <hi rend="underline">végett</hi>
+                    kellene. ’És senkinek sem kell a szavazat’” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Végül a Kl-en más megoldást talált.</p>
+                <p xml:id="p.147"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.42"
+                        >V:41-42.</ref><persName>Arany</persName> megjegyzése: „’Mit kezdjen már az
+                    ember’ - <hi rend="underline">Németes</hi>. ’Unalmas élet! Mittevők legyünk
+                    már?’ ’Egy gyönge kis zavar nem ártana (Nem volna rosz egy kis zenebona)” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Ettől némileg eltérő javítás történt a 41. sorban, a 42. pedig
+                    maradt <persName>Madách</persName> szövege.</p>
+                <p xml:id="p.148"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#stage.3"
+                        >V:42/43.</ref> A szerzői utasítás szövegében <persName>Madách</persName> a
+                    kézipéldányon a ’szakaszonk<hi rend="underline">i</hi>nt’ javítást jelölte, ami
+                    meg is valósult a <bibl><abbr>63</abbr></bibl>-ban: <bibl>Kozocsa 1968 368.<idno
+                            type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.149"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.44"
+                        >V:43.</ref><persName>Arany</persName> megjegyzése a sorra:„...<hi
+                        rend="underline">germanism</hi><supplied>us</supplied>. ’Odább! Ez a hely
+                    itten az enyém’.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>)</p>
+                <p xml:id="p.150"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.54"
+                        >V:52.</ref><persName>Arany</persName> megjegyzés nélkül javította a sort
+                        (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                        sz. dok.</ref>), <persName>Madách</persName> a kézipéldányon pótolta a
+                            <bibl><abbr>61</abbr></bibl>-en elmaradt névelőt: <bibl>Kozocsa 1968
+                            368.<idno type="ITIdata">Q469997</idno></bibl></p>
+                <p xml:id="p.151"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.63"
+                        >V:60.</ref><persName>Arany</persName> megjegyzés nélkül javítási javaslatot
+                    tett a sorra (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>).</p>
+                <p xml:id="p.152"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.147">V:
+                        130-131.</ref><persName>Szász</persName> megjegyzése: „...<hi
+                        rend="underline">örökké szép</hi> alatt nem tudom, Évát érti-e vagy a
+                    templomot?” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) Maradt.</p>
+                <p xml:id="p.153"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.156"
+                        >V:139.</ref> A sorvégi vesszőt <persName>Madách</persName> kézipéldányában
+                    is pótolta: <bibl>Kozocsa 1968 368.<idno type="ITIdata"
+                    >Q469997</idno></bibl></p>
+                <p xml:id="p.154"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.161">V:
+                        144-145.</ref> E két sor ellen <persName>Arany<idno corresp="Arany János"
+                        /></persName> több kifogást emelt: „Nehéz. a <hi rend="underline">nem-e</hi>
+                    nem is jó magyarság. <hi rend="underline">határ</hi> és <hi rend="underline"
+                        >kopogtat</hi> rosz tropus is. ’Unalmas árnyjátéktoknak vajon / Nem áll-e
+                    majd be rettentő határa’...” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) A K1 javítása ettől a javaslattól némileg eltért.</p>
+                <p xml:id="p.155"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.168">V:
+                        151-152.</ref><persName>Arany</persName> megjegyzés nélkül közölte - utóbb
+                    megvalósult - javítási javaslatát a két sorra (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>).</p>
+                <p xml:id="p.156"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.185"
+                        >V:168.</ref><persName>Arany</persName> megjegyzés nélkül közölte javítási
+                    javaslatát (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>).</p>
+                <p xml:id="p.157"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.216">V:
+                        192-193.</ref><persName>Arany</persName> megjegyzése a két sorra: „...(a <hi
+                        rend="underline">mely</hi> a <hi rend="underline">békó</hi>ra érthető
+                    inkább.) ’Hiszen csak békót érdemel e <hi rend="underline">nép</hi>, / <hi
+                        rend="underline">Mely</hi>’...” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) <persName>Arany<idno corresp="Arany János"/></persName> a
+                    szerkezetet valóban így alakította át, szavakat is cserélve, a K1-en.</p>
+                <p xml:id="p.158"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.224"
+                        >V:199.</ref><persName>Arany</persName> megjegyzése, pontatlanul idézve
+                        <persName>Madách</persName> szövegét: „’Mint (<hi rend="underline">az</hi>)
+                    enyém...’ Segitni rajta valahogy, mert erőszakos. ’Hát még, ha tiszta, mint ez
+                    az enyém’...” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) A javítás során Arany más megoldást választott.</p>
+                <p xml:id="p.159"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.233"
+                        >V:206.</ref><persName>Madách</persName> a kézipéldányon jelölte a
+                            <bibl><abbr>61</abbr></bibl> kötőszavának (<hi rend="underline">s</hi>)
+                    gondolatjelre javítását: <bibl>Kozocsa 1968 368.<idno type="ITIdata"
+                            >Q469997</idno></bibl></p>
+                <p xml:id="p.160"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.260"
+                        >V:228.</ref><persName>Arany</persName> a javítási javaslatot megjegyzés
+                    nélkül közölte (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>).</p>
+                <p xml:id="p.161"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.274"
+                        >V:242.</ref><persName>Arany</persName> megjegyzése a sor „paradicsomból”
+                    szavára: „Másutt nem emlékszik Ádám paradicsomi voltára. És ez tán jobb is.-”
+                        (<ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                        sz. dok.</ref>)</p>
+                <p xml:id="p.162"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.287">V:
+                        254-256.</ref><persName>Arany</persName> megjegyzése
+                        <persName>Madách</persName> szófűzésére: „Az a <hi rend="underline"
+                        >nem-e</hi> mindenütt rosz.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>) Ugyanitt megtette javítási javaslatát e három sorra, amit inkább
+                    módosítva hajtott végre:</p>
+                <lg xml:id="lg.7">
+                    <l xml:id="l.18">„- No s vitéz, ugyan [!],</l>
+                    <l xml:id="l.19">Nem borzongatja kissé tagjaid</l>
+                    <l xml:id="l.20">A torzképű halál hideg szele?”</l>
+                </lg>
+                <p xml:id="p.163"><ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.297"
+                        >V:265-266.</ref><persName>Arany</persName> egyetlen megjegyzéssel („De
+                    maradhat is.”) közölte utóbb megvalósított javítási javaslatát a két sorra (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1. sz.
+                        dok.</ref>). <persName>Szásznak</persName> is gondja volt velük: „...két
+                    végsor: Miért? nem értem.” (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6. sz.
+                        dok.</ref>) Maradtak.</p>
+                <div xml:id="d.7">
+                    <p xml:id="p.278">VI. szín</p>
+                    <p xml:id="p.279"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#stage.1"
+                            >VI:0/1.</ref><note type="critic" xml:id="note.6">szerzői
+                            utasítás</note><persName>Arany<idno corresp="Arany János"/></persName>
+                        megjegyzése a szerzői utasítás (végül általa törölt) jelzőjére: „Vajon nem
+                        inkább <hi rend="underline">kerek</hi> asztal volt a rómaiaké’? Lásd pl. <hi
+                            rend="underline">Rich</hi> Diction<supplied>naire</supplied>.
+                            Antiqu<supplied>ites</supplied>. <hi rend="underline">Mensa.</hi>” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.280"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.6"
+                            >VI:5.</ref><persName>Arany</persName> megjegyzése a madáchi sor
+                        hangzását kifogásolta: „’Ki van köztünk, ki hisz még istenekben - sok <hi
+                            rend="underline">i</hi> sok <hi rend="underline">k</hi>. ’Ki hinne
+                        köztünk még <hi rend="underline">ez</hi> istenekben?’...” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) A K1 változtatása ettől némileg eltért.</p>
+                    <p xml:id="p.281"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.18"
+                            >VI: 16-17.</ref> Ugyaniyen megjegyzéssel illette e két sort is:
+                        „...rosz hang, sok <hi rend="underline">k</hi>, sok <hi rend="underline"
+                            >ki</hi>, és a maitresse <hi rend="underline">kitartás</hi> modern.” (1.
+                        sz. dok.)</p>
+                    <p xml:id="p.282"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.22"
+                            >VI: 19.</ref><persName>Arany</persName> megjegyzése a sor elejére: „’Ha
+                        is’ = Ha <hi rend="underline">birnád</hi> is. Valahogy a versbe
+                        férkeztetni.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.283"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.23"
+                            >VI:20.</ref><persName>Arany</persName> megjegyzése a sorkezdetre:
+                        „...’vágyol gyönyör<hi rend="underline">t</hi>’ - gyönyör<hi
+                            rend="underline">re</hi> vágy<hi rend="underline">sz</hi> (még jobb, ha
+                        nem ikes)” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) A <bibl><abbr>61</abbr></bibl>-ben azonban változatlan
+                        maradt, ezért <persName>Szász</persName> is visszatért rá: „...jobb volna
+                            gyönyör<hi rend="underline">re</hi><hi rend="underline">vágyni</hi>.”
+                            (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) A <bibl><abbr>63</abbr></bibl>-ban a javítás, a
+                        kézipéldány nyomán, megtörtént: <bibl>Kozocsa 1968 368.<idno type="ITIdata"
+                                >Q469997</idno></bibl></p>
+                    <p xml:id="p.284"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.52"
+                            >VI:45.</ref><persName>Arany</persName> a sorkezdetet kifogásolta: „’S
+                        nem esz meg-<hi rend="underline">é</hi>?’ - határozottan hiba. ’S te nem rút
+                        féreg martaléka lészsz-e.&gt;’ vagy S nem esz meg a rút féreg téged is?”
+                            (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) A K1 változtatása ezektől eltérő.</p>
+                    <p xml:id="p.285"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.62"
+                            >VI:54.</ref><persName>Arany</persName> megjegyzése a sor végére: „’ha
+                        egy kis vér <hi rend="underline">futott</hi>’ germanism[ us]. <hi
+                            rend="underline">ömölt</hi>.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.286"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.63"
+                            >VI:55.</ref><persName>Madách</persName> a „j<hi rend="underline"
+                        >ő</hi>j” javítást a kézipéldányon jelölte: <bibl>Kozocsa 1968 368.<idno
+                                type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.287"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.81"
+                            >VI:71.</ref><persName>Arany</persName> megjegyzése a sorkezdetre: „’<hi
+                            rend="underline">Jó</hi> van - <hi rend="underline">jól</hi> van, <hi
+                            rend="underline">jól</hi>.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.288"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.83"
+                            >VI:73.</ref><persName>Szász</persName> észrevétele a sorról: „<hi
+                            rend="underline">Fejemről</hi> — <hi rend="underline">a füzér</hi>
+                        miért?” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> a sort átfogalmazta:
+                            <bibl>Kozocsa 1968 368.<idno type="ITIdata">Q469997</idno></bibl> (téves
+                        értelmezéssel)</p>
+                    <p xml:id="p.289"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.86"
+                            >VI: 76.</ref><persName>Arany</persName> megjegyzése a sorkezdetről:
+                        „Sejtem az értelmét, de fátyolzott gondolatnak is homályos.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) <persName>Madách</persName> a
+                            <bibl><abbr>61</abbr></bibl> kézipéldányán is javított még rajta:
+                            <bibl>Kozocsa 1968 368<idno type="ITIdata">Q469997</idno></bibl>!</p>
+                    <p xml:id="p.290"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.87"
+                            >VI:77-78.</ref><persName>Szász</persName> a két sorról: „Mi az? nem
+                        értem.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> csak az utóbbi soron
+                        javított a kézipéldányban: „S csak egy jó szót...”, vö. <bibl>Kozocsa 1968
+                                368.1<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.291"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.101"
+                            >VI:92.</ref><persName>Arany</persName> ritmikai megjegyzése: „Nem
+                        jambus. ’Lappangva ég a fekete halál’ inkább menne talán.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) A K1 javításában azonban eltért a szövegjavaslattól.</p>
+                    <p xml:id="p.292"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.107"
+                            >VI:96-134.</ref><persName>Arany</persName> megjegyzése a betétekre:
+                            „<hi rend="underline">Hippia</hi> és <hi rend="underline">Cluvia</hi>
+                        dala. Igen jó gondolat, de lyrai zöngelem nélkül.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.293"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.135"
+                            >VI: 124.</ref><persName>Szász</persName> kérdése: „Mi az a <hi
+                            rend="underline">tar</hi> föld?” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.294"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#app.309"
+                            >VI: 126.</ref><persName>Arany</persName> megjegyzése a sorkezdő
+                        „Kísértett...” szóra: „Es spuckte. <hi rend="underline">Német.</hi>” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.295"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#app.311"
+                            >VI: 126-127.</ref><persName>Madách</persName> a kézipéldányban a
+                            „hős<hi rend="underline">ek</hi>” alakot „hős<hi rend="underline"
+                            >ök</hi>”-re javította (<bibl>Kozocsa 1968 367.<idno type="ITIdata"
+                                >Q469997</idno></bibl>), ám a <bibl><abbr>63</abbr></bibl>-ban is
+                        változatlan maradt.</p>
+                    <p xml:id="p.296"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.150"
+                            >VI: 139.</ref><persName>Arany</persName> a sorkezdő szókapcsolatot
+                        kifogásolta: „’Vagy nem vagy-é <hi rend="underline">jól</hi>?... Nem magyar.
+                        A magyar <hi rend="underline">jól</hi> van, mikor nem beteg. - Az ilyen jól
+                            <hi rend="underline">esik</hi> neki. ’Nem jó pihenned férfi keblemen? /
+                        Ah jól esik.’ - ” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) A sor javítása a K1-en ettől némileg eltér.</p>
+                    <p xml:id="p.297"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.151"
+                            >VI: 141-142.</ref><persName>Arany</persName> megjegyzése a két sorra:
+                        „...nehéz.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.298"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.162"
+                            >VI: 150-151.</ref><persName>Arany</persName> elemzése a kb. idézett két
+                        sorról: „’Mintha messze multba szállnék’ - Éva emlékezete a <hi
+                            rend="underline">paradicsomra</hi> itt sokkal szebben van felhozva, mint
+                        az Ádámé fönebb. <note type="critic" xml:id="note.7"><ref
+                                target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.6#l.274"
+                                >V. 242-243.</ref></note> Így kellene tán Ádámnak is emlékezni
+                        előbbi lételére. <hi rend="underline">Ádám</hi>: ’Ugy érzem’ stb. Itt már
+                        homályos emlékezet. Annál szükségesebb kijavitni az 5. scenát.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>; vö. még a SZŐ VÉGÁLLAPOTOK 24. sz. jegyzetének
+                        Arany-megjegyzésével! )</p>
+                    <p xml:id="p.299"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.273"
+                            >VI:257.</ref><persName>Arany</persName> megjegyzése szórendi
+                        változtatást javasolt: „...hogy legyen <hi rend="underline">köre</hi>.”
+                            (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.300"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.295"
+                            >VI:279.</ref><persName>Szász</persName> megjegyzése a sorkezdetre:
+                        „...olvasd: <hi rend="underline">a mely</hi>, mert az <hi rend="underline"
+                            >új eszmére</hi> (2 s) <note type="critic" xml:id="note.8">értsd: 2
+                            sorral előbb, a 277. sorban </note> vonatkozik.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.301"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.297"
+                            >VI: 281.</ref><persName>Arany</persName> megjegyzése javításához:
+                        „’mint <table xml:id="table.13">
+                            <row xml:id="row.24">
+                                <cell xml:id="cell.73">–</cell>
+                                <cell xml:id="cell.74"/>
+                            </row>
+                            <row xml:id="row.25">
+                                <cell xml:id="cell.75">da</cell>
+                                <cell xml:id="cell.76">gadó</cell>
+                            </row>
+                        </table> párnákon’ jobb mint ez: ’min<hi rend="underline">t</hi> a daga<hi
+                            rend="underline">dt</hi> párnákon’.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) A sorvégi „kények”-re <persName>Szász</persName> tett
+                        észrevételt: „...értsd: <hi rend="underline">kéjeket</hi>.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> a kézipéldányon javította
+                        is: <bibl>Kozocsa 1968 368.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.302"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.7#l.299"
+                            >VI:283.</ref><persName>Szász</persName> a sor egészét kérdőjelezte meg:
+                        „Miért?” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                </div>
+                <div xml:id="d.8">
+                    <p xml:id="p.303">VII. szín</p>
+                    <p xml:id="p.304"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#stage.1"
+                            >VII:0/1.</ref> A szerzői utasítás sh.-ját a
+                            <bibl><abbr>61</abbr></bibl>-en („pa<hi rend="underline">t</hi>otája”)
+                            <persName>Madách</persName> a kézipéldányon is javította: <bibl>Kozocsa
+                            1968 368.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.305"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.8"
+                            >VII:8.</ref><persName>Arany</persName> a „Nem-é látjátok” fordulatra
+                        tett megjegyzést: „...’Vagy nem látjátok? Hát nem?’...” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.306"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.9"
+                            >VII:9.</ref><persName>Arany</persName> megjegyzés nélkül
+                            <persName>Madáchnak</persName> is javításra jelölte ki a „pánttal”
+                        gyakori és mindannyiszor kifogásolt szavát (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>).</p>
+                    <p xml:id="p.307"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.18"
+                            >VII: 18-19.</ref><persName>Arany</persName> megjegyzése: „’Hogy annyi
+                            <hi rend="underline">hitvány</hi>, aljas tervezettel...’ A <hi
+                            rend="underline">hitvány</hi>t szintén a <hi rend="underline"
+                            >tervezet</hi> epithetonának lehet olvasni.
+                            Substantiv<supplied>um</supplied>. kellene. Vagy: ’hogy annyi <hi
+                            rend="underline">rabló</hi>, / Hogy aljas czéllal annyi martalócz, /
+                        Kezében a sz<supplied>en</supplied>t. zászlót lengeti.’” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) Némileg eltérő javítás történt a K1-en.</p>
+                    <p xml:id="p.308"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.32"
+                            >VII:32.</ref><persName>Arany</persName> megjegyzése a sorkezdetre: „Az
+                            <hi rend="underline">őt</hi>nem tudjuk, a népre vitetik-e vagy a
+                        szellemre. Jobb így: Lesujtom. L<supplied>ucifer</supplied>.: És ha szellem
+                        nála is lesz?” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.309"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.36"
+                            >VII:34.</ref><persName>Arany</persName> megjegyzése: „’Nem-é nemesb...’
+                        Hát nem nemesb?” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.310"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.39"
+                            >VII:37.</ref><persName>Arany</persName> megjegyzése: „’<hi
+                            rend="underline">társt</hi>’ - erőszak.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.311"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.69"
+                            >VII:66.</ref><persName>Arany</persName> megjegyzése: „’<hi
+                            rend="underline">nem-é</hi> hiszesz már...’ Hát nem hiszesz már.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.312"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.70"
+                            >VII:67.</ref><persName>Madách</persName> a kézipéldányon a „fajtád”
+                        szót „fajod”-ra javította: <bibl>Kozocsa 1968 368.<idno type="ITIdata"
+                                >Q469997</idno></bibl>; a <bibl><abbr>63</abbr></bibl>-ban is
+                        így.</p>
+                    <p xml:id="p.313"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.93"
+                            >VII:88.</ref><persName>Arany</persName> megjegyzése a sorkezdetre: „Nem
+                        kell a kötszó <hi rend="underline">s</hi> mert participium előzi meg.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.314"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.118"
+                            >VII:lll.</ref><persName>Arany</persName> megjegyzése
+                            <persName>Madách</persName> jelzőjére: „’mez<hi rend="underline"
+                            >tel</hi>lábas...’ Nem megy, lehetne <hi rend="underline">pőre
+                            lábas</hi>.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) A <bibl><abbr>61</abbr></bibl> „puszta-lábas” változata
+                            <persName>Szász</persName>t nem elégítette ki: „...mezítlábas?” (6. sz.
+                        dok.) <persName>Madách</persName> a kézipéldányon „mezt<hi rend="underline"
+                            >i</hi>lábas”-ra javított, a <bibl><abbr>63</abbr></bibl>-ban végül
+                            „mezt<hi rend="underline">e</hi>lábas” lett a véglegesült alak:
+                            <bibl>Kozocsa 1968 368-369.<idno type="ITIdata"
+                        >Q469997</idno></bibl></p>
+                    <p xml:id="p.315"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.121"
+                            >VII: 114.</ref> A katolikus <persName>Madách</persName> a jelzőn a
+                        kézipéldányban visszaállította a református <persName>Arany<idno
+                                corresp="Arany János"/></persName> „keresz<hi rend="underline"
+                            >ty</hi>é<hi rend="underline">n</hi>” szavát „keresz<hi rend="underline"
+                            >t</hi>é<hi rend="underline">ny</hi>”-re, amint a K-Kl-en volt, ám a
+                                <bibl><abbr>63</abbr></bibl>-ban a visszajavítás nem történt meg:
+                            <bibl>Kozocsa 1968 369.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.316"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.122"
+                            >VII: 115.</ref><persName>Szász</persName> az „ősi hegyeim közt”
+                        helyhatározóra kérdezett rá: „Hol? a paradicsomban-e vagy mint Tankréd?”
+                            (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.317"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.191"
+                            >VII: 178.</ref><persName>Madách</persName> a kézipéldányban az
+                        „Anastásiust” alakot „Atanásiust”- ra helyesbítette: <bibl>Kozocsa 1968
+                                369.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.318"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.204"
+                            >VII: 190-192.</ref><persName>Szász</persName> megjegyzése: „...<hi
+                            rend="underline">Isten dicsére...</hi> - nem mondják.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.319"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.209"
+                            >VII: 195.</ref><persName>Arany</persName> megjegyzése és javítási
+                        javaslatai a sorkezdetre: „’Megszámítottak’ - <hi rend="underline"
+                            >Nehéz</hi>, a stil, nem a vers. - Számlálva vannak... Mert
+                        megszámítvák...” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) A Kl-en egy harmadik változat valósult meg.</p>
+                    <p xml:id="p.320"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.224"
+                            >VII:209/a.</ref> A <bibl><abbr>63</abbr></bibl>-ban megjelenő sort
+                            <persName>Madách</persName> kézipéldányába is beírta: <bibl>Kozocsa 1968
+                                369.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.321"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.235"
+                            >VII:218-219.</ref><persName>Madách</persName> a kézipéldányon
+                        alakította ki a sorok végleges szövegét, „n<hi rend="unerline">e</hi>vel”
+                        sorzáró változattal, illetve „öszvehoz” szövegváltozattal: <bibl>Kozocsa
+                            1968 369.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.322"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.235"
+                            >VII:219.</ref><persName>Madách</persName> a kézipéldányon az „<hi
+                            rend="underline">á</hi>d” szót „<hi rend="underline">a</hi>d”-ra
+                        javította, de a <bibl><abbr>63</abbr></bibl>-ban mégis változadanul maradt,
+                        vö. <bibl>Kozocsa 369.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.323"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.318"
+                            >VII:300.</ref><persName>Arany</persName> megjegyzése a sorkezdetre:
+                            „<hi rend="underline">Ha is</hi>, mit nyertem? S mit nyertem <hi
+                            rend="underline">volna</hi>?...” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.324"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.320"
+                            >VII:302.</ref><persName>Arany</persName> javítási javaslata a sorvégre:
+                            „...elkárho<hi rend="underline">zom</hi>.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) Másképp javított a K1-en.</p>
+                    <p xml:id="p.325"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.346"
+                            >VII: 326.</ref><persName>Arany</persName> megjegyzése: „’<hi
+                            rend="underline">nem-e</hi> nagy eszme?’ <hi rend="underline">hát
+                            nem</hi> nagy eszme?” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.326"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.371"
+                            >VII:347-348.</ref><persName>Arany</persName> megjegyzése az „<hi
+                            rend="underline">éjt</hi>... <hi rend="underline">táborát</hi>”
+                        szerkezetre: „Nehéz.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.327"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.389"
+                            >VII:365.</ref><persName>Arany</persName> megjegyzése a sorkezdő szóra:
+                        „Nevezetes! (merkwürdig) ’Ez különös’...” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.328"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.393"
+                            >VII:369.</ref><persName>Arany</persName> ritmikai megjegyzése a <table
+                            xml:id="table.14">
+                            <row xml:id="row.26">
+                                <cell xml:id="cell.77"/>
+                                <cell xml:id="cell.78"> – </cell>
+                                <cell xml:id="cell.79">–</cell>
+                                <cell xml:id="cell.80">–</cell>
+                                <cell xml:id="cell.81">◡</cell>
+                            </row>
+                            <row xml:id="row.27">
+                                <cell xml:id="cell.82">„gátolni</cell>
+                                <cell xml:id="cell.83"> már </cell>
+                                <cell xml:id="cell.84">győ</cell>
+                                <cell xml:id="cell.85">zel</cell>
+                                <cell xml:id="cell.86">mem”</cell>
+                            </row>
+                        </table> alakra: „...<hi rend="underline">győz</hi> mindig hosszú.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.329"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.397"
+                            >VII:373.</ref><persName>Arany</persName> félreolvasta
+                            <persName>Madách</persName> csökevényes <hi rend="underline">t</hi>
+                        betűjét, megjegyzését és javítását eszerint tette meg: „szere<hi
+                            rend="underline">s</hi>lek - nincs mód, flexio-formát csinálni! ’Nincs
+                        tiltva tán, hogy <hi rend="underline">én</hi> szeress<hi rend="underline"
+                            >e</hi>lek?’” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.330"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.445"
+                            >VII:420.</ref><persName>Arany</persName> (egyéb megjegyzés nélkül) a K1
+                        módosított, megvalósult szórendjét közli javítási javaslatul (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>).</p>
+                    <p xml:id="p.331"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.456"
+                            >VII:431.</ref><persName>Szász</persName> megjegyzése: „...védi a kor
+                        szelleme... - Miért? nem világos.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.332"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.463"
+                            >VII:436.</ref><persName>Arany</persName> megjegyzése az igevonzatra:
+                        „daczolni minden<hi rend="underline">nek</hi>... nem <hi rend="underline"
+                            >neki</hi>, <hi rend="underline">vele</hi>.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>)</p>
+                    <p xml:id="p.333"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.8#l.481"
+                            >VII:451.</ref><persName>Arany</persName> megjegyzése a sorkezdő szóra:
+                            „’Szem<hi rend="underline">e</hi>tlenség’ egész más, mint <hi
+                            rend="underline">szemtelenség</hi>. ’Arczátlanság’ lehetne.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4">1.
+                            sz. dok.</ref>) <hi rend="underline">O</hi>rczátlanság lett a K1 végső
+                        megoldása.</p>
+                </div>
+                <div xml:id="d.9">
+                    <p xml:id="p.334">VIII. szín</p>
+                    <p xml:id="p.335"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.9#l.11"
+                            >VIII: 10.</ref><persName>Madách</persName> a kézipéldányon „<hi
+                            rend="underline">a</hi> tűz” helyett „<hi rend="underline">e</hi> tűz”-t
+                        írt, de maradt: <bibl>Kozocsa 1968 369.<idno type="ITIdata"
+                            >Q469997</idno></bibl></p>
+                    <p xml:id="p.336"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.9#l.12"
+                            >VIII: 11-13.</ref><persName>Szász</persName> e három sorban több helyet
+                        is kifogásolt: „...nem értem, mire vonatkozik a <hi rend="underline">szép
+                            időt melenget</hi>, és <hi rend="underline">nem férfias</hi> stb.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz.dok.</ref>) <persName>Madách</persName> azonban csak a „szép időt”
+                        &gt; „jó régen” javítást hajtotta végre: <bibl>Kozocsa 1968 369.<idno
+                                type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.337"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.9#l.25"
+                            >VIII:24.</ref><persName>Szász</persName> javítási javaslata a sorra:
+                        „...jobban rendezve volna így: ’Meglesz, uram, mikép parancsolod.’” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> a kézipéldányon a kötőszó
+                        ügyében habozott: a javasolt „mikép” helyett „miként”-et írt (ez volt a K1
+                        változata, saját javítása), majd visszatért az „amint”-hoz, a K első
+                        változatához: <bibl>Kozocsa 1968 369.<idno type="ITIdata"
+                            >Q469997</idno></bibl></p>
+                    <p xml:id="p.338"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.9#l.37"
+                            >VIII:36.</ref><persName>Szász</persName> megjegyzése: „...Az érczek
+                        bölcseletsava... - Mi az?” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.339"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.9#l.69"
+                            >VIII:67.</ref><persName>Szász</persName> megjegyzése: „...istenűl hódol
+                        szokatlan, helytelen, s nem is világos kifejezés azon értelemben, hogy a <hi
+                            rend="underline">nőnek mint istennek</hi> hódol...” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Lényegét tekintve maradt.</p>
+                    <p xml:id="p.340"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.9#rdg.720"
+                            >VIII: 189/190.</ref> A személy megnevezésében
+                            <persName>Madách</persName> a kézipéldányon kihúzta <hi rend="underline"
+                            >A</hi> HARMADIK UDVARONCZ névelőjét, de aztán visszaállította. A
+                                <bibl><abbr>63</abbr></bibl>-ban maradt is: <bibl>Kozocsa 1968
+                                369.<idno type="ITIdata">Q469997</idno></bibl> (téves
+                        értelmezéssel)</p>
+                </div>
+                <div xml:id="d.10">
+                    <p xml:id="p.341">IX. szín</p>
+                    <p xml:id="p.342"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.5#l.127"
+                            >IX: 120.</ref><persName>Madách</persName> a kézipéldányon a
+                        „Menyország” szót „Me<hi rend="underline">n</hi>nyország”-ra javította, de a
+                                <bibl><abbr>63</abbr></bibl>-ban maradt: <bibl>Kozocsa 1968
+                                369.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.343"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.5#l.158"
+                            >IX: 150-151.</ref><persName>Szász</persName> megjegyzése e két sorra:
+                            „<hi rend="underline">Tán azt</hi>... <hi rend="underline">a világ.</hi>
+                        - Nem értem.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> négy sorra bővítette a
+                        részletet, amelynek utolsó sora többször is változott: „<del>Hogy kedvesétől
+                            megrendűl a föld.</del><del>Hogy tőle retteg s megrendűl a föld.</del>
+                        Hogy retteg tőle s megrendűl a föld.” Ez lett a véglegesült sor:
+                            <bibl>Kozocsa 1968 369.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.344"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.5#l.189"
+                            >IX: 179.</ref><persName>Szász</persName> megjegyzése: „...<hi
+                            rend="underline">megbékélt</hi> helyett jobb volna: <hi rend="underline"
+                            >kibékült</hi>.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> a „kibékélt” alak mellett
+                        döntött: <bibl>Kozocsa 1968 369.<idno type="ITIdata"
+                        >Q469997</idno></bibl></p>
+                    <p xml:id="p.345"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.5#l.254"
+                            >IX:240.</ref> A „hitvány<hi rend="underline">t</hi>” sh-s <hi
+                            rend="underline">t</hi>-jét <persName>Madách</persName> törölte:
+                            <bibl>Kozocsa 1968 369.<idno type="ITIdata">Q469997</idno></bibl></p>
+                </div>
+                <div xml:id="d.11">
+                    <p xml:id="p.346">X. szín</p>
+                    <p xml:id="p.347"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.10#l.23"
+                            >X:23.</ref><persName>Szász</persName> megjegyzése: „...<hi
+                            rend="underline">megfigyelnek</hi> helyett <hi rend="underline"
+                            >észrevesznek</hi> kell.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> a kézipéldányon javította:
+                            <bibl>Kozocsa 1968 369.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.348"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.10#l.37"
+                            >X:37-38.</ref> A két sorról <persName>Szász</persName> véleménye:
+                        „...magyartalan, de nem is világos kifejezés.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> egy új sor betoldásával
+                        bővítette a helyet: <bibl>Kozocsa 1968 369-370.<idno type="ITIdata"
+                                >Q469997</idno></bibl></p>
+                    <p xml:id="p.349"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.10#l.110"
+                            >X:107.</ref><persName>Madách</persName> a kézipéldányon a „csin” szót
+                        „csiny”-re javította, így szerepel a <bibl><abbr>63</abbr></bibl>-ban is:
+                            <bibl>Kozocsa 1968 370.<idno type="ITIdata"
+                            >Q469997</idno></bibl><persName>Szász</persName> e két sort egészben is
+                        kifogásolta: „...így nem értem; megfordítva igen: ’elbámulsz e komoly
+                        dolgokon, midőn belátod, hogy az egész csak komődia.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> azonban nem
+                        változtatott.</p>
+                    <p xml:id="p.350"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.10#l.115"
+                            >X: 112-114.</ref><persName>Szász</persName> a 113-114. sorról: „...oly
+                        erőltetett, hogy nem bírom világosan, a megértésig elemezni.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> az előző sort is bevonta
+                        javításába a kézipéldányon: <lg xml:id="lg.14">
+                            <delSpan spanTo="#delEnd1"/>
+                            <l xml:id="l.44">Ily semmiséggel küzdünk szüntelen</l>
+                            <l xml:id="l.45">A meglevő hatalmak védletét</l>
+                            <l xml:id="l.46">Vivő kegyelet szentséges nevében.)</l>
+                            <anchor xml:id="delEnd1"/>
+                        </lg> Ezt törölve, a második javítás azonos a <bibl><abbr>63</abbr></bibl>
+                        három sorával: <bibl>Kozocsa 1968 370.<idno type="ITIdata"
+                            >Q469997</idno></bibl></p>
+                </div>
+                <div xml:id="d.12">
+                    <p xml:id="p.351">XI. szín</p>
+                    <p xml:id="p.352"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.26"
+                            >Xl:26-28.</ref><persName>Szász</persName> megjegyzése: „...nehéz így.
+                        Ha jól értem, így áll: ’A magosban szépen hangzik, mint a templomének,
+                        bármily jajkiáltás, rekedt hang olvadt belé, míg fölért.’ Ha ezt, úgy máskép
+                        rendezni mulhatlan, hogy érthető legyen. Tán így: <lg xml:id="lg.15">
+                            <l xml:id="l.47">Magosban szépen zeng, mint templom ének,</l>
+                            <l xml:id="l.48">Bármily rekedt hang, jajszó olvad is</l>
+                            <l xml:id="l.49">Belé a míg fölér...” (<ref
+                                    target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9"
+                                    >6. sz. dok.</ref>)</l>
+                        </lg><persName>Madách</persName> a 26. sort érintetlenül hagyta, a 27. sort
+                        a <bibl><abbr>63</abbr></bibl> változatára javította, a 28. sort először így
+                        formálta: „(Elolvad benne, ameddig felér.)” <del>Elolvad benne, ameddig
+                            felér.</del> (<bibl>Kozocsa 1968 370.<idno type="ITIdata"
+                            >Q469997</idno></bibl>)</p>
+                    <p xml:id="p.353"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.62"
+                            >XI:62.</ref><persName>Szász</persName> szórendi javítást ajánlott a
+                        „csak a múltnak dala.” sorrészletre: „...csak úgy értem, ha így cseréljük:
+                            <hi rend="underline">a múltnak csak dala.</hi> Tudniillik a mi a múltban
+                        nem szép, nem dalszerű, az nem hallszik fel, az elvész.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> a kézipéldányon
+                        végrehajtotta a szórendi cserét: <bibl>Kozocsa 1968 370.<idno type="ITIdata"
+                                >Q469997</idno></bibl></p>
+                    <p xml:id="p.354"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.130"
+                            >XI: 130.</ref><persName>Szász</persName> megjegyzése: „...<hi
+                            rend="underline">felkötteti</hi>? - nem, hanem <hi rend="underline"
+                            >felköti</hi>.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.355"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.141"
+                            >XI: 141.</ref><persName>Szász</persName> megjegyzése a sorvégre:
+                        „...nem <hi rend="underline">fölidézi</hi>, hanem <hi rend="underline"
+                            >fölhozza</hi>- aki fölhozá -” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> elfogadta: <bibl>Kozocsa
+                            1968 370.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.356"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.168"
+                            >XI: 168-170.</ref><persName>Szász</persName> megjegyzése: „...mit akar
+                        a második munkás? - nem értem.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> a kézipéldányon a 169-170.
+                        sort átfogalmazta, ez lett a <bibl><abbr>63</abbr></bibl> végleges szövege:
+                            <bibl>Kozocsa 1968 370.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.357"><table xml:id="table.15">
+                            <row xml:id="row.28">
+                                <cell xml:id="cell.87"><ref
+                                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.200"
+                                        >XI: 195.</ref></cell>
+                                <cell rows="3" xml:id="cell.88">}</cell>
+                                <cell rows="3" xml:id="cell.89"><persName>Madách</persName> a
+                                    kézipéldányon alakította ki a <bibl><abbr>63</abbr></bibl>
+                                    végleges szövegét: <bibl>Kozocsa 1968 370.<idno type="ITIdata"
+                                            >Q469997</idno></bibl></cell>
+                            </row>
+                            <row xml:id="row.29">
+                                <cell xml:id="cell.90"><ref
+                                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.202"
+                                        >XI: 197.</ref></cell>
+                            </row>
+                            <row xml:id="row.30">
+                                <cell xml:id="cell.91"><ref
+                                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.323"
+                                        >XI: 312.</ref></cell>
+                            </row>
+                        </table></p>
+                    <p xml:id="p.358"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.219"
+                            >XI:214.</ref><persName>Szász</persName> megjegyzése: „<hi
+                            rend="underline">húzasz</hi>, eufóniaellenes szabályosság.” Maradt.</p>
+                    <p xml:id="p.359"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.342"
+                            >XI:331-332.</ref><persName>Szász</persName> megjegyzése: „...szeretném,
+                        ha kimaradna e két sor, mi az előzményekhez épen nem illik.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> azonban - törlés helyett - a
+                        kézipéldányon kijavította a két sort: <lg xml:id="lg.16">
+                            <delSpan spanTo="#delEnd2"/>
+                            <l xml:id="l.50">Míg egykoron majdan magasb, nemesb</l>
+                            <l xml:id="l.51">Küzd tért nyitand erélyűnk meg magának.)</l>
+                            <anchor xml:id="delEnd2"/>
+                        </lg> Ezek helyére a 331. sort visszaállította a K-K1,
+                            <bibl><abbr>61</abbr></bibl> változatát, a 332.-t pedig továbbjavította
+                        először a „<del>Nemesb küzdtért nyitand meg majd erélyünk.</del>” sorra,
+                        majd a <bibl><abbr>63</abbr></bibl> végleges változatára: <bibl>Kozocsa 1968
+                                370-371.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.360"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.366"
+                            >XI:355-356.</ref><persName>Szász</persName> megjegyzése:
+                        „...helyesebben így rendezve: <hi rend="underline">Lucifer erejét sem
+                            fecsérli ily semmiségre.</hi> ” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.361"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.431"
+                            >XI:415.</ref><persName>Szász</persName> megjegyzése: „...<hi
+                            rend="underline">nekem ...elkel</hi> - magyartalan.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.362"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.539"
+                            >XI:516.</ref><persName>Szász</persName> megjegyzése: „...<hi
+                            rend="underline">megfigyel</hi> helyett <hi rend="underline"
+                            >észrevesz</hi> kell.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                </div>
+                <div xml:id="d.13">
+                    <p xml:id="p.363">XII. szín</p>
+                    <p xml:id="p.364"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12#l.42"
+                            >XII:41.</ref><persName>Szász</persName> megjegyzése: „...<hi
+                            rend="underline">megsemmisülnénk</hi> - ezt itt nem értem.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.365"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12#stage.2"
+                            >XII:44-45.</ref> A szerzői utasítás <bibl><abbr>61</abbr></bibl>-es
+                        sh.-ját („mindkett<hi rend="underline">ö</hi>j<hi rend="underline"
+                        >ő</hi>ket”) <persName>Madách</persName> a kézipéldányon javította:
+                            <bibl>Kozocsa 1968 371.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.366"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12#l.76"
+                            >XII:72.</ref><persName>Szász</persName> megjegyzése: „...istenűl: a <hi
+                            rend="underline">művet</hi> teremti istenűl? vagy <hi rend="underline"
+                            >ő</hi> istenűl teremti a művet?” (Homályos.) (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> átírta a sor végét:
+                            <bibl>Kozocsa 1968 371.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.367"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12#l.149"
+                            >XII: 141.</ref><persName>Szász</persName> megjegyzése: „...nem birj<hi
+                            rend="underline">on</hi>, hanem birj<hi rend="underline">a</hi>.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> elfogadta: <bibl>Kozocsa
+                            1968 371.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.368"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12#l.199"
+                            >XII: 190.</ref><persName>Szász</persName> megjegyzése a sor végére:
+                            „...<hi rend="underline">e kard</hi> ... Előttem nem világos, mire
+                        céloz. Párbajra? vagy törvény pallosára? hogy aki <hi rend="underline"
+                            >ezzel</hi> öl, nem nézik gyilkosnak? Világosabbat kérek!” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> egy új sor betoldásával és a
+                        191. sor módosításával tett eleget az elfogadott javításnak: <bibl>Kozocsa
+                            1968 371.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.369"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12#l.265"
+                            >XII:254.</ref><persName>Madách</persName> a kézipéldányon a „mi”-t
+                            „mi<hi rend="underline">n</hi>t”-re javította: <bibl>Kozocsa 1968
+                                371.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.370"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12#l.264"
+                            >XII:253-260.</ref><persName>Szász</persName> megjegyzése e nyolc sor
+                        tirádájára: „...szép, de kissé nehézkes, az egész gondolatot értem, minden
+                        részletét nem. Az a szörny <hi rend="underline">érzés</hi> is lesz, <hi
+                            rend="underline">lény</hi> is; a <hi rend="underline">menten minden
+                            hatástól, szenvedéstől</hi> azért nem világos, mert úgy van construálva
+                        a mondat, mintha az egyén jellege kívánná, hogy <hi rend="underline"
+                            >ment</hi> legyen, holott ellenkezőleg.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> csak az utolsó sort
+                        javította a kézipéldányon, a <bibl><abbr>63</abbr></bibl> szövegére:
+                            <bibl>Kozocsa 1968 371.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.371"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12#l.312"
+                            >XII:300.</ref><persName>Szász</persName> megjegyezése: „...hogy <hi
+                            rend="underline">nagyon szűk</hi>, ezt értem; miért <hi rend="underline"
+                            >nagyon tág</hi>, csak sejtem. Tán azért, mert a tenyésző erő kisebb
+                        lombikban, pl. a sejtben vagy rostban szokott működni?...” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.372"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12#l.317"
+                            >XII:305.</ref><persName>Szász</persName> megjegyzése: „...ki miatt
+                        aggódik? nem értem. Ádám miatt? kivel beszél; vagy az az üveg miatt hogy el
+                        ne pattanjon, a teljesülés határánál?” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.373"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12#l.358"
+                            >XII:340-342.</ref><persName>Szász</persName> megjegyzése a három sorra:
+                        „Homályos. Mi a hiánytalan? A koponya? de hisz azt rosszul alkotottnak
+                        mondja; a hajlam? de hisz azt mondja menthetlennek.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> csak a 341. sort írta át a
+                        kézipéldányon a <bibl><abbr>63</abbr></bibl> változatára: <bibl>Kozocsa 1968
+                                371.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.374"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12#l.392"
+                            >XII:371.</ref><persName>Szász</persName> megjegyzése: „...is<hi
+                            rend="underline">merő</hi> helyett legyen is<hi rend="underline"
+                            >merős</hi>.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> javította a kézipéldányon:
+                            <bibl>Kozocsa 1968 371.<idno type="ITIdata">Q469997</idno></bibl></p>
+                </div>
+                <div xml:id="d.14">
+                    <p xml:id="p.375">XIII. szín</p>
+                    <p xml:id="p.376"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.13#stage.1"
+                            >XIII:0/1.</ref> [szerzői utasítás] A kézipéldányon
+                            <persName>Madách</persName> a ,lassank<hi rend="underline">é</hi>nt”
+                        szót „lassankint”-re javította: <bibl>Kozocsa 1968 371.<idno type="ITIdata"
+                                >Q469997</idno></bibl></p>
+                    <p xml:id="p.377"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.13#l.32"
+                            >XIII:31-32.</ref><persName>Szász</persName> megjegyzése: „...ha <hi
+                            rend="underline">nagyság</hi> s <hi rend="underline">erő</hi> elvész,
+                        hogy marad meg a <hi rend="underline">mathesis</hi>?” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> a kézipéldányon először
+                        három sorra bővítette a részletet: <lg xml:id="lg.17">
+                            <delSpan spanTo="#delEnd3"/>
+                            <l xml:id="l.52">Az ami nagyszerű, ami erős,</l>
+                            <l xml:id="l.53"> Míg nem marad egyéb számunkra, mint</l>
+                            <l xml:id="l.54"> A mathesis rideg alakjai. -</l>
+                            <anchor xml:id="delEnd3"/>
+                        </lg> Utóbb visszatért a 31. sorhoz, a 32. pedig a
+                            <bibl><abbr>63</abbr></bibl> véglegesült alakjára módosította:
+                            <bibl>Kozocsa 1968 371.<idno type="ITIdata">Q469997</idno></bibl></p>
+                </div>
+                <div xml:id="d.15">
+                    <p xml:id="p.378">XIV. szín</p>
+                    <p xml:id="p.379"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14#l.3"
+                            >XIV:3.</ref><persName>Szász</persName> megjegyzése: „...zajt <hi
+                            rend="underline">tenni</hi>, nem magyarul van.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> javította a szót a
+                        kézipéldányon: <bibl>Kozocsa 1968 371.<idno type="ITIdata"
+                            >Q469997</idno></bibl></p>
+                    <p xml:id="p.380"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14#l.29"
+                            >XIV:29-37.</ref> E sorok ellen <persName>Szász</persName> már
+                        kritikájában is szót emelt: Lucifer „nehezen érthető szavakban gunyolja
+                        Ádámot: [itt következett a 9 sornyi idézet] nem csak így kikapva, de
+                        összefüggésben olvasva sem segit arra, hogy tisztán tudjuk mit mond s miért
+                        mondja.” (<bibl>SzF 1862. márc. 13. 295.</bibl>) <persName>Madách</persName>
+                        a magánlevélben megígért javítást (vö. az <ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.8">5.
+                            sz. dok.-mal!</ref>) a kézipéldányon kezdte meg, a 29-32. sort előbb hat
+                        sorra bővítette: <lg xml:id="lg.18">
+                            <delSpan spanTo="#delEnd4"/>
+                            <l xml:id="l.55">(Ah az, aki hiú nagy szellemére,</l>
+                            <l xml:id="l.56">Amint nevezni szeretitek az</l>
+                            <l xml:id="l.57">Erőt, mely lüktet ifjú véretekkel,</l>
+                            <l xml:id="l.58">És kebletek eszményekért dagasztja:</l>
+                            <l xml:id="l.59">Ne vágyjék állni egykor mint tanú</l>
+                            <l xml:id="l.60">Saját halotti ágyánál. - Ez óra)</l>
+                            <anchor xml:id="delEnd4"/>
+                        </lg> Ezt újra átírta a <bibl><abbr>63</abbr></bibl> véglegesnek szánt,
+                        szintén hat sorára: <bibl>Kozocsa 1968 371-372.<idno type="ITIdata"
+                                >Q469997</idno></bibl> A 30. sor itt is tartalmazott változatot:
+                            „<del>Amint nevezni kedveled</del> Amint nevezni már, úgy kedveled”.</p>
+                    <p xml:id="p.381"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14#l.39"
+                            >XIV:33.</ref><persName>Madách</persName> a kézipéldányon a sorvégi <hi
+                            rend="italic">ez</hi> helyébe <hi rend="italic">ám</hi>-ot írt:
+                            <bibl>Kozocsa 1968 372.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.382"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14#l.44"
+                            >XIV:38.</ref><persName>Madách</persName> a kézipéldányon a <hi
+                            rend="italic">hörgés</hi> helyett <hi rend="italic">küzdés</hi>-t írt:
+                            <bibl>Kozocsa 1968 372.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.383"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14#l.45"
+                            >XIV:39.</ref><persName>Madách</persName> a sorvégét a kézipéldányon
+                        változtatta meg: <bibl>Kozocsa 1968 372.<idno type="ITIdata"
+                            >Q469997</idno></bibl></p>
+                    <p xml:id="p.384"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14#l.97"
+                            >XIV:88-89.</ref><persName>Szász</persName> megjegyzése: „...Okoskodásod
+                        a jóllak<hi rend="underline">ásé</hi>... nem világos előttem, hogy miért,
+                        mennyiben?” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> a kézipéldányon az utolsó
+                        szót javította: „<hi rend="underline">jóllakotté</hi>,” ez lett a
+                                <bibl><abbr>63</abbr></bibl> szövege is: <bibl>Kozocsa 1968
+                                372.<idno type="ITIdata">Q469997</idno></bibl></p>
+                    <p xml:id="p.385"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14#l.144"
+                            >XIV:135.</ref><persName>Szász</persName> megjegyzése: „...<hi
+                            rend="underline">egyenlíti ki</hi> - nem világos a kép.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) Maradt.</p>
+                    <p xml:id="p.386"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14#l.146"
+                            >XIV: 137-143.</ref><persName>Szász</persName> megjegyzése a 143. sor
+                        egyik szavából indult ki: „...<hi rend="underline">mindkettő</hi> - ki az a
+                        mindkettő? A bárgyú, egy, ki a másik? A szellem? de hisz <hi
+                            rend="underline">azt</hi> nem érzi a bárgyú. Ádám ezen egész mondókáját
+                        sehogy sem értem.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> a <ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14#l.148"
+                            >139-143. sor</ref> átírásával válaszolt a kézipéldányon: <lg
+                            xml:id="lg.19">
+                            <delSpan spanTo="#delEnd5"/>
+                            <l xml:id="l.61">...a durva vakság,</l>
+                            <l xml:id="l.62">A babona, melyet megvethetünk,</l>
+                            <l xml:id="l.63">Csak a bárgyút árnyékolhatja be,</l>
+                            <l xml:id="l.64">Ki úgysem sejti azt a szellemet,</l>
+                            <l xml:id="l.65">Melyet tanod hideg számokkal öl meg,</l>
+                            <l xml:id="l.66">Hogy fel nem ismeri testvére sem.)</l>
+                            <anchor xml:id="delEnd5"/>
+                        </lg> E sorok áthúzásakor <persName>Madách</persName> az eredeti, a
+                                <bibl><abbr>61</abbr></bibl>-es szöveg mellé írta: „ez kell.” A
+                                <bibl><abbr>63</abbr></bibl>-ban új és átírt szöveg olvasható, ennek
+                        a kézipéldányban nyoma nincs: <bibl>Kozocsa 1968 372.<idno type="ITIdata"
+                                >Q469997</idno></bibl></p>
+                    <p xml:id="p.387"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.14#l.180"
+                            >XIV: 169-170.</ref><persName>Madách</persName> a kézipéldányon a
+                                <bibl><abbr>61</abbr></bibl> ide beszúrt Arany-során a „sz<hi
+                            rend="underline">i</hi>vesen”-t „sz<hi rend="underline">í</hi>vesen”-re
+                        javította: <bibl>Kozocsa 1968 372.<idno type="ITIdata"
+                        >Q469997</idno></bibl></p>
+                </div>
+                <div xml:id="d.16">
+                    <p xml:id="p.388">XV. szín</p>
+                    <p xml:id="p.389"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.15#l.10"
+                            >XV: 10.</ref> A <bibl><abbr>61</abbr></bibl>-ben feltehetően ritmikai
+                        okokból visszaállított „melly” alakot <persName>Madách</persName> a
+                        kézipéldányon „mely"’-re rövidítette, ám a <bibl><abbr>63</abbr></bibl>-ban
+                        változatlan maradt: <bibl>Kozocsa 1968 372.<idno type="ITIdata"
+                                >Q469997</idno></bibl></p>
+                    <p xml:id="p.390"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.15#l.12"
+                            >XV: 12-13.</ref><persName>Szász</persName> megjegyzése: „... <hi
+                            rend="underline">Miért ... borzalmait</hi>? Homályos.” (<ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.9">6.
+                            sz. dok.</ref>) <persName>Madách</persName> a kézipéldányon és nyomán a
+                                <bibl><abbr>63</abbr></bibl>-ban csak a 19. sor kezdetén
+                        változtatott: „<del>Mutatni</del> Hogy lássuk.” (<bibl>Kozocsa 1968
+                                372.<idno type="ITIdata">Q469997</idno></bibl>)</p>
+                    <p xml:id="p.391"><ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.15#l.97"
+                            >XV:94.</ref> A sort <persName>Szász</persName> már kritikájában
+                        kifogásolta: „S már hiában ijeszti őt Lucifer, hogy a gyermek, ki bűnben,
+                        trón biborán (?) fogamzék, bünt és nyomort hoz a földre...” (<bibl>SzF 1862.
+                            febr. 20. 246.</bibl>) <persName>Madách</persName> a megígért
+                        változtatást (l. az <ref
+                            target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.8">5.
+                            sz. dok.-ot</ref>!) a kézipéldányon úgy hajtotta végre, hogy a IV.
+                        színre történő utalást „Éden”-re javította: <bibl>Kozocsa 1968 372.<idno
+                                type="ITIdata">Q469997</idno></bibl></p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

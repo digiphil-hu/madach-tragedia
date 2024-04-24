@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="introduction" n="1" type="main">Előszó</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-introduction.tei</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-introduction.tei.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>5-9.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Előszó</head>
+                <p xml:id="p.1">A kötet, amelyet a Tisztelt Olvasó kezében tart, <persName>Madách
+                        Imre</persName> drámai költeményének, <title><hi rend="italic">Az ember
+                            tragédiájá</hi></title>nak második szövegkritikai kiadása. Az elsőt
+                        <persName>Tolnai Vilmos<idno type="ITIdata">Q151361</idno></persName>
+                    rendezte sajtó alá <date when="1923">1923-ban</date>, a költő születésének
+                    centenáriumán. (<bibl>Második, jav. kiadása: 1924.<idno type="ITIdata"
+                            >Q472114</idno></bibl>) <persName>Tolnai<idno corresp="Tolnai Vilmos"
+                        /></persName> a klasszikus módszer szerint választott alapszöveget: az
+                    „ultima manus” elve alapján a <persName>Madách</persName> életében megjelent
+                    utolsó, általa ismert és elfogadott textus, az 1863. évi második kiadás mellett
+                    döntött. A lapalji „jegyzetek feltüntetik a szöveg fejlődését minden
+                    változatával, mit a kézirat s az első két kiadás felmutat.” (<bibl>Tolnai 1923
+                            IX.<idno type="ITIdata">Q470154</idno></bibl>) Mivel a kéziraton, az
+                    eredeti állapothoz képest, egy javítási fázis elkülöníthető - <persName>Madách
+                        Imre</persName> és <persName>Arany János<idno type="ITIdata"
+                        >Q140423</idno></persName> egyaránt autográf javításai -, ez négy
+                    szövegállapotot jelentett és jelent. <persName>Tolnai<idno
+                            corresp="Tolnai Vilmos"/></persName> szövegkritikai jegyzeteinek
+                    megírását nagyban segítette, hogy <persName>Morvay Győző<idno type="ITIdata"
+                            >Q148955</idno></persName> az Arany-jobbításokat, <persName>Voinovich
+                            Géza<idno type="ITIdata">Q247156</idno></persName> pedig a második
+                    kiadást előkészítő Szász Károly-megjegyzéseket és a nyomukon végrehajtott
+                    szerzői javításokat már korábban és tételesen összeállította s közölte:
+                        <bibl>Morvay 1897 156-183.<idno type="ITIdata">Q470085</idno></bibl>, ill.
+                        <bibl>Voinovich 1914<idno type="ITIdata">Q470163</idno></bibl> és <bibl>1922
+                            559-568.<idno type="ITIdata">Q470164</idno></bibl> Mindezt az előbbi
+                    megtetézte az I-III. (utóbbi: Pest 1869 ) kiadás szövegének egybevetésével:
+                        <bibl>Morvay 1897 182-199.<idno type="ITIdata">Q470085</idno></bibl></p>
+                <p xml:id="p.2">Az előzmények birtokában így a <bibl>Tolnai 1923<idno type="ITIdata"
+                            >Q470154</idno></bibl> tekinthető a Madách-textológia első, összefoglaló
+                    alapművének. Legújabb értékelése: <bibl>Bogoly 1994 289-290<idno type="ITIdata"
+                            >Q469818</idno></bibl>; a második, <date when="1924">1924. évi</date>
+                    kiadásban is megmaradt hibák jegyzéke: <bibl>Horváth 1987-1988 636-637.<idno
+                            type="ITIdata">Q469932</idno></bibl></p>
+                <p xml:id="p.3">Ugyanaz az alkalom, a születési évforduló, amely a <bibl>Tolnai
+                            1923<idno type="ITIdata">Q470154</idno></bibl>-at életre hívta,
+                    elindította az Arany-javítások értékelésének újabb hullámát is. <persName>Babits
+                            Mihály<idno type="ITIdata">Q156</idno></persName> még csak
+                    általánosságban írt arról egy rövid előszóban, hogy: „A versek, amik nehézkesek
+                    és avultak voltak megírásuk napján, frissek ma, mintha tegnap keltek volna...”
+                        (<bibl>Babits 1923 170.<idno type="ITIdata">Q469802</idno></bibl>)
+                        <persName>Dénes Szilárd<idno type="ITIdata">Q194504</idno></persName> - a
+                        <bibl>Tolnai 1923<idno type="ITIdata">Q470154</idno></bibl> szövegét
+                    elemezve - emlékeztetett arra, hogy <persName>Madách</persName> ünnepélyes,
+                    tárgyhoz illő stílusa (a szerző nem lévén tudatos stiliszta) olykor
+                    meg-megbicsaklott, és <persName>Arany<idno corresp="Arany János"/></persName>
+                    általában ezeket javította. Kiiktatta a germanizmusokat, a túlzó
+                    neologizmusokat, jobbította a hangzást, és sokban neki tulajdonítható az
+                    aforisztikus tömörség is (<bibl>Dénes 1925<idno type="ITIdata"
+                        >Q405741</idno></bibl>).</p>
+                <p xml:id="p.4">A kérdés mindazonáltal nem jutott nyugvópontra. <persName>Gulyás
+                            Pál<idno type="ITIdata">Q44676</idno></persName> szerint
+                        <persName>Madách</persName> mindig is megmaradt műkedvelőnek: „lojalitása és
+                    magára-ébredésének hiányossága” megakadályozta abban, hogy fellépjen az
+                    „aranyjánosi pedantéria” ellen. Így <persName>Arany<idno corresp="Arany János"
+                        /></persName> (<persName>Gulyás<idno corresp="Gulyás Pál"/></persName>
+                    megfogalmazásában: „a Magyar Kor”) „tekintélye, jóhiszeműsége, erkölcsi
+                    komolysága és felfedezői előnye teljes súlyával elaltatta (vagy: meg se próbálta
+                    fölébreszteni) a költőben a mű végső szándékát.” Ami szerinte nem lett volna
+                    más, mint „a kortársi irodalmi gyakorlat jambus-kalodája” fölött aratott
+                    „jelképes győzelem”. Az <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#speak.3"
+                        >I:21-60. sort</ref>, az angyalok karát rekonstruálta is a „több helyen
+                    vissza kell állítani”-elv alapján. A mutatvány valóban nem következetes; az
+                    első, tudatosan kevert textus a Madách-kiadások között (<bibl>Gulyás 1934<idno
+                            type="ITIdata">Q469924</idno></bibl>). <persName>Tolnai
+                        Vilmos</persName> - azonnali válaszában - éppen a szövegkiadási elvek
+                    tisztázatlanságát kérte számon, valamint hiányolta a jusst az ilyen típusú
+                    beavatkozásra, „mert a szöveg ügyét Madách és Arany már elintézte egymás közt.”
+                    Ehelyett - az <title><hi rend="italic">Ur-Faust</hi></title> kiadási
+                    analógiájára - egy szinoptikus őskiadást javasolt, ahol az eredeti szöveget „s a
+                    vele szemben levő lapon az Arany módosításaival megjelent művet” adnák ki, ami
+                    viszont nem tudná felvenni a kéziraton lévő Madách-javításokat és a külső
+                    tanácsadó-olvasók (<persName>Szontagh Pál<idno type="ITIdata"
+                        >Q49539</idno></persName>, <persName>Szász Károly<idno type="ITIdata"
+                            >Q150786</idno></persName>) által javallt és a szerzőtől végrehajtott
+                    módosításokat (<bibl>Tolnai 1934<idno type="ITIdata">Q470157</idno></bibl>).</p>
+                <p xml:id="p.5">Párhuzamosan folyt a számos népszerű kiadásban megjelent <title><hi
+                            rend="italic">Tragédia</hi></title> szükségszerű szövegromlása is.
+                    Példaként említhető az <date when="1932">1932-es</date> Singer és Wolfner-edíció
+                    , amelyből négy sor kimaradt, 2 x 2 sor felcserélődött, amihez 20 értelemzavaró
+                    sh., 50 körüli központozási eltérés és mintegy 100 ritmikai szövegromlás járult,
+                    vö. - r - s - t. recenziójával (<bibl>It 1933, 102.</bibl>, utalt rá
+                        <bibl>Tolnai 1934<idno type="ITIdata">Q470157</idno></bibl>)! Ennek
+                    átmenetileg a <persName>Halász Gábor<idno type="ITIdata"
+                        >Q242427</idno></persName> készítette összkiadás (<bibl>MÖM I. 509-699.<idno
+                            type="ITIdata">Q412729</idno></bibl>) szabott gátat, amely viszont
+                    átvette a <bibl>Tolnai 1924</bibl> hibáit, vö. <bibl>Horváth 1987-1988 636.<idno
+                            type="ITIdata">Q469932</idno></bibl>!</p>
+                <p xml:id="p.6"><date when="1968">1968-ban</date><persName>Szabó József<idno
+                            type="ITIdata">Q333601</idno></persName> balassagyarmati Madách-gyűjtő
+                            <persName>Arany<idno corresp="Arany János"/></persName> 13 javítását
+                    kifogásolta. A kirobbant vita előbb regionális folyóiratokban indult, különösebb
+                    figyelmet nem keltett. Országos szakfolyóiratokba csak azután került át (azonos
+                    vitapartnerekkel), hogy <persName>Szabó József</persName> szöveggondozásában
+                        <date when="1972">1972-ben</date> megjelent a <persName>Madách
+                        Imre</persName> születésének 150. évfordulójára kiadott, <persName>Bálint
+                            Endre<idno type="ITIdata">Q239268</idno></persName> rajzaival
+                    illusztrált díszkiadás. A tollcsata szerteágazó, elhúzódó volta miatt -
+                    kivételesen - a vita teljes könyvészeti összefoglalását, rövidítések nélkül,
+                    egészében itt adjuk: <bibl><persName>Szabó József</persName>: <title><hi
+                                rend="italic">Arany javításai Az ember tragédiájában</hi></title>,
+                        Palócföld 1968/1. 90-95.</bibl>, <bibl><persName>Pásztor Emil</persName>:
+                                <title><hi rend="italic">„Fog korlátozni az arasznyi
+                            lét”</hi></title>, Palócföld 1969/1. 94-97.</bibl>; <bibl><title><hi
+                                rend="italic">„Az ember tragédiája" néhány Arany János javította
+                                soráról</hi></title><title>Az Egri Tanárképző Főiskola Tudományos
+                            Közleményei VII.</title>, Eger 1969. 253-271.</bibl>;
+                            <bibl><persName>Szabó József</persName>: <title><hi rend="italic"
+                                >Szövegtörténeti és textológiai megjegyzések Az ember
+                                tragédiájához</hi></title><title><hi rend="italic">Madách -
+                            ma</hi></title>, szerk.<persName>Mezei József</persName>, Bp. 1976.
+                        131-139.</bibl>; <bibl><persName>Pásztor Emil</persName>: <title><hi
+                                rend="italic">Megjegyzések Madách Tragédiájának „helyreállított”
+                                szövegű kiadásához</hi></title>, MNy 1976. 345-354.</bibl>; uő:
+                                <bibl><title><hi rend="italic">Ne javítsuk ki
+                        Madáchot!</hi></title>, Kritika 1978/3. 14.</bibl>; <bibl><persName>Szabó
+                            József</persName>: <title><hi rend="italic">Nem javítjuk ki
+                                Madáchot!</hi></title>, Kritika 1979/3. 14.</bibl> Tágabb értelemben
+                    a vitához tartozik <persName>Szabó József</persName> két további közleménye:
+                                <bibl><title><hi rend="italic">Szövegingadozás Az ember
+                                tragédiájában</hi></title>, Palócföld 1970/3-4. 100-103.</bibl>, uő:
+                                <bibl><title><hi rend="italic">Az ember tragédiája egyetlen
+                                betűjéhez</hi></title>, ItK 1976. 209-10.</bibl></p>
+                <p xml:id="p.7"><persName>Szabó József</persName> első ízben hozott létre - immár a
+                    drámai költemény egészén - kevert szöveget, tartalminak vélt szempontok alapján:
+                    kilenc helyen állította vissza a kézirat szövegét. Az ünnepi alkalom, a
+                    Szépirodalmi Kiadó tekintélye, a szép kiállítás (is) okozta, hogy miközben a
+                    díszkiadás több népszerű edíció szövegforrása lett, a Madách-filológia alapos
+                    ismerői nem szólaltak meg az említett vitában; a sajtó alá rendezés szakszerű
+                    bírálata éveket késett (<bibl>Horváth 1987-1988 638-639.<idno type="ITIdata"
+                            >Q469932</idno></bibl>). Hiába elemezte-értékelte az Arany-javításokat
+                    komoly nyelvtörténeti háttérrel már az évfordulón <persName>Szathmári
+                            István<idno type="ITIdata">Q246242</idno></persName> (írásban évekkel
+                    később jelent meg: <bibl>Szathmári 1976<idno type="ITIdata"
+                        >Q470131</idno></bibl>), a szövegromlás párhuzamossággá fajult. Kétféle
+                            <title><hi rend="italic">Tragédia</hi></title>-szöveg élt egymás
+                    mellett, a <bibl>MÖM I.<idno type="ITIdata">Q412729</idno></bibl> javítgatott
+                    szövege és a díszkiadás ötletszerűen megállapított textusa. Ezért adott az MTA
+                    Textológiai Munkabizottsága megbízást <persName>Horváth Károlynak<idno
+                            type="ITIdata">Q146450</idno></persName> és <persName>Kerényi
+                            Ferencnek<idno type="ITIdata">Q248580</idno></persName>, hogy - addig
+                    is, amíg elkészül a krk. - a <orgName>Szépirodalmi Kiadó<idno type="ITIdata"
+                            >Q2279</idno></orgName> számára készítsenek egy szöveggondozott,
+                    megbízható Madách-válogatást. Ez lett a <bibl><title>MVM</title><idno
+                            type="ITIdata">Q470093</idno></bibl>.</p>
+                <p xml:id="p.8"><persName>Tarbay Ede<idno type="ITIdata"
+                        >Q49591</idno></persName><date when="1993">1993-ban</date><title><hi
+                            rend="italic">Arany János csapdái</hi></title>ról értekezett a javítások
+                    ügyében (<bibl>Tarbay 1993<idno type="ITIdata">Q470146</idno></bibl>); <date
+                        when="1996">1996-ban</date> pedig <persName>Striker Sándor<idno
+                            type="ITIdata">Q253323</idno></persName> két kötetben jelentette meg a
+                            <title><hi rend="italic">Tragédia</hi></title> „érintetlen változat”-át
+                    kísérő-magyarázó tanulmányokkal: <bibl>Striker 1996.<idno type="ITIdata"
+                            >Q470126</idno></bibl> Abból indult ki, hogy „a <title><hi rend="italic"
+                            >Tragédia</hi></title> eredeti kéziratának nyomtatott változata azonban
+                    még eddig kiadatlan.” (<bibl>I. 183.<idno type="ITIdata">Q470126</idno></bibl>)
+                    A kissé nehézkes meghatározás a kézirat <date when="1860-03-26">1860. március
+                        26-i</date> állapotára utalt, mivel szerinte a rajta tett szerzői
+                    módosítások „kizárólag helyesírási hibák tekintetében” javítottak a szövegen. Az
+                    „eredeti kézirati fogalmazvány"’ (mint a szövegállapotok bármelyike)
+                    természetesen önállóan is kiadható; kivált, ha az „ultima manus” szerinti
+                    népszerű kiadások száma meghaladta a százat. Problémát a következetlenség
+                    jelentett: az <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.1">I.
+                        szín 1</ref>- <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.1#l.76">75.
+                        sorában</ref> recenzensként 28 eltérést találtunk a meghirdetett elvektől,
+                    és erre a kirobbant vitában sem sikerült magyarázatot találni (<bibl>BUKSZ
+                            1997.<idno type="ITIdata">Q469819</idno></bibl>) Megérett a helyzet egy
+                    új krk. elkészítésére.</p>
+                <p xml:id="p.9">Párhuzamosan meggyarapodtak ismereteink az egyetemes szövegtan új
+                    lehetőségeiről is. (Ezek áttekintése magyarul: <bibl>Helikon 1989/3-4. <title>A
+                            modern textológia</title></bibl> és <bibl>1998/4. <title>Textológia vagy
+                            textológiák?</title></bibl>)Mintául végül <persName>James Joyce<idno
+                            type="ITIdata">Q337128</idno></persName><title><hi rend="italic"
+                            >Ulysses</hi></title> c. regényének szinoptikus kiadása szolgált:
+                        „<title>A Critical and Synoptic Edition</title>”, kiadta <persName>Hans
+                        Walter Gabler<idno type="ITIdata">Q469620</idno></persName>,
+                        <persName>Wolfhard Stoppe<idno type="ITIdata">Q469621</idno></persName> és
+                        <persName>Claus Melchior<idno type="ITIdata">Q469622</idno></persName>,
+                    három kötetben (<bibl>New York-London 1984</bibl>). A teljességgel genetikus
+                    szövegkiadást, amely nem állapít meg alapszöveget, a nyelvterület nagysága, az
+                    ennek nyomán várható kiadói érdektelenség, de főként a népszerű és iskolai
+                    kiadások, színpadi előadások jogos főszöveg-igénye miatt elvetettük. Korábban
+                    még úgy véltük és le is írtuk (<bibl>Kerényi 1983</bibl>), hogy - <bibl>Tolnai
+                            1923<idno type="ITIdata">Q470154</idno></bibl>-hoz hasonlóan - az <date
+                        when="1863">1863. évi</date> második, a költő életében utolsó kiadás
+                    alkalmas lesz alapszövegnek. A kevert textus kétszeri megjelenése és a népszerű
+                    kiadások szöveggondozása során szerzett tapasztalatok azonban elvezettek a
+                    felismeréshez: <title><hi rend="italic">Az ember tragédiájá</hi></title>ból
+                    készíthető és készítendő el az első magyar szinoptikus krk.</p>
+                <p xml:id="p.10">Elkészíthető, mert négy szövegállapot áll rendelkezésre a
+                    feldolgozáshoz: Madách kézirata (<bibl>K<idno type="ITIdata"/></bibl>),
+                    ugyanezen a példányon <persName>Madách Imre</persName> és <persName>Arany
+                        János</persName> javításaival módosított szöveg (<bibl><abbr>K1</abbr><idno
+                            type="ITIdata"/></bibl>), az első kiadás (<bibl><abbr>61</abbr><idno
+                            type="ITIdata"/></bibl>) és a <persName>Madách Imre</persName>, valamint
+                        <persName>Szász Károly</persName> javaslatait is részben érvényesítő
+                    második, javított edíció (<bibl><abbr>63</abbr><idno type="ITIdata"/></bibl>).
+                    (Erre részletesebben l. a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.7"
+                        >KELETKEZÉSTÖRTÉNET</ref> és a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.9"
+                        >KIADÁSTÖRTÉNET</ref> c. fejezeteket!) E négy szövegállapotból
+                    kvázi-fakszimile készíthető, amelyet szövegkritikai jegyzetekkel kísérünk, és
+                    ugyanitt utalunk a szövegkritika forrásainak, dokumentumainak meglétére. Ez
+                    található a páros oldalakon.</p>
+                <p xml:id="p.11">Elkészítendő, mert a krk. az alapszövege a népszerű, iskolai,
+                    szemelvényes kiadásoknak, a színházi előadásoknak. Így a páratlan oldalakon -
+                    szembesítve - a megállapított kritikai szöveg olvasható. Ezt egyféle szempontú
+                    lapalji jegyzet kíséri: az emendálások tényének és okának jelzése. Szemben a
+                    folyamatos számozású népszerű kiadásokkal, a sorokat színenként, ötsoronként
+                    újraszámoztuk; azzal a céllal, hogy a megállapított szöveg sorszámai kevéssé
+                    térjenek el a szinopszisétől. (A lépcsőzetes sorokat természetesen egynek
+                    számolva, mégha - gyakran - szerzői utasítás is szakítja meg ezeket.) Az utóbbi
+                    sorszámozása a K állapotát tükrözi, mely így színenként megfeleltethető
+                        <persName>Madách Imrének</persName> a megírás alatt folyamatosan vezetett
+                    munkalapjával. (Erre l. a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.5">VÁZLAT,
+                        JEGYZETEK?</ref> c. alfejezetet!) A <title><hi rend="italic"
+                        >Tragédia</hi></title> szövegét 4117 sorban állapítottuk meg, azaz nem
+                    számoztuk - az eredeti, költői szándék szerint - a VII. szín zsoltárszövegeit,
+                    amelyek prózája mindig az adott szedéstükörnek megfelelő, ezért változó
+                    terjedelmű.</p>
+                <p xml:id="p.12">A hiteles szöveg mellett a krk. hagyományos fejezetei is
+                    megtalálhatók kötetünkben: így a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.7"
+                        >keletkezés-</ref> és <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.9"
+                        >kiadástörténet</ref>, a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12">korai
+                        recepció</ref> és <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.13"
+                        >fordításirodalom</ref>, az <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.15">első
+                        illusztrációk</ref> és a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.16">színpadra
+                        állítás terve</ref> - mindez <date when="1864-10-05">1864. október
+                        5-ig</date>, a költő haláláig terjedően. A szöveg pontos értését tárgyi
+                    magyarázatok segítik. Sajátos fejezete a jegyzetapparátusnak dr.
+                        <persName>Wohlrab József<idno type="ITIdata">Q469623</idno></persName>
+                    igazságügyi írásszakértő jelentése a <title><hi rend="italic"
+                        >Tragédia</hi></title> kéziratának ilyen szempontú, első ízben végrehajtott
+                    vizsgálatáról. Itt is köszönettel nyugtázott munkája révén sikerült pontosan
+                    megállapítani a szerzői és az Arany János-féle javításokat; ezek száma eddigelé
+                    állandóan ingadozott, különösképpen a szöveg- és betűtesthez nem köthető
+                    módosítások esetében. Hasonlóképpen köszönet illeti <persName>Praznovszky
+                            Mihályt<idno type="ITIdata">Q155396</idno></persName>, aki <title><hi
+                            rend="italic">Madách Imre napjai a magyar irodalomban
+                        1861-1864</hi></title> c. kéziratát bocsátotta rendelkezésünkre; erre épül a
+                        <ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.9"
+                        >kiadás-</ref> és <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12"
+                        >recepciótörténeti fejezet</ref>. Megköszönjük az érintett közgyűjtemények
+                    (elsősorban a <orgName>Magyar Tudományos Akadémia könyvtára<idno type="ITIdata"
+                            >Q2263</idno></orgName>, az <orgName>Országos Széchényi Könyvtár<idno
+                            type="ITIdata">Q1667</idno></orgName>, a <orgName>Petőfi Irodalmi
+                            Múzeum<idno type="ITIdata">Q2292</idno></orgName>, a <orgName>Nógrádi
+                        Történeti Múzeum<idno type="ITIdata">Q469624</idno></orgName>)
+                    munkatársaitól kapott sok-sok segítséget. Végül, de nem utolsósorban köszönettel
+                    és hálával gondolunk lektoraink, <persName>Kovács Ilona<idno type="ITIdata"
+                        /></persName>, <persName>Stoll Béla<idno type="ITIdata"
+                        >Q253314</idno></persName> és <persName>Láng József<idno type="ITIdata"
+                            >Q54322</idno></persName> munkájára, amellyel gazdag tapasztalatuk révén
+                    jobbították a kéziratot, és konzultációra mindig készen, előzetesen is
+                    segítették a krk. elkészítésének óhatatlanul nehéz folyamatát.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

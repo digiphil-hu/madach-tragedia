@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="6" type="main">Kézirat</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.6</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.6.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>652-653.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Kézirat</head>
+                <p xml:id="p.1"><persName>Madách Imre</persName> általában egy példányban készítette
+                    műveit: erről <persName>Nagy Ivánnak<idno type="ITIdata"
+                        >Q249885</idno></persName> küldött, <date when="1861-12-23">1861. december
+                        23-i</date> levele tanúskodik, amelyben <title><hi rend="italic">Férfi és
+                            nő</hi></title> c., fiatalkori drámáját (<date when="1843">1843</date>)
+                    kérte vissza a <orgName>Magyar Tudományos Akadémia<idno type="ITIdata"
+                            >Q86</idno></orgName> levéltárából: "…szokás szerint nem tartám meg
+                    párját.” (Kiemelés tőlünk. - <persName>K. F.<idno type="ITIdata"
+                        >Q248580</idno></persName>; <bibl>MÖM II. 932.<idno type="ITIdata"
+                            >Q412729</idno></bibl>) Kivételt csak azok a művek képeznek, amelyek
+                    pályázatra készültek, és amelyek esetében az idegenkezű leírás feltételnek
+                    számított. A <title><hi rend="italic">Férfi és nő</hi></title> azért szélsőséges
+                    eset, mert ezúttal (feltehetően a sikertelenség hatására) az autográf kézirat
+                    nem maradt fenn, csak a beküldött másolat.</p>
+                <p xml:id="p.2">Mindkét motívum felbukkant a <title><hi rend="italic"
+                        >Tragédia</hi></title> keletkezéstörténetében is. <date when="1861-11-02"
+                        >1861. november 2-án</date><persName>Madách</persName> két levelet írt,
+                    egyet <persName>Arany Jánosnak<idno type="ITIdata">Q140423</idno></persName>,
+                    egyet pedig <persName>Nagy Ivánnak</persName>. Bennük szinte szó szerint azonos
+                    mondat áll: „...nálam a' kézirat mása nincs meg...”, illetve: „...más példányom
+                    nincs...” (<bibl>MÖM II. 864. és 930., 933.<idno type="ITIdata"
+                        >Q412729</idno></bibl>) De felmerült az egyetlen kézirat megsemmisítésének
+                    gondolata is, <persName>Arany Jánosnak</persName> megvallva. Ha „te azt
+                    rosszalló ítélettel vissza küldöd, - már azóta melegedtem vólna mellette, s Ádám
+                    utósó álmát a purgatórium lángja közt álmodta volna végig.” (az 1861. november
+                    2-i, említett levélben, <bibl>MÖM II. 867.<idno type="ITIdata"
+                        >Q412729</idno></bibl>)</p>
+                <p xml:id="p.3"><title><hi rend="italic">Az ember tragédiájá</hi></title>nak
+                    egyetlen autográf kézirata van, és (az eddig idézettek alapján) más kézirat
+                    meglétét nem kell feltételeznünk. A <orgName><abbr>KisfT</abbr></orgName>
+                    hagyatékával fennmaradt autográf mai jelzete: <bibl>MTAK Kt. K 531.</bibl>
+                    (Régebbi jelzete: <bibl>Irodalom 4-r. 395.</bibl>) Bőrkötésű, aranydíszes kötet;
+                    a tkp. kézirat 77 fólió, egyenként 250 x 195 mm lapokból. <persName>Arany
+                        János</persName> kék ceruzás oldalszámozásával (1-150.) + 1 fólió
+                    Arany-toldás (a 25. oldal letisztázott megismétlése). Hozzákötve 4 fólión
+                    (különböző méretben) <persName>Arany<idno corresp="Arany János"
+                        /></persName><date when="1861-10-27">1861. október 27-i</date> levelének
+                    melléklete javítási javaslataival (<bibl>MÖM II. 1003-1013.<idno type="ITIdata"
+                            >Q412729</idno></bibl> L. a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1#p.4"
+                        >SZÖVEGKRITIKAI DOKUMENTUMOK-at</ref>!). A kézirat részletes leírása:
+                        <bibl>MKK 217-218.<idno type="ITIdata">Q470077</idno></bibl></p>
+                <p xml:id="p.4">Hasonmás kiadása: <bibl>Bp. 1973. Horváth Károly kísérő
+                        tanulmányával</bibl>. A mostani tüzetes írásszakértői vizsgálat
+                    megállapította, hogy a fakszimile kutatási célokra teljességgel alkalmatlan. A
+                    fekete-fehér másolatban, mivel a textológus közreműködése csak a tanulmányírásra
+                    korlátozódott, eltűntek a ceruzás bejegyzések (maradványaikat kiretusálták),
+                    többször viszont a verzó központozása a rektón is jelentkezik; e vegyes
+                    interpunkcióval új, sohasem létezett szövegváltozat jött létre.</p>
+                <p xml:id="p.5">Az akadémiai kézirat három munkafázis eredménye. Az alapszöveg,
+                    amint azt a munkalap rögzítette, <date from="1859-02-17" to="1860-03-26">1859.
+                        február 17. és 1860. március 26.</date> közötti megírás eredménye.
+                    Terjedelme - szintén a munkalap szerint - 4080 verssor. Jelölése a továbbiakban:
+                    K. A javítások kétfélék:</p>
+                <p xml:id="p.6">- <persName>Madách Imrétől</persName> való, autográf változtatások.
+                    Ezek eredetére és vélhető időpontjára a <persName>Nagy Ivánnak<idno
+                            type="ITIdata">Q249885</idno></persName> küldött, már idézett, <date
+                        when="1861-11-02">1861. november 2-i</date> levél szolgál adatokkal, amikor
+                    arról tudósít, hogy többek elhárítása után - „múlt tavasszal”, azaz <date
+                        when="1861">1861</date> elején <persName>Szontagh Pál<idno type="ITIdata"
+                            >Q49539</idno></persName> végre meghallgatta a szerzői felolvasást
+                        (<bibl>MÖM II. 929.<idno type="ITIdata">Q412729</idno></bibl>). A levél nem
+                    szól ugyan a régi jóbarát javítási javaslatairól, de néhány változtatás (például
+                    bizonyos névalakok megváltoztatása az V., a IX. és a XII. színben) külső
+                    késztetésre utal, bár minden javítás autográf. Hasonló családi hagyomány:
+                        <bibl>Morvay 1898 15-16.<idno type="ITIdata">Q470086</idno></bibl> Az
+                    idézett kitétel <date when="1861-03">1861 márciusát</date> jelentheti,
+                        <persName>Madách</persName> ugyanis <date from="1861-04-01">április
+                        1-jétől</date> mint <placeName>Balassagyarmat<idno type="ITIdata"
+                            >Q18295</idno></placeName> országgyűlési képviselője már
+                            <placeName>Pesten<idno type="ITIdata">Q111</idno></placeName>
+                    tartózkodott, a <title><hi rend="italic">Tragédia</hi></title> kéziratát pedig
+                    magával hozta. (Vö. <bibl>Radó 1987 247.<idno type="ITIdata"
+                        >Q470112</idno></bibl>)</p>
+                <p xml:id="p.7">- <persName>Arany János</persName> javításai a K szövegén. E munka
+                    időrendi kérdéseivel a <title><hi rend="italic"
+                    >Kiadástörténet</hi></title><ref/> c. alfejezetben foglalkozunk; kezdete 1861.
+                    szeptember 12. utánra tehető, 1. <persName>Arany<idno corresp="Arany János"
+                        /></persName> aznap lelt levelét: „...magam tennék rajta egy-két
+                    tollvonást...” (<bibl>MÖM II. 1001.<idno type="ITIdata"
+                    >Q412729</idno></bibl>)</p>
+                <p xml:id="p.8">A javítások új szövegváltozatot eredményeztek, ezt K1-nek tekintjük.
+                    Szokatlan módon - egyetlen példány létezvén - a két verzió egymás mellett,
+                    pontosabban egymáson jelenik meg. Az akadémiai kézirat egészére történő
+                    hivatkozás a továbbiakban (értelemszerűen): K-K1. A K és K1 megkülönböztetése
+                    már <persName>Waldapfel Józsefben<idno type="ITIdata">Q247089</idno></persName>
+                    felvetődött (<bibl>Madách 1954 230.<idno type="ITIdata">Q470168</idno></bibl>),
+                    először <date when="1989">1989-ben</date> alkalmaztuk: <bibl>MVM 1989.<idno
+                            type="ITIdata">Q470093</idno></bibl></p>
+            </div>
+        </body>
+    </text>
+</TEI>

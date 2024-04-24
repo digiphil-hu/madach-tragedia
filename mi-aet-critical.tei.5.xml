@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="body" n="10" type="main">Az ember tragédiája – Ötödik szín
+                    (megállapított szöveg).</title>
+                <author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                            type="ITIdata">Q56413</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi KutatóközpontIrodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED:Attribution-NonCommercial-NoDerivs 4.0International<ref
+                            type="url">https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-critical.tei.5</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-critical.tei.5.xml"
+                    type="url">A szín TEI XML átirata a DigiPhilGitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteketírta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatátvégezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>125-171</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhilGitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head><title>ÖTÖDIK SZÍN.</title></head>
+                <stage xml:id="stage.1">(Athénében. A köztér,közepén szónokszékkel. Az előtéren
+                    oldalvást nyílttemplomcsarnok istenszobrokkal, virágfüzérekkel,oltárral. ÉVA,
+                    mint LUCIA, MILTIADES hadvezérneje, fiával KIMONNAL, több szolgálótól
+                    kisérve,kik áldozati tárgyakat visznek, jő a templomcsarnoka felé. A téren
+                    rongyos nép ácsorog.Ragyogó reg.)</stage>
+                <sp xml:id="speak.1">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.1">Csak erre, erre, kedves kisfiam.</l>
+                    <l xml:id="l.2">Nézd, arra ment el gyors hajónatyád,</l>
+                    <l xml:id="l.3">Csatázni messze hon határain.</l>
+                    <l xml:id="l.4">Egy durva nép él ott, melyvakmerőn</l>
+                    <l xml:id="l.5">Fenyegeté szabadságáthonunknak.</l>
+                    <l xml:id="l.6">Imádkozzunk, imádkozzunk fiam,</l>
+                    <l xml:id="l.7">Hogy az ég védje e hon igazát,</l>
+                    <l xml:id="l.8">S vezesse közzénk hős atyádatépen. <note type="critic"
+                            xml:id="note.1">A 63„kö<hi rend="italic">z</hi>énk” alakja
+                            ritmikaiszövegromlás, ezért a 61 alapján jav.</note></l>
+                </sp>
+                <sp xml:id="speak.2">
+                    <speaker>KIMON.</speaker>
+                    <l xml:id="l.9">Ugyan mért ment atyám oly messzeföldre,</l>
+                    <l xml:id="l.10">Hogy védje ezt a rongyos gyávanépet,</l>
+                    <l xml:id="l.11">Ha szép nejét meg bú emésztihonn?</l>
+                </sp>
+                <sp xml:id="speak.3">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.12">Oh jaj, ne ítélj jó apádfelett,</l>
+                    <l xml:id="l.13">Istennek átka űl olygyermeken.</l>
+                    <l xml:id="l.14">Csak a szerelmes nőnek vanjoga</l>
+                    <l xml:id="l.15">Kesergni férje nagy lépésein,</l>
+                    <l xml:id="l.16">Miket ha nem tesz,megszégyenlené.</l>
+                    <l xml:id="l.17">Atyád úgy tett, mint kell aférfiúnak. </l>
+                </sp>
+                <sp xml:id="speak.4">
+                    <speaker>KIMON.</speaker>
+                    <l xml:id="l.18">Félsz hát anyám, hogy gyenge,megverik?</l>
+                </sp>
+                <sp xml:id="speak.5">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.19">Nem, nem fiam, atyád hős, győznifog,</l>
+                    <l xml:id="l.20">Csak egy van a mitől őtfélthetem,</l>
+                    <l xml:id="l.21">Hogy önmagát nem győzi meg.</l>
+                </sp>
+                <sp xml:id="speak.6">
+                    <speaker>KIMON.</speaker>
+                    <l xml:id="l.22">Hogyan?</l>
+                </sp>
+                <sp xml:id="speak.7">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.23">Van a léleknek egy erősszava,</l>
+                    <l xml:id="l.24">A nagyravágy. A rabszolgábanalszik.</l>
+                    <l xml:id="l.25">Vagy szűk körében bűnnéaljasúl.</l>
+                    <l xml:id="l.26">De vérével táplálván aszabadság,</l>
+                    <l xml:id="l.27">Nagygyá növeszti, mintpolgárerényt.</l>
+                    <l xml:id="l.28">Ez költ életre minden szép snagyot,</l>
+                    <l xml:id="l.29">De hogyha túlerős, anyjáratör,</l>
+                    <l xml:id="l.30">S küzd véle, míg elvérzikegyikök. - <note type="critic"
+                            xml:id="note.2">AK-Kl "m<hi rend="italic">í</hi>g"
+                            alakjátvisszaállítottuk. A kiadások "m<hi rend="italic">é</hi>g" alakja
+                            ugyanis feltehetően a szedőfélreolvasása Madách igen hasonló <hi
+                                rend="italic">í</hi> ~ <hi rend="italic">é</hi>betűjén, amit a
+                            korrektúrában Arany sem vettészre.</note></l>
+                    <l xml:id="l.31">Ha e szó benne túlerőrejutna,</l>
+                    <l xml:id="l.32">Ha megcsalhatná ezt a szenthazát,</l>
+                    <l xml:id="l.33">Megátkoznám. Imádkozzunkfiam.</l>
+                </sp>
+                <stage xml:id="stage.2">(A templom csarnokábamennek, ez alatt a térre mindig
+                    többengyülekeznek.)</stage>
+                <sp xml:id="speak.8">
+                    <speaker>ELSŐ A NÉPBŐL.</speaker>
+                    <l xml:id="l.34">Nem hall az ember semmiizgató</l>
+                    <l xml:id="l.35">Hirt, mint ha sergünk ellent semtalálna.</l>
+                </sp>
+                <sp xml:id="speak.9">
+                    <speaker>MÁSODIK A NÉPBŐL.</speaker>
+                    <l xml:id="l.36">És itthon is oly álmos mindenember,</l>
+                    <l xml:id="l.37">Tán senki sem kohol márterveket,</l>
+                    <l xml:id="l.38">Mint hajdanán, miknekkivitelére</l>
+                    <l xml:id="l.39">A felséges nép torka kellene.</l>
+                    <l xml:id="l.40">Ma reggel óta járom e helyet,</l>
+                    <l xml:id="l.41">S szavazatomra nem akad vevő.</l>
+                </sp>
+                <sp xml:id="speak.10">
+                    <speaker>ELSŐ A NÉPBŐL.</speaker>
+                    <l xml:id="l.42">Unalmas élet, mit van tennimár?</l>
+                </sp>
+                <sp xml:id="speak.11">
+                    <speaker>HARMADIK A NÉPBŐL.</speaker>
+                    <l xml:id="l.43">Nem ártana egy gyönge kiszavar.</l>
+                </sp>
+                <stage xml:id="stage.3">(Éva ez alatt az oltártüzét meggyujtotta, kezeit megmosá s a
+                    hozandóáldozatra elkészült. Szolgálói himnuszt kezdenek,mely szakaszonkint a
+                    következő jelenetbe vegyül. Atér megtelt polgárokkal, néppel, két DEMAGÓG
+                    aszószékért küzd.)</stage>
+                <sp xml:id="speak.12">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.44">Odább! ez a hely itten azenyém.</l>
+                    <l xml:id="l.45">Veszélyben a hon, hogyha nembeszélek.</l>
+                </sp>
+                <stage xml:id="stage.4">(A nép helyesléstüvölt.)</stage>
+                <sp xml:id="speak.13">
+                    <speaker>MÁSODIK DEMAGÓG.</speaker>
+                    <l xml:id="l.46">Akkor vesz el, ha szólsz.Bérencz, le innét!</l>
+                </sp>
+                <stage xml:id="stage.5">(A nép kaczag éstapsol.)</stage>
+                <sp xml:id="speak.14">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.47">Te nem vagy bérencz, mert ki semveszen meg.</l>
+                    <l xml:id="l.48">Polgárok! fájva emelekszavat,</l>
+                    <l xml:id="l.49">Mert a nemes szívnek fáj, anagyot</l>
+                    <l xml:id="l.50">Porig alázni; s egy nagyférfiút</l>
+                    <l xml:id="l.51">Kell vonnom birószéketek elé</l>
+                    <l xml:id="l.52">A disz-szekérről.</l>
+                </sp>
+                <sp xml:id="speak.15">
+                    <speaker>MÁSODIK DEMAGÓG.</speaker>
+                    <l xml:id="l.53">Jól kezded, gonosz!</l>
+                    <l xml:id="l.54">No csak virágozd fel azállatot,</l>
+                    <l xml:id="l.55">Mit áldozatra szántál.</l>
+                </sp>
+                <sp xml:id="speak.16">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.56">Félre innen!</l>
+                </sp>
+                <sp xml:id="speak.17">
+                    <speaker>A NÉPBŐL.</speaker>
+                    <l xml:id="l.57">Mit is hallgatjuk azt agúnyolót.</l>
+                </sp>
+                <stage xml:id="stage.6">(Rángatják a másodikdemagógot.)</stage>
+                <sp xml:id="speak.18">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.58">De bármim fáj szivem, mégisbeszélek,</l>
+                    <l xml:id="l.59">Mert téged, oh dicső fejdelminép,</l>
+                    <l xml:id="l.60">Még hadvezérednél is többrenézlek.</l>
+                </sp>
+                <sp xml:id="speak.19">
+                    <speaker>MÁSODIK DEMAGÓG.</speaker>
+                    <l xml:id="l.61">Ez árus lelkü, éhenholtcsoportot,</l>
+                    <l xml:id="l.62">Mely eb gyanánt a hulladékrales</l>
+                    <l xml:id="l.63">Gazdái asztaláról? - Oh tegyáva,</l>
+                    <l xml:id="l.64">Izlésedet nem írigyelhetem. <note type="critic" xml:id="note.3"
+                            >A 63 "<hi rend="italic">i</hi>rigydhetcm" alakja ritmikaiszövegromlás,
+                            ezért a K-Kl és a 61 alapjánjav.</note></l>
+                </sp>
+                <sp xml:id="speak.20">
+                    <speaker>A NÉPBŐL.</speaker>
+                    <l xml:id="l.65">Le véle, ő is áruló, le véle!</l>
+                </sp>
+                <stage xml:id="stage.7">(Még inkább bántalmazzák.Éva két galambot s tömjént áldoz
+                    azoltáron.)</stage>
+                <sp xml:id="speak.21">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.66">Szent Aphrodite! oh fogadd,fogadd el</l>
+                    <l xml:id="l.67">Ez áldozat füstét, hallgasdimámat:</l>
+                    <l xml:id="l.68">Nem zöld babért kérek férjemfejére,</l>
+                    <l xml:id="l.69">Családi enyhet csak bajnokszivére.</l>
+                </sp>
+                <stage xml:id="stage.8">(Az áldozat füstében EROSmosolyogva megjelenik, a CHARISOK
+                    körülállják srózsákat hintenek rá. Áhitatba merültcsoportozat.)</stage>
+                <sp xml:id="speak.22">
+                    <speaker>A SZOLGÁLÓK.</speaker>
+                    <l xml:id="l.70">Hallgasd meg őt.</l>
+                </sp>
+                <sp xml:id="speak.23">
+                    <speaker>EROS.</speaker>
+                    <l xml:id="l.71">Oh nő, a tiszta szív</l>
+                    <l xml:id="l.72">Áldása rajtad!</l>
+                </sp>
+                <sp xml:id="speak.24">
+                    <speaker>A CHARISOK.</speaker>
+                    <l xml:id="l.73">És a Charisok</l>
+                    <l xml:id="l.74">Oltalma véled! -</l>
+                </sp>
+                <sp xml:id="speak.25">
+                    <speaker>A SZOLGÁLÓK.</speaker>
+                    <l xml:id="l.75">Hála, Aphrodite!</l>
+                </sp>
+                <sp xml:id="speak.26">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.76">Halld hát a vádat, nép! nagyMiltiades</l>
+                    <l xml:id="l.77">Eladta a hont.</l>
+                </sp>
+                <sp xml:id="speak.27">
+                    <speaker>MÁSODIK DEMAGÓG.</speaker>
+                    <l xml:id="l.78">Oh, hazudsz, hazudsz!</l>
+                    <l xml:id="l.79">Hallgassatok, vagy későbánalomnak</l>
+                    <l xml:id="l.80">Ér szégyene.</l>
+                </sp>
+                <sp xml:id="speak.28">
+                    <speaker>ELSŐ A NÉPBŐL.</speaker>
+                    <l xml:id="l.81">Le onnan, szemtelen!</l>
+                </sp>
+                <stage xml:id="stage.9">(Egészen a tömegbesodorják.)</stage>
+                <sp xml:id="speak.29">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.82">Ifjúságod virága van kezében,</l>
+                    <l xml:id="l.83">Lemnost be birta venni egycsapással,</l>
+                    <l xml:id="l.84">S most veszteg áll Phárosnál.Megfizették.</l>
+                </sp>
+                <sp xml:id="speak.30">
+                    <speaker>HARMADIK A NÉPBŐL.</speaker>
+                    <l xml:id="l.85">Halál fejére.</l>
+                </sp>
+                <sp xml:id="speak.31">
+                    <speaker>ELSŐ POLGÁR.</speaker>
+                    <l xml:id="l.86">No s, kiáltsatok,</l>
+                    <l xml:id="l.87">Vagy bérletemből hurczolkodjatokki.</l>
+                </sp>
+                <stage xml:id="stage.10">(Az áldozatnak vége, azistenségek eltüntek.)</stage>
+                <sp xml:id="speak.32">
+                    <speaker>ÉVA.</speaker>
+                    <stage xml:id="stage.11">(Felemelkedve.)</stage>
+                    <l xml:id="l.88">Minő zaj az kint? nézzük meg,fiam.</l>
+                </sp>
+                <sp xml:id="speak.33">
+                    <speaker>KIMON.</speaker>
+                    <l xml:id="l.89">Egy árulót itélnek el, anyám.</l>
+                </sp>
+                <sp xml:id="speak.34">
+                    <speaker>ÉVA.</speaker>
+                    <stage xml:id="stage.12">(A csarnok lépcsőzetérelépve.)</stage>
+                    <l xml:id="l.90">Szivem mindig szorúl, ha éhezőnép</l>
+                    <l xml:id="l.91">Itéletét látom nagyok felett.</l>
+                    <l xml:id="l.92">Ha sárba hull a fényes,kárörömmel</l>
+                    <l xml:id="l.93">Szemléli a pór, gúnynyalilleti,</l>
+                    <l xml:id="l.94">Mint hogyha ön mocskát isigazolná. </l>
+                </sp>
+                <sp xml:id="speak.35">
+                    <speaker>MÁSODIK A NÉPBŐL.</speaker>
+                    <l xml:id="l.95">Uram! rekedt vagyok skiáltani</l>
+                    <l xml:id="l.96">Szeretnék.</l>
+                </sp>
+                <sp xml:id="speak.36">
+                    <speaker>MÁSODIK POLGÁR.</speaker>
+                    <l xml:id="l.97">Itt van, kend meg torkodat.</l>
+                </sp>
+                <sp xml:id="speak.37">
+                    <speaker>MÁSODIK A NÉPBŐL.</speaker>
+                    <l xml:id="l.98">Aztán mit mondjak?</l>
+                </sp>
+                <sp xml:id="speak.38">
+                    <speaker>MÁSODIK POLGÁR.</speaker>
+                    <l xml:id="l.99">Mondj halált fejére.</l>
+                </sp>
+                <sp xml:id="speak.39">
+                    <speaker>A NÉPBŐL.</speaker>
+                    <l xml:id="l.100">Halál, halál! -</l>
+                </sp>
+                <sp xml:id="speak.40">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.101">Kiről is van tehát szó?</l>
+                </sp>
+                <sp xml:id="speak.41">
+                    <speaker>MÁSODIK DEMAGÓG.</speaker>
+                    <stage xml:id="stage.13">(Hozzája lépve.)</stage>
+                    <l xml:id="l.102">Ki másról, mint ki egy fejjelnagyobb,</l>
+                    <l xml:id="l.103">Mint polgártársi s azt nemtűrhetik.</l>
+                </sp>
+                <sp xml:id="speak.42">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.104">Miltiadesről? - Oh, nagyistenek!</l>
+                    <l xml:id="l.105">S te is vén Crispos, kitrabszolgaságból</l>
+                    <l xml:id="l.106">Mentett ki férjem, most haláltkiáltasz?</l>
+                </sp>
+                <sp xml:id="speak.43">
+                    <speaker>CRISPOS.</speaker>
+                    <l xml:id="l.107">Engedj meg, asszonyom, kettőnkközűl</l>
+                    <l xml:id="l.108">Csak egyik élhet. Háromgyermekemmel</l>
+                    <l xml:id="l.109">Tart, a ki igy szavaztat.</l>
+                </sp>
+                <sp xml:id="speak.44">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.110">Jaj neked,</l>
+                    <l xml:id="l.111">Ha sorsod, Crispos, igylealjasít!</l>
+                    <l xml:id="l.112">Bár megbocsájtok, hogyhaéhezel.</l>
+                    <l xml:id="l.113">De hát te Thersites? s ti mind,ti mind,</l>
+                    <l xml:id="l.114">Kik a jólétben nyugtonszunnyadoztok,</l>
+                    <l xml:id="l.115">Mert a kapuktólellenségteket</l>
+                    <l xml:id="l.116">Férjem veré el. - Oh hálátlanok!-</l>
+                </sp>
+                <sp xml:id="speak.45">
+                    <speaker>THERSITES.</speaker>
+                    <l xml:id="l.117">Ah, asszonyom! keservesen esikbár,</l>
+                    <l xml:id="l.118">De mit tegyünk, ez anéphangulat:</l>
+                    <l xml:id="l.119">Ki koczkáztatja mindenbirtokát,</l>
+                    <l xml:id="l.120">Daczolva a felgerjedetthabokkal!</l>
+                </sp>
+                <sp xml:id="speak.46">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.121">Kimondom hát a nép itéletét.</l>
+                    <stage xml:id="stage.14">(LUCIFER, mint harczos,réműlt arczczal, szaladva
+                        jő.)</stage>
+                </sp>
+                <sp xml:id="speak.47">
+                    <speaker>LUCIFER.</speaker>
+                    <l xml:id="l.122">Vészt hirdetek! Az ellen akapuknál! <note type="critic"
+                            xml:id="note.4">A 63sh.-ját jav.</note></l>
+                </sp>
+                <sp xml:id="speak.48">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.123">Az nem lehet, győzelmeshadvezérünk</l>
+                    <l xml:id="l.124">Nincs-é előttük?</l>
+                </sp>
+                <sp xml:id="speak.49">
+                    <speaker>LUCIFER.</speaker>
+                    <l xml:id="l.125">Épen ő az ellen.</l>
+                    <l xml:id="l.126">Megtudta, mit forraltokellene,</l>
+                    <l xml:id="l.127">Felkelt szivében a méltóharag,</l>
+                    <l xml:id="l.128">S míg szóltok, tüzzel vassal ittterem.</l>
+                </sp>
+                <sp xml:id="speak.50">
+                    <speaker>MÁSODIK DEMAGÓG.</speaker>
+                    <l xml:id="l.129">Ti hoztátok mind ezt ránk,árulók.</l>
+                </sp>
+                <sp xml:id="speak.51">
+                    <speaker>A NÉPBŐL.</speaker>
+                    <l xml:id="l.130">Üssük le őket. - Éljen a vezér!-</l>
+                    <l xml:id="l.131">Jaj nékünk, fusson a ki merretud. -</l>
+                    <l xml:id="l.132">Mindennek vége. -</l>
+                </sp>
+                <sp xml:id="speak.52">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.133">Nincs. Hódolni néki</l>
+                    <l xml:id="l.134">Elébe a kapukhoz! -</l>
+                </sp>
+                <sp xml:id="speak.53">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.135">Istenek!</l>
+                    <l xml:id="l.136">Az itélet fájt, melly általnekem</l>
+                    <l xml:id="l.137">Elvesztél férjem, oh dekeserűbb</l>
+                    <l xml:id="l.138">Hogy igazoltad azt, - bárvisszanyerlek. -</l>
+                </sp>
+                <sp xml:id="speak.54">
+                    <speaker>ELSŐ A NÉPBŐL.</speaker>
+                    <l xml:id="l.139">Fogjátok el nejét; havárosunknak</l>
+                    <l xml:id="l.140">Bántása lesz, haljon meggyermekestül.</l>
+                </sp>
+                <sp xml:id="speak.55">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.141">Meghalnék érted, férjem,szivesen.</l>
+                    <l xml:id="l.142">Csak a hon átka gyermekem neérné. -</l>
+                </sp>
+                <sp xml:id="speak.56">
+                    <speaker>KIMON.</speaker>
+                    <l xml:id="l.143">Engem ne félts, anyám, jőj, jőjvelem,</l>
+                    <l xml:id="l.144">Megóv e szentély mindenbántalomtól.</l>
+                </sp>
+                <stage xml:id="stage.15">(Felmennek az üldözőcsoport elől a csarnokba, két NYMPHA
+                    rózsalánczotbocsát le mögöttük a nép előtt, mely azonnalvisszalép. Kívülről
+                    harsonák hangzanak, a népjajveszékelve szétszalad. - A nymphákeltünnek.)</stage>
+                <sp xml:id="speak.57">
+                    <speaker>LUCIFER.</speaker>
+                    <stage xml:id="stage.16">(Kaczagva kezétdörzsöli.)</stage>
+                    <l xml:id="l.145">Szép tréfa volt. Mi jó azértelemnek Kaczagni ott, hol
+                        szívekmegrepednek.</l>
+                    <stage xml:id="stage.17">(A templom feléfordúlva.)</stage>
+                    <l xml:id="l.146">Csak e mindig megifjuló,örökké</l>
+                    <l xml:id="l.147">Szépnek látása ne zavarnafolyvást.</l>
+                    <l xml:id="l.148">Úgy fázom idegenszerűkörében,</l>
+                    <l xml:id="l.149">Mely a mezetlent isszemérmetessé,</l>
+                    <l xml:id="l.150">A bűnt nemessé és a végzetet</l>
+                    <l xml:id="l.151">Magasztossá teszi rózsáival</l>
+                    <l xml:id="l.152">S az egyszerűség csókos ajkival.- -</l>
+                    <l xml:id="l.153">Mért késik oly soká az énvilágom,</l>
+                    <l xml:id="l.154">A torzalak, a kétes rémület,</l>
+                    <l xml:id="l.155">Hogy elriaszsza ekáprázatot,</l>
+                    <l xml:id="l.156">Mely küzdelmemben a már-márbukó</l>
+                    <l xml:id="l.157">Embert mindannyiszor fölkeltiújra. -</l>
+                    <l xml:id="l.158">De majd meglátjuk, hogyha ahalál</l>
+                    <l xml:id="l.159">Borzalma eljő hozzánk nemsokára,</l>
+                    <l xml:id="l.160">Unalmas árnyjátéktoknakvajon</l>
+                    <l xml:id="l.161">Nem lesz-e akkor itt végsőhatára.<note type="critic"
+                            xml:id="note.5">Aszerzői utasítást a K-Kl-ből pótoltuk.</note></l>
+                    <stage xml:id="stage.18">(A nép közévegyűl.)</stage>
+                </sp>
+                <stage xml:id="stage.19">(ÁDÁM, mint MILTIADES,fegyveres csapat élén vezettetik
+                    megsebesűlten.Előtte könyörögve a nép és a demagógok.)</stage>
+                <sp xml:id="speak.58">
+                    <speaker>A NÉPBŐL.</speaker>
+                    <l xml:id="l.162">Éljen vezérünk. Könyörűlj nagyember.</l>
+                </sp>
+                <sp xml:id="speak.59">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.163">Mi vétketek hát, a miértkönyörgtök?</l>
+                    <l xml:id="l.164">S a gyöngétől mit kérhet azerős? -</l>
+                    <l xml:id="l.165">De nőm nem jő elém, segyermekem;</l>
+                    <l xml:id="l.166">Tán csak nem érte őket bántalom!- -</l>
+                </sp>
+                <sp xml:id="speak.60">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.167">Ah Miltiades, mért is jöszsz, hanőd <note type="critic"
+                            xml:id="note.6">Madách a„jösz” alakban az <hi rend="italic">sz</hi>
+                            föléhúzott vízszintes vonallal hosszú mássalhangzótjelölt, ezt - vlsz. a
+                            soron végrehajtott másjavítás miatt - a kiadás során nem
+                            vettékfigyelembe. Jav.</note></l>
+                    <l xml:id="l.168">Sem bír örűlni jöttödön. -Fiam,</l>
+                    <l xml:id="l.169">Anyád leroskad, tartsd fel,tartsd fel... Ah,</l>
+                    <l xml:id="l.170">Még jó nevet se’ hágy reádatyád! -</l>
+                </sp>
+                <sp xml:id="speak.61">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.171">Mi ez? nem értem. A népesdekel,</l>
+                    <l xml:id="l.172">Nőm átkoz és e mell vérzikhazámért. -</l>
+                </sp>
+                <sp xml:id="speak.62">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.173">De jobban vérzik a hon ésszivem.</l>
+                    <l xml:id="l.174">Vagy mért jövél, mondd,hadseregnek élén. -</l>
+                </sp>
+                <sp xml:id="speak.63">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.175">Nem illet-é rangomban ilykiséret?</l>
+                    <l xml:id="l.176">Eljöttem, mert e súlyos seb nemenged</l>
+                    <l xml:id="l.177">Továbbra is tisztemnekmegfelelni.</l>
+                    <l xml:id="l.178">Eljöttem, hogy küldőimnekkezébe,</l>
+                    <l xml:id="l.179">A felséges népnek kezébetéve</l>
+                    <l xml:id="l.180">Hatalmamat, beszámoljakneki.</l>
+                    <l xml:id="l.181">Im elbocsátlak, bajnoktársaim,</l>
+                    <l xml:id="l.182">Kiérdemlétek a háztűz nyugalmát.<note type="critic"
+                            xml:id="note.7">A 63 "házt<hi rend="italic">ü</hi>z" indokolatlan, ezért
+                            a K-Klés a 61 alakját visszaállítottuk.</note></l>
+                    <l xml:id="l.183">S most én is e kardot, AthénePallas,</l>
+                    <l xml:id="l.184">Szentelve tűzöm oltárodfölé.</l>
+                </sp>
+                <stage xml:id="stage.20">(Felvezetteti magát acsarnok lépcsőin. Fegyveresei
+                    eloszolnak.)</stage>
+                <sp xml:id="speak.64">
+                    <speaker>ÉVA.</speaker>
+                    <stage xml:id="stage.21">(Férje nyakábaborúlva.)</stage>
+                    <l xml:id="l.185">Ah Miltiades, hol van boldogabbnő,</l>
+                    <l xml:id="l.186">Mint a te nőd, nemes nagyférfiú!</l>
+                    <l xml:id="l.187">Nézd, nézd fiad, milyenhasonlatos</l>
+                    <l xml:id="l.188">Hozzád, mi nagy, mi szép!</l>
+                </sp>
+                <sp xml:id="speak.65">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.189">Ti kedvesek!</l>
+                </sp>
+                <sp xml:id="speak.66">
+                    <speaker>KIMON.</speaker>
+                    <l xml:id="l.190">Jól tudtam én, hogy a mit teszatyám,</l>
+                    <l xml:id="l.191">Az jól van téve. -</l>
+                </sp>
+                <sp xml:id="speak.67">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.192">Oh, ne szégyeníts meg,</l>
+                    <l xml:id="l.193">Ezt a hitvesnek kelle tudnijobban.</l>
+                </sp>
+                <sp xml:id="speak.68">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.194">Fiam! atyád kardját mutasd bete.</l>
+                </sp>
+                <sp xml:id="speak.69">
+                    <speaker>KIMON.</speaker>
+                    <stage xml:id="stage.22">(A kardotfelakasztva.)</stage>
+                    <l xml:id="l.195">Óvd, istenasszony, ezt a drágakardot,</l>
+                    <l xml:id="l.196">Mig egykor érte hozzádeljövök.</l>
+                </sp>
+                <sp xml:id="speak.70">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.197">E kettős áldozathoz az anya</l>
+                    <l xml:id="l.198">Hadd szórja a tömjént. Pallas,tekints le.</l>
+                    <stage xml:id="stage.23">(Tömjént áldoz.)</stage>
+                </sp>
+                <sp xml:id="speak.71">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <stage xml:id="stage.24">(A szószéken.)</stage>
+                    <l xml:id="l.199">Nem volt-e igazam, hogyáruló?</l>
+                    <l xml:id="l.200">Hogy Darius megvette? tettetéscsak</l>
+                    <l xml:id="l.201">A seb, nem kiván ellenecsatázni.</l>
+                </sp>
+                <sp xml:id="speak.72">
+                    <speaker>A NÉPBŐL.</speaker>
+                    <l xml:id="l.202">Halál reá.</l>
+                </sp>
+                <sp xml:id="speak.73">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.203">Mi zaj az odakint?</l>
+                </sp>
+                <sp xml:id="speak.74">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.204">Ah, Miltiades, rettentő beszédaz:</l>
+                    <l xml:id="l.205">Árulónak mond újra a tömeg.</l>
+                </sp>
+                <sp xml:id="speak.75">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.206">Nevetséges vád; engem,árulónak,</l>
+                    <l xml:id="l.207">Ki Marathonnál győztem?</l>
+                </sp>
+                <sp xml:id="speak.76">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.208">Oh, hogy úgy van.</l>
+                    <l xml:id="l.209">Gonosz világ az, mellyet ittlelél. <note type="critic"
+                            xml:id="note.8">A 63„me<hi rend="italic">l</hi>yet” alakja
+                            ritmikaiszövegromlás, ezért a K-Kl és a 61 alapjánjav.</note></l>
+                </sp>
+                <sp xml:id="speak.77">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.210">Mit késtek őt elfogni?</l>
+                </sp>
+                <stage xml:id="stage.25">(Nép tolong a templomcsarnoka elé, köztük LUCIFER.</stage>
+                <sp xml:id="speak.78">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.211">Miltiades!</l>
+                    <l xml:id="l.212">E szentélyben biztos vagy, megne mozdúlj. -</l>
+                    <l xml:id="l.213">Miért is oszlatád szét ahadat?</l>
+                    <l xml:id="l.214">E bűnbarlangot mért nemgyújtatád fel?</l>
+                    <l xml:id="l.215">Csak lánczot érdemel ecsőcselék,</l>
+                    <l xml:id="l.216">Mely érzi, hogy te születéluráúl,</l>
+                    <l xml:id="l.217">Ki nemesebb vagy, mint őkösszevéve,</l>
+                    <l xml:id="l.218">S megöl, megöl, hogy lábadhoz neessék. -</l>
+                </sp>
+                <sp xml:id="speak.79">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.219">Halljátok-e, egy áruló neje</l>
+                    <l xml:id="l.220">Miként beszél? -</l>
+                </sp>
+                <sp xml:id="speak.80">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.221">Az a nőnek joga,</l>
+                    <l xml:id="l.222">Hogy férjét védje, még ha bűnösis,</l>
+                    <l xml:id="l.223">Hát még ha ollyan tiszta, minturam! - <note type="critic"
+                            xml:id="note.9">Az„o<hi rend="italic">l</hi>lyan”
+                            megrövidültmássalhangzója a kiadásban, illetve a 63-banritmikai
+                            szövegromlás, ezért a K-Kl és a 61alapján jav.</note></l>
+                    <l xml:id="l.224">És ellensége ollyan korcs,miként ti. -<note type="critic"
+                            xml:id="note.10">Az „o<hi rend="italic">l</hi>lyan”
+                            megrövidültmássalhangzója a kiadásban, illetve a 63-banritmikai
+                            szövegromlás, ezért a K-Kl és a 61alapján jav.</note></l>
+                </sp>
+                <sp xml:id="speak.81">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.225">Mért hagyja a felséges népmagát</l>
+                    <l xml:id="l.226">Így becsmérelni.</l>
+                </sp>
+                <sp xml:id="speak.82">
+                    <speaker>ELSŐ A NÉPBŐL.</speaker>
+                    <l xml:id="l.227">Hát ha igazat mond.</l>
+                </sp>
+                <sp xml:id="speak.83">
+                    <speaker>ELSŐ POLGÁR.</speaker>
+                    <l xml:id="l.228"/>
+                </sp>
+                <sp xml:id="speak.84">
+                    <speaker/>
+                    <l xml:id="l.229">Ki velök tart, gyanús.Kiáltsatok</l>
+                    <l xml:id="l.230">Rongy lelkek, vagy dögöljetekmeg éhen.</l>
+                </sp>
+                <sp xml:id="speak.85">
+                    <speaker>A NÉPBŐL.</speaker>
+                    <l xml:id="l.231">Halál reá. -</l>
+                </sp>
+                <sp xml:id="speak.86">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.232">Takard el e fiút.</l>
+                    <l xml:id="l.233">Ne lássa vérem, - el nő ekebelről.</l>
+                    <l xml:id="l.234">A villám, mely a szirtre csap,ne érjen.</l>
+                    <l xml:id="l.235">Csak én haljak meg, - vagy miértis éljek,</l>
+                    <l xml:id="l.236">Midőn látom, mi dőre aszabadság,</l>
+                    <l xml:id="l.237">Melyért egy élten küzködémkeresztűl.</l>
+                </sp>
+                <sp xml:id="speak.87">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.238">Mit tétováztok még.</l>
+                </sp>
+                <sp xml:id="speak.88">
+                    <speaker>A NÉPBŐL.</speaker>
+                    <l xml:id="l.239">Halál reá!</l>
+                </sp>
+                <sp xml:id="speak.89">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.240">E gyáva népet meg nemátkozom,</l>
+                    <l xml:id="l.241">Az nem hibás, annaktermészete,</l>
+                    <l xml:id="l.242">Hogy a nyomor szolgávábélyegezze</l>
+                    <l xml:id="l.243">S a szolgaság, vérengzőeszközévé</l>
+                    <l xml:id="l.244">Sülyeszsze néhány dölyföspártütőnek.</l>
+                    <l xml:id="l.245">Csak egyedül én voltam abolond,</l>
+                    <l xml:id="l.246">Hivén, hogy ílyen népnek kellszabadság.</l>
+                </sp>
+                <sp xml:id="speak.90">
+                    <speaker>LUCIFER.</speaker>
+                    <stage xml:id="stage.26">(Félre.)</stage>
+                    <l xml:id="l.247">Elmondtad a sírversetönmagadra,</l>
+                    <l xml:id="l.248">S utánad illőt sok nagysíroromra. -</l>
+                </sp>
+                <sp xml:id="speak.91">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.249">Vezessetek le. Nem veszemigénybe</l>
+                    <l xml:id="l.250">Tovább e szentélyt.</l>
+                    <stage xml:id="stage.27">(Levezetteti magát alépcsőn, Évát gyöngéden szolgálói
+                        karjábatéve.)</stage>
+                    <l xml:id="l.251">Ím - készen vagyok. -</l>
+                </sp>
+                <sp xml:id="speak.92">
+                    <speaker>MÁSODIK DEMAGÓG.</speaker>
+                    <l xml:id="l.252">Védjed magad, még nincsen veszvesemmi.</l>
+                </sp>
+                <sp xml:id="speak.93">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.253">Nagyon gyötörne a seb, hogyhaszólnék</l>
+                    <l xml:id="l.254">Védelmeműl.</l>
+                </sp>
+                <sp xml:id="speak.94">
+                    <speaker>MÁSODIK DEMAGÓG.</speaker>
+                    <l xml:id="l.255">Tedd meg, hisz ez a nép</l>
+                    <l xml:id="l.256">Csak az imént porban csúszottelőtted.</l>
+                </sp>
+                <sp xml:id="speak.95">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.257">Ah, ép azért mindenhaszontalan,</l>
+                    <l xml:id="l.258">Önszégyenét meg nem bocsátja anép.</l>
+                </sp>
+                <sp xml:id="speak.96">
+                    <speaker>LUCIFER.</speaker>
+                    <l xml:id="l.259">Kijózanodtál-é hát?</l>
+                </sp>
+                <sp xml:id="speak.97">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.260">Oh, nagyon.</l>
+                </sp>
+                <sp xml:id="speak.98">
+                    <speaker>LUCIFER.</speaker>
+                    <l xml:id="l.261">Atláttad-é, hogy a hódúlttömegnek</l>
+                    <l xml:id="l.262">Nemesb ura voltál, mint őneked?</l>
+                </sp>
+                <sp xml:id="speak.99">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.263">Lehet, de mind a kettőkárhozat;</l>
+                    <l xml:id="l.264">Más név alatt a végzetugyanaz.</l>
+                    <l xml:id="l.265">Hiú törekvés azzal küzdeni,</l>
+                    <l xml:id="l.266">Nem is fogok. - Aztán miért,miért is</l>
+                    <l xml:id="l.267">Vágynék magasra bármi hőkebel.</l>
+                    <l xml:id="l.268">Éljen magának, és keresse akéjt,</l>
+                    <l xml:id="l.269">Melylyel betölti az arasznyilétet,</l>
+                    <l xml:id="l.270">S tántorgjon ittasan Hádes felé.- Vezess új útra Lucifer,
+                        vezess,</l>
+                    <l xml:id="l.271">S kaczagva nézem máserényeit,</l>
+                    <l xml:id="l.272">Más kinjait, csak élveketkivánva.</l>
+                    <l xml:id="l.273">Te meg nő, a ki - úgy rémlikszivemnek -</l>
+                    <l xml:id="l.274">Egykor lugost varázsolálnekem</l>
+                    <l xml:id="l.275">A sivatagba, hogy ha mégfiamból</l>
+                    <l xml:id="l.276">Polgárt nevelnél tisztesanyaként:</l>
+                    <l xml:id="l.277">Bolond vagy, méltán gúnyol aleány,</l>
+                    <l xml:id="l.278">Ki festett arczczal a bordélybanűl</l>
+                    <l xml:id="l.279">Bortól felgerjedt, csókvágyóajakkal.</l>
+                    <l xml:id="l.280">Örűlj, mulass, tagadd meg azerényt. -</l>
+                    <l xml:id="l.281">Vérpadra mostan,büntetéseműl.</l>
+                    <l xml:id="l.282">Nem mintha aljast birtam volnatenni,</l>
+                    <l xml:id="l.283">De mert nagy eszme lelkesítnibírt. </l>
+                </sp>
+                <stage xml:id="stage.28">(Ez alatt egy tőkéthoznak a lépcsők elé, mellette Lucifer
+                    állbárddal. Ádám lehajtja fejét.)</stage>
+                <sp xml:id="speak.100">
+                    <speaker>ELSŐ DEMAGÓG.</speaker>
+                    <l xml:id="l.284">Végezzétek ki. Éljen a haza!</l>
+                </sp>
+                <sp xml:id="speak.101">
+                    <speaker>LUCIFER.</speaker>
+                    <stage xml:id="stage.29">(Félsúgva.)</stage>
+                    <l xml:id="l.285">Szép búcsu, nemde? - No s, vitézuram,</l>
+                    <l xml:id="l.286">Nem borzogat most furcsán egykevéssé</l>
+                    <l xml:id="l.287">A torzképű halál rideg szele?-</l>
+                </sp>
+                <sp xml:id="speak.102">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.288">Ah Pallas! meg nem hallgatádimámat. -</l>
+                </sp>
+                <stage xml:id="stage.30">(A templomból a halálnemtője, mint szelíd tekintetű ifjú,
+                    lefordítottfáklyával s koszorúval Ádámhoz lép.)</stage>
+                <sp xml:id="speak.103">
+                    <speaker>ÁDÁM.</speaker>
+                    <l xml:id="l.289">Pallas meghallgatott. - Az égveled.</l>
+                    <l xml:id="l.290">Megnyugvás szállt szivembeLúciám.</l>
+                </sp>
+                <sp xml:id="speak.104">
+                    <speaker>LUCIFER.</speaker>
+                    <l xml:id="l.291">Átok reád, hiú ábránd világ,</l>
+                    <l xml:id="l.292">Megint elrontád legszebbperczemet. -</l>
+                </sp>
+                <sp xml:id="speak.105">
+                    <speaker>ÉVA.</speaker>
+                    <l xml:id="l.293">Átok reád, te közlelkű ridegnép,</l>
+                    <l xml:id="l.294">A boldogságot durvánilletéd,</l>
+                    <l xml:id="l.295">S üde virága menten porbahullt.</l>
+                    <l xml:id="l.296">Pedig nem ollyan édes aszabadság <note type="critic"
+                            xml:id="note.11">A63 „o<hi rend="italic">l</hi>yan” alakja
+                            ritmikaiszövegromlás, ezért a K-Kl és a 61 alapjánjav.</note></l>
+                    <l xml:id="l.297">Neked, a mílyen fájdalmas nekemvolt.</l>
+                </sp>
+                <p xml:id="p.1">[I-V. szín összesen: 1086 sor]</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="7" type="main">Keletkezéstörténet</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.7</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.7.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>654-660.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Keletkezéstörténet</head>
+                <p xml:id="p.1">Annak ellenére, hogy a drámai költemény megfogalmazásának időszakát
+                    napra pontosan ismerjük, <title><hi rend="italic">Az ember
+                        tragédiájá</hi></title>nak külső keletkezéstörténete nincsen.</p>
+                <p xml:id="p.2">A családtagok is csak utólag, a mű ismeretében kezdtek emlékezni
+                        <persName>Madáchnak</persName> egy-egy szokatlan mondatára, amelyeknek akkor
+                    és ott, elhangzásukkor nem volt értelmük. <persName>Balogh Károly<idno
+                            type="ITIdata">Q83972</idno></persName> emlékezett a költőnek egy német
+                    nyelven tett kijelentésére, amit <persName>Ité Ninának<idno type="ITIdata"
+                        /></persName>, <persName>Majthényi Anna<idno type="ITIdata"
+                        >Q469703</idno></persName> francia társalkodónéjának mondott: „No, Nina
+                    kisasszony, most írok ám valamit; az furcsa lesz; Adám frakkban fog szerepelni
+                    benne.” Az unokaöccs hozzá is fűzte: „Később értettük meg a célzást, amikor a
+                    kilencedik színben találkoztunk Párizsban, a Gréve piacon Adámmal, Danton
+                    szerepében - frakkban.” (<bibl>Balogh 1996 148.<idno type="ITIdata"
+                            >Q469805</idno></bibl>) Az U alakra épített sztregovai kastély
+                    középrészén elhelyezkedő ebédlőbe, felvidéki szóhasználatban a „palotá”- ba
+                    kisharanggal csöndítettek étkezésre. <persName>Madách Aladár<idno type="ITIdata"
+                            >Q56407</idno></persName> arra emlékezett, hogy „egyszer atyja az
+                    ebédhez jővén igy nyilatkozott: - Éppen most irom, hogy ’csöngetnek’ és rá
+                    tényleg csöngetnek. (<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.12#stage.8"
+                        >XII. szín.</ref>)” (<bibl>Morvay 1898 15.<idno type="ITIdata"
+                            >Q470086</idno></bibl>) Legifj. <persName>Balogh Károly<idno
+                            type="ITIdata">Q238980</idno></persName> „Atyámtól” megjelöléssel két
+                    olyan szállóigét is idesorolt, amit <persName>Madách</persName> többször
+                    ismételgetett: „Az ebnek is eb legfőbb ideálja, / S megtisztel, hogyha társaúl
+                    fogad.” (<ref>II: 283-284.</ref>) és „Nem az idő halad: mi változunk...”
+                        (<ref>III: 521.</ref>) (<bibl>Balogh 1934 162.<idno type="ITIdata"
+                            >Q469804</idno></bibl>)</p>
+                <p xml:id="p.3">A családhoz hasonlóan, a szűkebb baráti kör sem volt beavatva a
+                    készülő mű tervébe. Az ifjúkori, hűséges barát, <persName>Szontagh Pál<idno
+                            type="ITIdata">Q49539</idno></persName> is csupán utólag érthette meg
+                        <persName>Madách</persName><date when="1860-02-23">1860. február 23-i</date>
+                    levelének utalását: „Ezennel tehát még egyszer sommállak, mint Danton
+                    Robespierret, hogy (nem három hó alatt, mint amaz, de) egy hét alatt ez úton
+                    légy. - ” (<bibl>MÖM II. 992-993.<idno type="ITIdata">Q412729</idno></bibl>)
+                        <persName>Henriczi Ágoston<idno type="ITIdata">Q469687</idno></persName>,
+                            <placeName>Alsósztregova<idno type="ITIdata">Q1731</idno></placeName>
+                    evangélikus lelkésze - a költő a falu mindkét felekeze téliek kegyura volt -
+                    másra emlékezett: „Föltűnt azonban neki, hogy <persName>Madách</persName> abban
+                    az időben sokszor kérdezősködött, mondjon neki bizonyos eseményekre bibliai
+                    jelenetet és vonatkozást és vele bibliai tárgyakról tüzetesen beszélgetett.
+                    Föltűnt továbbá, hogy Gibbont ez időben sokat forgatta.” (<bibl>Morvay 1898
+                            15.<idno type="ITIdata">Q470086</idno></bibl>) Idevonható az a családi
+                    hagyomány is, hogy <persName>Madách</persName> a két felekezet papjának és fia,
+                    valamint unokaöccse nevelőjének gyakran vetett fel beszélgetésre teológiai és
+                    egyéb témákat. Tudomásunk szerint ezt a valamennyi Madách-életrajzban
+                    hangsúllyal szereplő történetet a nyivánosság számára először <persName>Kálnay
+                            Nándor<idno type="ITIdata">Q54222</idno></persName>, a csesztvei,
+                        <persName>Madách Károlyéknál<idno type="ITIdata">Q469688</idno></persName>
+                    alkalmazott nevelő és helytörténész fogalmazta meg (<bibl>Kálnay 1884 26.<idno
+                            type="ITIdata">Q469961</idno></bibl>).</p>
+                <p xml:id="p.4">A színesebb keletkezéstörténeteknek három közös jellemzőjük van:
+                    kivétel nélkül már a tágabb baráti-ismeretségi körből származnak, évtizedekkel a
+                    költő halála után kerültek papírra, és így a szerzői kontroll lehetősége nélkül,
+                    de a <title><hi rend="italic">Tragédia</hi></title> irodalmi, sőt színházi
+                    sikerének ismeretében fogalmazódtak meg. Egy héttel a színpadi ősbemutató után
+                    jelent meg <persName>Jeszenszky Danó<idno type="ITIdata"
+                        >Q243099</idno></persName> (<persName>Dániel</persName>; <date from="1824"
+                        to="1906">1824-1906</date>) cikke az alább még elemzendő szerzőségi vitában.
+                    A cikkíró a szabadságharcban honvédtiszt volt, majd ügyvédként tevékenykedett
+                            <placeName>Balassagyarmaton<idno type="ITIdata"
+                        >Q18295</idno></placeName>, e minőségében a Madách-család perirataiban <date
+                        when="1857-12">1857 decemberében</date> bukkan fel először a neve (vö.
+                        <bibl>MID 308.<idno type="ITIdata">Q470047</idno></bibl> és <bibl>ÚMID
+                            228.<idno type="ITIdata">Q470148</idno></bibl>). „Temérdek” álnéven
+                    publikáló költő és publicista, valamint lapszerkesztő, akinek rövidéletű
+                        <title>Felvidéki Magyar Közlöny</title>ében (<date from="1862" to="1863"
+                        >1862-1863</date>) közölte <persName>Madách</persName><title><hi
+                            rend="italic">Szabadelvűség és táblabíró-politika</hi></title> c.
+                    tanulmányát. <persName>Jeszenszky<idno corresp="Jeszenszky Danó"/></persName>
+                    szerint barátságuk <date when="1853">1853</date>, a börtönből és internálásból
+                    hazaérkezés után kezdődött. A keletkezéstörténet indító dátuma itt is
+                    bizonytalan: „1856. vagy 1857. évben lehetett - bizonyosan nem emlékszem, hogy a
+                    szokott társaság ebéd után a kávénál együtt ült. Madách is jelen volt, s élénk
+                    részt vett a világtörténelmi s irodalmi tárgyakról folyt eszmecserében. Egyszer
+                    felveté Madách, hogy érdemes volna az emberiséget küzdelmeiben dramatizálni. E
+                    feladatot a többek közt én drámailag megoldhatatlannak nyilvánitám, s
+                    lehetetlennek állitottam a müegység kivitelét. Az emberiség küzdelme még nincs
+                    befejezve, mi legyen tehát a dráma vége? Továbbá ki legyen a darab hőse, a kiben
+                    az emberiség ügye győzzön vagy elbukjék? stb. Madách álláspontját sokáig
+                    vitatta, a nélkül, hogy csak távolról is engedte volna sejtenünk, hogy ő egy ily
+                    drámai mü koncepciójával foglalkozik. A vita egészen elméleti téren mozgott.
+                    Egyszer Madách egészen elhallgatott és e tárgyat előttünk soha többé szóba nem
+                    hozta.” {<bibl><title><hi rend="italic">Madách Imre és Bory László</hi></title>,
+                        PH 1883. szeptember 28.</bibl>) <persName>Jeszenszky<idno
+                            corresp="Jeszenszky Danó"/></persName> hozzáfűzte még, hogy
+                        <persName>Madách</persName> csak kisebb verseiből olvasott fel neki.</p>
+                <p xml:id="p.5">A Madách-életrajzot író <persName>Palágyinak<idno type="ITIdata"
+                            >Q47606</idno></persName><persName>Jeszenszky<idno
+                            corresp="Jeszenszky Danó"/></persName> újra elbeszélte a történetet.
+                    Ekkor konkretizálódott a helyszín és a társaság:
+                        <placeName>Balassagyarmaton</placeName> ebédeltek <persName>Csörföly
+                            Imre<idno type="ITIdata">Q469691</idno></persName> ügyvéd házánál,
+                        <persName>Jeszenszky</persName> és <persName>Bory László<idno type="ITIdata"
+                            >Q469618</idno></persName> mellett még <persName>Bodnár István<idno
+                            type="ITIdata">Q51236</idno></persName> ügyvéd volt jelen. Valamennyien
+                    kapcsolatban álltak a perek sorát vivő Madáchokkal; megjegyzendő még, hogy
+                            <persName>Jeszenszky<idno corresp="Jeszenszky Danó"/></persName> és
+                            <persName>Csörföly<idno corresp="Csörmöly Imre"/></persName> a
+                        <persName>Madách Imrétől</persName> tisztelt és nagyrabecsült
+                            <persName>Petőfi<idno type="ITIdata">Q149546</idno></persName>
+                    ismeretségi köréhez tartoztak. <persName>Palágyinál<idno
+                            corresp="Palágyi Menyhért"/></persName> a dátum eltérő és szintén
+                    bizonytalan: „1858 körül lehetett...” (<bibl>Palágyi 1990 338.<idno
+                            type="ITIdata">Q470099</idno></bibl> és nyomán <bibl>Voinovich 1922
+                            151-152.<idno type="ITIdata">Q470164</idno></bibl>).</p>
+                <p xml:id="p.6"><date when="1888">1888-ban</date><persName>Pétery Károly<idno
+                            type="ITIdata">Q245331</idno></persName> novellista és publicista, <date
+                        when="1861">1861-ben</date><persName>Madách</persName> képviselőtársa
+                    emlékirataiból (<title><hi rend="italic">Kirándulás Madách Imrével 1861-ben
+                            nógrádi Szontágh Pálhoz</hi></title>) idézte fel egy közlemény a
+                            <title><hi rend="italic">Tragédia</hi></title> keletkezéstörténetét.
+                    Eszerint <date when="1861-07-20">1861. július 20-án</date>, az országgyűlés
+                    szünetében kirándulást téve szülőföldjére,
+                            <persName>Madách</persName><placeName>Csalomjáról<idno type="ITIdata"
+                            >Q19547</idno></placeName><placeName>Horpácsra<idno type="ITIdata"
+                            >Q11229</idno></placeName> kocsizva elmesélte, hogy <date when="1853"
+                        >1853-ban</date> a pesti Újépületben - a megőrüléstől tartva - egy
+                    ottfelejtett krétadarabbal a fenyőfa asztallapra dolgozni kezdett: emlékkönyvi
+                    versek, dráma és egy félbehagyott regény után kezdte el így (naponta megtanulva
+                    és letörölve az írottakat) <title><hi rend="italic">Lucifer</hi></title> címen a
+                    drámai költeményt, amelyet <date when="1856">1856</date>/<date when="1857"
+                        >57-ben</date>, a krími háború lezárultával fejezett be. A kéziratával
+                    tanácstalankodó <persName>Madáchnak</persName><persName>Pétery<idno
+                            corresp="Pétery Károly"/></persName> a kiadást ajánlotta, utóbb azonban
+                    elfogadva a szerző tervét, együtt vitték el <persName>Aranyhoz</persName>, akit
+                    nem találtak otthon, így <persName>Madách</persName> más alkalommal egyedül
+                    vitte el a kéziratot. (<bibl>Túri Mészáros István: <title><hi rend="italic">Hogy
+                                született meg az „Ember tragédiája”?</hi></title>, Ország-Világ
+                        1888. december 1.</bibl>) A cikk a közelítően pontos tények és a
+                    legmerészebb fantázia keveréke. Az <date when="1848">1848-as</date> jogalapon
+                    állt képviselők között Madách fogsága valóban lehetett beszédtéma: a cikk „Azt
+                    már tudod...” fordulattal tért át erre. A vád és a fogság adatai viszonylag
+                    pontosak, bár a barátokhoz írott versek és a rossz fogvatartási körülmények a
+                    pozsonyi várbörtönre, <date when="1852">1852</date> őszére jellemzőek, az
+                    Újépületben őrzött költő <date when="1853-02-24">1853. február 24-én</date>
+                    pesti ügyvédjüktől holmikat rendelt levélben, és egészségesnek áhította magát:
+                        <bibl>MÖM II. 884-885<idno type="ITIdata">Q412729</idno></bibl>. A krími
+                    háború keltette reményekhez, majd csalódásokhoz kötni szépirodalmi műveket
+                    közhelynek számított; emlékeztetünk arra, hogy <persName>Gyulai Pál<idno
+                            type="ITIdata">Q145946</idno></persName> például így magyarázta
+                            <persName>Vörösmarty<idno type="ITIdata">Q50503</idno></persName>
+                    rapszódiáját, <title><hi rend="italic">A vén cigány</hi></title>t. Az <date
+                        when="1861">1861-es</date> események megint elfogadható pontosságúak: <date
+                        when="1861-07">júliusban</date><persName>Madách</persName> valóban négy
+                    napot otthon és a környéken töltött, de <date when="1861-07-03">július 3.</date>
+                    előtt (vö. <bibl><title>Majthényi Anna levelével Károlyiné Huszár Annának,
+                            Alsósztregova 1861. július 3.</title> = <persName>Majthényi
+                            A.</persName> 2000 289.<idno type="ITIdata">Q470010</idno></bibl>!). Az
+                    viszont elképzelhetetlen, hogy <persName>Madách</persName>, aki irodalmi tervét
+                    családjával és legszűkebb baráti körével sem osztotta meg, egy kirándulás
+                    kapcsán hosszan fecsegett volna műve keletkezéstörténetéről, ezt megelőzően
+                    pedig házassága kudarcáról, amint a cikk állítja.</p>
+                <p xml:id="p.7">A legendás keletkezéstörténet tovább formálódott <date when="1905"
+                        >1905-ben</date>, amikor egy népszerűsítő írás (<persName>Palágyi<idno
+                            corresp="Palágyi Menyhért"/></persName> könyvével vitatkozva, bár abból
+                    újraközölve <persName>Jeszenszky<idno corresp="Jeszenszky Danó"/></persName>
+                    történetének második, <date when="1858">1858-as</date> változatát) a
+                    Pétery-emlékirat mellett tört lándzsát, sőt (minden filológiai alap nélkül)
+                        <date when="1857">1857-re</date> feltételezte a <title><hi rend="italic"
+                            >Lucifer</hi></title> c. első terv vagy változat elkészültét, amely -
+                            <persName>Bérczy<idno type="ITIdata">Q142388</idno></persName>
+                    emlékbeszéde egy helyének tudatos félremagyarázásával - pesszimista befejezéssel
+                    zárult volna, de <date from="1857" to="1860">1857 és 1860 között</date> a hit
+                    feloldó hatására <persName>Madách</persName> továbbírta művét (<bibl>Bakonyi H.
+                        R.: <title><hi rend="italic">Az Ember Tragédiájának
+                        keletkezése</hi></title>, Uránia 1905. szeptember, 321-331.<idno
+                            type="ITIdata">Q470100</idno></bibl>).</p>
+                <p xml:id="p.8">A harmadik verzió <persName>Plichta Somától<idno type="ITIdata"
+                            >Q54556</idno></persName> származik, aki 80. születésnapján, <date
+                        when="1911-06-12">1911. június 12-én</date> (hét évvel a történetben
+                    szereplő <persName>Szontagh Pál<idno type="ITIdata">Q49539</idno></persName> és
+                    öttel <persName>Jeszenszky Danó</persName>, az utolsó szem- és fültanúk halála
+                    után) Losoncról levelet intézett <persName>Jeszenszky István</persName>
+                    budapesti közjegyzőhöz, <persName>Danó</persName> fiához. Szerinte 1859 őszén,
+                    Alsósztregován egy szüreti vacsorát követő pipázgatás során a társaság
+                        (<persName>Madách</persName>, <persName>Szontagh<idno corresp="Szontagh Pál"
+                        /></persName>, <persName>Jeszenszky</persName>, <persName>Veres Gyula<idno
+                            type="ITIdata">Q469700</idno></persName> és <persName>Plichta<idno
+                            corresp="Plichta Soma"/></persName>) irodalmi kérdésekről beszélgetett,
+                    és „Gőthe Fausztjának elemzésénél Jeszenszky Danó csodálkozását fejezte ki a
+                    felett, hogy az ember tragédiájának megírására még senki sem vállalkozott.
+                    Mélyen elhallgattunk mindnyájan, a kandalló tüzébe bámultunk nagyon sokáig, -
+                    végre a csendet Madách Imre törte meg, - Jeszenszky Danónak vállára tette a
+                    kezét, és azt mondta, hogy ő ’Az ember tragédiájá’-nak megírására válalkozik.
+                    [!]” Egy év múlva, az <date when="1860">1860.</date> évi szüreten, hasonló
+                    helyzetben, az elkészült művet <persName>Plichta Soma</persName> olvasta fel
+                    először <persName>Madách</persName> egyenes kérésére, éjjeli 1/2 11 és hajnali 5
+                    között, a szerző közbeszőtt kommentárjaival. (A levél: <bibl>OSZK Kt.
+                        Levelestár</bibl>.) A levelet elsőként <persName>Vértesy Jenő<idno
+                            type="ITIdata">Q50217</idno></persName> idézte tartalmilag a
+                    Madách-hagyaték közgyűjteménybe kerülése alkalmából (<bibl>Vértesy 1914 303-
+                            304.<idno type="ITIdata">Q470158</idno></bibl>), innen került át
+                            <persName>Voinovich<idno type="ITIdata">Q247156</idno></persName>
+                    monográfiája mindkét kiadásába (<ref>151.</ref>, jegyzetben). Megjegyzendő, hogy
+                    a Madách-hagyatékot <date when="1913">1913-ban</date> átvevő kézirattáros,
+                        <persName>Sebestyén Gyula<idno type="ITIdata"
+                            >Q48625</idno></persName><placeName>Losoncon<idno type="ITIdata"
+                            >Q282</idno></placeName> rákérdezett a levél tartalmára, ám azt mindenki
+                    elfogadhatadannak tartotta. (A nógrádi, <persName>Madáchot</persName> íróként
+                    értékelő közhangulatra a <title><hi rend="italic">Fogadtatás</hi></title> c.
+                    alfejezetben visszatérünk.)</p>
+                <p xml:id="p.9">A legendás keletkezéstörténetekre azért kellett részletesen
+                    kitérnünk, mert kritikai elemzésükre sor nem került, viszont - mintegy
+                        <persName>Voinovichtól</persName> hitelesítve - nemcsak máig éldegéltek,
+                    hanem a legújabb életrajzban (<bibl>Andor 2000<idno type="ITIdata"
+                            >Q469798</idno></bibl>) valamennyi az irodalomtörténeti adat rangján
+                    szerepel, sőt <persName>Pétery</persName> nyomán a <title><hi rend="italic"
+                            >Tragédiá</hi></title>nak immár három változata (<date when="1853"
+                        >1853</date>, <date from="1856" to="1857">1856-1857</date>, <date
+                        from="1859" to="1860">1859-1860</date>) kronológiai tényként.</p>
+                <p xml:id="p.10"><persName>Madách</persName> a siker után sem tért vissza a K
+                    befejezése, az <date when="1860-03-26">1860. március 26.</date> előtti
+                    műhelykérdésekre. Hogy családja és legszűkebb baráti köre sem tudott a
+                            <title><hi rend="italic">Tragédia</hi></title> munkálatairól, annak
+                    egyeden, tudatosan vállalt oka lehetett, amelyet a K ismertetésekor említettünk:
+                    az irodalmi kudarctól való félelem. A börtönből szabadulást, majd az átköltözést
+                    és a válást (<date when="1854-07">1854. július</date>) követően
+                        <persName>Madách</persName> élete második válságkorszakát élte át (az <date
+                        when="1842">1842</date>/<date when="1843">43</date>-ra datálható első után),
+                    amit csak súlyosbítottak a napi megélhetés, a gazdálkodás gondjai, és amelyet
+                    nem enyhítettek a magányos műhely, az éjszakai „oroszlánbarlang” hozta szellemi
+                    sikerek:</p>
+                <lg xml:id="lg.1">
+                    <l xml:id="l.1">Ah, de kínos érzés bánt egyszersmind engem.</l>
+                    <l xml:id="l.2">Látva életemnek hogy felét leéltem,</l>
+                    <l xml:id="l.3">S amit méltó lenne örökös betűkkel</l>
+                    <l xml:id="l.4">Feljegyezni, eddig még semmit nem tettem.</l>
+                </lg>
+                <p xml:id="p.11">(<title><hi rend="italic">Éjféli gondolatok</hi></title>, <bibl>MÖM
+                        II. 325.<idno type="ITIdata">Q412729</idno></bibl>)</p>
+                <p xml:id="p.12">Az <date from="1850" to="1859">1850-es</date> éveknek a <title><hi
+                            rend="italic">Tragédia</hi></title> több motívumát előlegező és a
+                    romantikus műfajok (románc, rege, rapszódia) határait feszegető lírája, amelyhez
+                    idézett, terjedelmes költeményünk is tartozik, azonban datálhatatlan; <date
+                        when="1864">1864-ben</date> elkezdett sajtó alá rendezésük alkalmával maga a
+                    költő bontotta fel időrendjüket. <persName>Balogh Károly<idno type="ITIdata"
+                            >Q238980</idno></persName> (Balogh 1934, passim<idno type="ITIdata"
+                        >Q469804</idno>) és nyomán legutóbbi kiadójuk, <persName>Horváth
+                        Károly</persName> (<bibl>1989 500-506.<idno type="ITIdata"
+                        >Q469933</idno></bibl>) kellő óvatossággal <date from="1856" to="1858">1856
+                        és 1858</date> közé helyezte őket, s mivel a datáláshoz támpontul szolgáló
+                    önéletrajzi, „eldolgozatlanul” maradt mozzanatok száma itt már lecsökkent,
+                    pontosításra a jövőben sincs sok esélyünk (vö. <bibl>Kerényi Ferenc: <title><hi
+                                rend="italic">Madách Imre lírájának kronológiájáról</hi></title>, It
+                        1991. 385.</bibl>). <persName>Madách</persName><date when="1855"
+                        >1855-ben</date> még a költőlét kritériumaival viaskodott: „...Göthe a nagy
+                    mester meg mondta, hogy minden szenvedély, minden érzés, minden ideál csak akkor
+                    lesz műtárgyi, mikor megszűnt szenvedély, érzés és ideál lenni, mikor mint a’
+                    túdós orvos sajnálat részvét nélkül bonczkés alá vesszük azokat.”
+                            (<bibl><title>Levele Szontagh Pálnak, Alsósztregova 1855. március
+                            27.</title> - MÖM II. 985.<idno type="ITIdata">Q412729</idno></bibl>)
+                    Egy másik, szintén <persName>Szontaghnak</persName> írt verses levél jegyzetében
+                    a válasz is megtalálható: „Nem az a’ költő, ki rímeket csinál, de kinek eszme
+                    köre felül van a’ köznapin.” (<bibl><title>Alsósztregova 1856. augusztus 11.
+                        </title>- MÖM II. 986.<idno type="ITIdata">Q412729</idno></bibl>) A
+                    következő, <date when="1857-02-07">1857. február 7-i</date> episztola már a
+                    luciferi nézőpont elsajátításáról adott számot:</p>
+                <lg xml:id="lg.2">
+                    <l xml:id="l.5">Igaz, hogy őrülésig bús világunk</l>
+                    <l xml:id="l.6">Még azután nevetségessé lesz.</l>
+                    <l xml:id="l.7">Első szakán már én keresztül mentem,</l>
+                    <l xml:id="l.8">’S most szívem a’ kaczajban majd el vesz.</l>
+                </lg>
+                <p xml:id="p.13">(<bibl>MÖM II. 989.<idno type="ITIdata">Q412729</idno></bibl>)</p>
+                <p xml:id="p.14">A megjárt utat más versek is őrzik: az <title><hi rend="italic"
+                            >Életbölcseség</hi></title> 2. versszaka (<bibl>MÖM II. 274.<idno
+                            type="ITIdata">Q412729</idno></bibl>) és a <title><hi rend="italic"
+                            >Számoltam magammal</hi></title> c. költemény (<bibl>MÖM II.
+                            314-316.<idno type="ITIdata">Q412729</idno></bibl>). Az <date
+                        when="1857-02-07">1857. február 7-i</date> verses levelet - négy sorral
+                    rövidebb, némileg átsimított formában, az idézett személyes vonatkozást szintén
+                    elhagyva - <persName>Madách</persName><title><hi rend="italic">P.
+                            barátomhoz</hi></title> címen átvette költeményei tervezett
+                    gyűjteményébe is, (<bibl>MÖM II. 370-371.<idno type="ITIdata"
+                        >Q412729</idno></bibl>). (Ezt egyébként csak a fiatalkori válságdráma, az
+                        <date when="1843">1843</date>/<date when="1844">44</date>-ben írt <title><hi
+                            rend="italic">Csak tréfa</hi></title> monológjaival tette meg.) Az
+                    episztola egyszersmind misszilis levél volt,
+                        <persName>Szontaghtól</persName><persName>Gyulai Pálhoz</persName>, majd
+                        <persName>Fodor Gyulai Dánielné<idno type="ITIdata"
+                        >Q469702</idno></persName> tulajdonából <date when="1911">1911-ben</date>
+                    került az <orgName>OSZK-ba<idno type="ITIdata">Q1667</idno></orgName>, a többi,
+                        <persName>Szontaghnak</persName> küldött levéllel együtt (vö. <bibl>MKK
+                            265.<idno type="ITIdata">Q470077</idno></bibl>). Megvan a versek között
+                    is, <persName>Bérczy Károly</persName> azonban látta a levélfogalmazványt,
+                    közölt belőle - négysoros strófákba tördelve - 36 sort és még mást is: „Birom az
+                    eredetit; de ott találtam versei között is, alatta e nyilván később irt sorokat:
+                    ’Ujra elolvastam a Pálnak küldött mérget. Miért nem tartám azt magamnak.? Eh,
+                    mit! e méreg igazság, ha tragédia is, s az emberi természet soha sem tagadta meg
+                    magát, ’s Ádám a teremtés óta folyvást csak más és más alakban jelen meg, de
+                    alapjában mindig ugyanazon gyarló féreg [<persName>Bérczy</persName>
+                    emlékbeszédének kéziratában enyhítve: semmi] marad, a még gyarlóbb Évával
+                    oldalán.’ Íme, ez odavetett néhány sor reflexiójában fogamzott meg az <title><hi
+                            rend="italic">Ember Tragédiájának</hi></title> embryója!” (a
+                            <orgName><abbr>KisfT</abbr></orgName>É-közlésben: 217.) Mivel a
+                    rájegyzés a levélen „nyilván később irt”, <persName>Bérczy</persName> közlése
+                    óta a fogalmazvány elveszett vagy lappang - a <title><hi rend="italic"
+                            >Tragédia</hi></title> keletkezéstörténetének kezdetét <date
+                        from="1857-02-07"><hi rend="italic">1857. február 7. után</hi>ra</date> kell
+                    tennünk.</p>
+                <p xml:id="p.15"><persName>Bérczy</persName> egyébként az <date from="1853"
+                        to="1857">1853-57</date> közötti időszakot az olvasás-jegyzetelés és a
+                    versírás periódusának minősítette, a verses levelet tekintette fordulatnak, még
+                    „1857. és 1858. szorgalmas, és önmagából uj lelkesülést meritő munka közt folyt
+                    le.” (<bibl>I. h. 216-218.</bibl>) Az azóta finomított, de az alapdátumban
+                    változatlan korszakolás a keletkezéstörténeti emlékezések közül - bizonytalan
+                    évmegjelölése dacára - <persName>Jeszenszky Danóéval</persName> viszonylag jól
+                    egyeztethető, míg <persName>Péteryét<idno corresp="Pétery Károly"/></persName> a
+                            <title><hi rend="italic">Tragédia</hi></title> ötletének korábbi
+                    felvetéséről sem <persName>Madách</persName> lírája, sem hagyatékának más tétele
+                    nem erősíti meg. A Plichta Soma-levél valóságtartalmának kérdésére a <title><hi
+                            rend="italic">Megjelenés</hi></title> c. alfejezetben térünk vissza.</p>
+                <p xml:id="p.16">Itt kell számot vetnünk a <persName>Madách</persName> szerzőségét
+                    vitató nézetekkel is. A gyanúba vett személy <persName>Bory László</persName>
+                        (<date from="1818" to="1861">1818-1861</date>),
+                        <persName>Madáchék</persName> tiszttartójának fia, balassagyarmati ügyvéd, a
+                    költő hajdani felkészítője az ügyvédi vizsgára; a <title><hi rend="italic"
+                            >Tragédia</hi></title> megjelenése óta éldegélő pletykák rögzítője és
+                    közreadója pedig a szintén nógrádi <persName>Mikszáth Kálmán<idno type="ITIdata"
+                            >Q244650</idno></persName>. Három nappal a drámai költemény színpadi
+                    ősbemutatója után, <date when="1883-09-24">1883. szeptember 24-én</date> jelent
+                    meg a PH tárcarovatában az <title><hi rend="italic">Egy ember tragédiája.
+                            (Madách Imre és Bory László.)</hi></title> c. írás, amely méltatta a
+                    „lángeszű” <persName>Bory Lászlót</persName>, ismertette nem publikált irodalmi
+                    tevékenységét; azt állította, hogy <persName>Madách</persName> neki olvasta fel
+                    a <title><hi rend="italic">Tragédiát</hi></title>, amelyre
+                        <persName>Bory</persName> jobbító megjegyzéseket tett volna. Ezután
+                    következett az ominózus két mondat, amely mellett azonban a közlő nem kötelezte
+                    el magát: „Egy bizonyos, hogy <persName>Madách</persName> magánál kiválóbb
+                    szellemnek tartotta <persName>Boryt</persName> s ennek igen sokszor adott
+                    kifejezést. Innen is eredtek a mendemondák azután, midőn a <date from="1860"
+                        to="1869">60-as</date> évek elején meglepte az egész országot s meg
+                    különösen a költő szülőföldjét a váratlanul jött ’Ember tragédiája’, hogy tán
+                        <persName>Bory László</persName> irta azt; a minő regék, mint tudjuk,
+                    gyakran támadnak a nagy irók után.” (A FL másnap, <date when="1883-09-25"
+                        >szeptember 25-én</date> röviden megismételte a tárca tényeit.)</p>
+                <p xml:id="p.17">A tárcában említett <persName>Jeszenszky Danó</persName> azonnal
+                    válaszolt: <bibl><title><hi rend="italic">Madách Imre és Bory
+                            László</hi></title>, PH 1883. szeptember 28.</bibl> Pontosította a
+                    barátság adatait, elutasította a pletykákat, majd közreadta a saját, feljebb
+                    idézett verzióját a <title><hi rend="italic">Tragédia</hi></title> ödetének
+                    megszületéséről. <persName>Jeszenszky</persName> ugyan nem leplezte le
+                        <persName>Mikszáth</persName> névtelenségét, ám a helyismeret kétségtelenné
+                    tette a kortársak számára a szerző személyét, aki a PH-nak <date when="1881"
+                        >1881</date> óta munkatársa volt. A későbbi Madách-szakirodalom ezért névvel
+                    vitatkozik a pletykával (<bibl>Morvay 1897 200.<idno type="ITIdata"
+                            >Q470086</idno></bibl> jegyzetben; <bibl>Morvay 1898 16-17.<idno
+                            type="ITIdata">Q470086</idno></bibl>, <bibl>Palágyi 1900 78.<idno
+                            type="ITIdata">Q470099</idno></bibl>). Foglalkoztatta a kérdés
+                        <persName>Móra Ferencet<idno type="ITIdata">Q244767</idno></persName> is,
+                    aki <date when="1936">1936-ban</date> (is) visszatért a kérdésre, és nem az
+                    anekdota szintjén, hanem a klasszikusnak kijáró alapossággal foglalkozott vele.
+                        <persName>Mikszáth</persName> szerzőségével ő is tisztában volt még: „Ezt a
+                    naiv pletykát (...) a nyolcvanas évek elején Mikszáth Kálmán az irodalomban is
+                    forgalomba hozta, ha nem ő találta is ki, sőt azt se mondta, hogy elhiszi.”
+                        (<bibl>Móra 1936 124.<idno type="ITIdata">Q470080</idno></bibl>)
+                            <persName>Móra<idno corresp="Móra Ferenc"/></persName> az utalásokból
+                    kikövetkeztethetően olvasta <persName>Mikszáth<idno corresp="Mikszáth Kálmán"
+                        /></persName> cikkét, a cáfolatok közül <persName>Palágyira</persName>
+                    hivatkozott, <persName>Jeszenszky</persName> írását azonban nem ismerte, mert
+                        <persName>Mikszáthtól</persName> átvett olyan adatokat
+                        <persName>Boryról</persName>, amit <persName>Jeszenszky</persName> már
+                    helyesbített.</p>
+                <p xml:id="p.18"><persName>Mikszáth</persName> maga nem válaszolt a cáfolatokra, és
+                    sohasem tért vissza a szerzőség kérdésére. Feledésbe merült, anonim tárcacikke
+                    nem került be a krk. időrendben illetékes kötetébe (<bibl><title><hi
+                                rend="italic">Cikkek és karcolatok XVII. 1882-1883</hi></title>, s.
+                        a. r. Rejtő István, Bp. 1969.</bibl>). Nem azonosította a cikk szerzőjét a
+                    legújabb életrajzíró tanulmánya sem (<bibl>Andor 1998<idno type="ITIdata"
+                            >Q469797</idno></bibl>).</p>
+                <p xml:id="p.19">A <persName>Madách</persName> szerzőségét tagadó és a
+                        <persName>Bory Lászlót</persName> szerzőnek állító legendák - az ilyen
+                    híresztelések természetrajza szerint - a cáfolatoktól függetlenül éltek és
+                    terjedtek több nemzedéken át. <persName>Latkóczy Mihály<idno type="ITIdata"
+                            >Q54386</idno></persName> selmecbányai tanár, a Madách-családtörténet
+                    kutatója <date when="1897">1897-ben</date><persName>Morvay Győző<idno
+                            type="ITIdata">Q148955</idno></persName> kérdésére megerősítette a
+                    pletyka létét, vö. <bibl>Morvay 1897 200.<idno type="ITIdata"
+                        >Q470085</idno></bibl>, jegyzetben! Az életrajzi regényéhez anyagot gyűjtő
+                        <persName>Harsányi Zsolt<idno type="ITIdata">Q45123</idno></persName> még
+                        <date when="1932">1932- ben</date> is kapott olyan leveleket, amelyekben
+                    nógrádi eredetű családok leszármazottai közölték vele a legendát. (A levelek
+                    kiadása: <bibl>Andor 1998 204-212.<idno type="ITIdata"
+                    >Q469797</idno></bibl>)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

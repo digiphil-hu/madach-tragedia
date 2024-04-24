@@ -1,0 +1,2540 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="16" type="main">Az ember tragédiája kéziratának
+                    vizsgálata, kriminalisztikai eszközökkel, módszerekkel</title>
+                <author><persName><surname>Wohlrab</surname><forename>József</forename><idno
+                            type="ITIdata">Q469623</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.16</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.16.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>709-724.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Az ember tragédiája kéziratának vizsgálata, kriminalisztikai
+                    eszközökkel, módszerekkel</head>
+                <p xml:id="p.1"><persName>Madách Imre</persName> főművében az elsődleges
+                    szövegezést, a szövegben fellelhető javítások tartalmát, <persName>Arany
+                        János</persName> közreműködésének mértékét az irodalomtörténészek régóta
+                    vitatják. A már-már öncélú viták befejezése, az ellentmondások feloldása
+                    értelmében született az az elképzelés, hogy írásszakértő igénybevételével,
+                    kriminalisztikai eszközökkel és módszerekkel közelítsük meg a <title><hi
+                            rend="italic">Tragédia</hi></title> krk.-a javára a vitatott kérdéseket,
+                    az ezekre adandó válaszaink pedig mindenki számára bizonyíthatóak legyenek.</p>
+                <p xml:id="p.2">A textológia és a kriminalisztika együttműködése - ilyen terjedelmű
+                    szövegen - példa nélküli. Kisebb vállalkozások vonatkozásában azonban
+                    tekintélyes múltra tekinthetünk vissza. Az első kísérlet az 1980-as évek elején
+                    történt, amikor a felkért írásszakértők, <persName>Kárászi Attila</persName> és
+                        <persName>Polgárfi István</persName><persName>Kölcsey
+                            Ferenc</persName><title><hi rend="italic">Az ivó</hi></title> c.
+                    versének teljesen áthúzott szövegét, valamint a <title><hi rend="italic">Rákos
+                            nimfájához</hi></title> egy strófáját sikerrel rekonstruálták.
+                            Vö.<bibl><persName>Kölcsey Ferenc</persName>: <title><hi rend="italic"
+                                >„Mi az élet tűzfolyása?” (Kilenc vers)</hi></title></bibl>,
+                    bemutatja <bibl><persName>Kerényi Ferenc</persName>, Bp. 1981. (Kézirattár)
+                        24-34.</bibl>! A második esetben <persName>Arany János</persName><title><hi
+                            rend="italic">Buda halála</hi></title> c. művének kéziratában
+                    fellelhető, a szerző által leragasztott versszakok elsődleges szövegeinek
+                    megállapítása volt a feladat, most már az én feladatom. Vö.
+                            <bibl><persName>Monostory Klára</persName>: <title><hi rend="italic"
+                                >Arany János műhelyéből (A Buda halála keletkezéséhez)</hi></title>,
+                        ItK 1991. 396-416.</bibl>! A harmadik rekonstrukciós vizsgálatot 1994-ben
+                    végeztem, amikor <persName>Kölcsey Ferencnek</persName><title><hi rend="italic"
+                            >A szép Lenka</hi></title> c. versét kellett szövegében helyreállítanom,
+                    miután az autográf kéziratot a szerző többszörösen áthúzta. A szöveg a kritikai
+                    kiadásban jelent meg: <bibl>Kölcsey 2001 654-658.<idno type="ITIdata"
+                            >Q338861</idno></bibl></p>
+                <p xml:id="p.3">A szöveg-helyreállításnak a kézeredetek megállapításával együtt -
+                    mint vizsgálati metódusnak - tehát kialakulhattak a krimináltechnikában
+                    alkalmazott vizsgálati eszközei és módszerei, amelyek az említett időszakban, ha
+                    lassan is, de érzékelhető fejlődésen mentek keresztül. A speciális megközelítést
+                    igénylő, rekonstrukciós kézeredet-meghatározások módszertana (a fejlődést
+                    kihasználva) szintén modernizálódott.</p>
+                <p xml:id="p.4">Az első ilyen jellegű vizsgálat tisztán a kriminalisztikai
+                    fotográfiai módszerekre épült. Abban az időben a fotóeljárások voltak képesek az
+                    áthúzott, olvashatatlanná tett szöveg írásnyomaiban található festékanyagok
+                    között létrehozni az ún. kontrasztkülönbségeket - már amennyiben ez egyáltalán
+                    lehetséges volt. A szöveg-helyreállítás sikere azon múlott, hogy az elsődleges
+                    szöveg írásnyomain a fedésre milyen minőségű és mennyiségű festékanyagot
+                    alkalmaztak. Azokban az esetekben, amikor azonos vagy hasonló festékanyagok
+                    fedték egymást, az eltakart, elsődleges szöveg tartalma nem volt
+                    rekonstruálható. A vizsgálati időt az növelte meg, hogy a speciális felvételeket
+                    és a szükséges pozitív-negatív anyagokat csak fotótechnikai eljárások keretében
+                    lehetett előállítani.</p>
+                <p xml:id="p.5">A módszerek fejlődésével nemcsak a vizsgálatra fordított idő
+                    csökkent, hanem lehetővé vált olyan áthúzott szöveg elsődleges tartalmának
+                    helyreállítása is, amelyen a fedést közel azonos összetételű festékanyagokkal
+                    végezték. Ezen a területen korszakos áttörést jelentett a polarizált fényben
+                    végrehajtható fotózás, amely az 1960-as évektől már ismert technikai eljárás
+                    volt. A polarizációs szűrővel készített színes felvételek színhűségét biztosító
+                    apocromatikus lencserendszer szinte csodákra képes: az azonos öszszetételű
+                    festékanyag között is bizonyos árnyalati különbözőséget biztosít, szerencsésebb
+                    esetekben viszont teljes egészében szétválasztja az eredeti szöveget az
+                    áthúzásoktól, ezáltal olvashatóvá válik az elsődleges szöveg tartalma.</p>
+                <p xml:id="p.6">A rekonstrukciós vizsgálat következő fázisában a speciális színes
+                    felvételekről - a bizonyíthatóság érdekében - diapozitívok készíthetők,
+                    amelyeken az indifferens vonalanyagokat manuálisan eltávolítva olvasható lesz a
+                    lefedett szöveg vagy ennek részlete. (Szemben a korábban alkalmazott
+                    fotótechnikai retusálással, ahol csak a szabadon hagyott betűelemek maradtak
+                    sértetlenek, és a rekonstrukció során ezeket a részleteket egészítette ki a
+                    vizsgálatot végző személy.) Amíg tehát a régebbi eljárás nem megalapozott
+                    sajátosság-feltárást biztosított a kézeredet megállapításához, addig az általam
+                    alkalmazott, finomított eljárás bizonyíthatóan biztosítja a szöveg kézeredetének
+                    behatárolását. Egyúttal teljességgel kizárja a vizsgálatot végző személy
+                    szubjektivitását is.</p>
+                <p xml:id="p.7">A módszer - úgymond - gyenge pontját az indifferens vonalak manuális
+                    eltávolítása jelenti, mert ez a munkafolyamat rendkívül időigényes. A <title><hi
+                            rend="italic">Tragédia</hi></title> rekonstrukciós vizsgálatának idejét
+                    e fázis növelte meg. A kézirat teljes vizsgálata, a tizenöt színhez rendelt
+                    fotómellékletek és diapozitívok elkészítése, a vizsgálati eredmények leírása
+                    közel négy évet vett igénybe.</p>
+                <p xml:id="p.8"><persName>Madách</persName> műve esetében a feltett kérdések arra
+                    irányultak, hogy a teljes kéziratban előforduló javítások alatt mit
+                    tartalmazhatott az elsődleges szöveg, illetve a különböző elváltoztatásokat ki
+                    készítette. Az ehhez szükséges komplex szakértői vizsgálat következtetésekre
+                    adott alkalmat olyan kérdésekben is, mint hogy a szerző, illetve a javításra
+                    felkért <persName>Arany János</persName> milyen metódussal, milyen sorrendben
+                    végezte a javításokat; lehetővé vált az írásjelek kézeredethez kötése is.</p>
+                <p xml:id="p.9">A vizsgálat első szakaszában kialakítottam azokat a módszertani
+                    szabályokat, amelyek alkalmazásával - a költségkímélés mellett - a kitűzött cél
+                    viszonylag gyorsan és eredményesen érhető el. Az I. szín szövegvizsgálata során
+                    az alkalmazható eszközök és módszerek közül a polarizációs szűrővel készített
+                    színes felvételek bizonyultak a legmegfelelőbbnek. Ezután meghatároztam a
+                    szakértői vizsgálat lebonyolítási menetét, a feltárható eredmények írásba
+                    foglalásának mikéntjét és a fotómelléklet szerkezetét.</p>
+                <p xml:id="p.10">A vizsgálat lefolytatását nagyban befolyásolta, hogy a mű eredeti
+                    kéziratát hetente egy alkalommal három órára kaptuk meg. A makroszkopizálást
+                    ezért két fázisban hajtottam végre. Az első alkalommal összeolvasás történt,
+                    amelynek során rögzítésre került valamennyi elváltoztatás, javítás. A munkának
+                    ebben a szakaszában jelöltük ki a javításoknak azt a részét, amelyről a
+                    következő szakaszban feltétlenül szüksége volt a polarizációs szűrővel színes
+                    felvételek készítése.</p>
+                <p xml:id="p.11">A munkafolyamatok fázisokra bontása, ezen belül az eredmények
+                    színenkénti rögzítése és a szakvélemény részekre bontása biztosította az
+                    irodalomtörténész- textológus és az írásszakértő párhuzamos és viszonylag
+                    folyamatos munkáját, a nagy volumenű feladat gördülékenyebb elvégzését. A
+                    színenként rögzített szakvélemény szerkezetét a feladat sajátosságainak
+                    figyelembevételével alakítottam ki. A feltártakat soronként rögzítettem. Az első
+                    bekezdés a javított sorok szabad szemmel olvasható szövegét tartalmazta. A
+                    következő bekezdésben a rekonstruálható elsődleges szövegtartalmat rögzítettem.
+                    Az ezutáni kettőben a szerző, illetve Arany János kézeredetéhez köthető
+                    javítások részletezése történt meg. A szakértői szempontból kategorizált
+                    javításokat színenként táblázatokban, számszerűsítve is összegeztük. A
+                    kategóriák meghatározása az egész műre nézve egységes, azokat a teljes kézirat
+                    áttekintése után véglegesítettük. A megfogalmazásban és a csoportosításban a
+                    lehetőségig figyelembe vettük a következő, <persName>Madách Imre</persName> és
+                        <persName>Arany János</persName> helyesírását jellemző fejezet szempontjait
+                    is.</p>
+                <p xml:id="p.12">Az alábbiakban közölt, színenkénti részletezés azzal az előnnyel is
+                    jár, hogy bemutatja az elvekben meghatározott vizsgálat gyakorlati kontrollját
+                    és a módszer finomodását is a felhalmozódó tapasztalatok függvényében.</p>
+                <p xml:id="p.13"><table cols="4" rows="6" xml:id="table.1">
+                        <head><hi rend="italic">Címlap (a rovatok értelemszerű
+                            alkalmazásával)</hi></head>
+                        <row xml:id="row.1">
+                            <cell role="label" xml:id="cell.1">Javítás, módosítás megnevezése</cell>
+                            <cell role="label" xml:id="cell.2"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.3"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.4"/>
+                        </row>
+                        <row xml:id="row.2">
+                            <cell role="label" xml:id="cell.5">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.6">1</cell>
+                            <cell role="data" xml:id="cell.7">-</cell>
+                            <cell xml:id="cell.8"/>
+                        </row>
+                        <row xml:id="row.3">
+                            <cell role="label" xml:id="cell.9">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.10">1</cell>
+                            <cell role="data" xml:id="cell.11">-</cell>
+                            <cell xml:id="cell.12"/>
+                        </row>
+                        <row xml:id="row.4">
+                            <cell role="label" xml:id="cell.13">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.14">1</cell>
+                            <cell role="data" xml:id="cell.15">-</cell>
+                            <cell xml:id="cell.16"/>
+                        </row>
+                        <row xml:id="row.5">
+                            <cell role="label" xml:id="cell.17">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.18">3</cell>
+                            <cell role="data" xml:id="cell.19">-</cell>
+                            <cell xml:id="cell.20"/>
+                        </row>
+                        <row xml:id="row.6">
+                            <cell role="label" xml:id="cell.21">Összes javítás a címben</cell>
+                            <cell xml:id="cell.22"/>
+                            <cell xml:id="cell.23"/>
+                            <cell role="data" xml:id="cell.24">3</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.14"><table cols="4" rows="14" xml:id="table.2">
+                        <head><hi rend="italic">I. szín</hi></head>
+                        <row xml:id="row.7">
+                            <cell role="label" xml:id="cell.25">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.26"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.27"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.28"/>
+                        </row>
+                        <row xml:id="row.8">
+                            <cell role="label" xml:id="cell.29">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.30">-</cell>
+                            <cell role="data" xml:id="cell.31">25</cell>
+                            <cell xml:id="cell.32"/>
+                        </row>
+                        <row xml:id="row.9">
+                            <cell role="label" xml:id="cell.33">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.34">2</cell>
+                            <cell role="data" xml:id="cell.35">4</cell>
+                            <cell xml:id="cell.36"/>
+                        </row>
+                        <row xml:id="row.10">
+                            <cell role="label" xml:id="cell.37">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.38">2</cell>
+                            <cell role="data" xml:id="cell.39">1</cell>
+                            <cell xml:id="cell.40"/>
+                        </row>
+                        <row xml:id="row.11">
+                            <cell role="label" xml:id="cell.41">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.42">4</cell>
+                            <cell role="data" xml:id="cell.43">7</cell>
+                            <cell xml:id="cell.44"/>
+                        </row>
+                        <row xml:id="row.12">
+                            <cell role="label" xml:id="cell.45">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.46">13</cell>
+                            <cell role="data" xml:id="cell.47">16</cell>
+                            <cell xml:id="cell.48"/>
+                        </row>
+                        <row xml:id="row.13">
+                            <cell role="label" xml:id="cell.49">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.50">-</cell>
+                            <cell role="data" xml:id="cell.51">16</cell>
+                            <cell xml:id="cell.52"/>
+                        </row>
+                        <row xml:id="row.14">
+                            <cell role="label" xml:id="cell.53">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.54">9</cell>
+                            <cell role="data" xml:id="cell.55">20</cell>
+                            <cell xml:id="cell.56"/>
+                        </row>
+                        <row xml:id="row.15">
+                            <cell role="label" xml:id="cell.57">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.58">3</cell>
+                            <cell role="data" xml:id="cell.59">9</cell>
+                            <cell xml:id="cell.60"/>
+                        </row>
+                        <row xml:id="row.16">
+                            <cell role="label" xml:id="cell.61">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.62">-</cell>
+                            <cell role="data" xml:id="cell.63">7</cell>
+                            <cell xml:id="cell.64"/>
+                        </row>
+                        <row xml:id="row.17">
+                            <cell role="label" xml:id="cell.65">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.66">-</cell>
+                            <cell role="data" xml:id="cell.67">10</cell>
+                            <cell xml:id="cell.68"/>
+                        </row>
+                        <row xml:id="row.18">
+                            <cell role="label" xml:id="cell.69">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.70">3</cell>
+                            <cell role="data" xml:id="cell.71">28</cell>
+                            <cell xml:id="cell.72"/>
+                        </row>
+                        <row xml:id="row.19">
+                            <cell role="label" xml:id="cell.73">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.74">36</cell>
+                            <cell role="data" xml:id="cell.75">143</cell>
+                            <cell xml:id="cell.76"/>
+                        </row>
+                        <row xml:id="row.20">
+                            <cell role="label" xml:id="cell.77">Összes javítás a színben</cell>
+                            <cell xml:id="cell.78"/>
+                            <cell xml:id="cell.79"/>
+                            <cell role="data" xml:id="cell.80">179</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.15">Megjegyzések az egyes rovatok értelmezéséhez: - a szerzői
+                    utasításba beleértettük a megszólaló személyek nevét is; - a sor „részbeni”
+                    változtatása egy szónál hosszabb szövegre terjed ki; - szónak tekintettük a
+                    névelőt vagy kötőszót is, ha az egy betűből áll, de önállóan szerepel; -
+                    betűkapcsolatnak neveztük a több betűre kiterjedő változtatást, amely nem alkot
+                    szótagot, és itt tartottuk számon a szerző vakarásos törléseit is.</p>
+                <p xml:id="p.16">Már az I. szín vizsgálata során tisztán láthatóvá vált, hogy a
+                    szerző javítási metódusa drasztikus: tollkéssel távolította el az elsődleges
+                    írásnyomokat, majd ezt követően írta le ugyanoda az új változatot. Ezeken a
+                    helyeken a tinta festékanyaga minden esetben vastagabb és sötétebb árnyalatú; az
+                    elsődleges tartalom nem rekonstruálható.</p>
+                <p xml:id="p.17"><persName>Arany János</persName> ezzel szemben finomabbnak
+                    minősíthető módozatokkal dolgozott. Megállapítható volt, hogy magát a javítást
+                    több folyamatban végezte, és hogy ezek során mint sajtó alá rendező rögzítette -
+                    minden esetben grafitceruzával - a nyomdai utasításokat, amelyek a betűtípus
+                    megválasztására, a kiemelésekre, a tördelésre vonatkoztak. (A szakértői
+                    vizsgálat e grafikai anyagokra nem terjed ki; természetesen a <title><hi
+                            rend="italic">Szövegállapotok</hi></title> lapalji, szövegkritikai
+                    jegyzeteiben olvashatók.) <persName>Arany<idno corresp="Arany János"
+                        /></persName> legalább két munkafolyamat keretében javított. Ezt a
+                    megállapítást a grafitceruza, illetve a nyomokat fedő tinta festékanyaga
+                    igazolja. A változtatásokat a szerző által használtnál világosabb színű
+                    tintával, áthúzással, beszúrásos jelek alkalmazásával, föléírással, illetve a
+                    sor elejére vagy végére helyezéssel végezte. Így az általa okozott
+                    elváltoztatások szövegtartalma szinte 100%-os eredménynyel megfejthető.</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.18"><table cols="4" rows="14" xml:id="table.3">
+                        <head><hi rend="italic">II. szín</hi></head>
+                        <row xml:id="row.21">
+                            <cell role="label" xml:id="cell.81">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.82"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.83"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.84"/>
+                        </row>
+                        <row xml:id="row.22">
+                            <cell role="label" xml:id="cell.85">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.86">-</cell>
+                            <cell role="data" xml:id="cell.87">75</cell>
+                            <cell xml:id="cell.88"/>
+                        </row>
+                        <row xml:id="row.23">
+                            <cell role="label" xml:id="cell.89">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.90">6</cell>
+                            <cell role="data" xml:id="cell.91">3</cell>
+                            <cell xml:id="cell.92"/>
+                        </row>
+                        <row xml:id="row.24">
+                            <cell role="label" xml:id="cell.93">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.94">7</cell>
+                            <cell role="data" xml:id="cell.95">-</cell>
+                            <cell xml:id="cell.96"/>
+                        </row>
+                        <row xml:id="row.25">
+                            <cell role="label" xml:id="cell.97">Sor részbeni törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.98">5</cell>
+                            <cell role="data" xml:id="cell.99">9</cell>
+                            <cell xml:id="cell.100"/>
+                        </row>
+                        <row xml:id="row.26">
+                            <cell role="label" xml:id="cell.101">Szó vagy szótag törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.102">25</cell>
+                            <cell role="data" xml:id="cell.103">23</cell>
+                            <cell xml:id="cell.104"/>
+                        </row>
+                        <row xml:id="row.27">
+                            <cell role="label" xml:id="cell.105">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.106">-</cell>
+                            <cell role="data" xml:id="cell.107">38</cell>
+                            <cell xml:id="cell.108"/>
+                        </row>
+                        <row xml:id="row.28">
+                            <cell role="label" xml:id="cell.109">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.110">17</cell>
+                            <cell role="data" xml:id="cell.111">19</cell>
+                            <cell xml:id="cell.112"/>
+                        </row>
+                        <row xml:id="row.29">
+                            <cell role="label" xml:id="cell.113">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.114">1</cell>
+                            <cell role="data" xml:id="cell.115">3</cell>
+                            <cell xml:id="cell.116"/>
+                        </row>
+                        <row xml:id="row.30">
+                            <cell role="label" xml:id="cell.117">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.118">-</cell>
+                            <cell role="data" xml:id="cell.119">14</cell>
+                            <cell xml:id="cell.120"/>
+                        </row>
+                        <row xml:id="row.31">
+                            <cell role="label" xml:id="cell.121">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.122">-</cell>
+                            <cell role="data" xml:id="cell.123">15</cell>
+                            <cell xml:id="cell.124"/>
+                        </row>
+                        <row xml:id="row.32">
+                            <cell role="label" xml:id="cell.125">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.126">5</cell>
+                            <cell role="data" xml:id="cell.127">25</cell>
+                            <cell xml:id="cell.128"/>
+                        </row>
+                        <row xml:id="row.33">
+                            <cell role="label" xml:id="cell.129">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.130">66</cell>
+                            <cell role="data" xml:id="cell.131">224</cell>
+                            <cell xml:id="cell.132"/>
+                        </row>
+                        <row xml:id="row.34">
+                            <cell role="label" xml:id="cell.133">Összes javítás a színben</cell>
+                            <cell xml:id="cell.134"/>
+                            <cell xml:id="cell.135"/>
+                            <cell role="data" xml:id="cell.136">290</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.19">A II. szín grafikai anyagából már <persName>Madách Imre</persName>
+                    kézírás-szokásairól is bizonyos következtetéseket le lehetett vonni. Az
+                    általános íráskép gyors és lendületes írásmozgást tükröz. A szavak közötti
+                    távolság kicsi. Ugyanakkor a szavakban lévő betűk kötése elég gyakran hiányzik.
+                    A szerzői javítások viszonylag kis számúak, ám a tollkéssel eltávolított
+                    elsődleges írásnyomok megsemmisítése olyan durva, hogy több esetben lyuk
+                    keletkezett a kéziratlapon.</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.20"><table cols="4" rows="14" xml:id="table.4">
+                        <head><hi rend="italic">III. szín</hi></head>
+                        <row xml:id="row.35">
+                            <cell role="label" xml:id="cell.137">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.138"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.139"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.140"/>
+                        </row>
+                        <row xml:id="row.36">
+                            <cell role="label" xml:id="cell.141">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.142">-</cell>
+                            <cell role="data" xml:id="cell.143">63</cell>
+                            <cell xml:id="cell.144"/>
+                        </row>
+                        <row xml:id="row.37">
+                            <cell role="label" xml:id="cell.145">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.146">2</cell>
+                            <cell role="data" xml:id="cell.147">4</cell>
+                            <cell xml:id="cell.148"/>
+                        </row>
+                        <row xml:id="row.38">
+                            <cell role="label" xml:id="cell.149">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.150">-</cell>
+                            <cell role="data" xml:id="cell.151">-</cell>
+                            <cell xml:id="cell.152"/>
+                        </row>
+                        <row xml:id="row.39">
+                            <cell role="label" xml:id="cell.153">Sor részbeni törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.154">6</cell>
+                            <cell role="data" xml:id="cell.155">4</cell>
+                            <cell xml:id="cell.156"/>
+                        </row>
+                        <row xml:id="row.40">
+                            <cell role="label" xml:id="cell.157">Szó vagy szótag törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.158">8</cell>
+                            <cell role="data" xml:id="cell.159">36</cell>
+                            <cell xml:id="cell.160"/>
+                        </row>
+                        <row xml:id="row.41">
+                            <cell role="label" xml:id="cell.161">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.162">-</cell>
+                            <cell role="data" xml:id="cell.163">57</cell>
+                            <cell xml:id="cell.164"/>
+                        </row>
+                        <row xml:id="row.42">
+                            <cell role="label" xml:id="cell.165">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.166">11</cell>
+                            <cell role="data" xml:id="cell.167">39</cell>
+                            <cell xml:id="cell.168"/>
+                        </row>
+                        <row xml:id="row.43">
+                            <cell role="label" xml:id="cell.169">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.170">-</cell>
+                            <cell role="data" xml:id="cell.171">-</cell>
+                            <cell xml:id="cell.172"/>
+                        </row>
+                        <row xml:id="row.44">
+                            <cell role="label" xml:id="cell.173">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.174">-</cell>
+                            <cell role="data" xml:id="cell.175">15</cell>
+                            <cell xml:id="cell.176"/>
+                        </row>
+                        <row xml:id="row.45">
+                            <cell role="label" xml:id="cell.177">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.178">-</cell>
+                            <cell role="data" xml:id="cell.179">22</cell>
+                            <cell xml:id="cell.180"/>
+                        </row>
+                        <row xml:id="row.46">
+                            <cell role="label" xml:id="cell.181">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.182">-</cell>
+                            <cell role="data" xml:id="cell.183">39</cell>
+                            <cell xml:id="cell.184"/>
+                        </row>
+                        <row xml:id="row.47">
+                            <cell role="label" xml:id="cell.185">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.186">27</cell>
+                            <cell role="data" xml:id="cell.187">279</cell>
+                            <cell xml:id="cell.188"/>
+                        </row>
+                        <row xml:id="row.48">
+                            <cell role="label" xml:id="cell.189">Összes javítás a színben</cell>
+                            <cell xml:id="cell.190"/>
+                            <cell xml:id="cell.191"/>
+                            <cell role="data" xml:id="cell.192">306</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.21"><persName>Arany<idno corresp="Arany János"/></persName> többfázisú
+                    javítása során először a helyesírást igazította ki, majd ezután került sor a
+                    tartalmi változtatásokra. Ezek más-más íróeszköz nyomait tükrözik: az
+                    elsődleges, gyors javításokat (ideértve a tartalmi helyek kijelölését) és a
+                    nyomdai utasításokat fekete grafitceruzával végezte. A későbbi munkafázisból
+                    kék, majd piros színű grafitceruzás jelek láthatók a kéziratlapokon. A
+                    véglegesnek szánt tartalmi változtatások mindenütt tintával készültek, amelyek
+                    gyakran a grafitceruza írásnyomain észlelhetők. Ez a tinta - infraoptikai
+                    tulajdonságait tekintve - teljesen eltér a szerző által használt tinta
+                    anyagától: színben világosabb és a polarizációs szűrő párhuzamos állásában
+                    „világít”.</p>
+                <p xml:id="p.22">Jellegzetes a szereplők neveinek és más, sorközépre írt
+                    utasításoknak a javítása. A madáchi rövidített névalakokat <persName>Arany<idno
+                            corresp="Arany János"/></persName> kiegészíti; ugyanezt teszi az
+                    aláhúzásokkal is. A pontokat szinte valamennyi helyen kihelyezi, de előfordul,
+                    hogy csak megerősíti a központozást.</p>
+                <p xml:id="p.23">Ezen a ponton már egyértelmű, hogy a <title><hi rend="italic"
+                            >Tragédia</hi></title> kéziratának <date when="1973">1973.</date> évi
+                    hasonmás kiadása tudományos vizsgálatok céljára alkalmatlan: egyrészt az akkor
+                    alkalmazott fekete-fehér fotótechnika miatt a grafitceruzás jelölések eltűntek
+                    (nyomaikat kiretusálták), másrészt a megerősített központozás a kéziratlap
+                    verzóján véletlenszerűen akár interpunkciós javításnak is tűnhet.</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.24"><table cols="4" rows="14" xml:id="table.5">
+                        <head><hi rend="italic">IV. szín</hi></head>
+                        <row xml:id="row.49">
+                            <cell role="label" xml:id="cell.193">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.194"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.195"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.196"/>
+                        </row>
+                        <row xml:id="row.50">
+                            <cell role="label" xml:id="cell.197">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.198">-</cell>
+                            <cell role="data" xml:id="cell.199">95</cell>
+                            <cell xml:id="cell.200"/>
+                        </row>
+                        <row xml:id="row.51">
+                            <cell role="label" xml:id="cell.201">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.202">32</cell>
+                            <cell role="data" xml:id="cell.203">1</cell>
+                            <cell xml:id="cell.204"/>
+                        </row>
+                        <row xml:id="row.52">
+                            <cell role="label" xml:id="cell.205">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.206">15</cell>
+                            <cell role="data" xml:id="cell.207">1</cell>
+                            <cell xml:id="cell.208"/>
+                        </row>
+                        <row xml:id="row.53">
+                            <cell role="label" xml:id="cell.209">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.210">5</cell>
+                            <cell role="data" xml:id="cell.211">10</cell>
+                            <cell xml:id="cell.212"/>
+                        </row>
+                        <row xml:id="row.54">
+                            <cell role="label" xml:id="cell.213">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.214">25</cell>
+                            <cell role="data" xml:id="cell.215">60</cell>
+                            <cell xml:id="cell.216"/>
+                        </row>
+                        <row xml:id="row.55">
+                            <cell role="label" xml:id="cell.217">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.218">-</cell>
+                            <cell role="data" xml:id="cell.219">47</cell>
+                            <cell xml:id="cell.220"/>
+                        </row>
+                        <row xml:id="row.56">
+                            <cell role="label" xml:id="cell.221">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.222">27</cell>
+                            <cell role="data" xml:id="cell.223">65</cell>
+                            <cell xml:id="cell.224"/>
+                        </row>
+                        <row xml:id="row.57">
+                            <cell role="label" xml:id="cell.225">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.226">1</cell>
+                            <cell role="data" xml:id="cell.227">7</cell>
+                            <cell xml:id="cell.228"/>
+                        </row>
+                        <row xml:id="row.58">
+                            <cell role="label" xml:id="cell.229">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.230">-</cell>
+                            <cell role="data" xml:id="cell.231">16</cell>
+                            <cell xml:id="cell.232"/>
+                        </row>
+                        <row xml:id="row.59">
+                            <cell role="label" xml:id="cell.233">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.234">-</cell>
+                            <cell role="data" xml:id="cell.235">54</cell>
+                            <cell xml:id="cell.236"/>
+                        </row>
+                        <row xml:id="row.60">
+                            <cell role="label" xml:id="cell.237">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.238">-</cell>
+                            <cell role="data" xml:id="cell.239">127</cell>
+                            <cell xml:id="cell.240"/>
+                        </row>
+                        <row xml:id="row.61">
+                            <cell role="label" xml:id="cell.241">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.242">106</cell>
+                            <cell role="data" xml:id="cell.243">483</cell>
+                            <cell xml:id="cell.244"/>
+                        </row>
+                        <row xml:id="row.62">
+                            <cell role="label" xml:id="cell.245">Összes javítás a színben</cell>
+                            <cell xml:id="cell.246"/>
+                            <cell xml:id="cell.247"/>
+                            <cell role="data" xml:id="cell.248">589</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.25">A IV. színben a 25. kéziratoldalt (nyolc és fél sor kivételével)
+                            <persName>Arany<idno corresp="Arany János"/></persName> szinte teljesen
+                    átjavította. Az eredeti sorokat kihúzta, és a változtatást a sorok közé iktatta
+                    be. Az olvashatóság érdekében javításait egy új oldalra letisztázta (magát a
+                    másolást nem tekintettük javításnak), majd ezen is további kiigazításokat
+                    eszközölt. (Ezért van a kéziratban ismétlődő, kétszeri 25. oldalszám.) Mindezek
+                    - akár a korábbi színek tapasztalatai - arra utalnak, hogy a kevés idővel
+                    rendelkező <persName>Arany<idno corresp="Arany János"/></persName> ennek
+                    ellenére sok gondot fordított a <title><hi rend="italic">Tra- gédia</hi></title>
+                    átfésülésére. Az új, kizárólag <persName>Arany<idno corresp="Arany János"
+                        /></persName> kezétől származó kéziratoldal elegendő mintául szolgált ahhoz
+                    is, hogy az abból feltárható írássajátosságok révén a másutt végrehajtott
+                    javítások grafikai anyagának kézeredetét viszonylagosan nagy biztonsággal szét
+                    lehessen választani. Az itt fellelt, <persName>Arany János</persName> kezétől
+                    származó minta mennyisége és minősége a szakértői módszertanban az írásmintával
+                    szemben támasztható követelményeket maximálisan kielégítette.</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.26"><table cols="4" rows="14" xml:id="table.6">
+                        <head><hi rend="italic">V. szín</hi></head>
+                        <row xml:id="row.63">
+                            <cell role="label" xml:id="cell.249">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.250"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.251"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.252"/>
+                        </row>
+                        <row xml:id="row.64">
+                            <cell role="label" xml:id="cell.253">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.254">-</cell>
+                            <cell role="data" xml:id="cell.255">108</cell>
+                            <cell xml:id="cell.256"/>
+                        </row>
+                        <row xml:id="row.65">
+                            <cell role="label" xml:id="cell.257">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.258">1</cell>
+                            <cell role="data" xml:id="cell.259">6</cell>
+                            <cell xml:id="cell.260"/>
+                        </row>
+                        <row xml:id="row.66">
+                            <cell role="label" xml:id="cell.261">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.262">4</cell>
+                            <cell role="data" xml:id="cell.263">-</cell>
+                            <cell xml:id="cell.264"/>
+                        </row>
+                        <row xml:id="row.67">
+                            <cell role="label" xml:id="cell.265">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.266">6</cell>
+                            <cell role="data" xml:id="cell.267">15</cell>
+                            <cell xml:id="cell.268"/>
+                        </row>
+                        <row xml:id="row.68">
+                            <cell role="label" xml:id="cell.269">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.270">28</cell>
+                            <cell role="data" xml:id="cell.271">29</cell>
+                            <cell xml:id="cell.272"/>
+                        </row>
+                        <row xml:id="row.69">
+                            <cell role="label" xml:id="cell.273">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.274">-</cell>
+                            <cell role="data" xml:id="cell.275">63</cell>
+                            <cell xml:id="cell.276"/>
+                        </row>
+                        <row xml:id="row.70">
+                            <cell role="label" xml:id="cell.277">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.278">22</cell>
+                            <cell role="data" xml:id="cell.279">54</cell>
+                            <cell xml:id="cell.280"/>
+                        </row>
+                        <row xml:id="row.71">
+                            <cell role="label" xml:id="cell.281">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.282">2</cell>
+                            <cell role="data" xml:id="cell.283">6</cell>
+                            <cell xml:id="cell.284"/>
+                        </row>
+                        <row xml:id="row.72">
+                            <cell role="label" xml:id="cell.285">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.286">-</cell>
+                            <cell role="data" xml:id="cell.287">19</cell>
+                            <cell xml:id="cell.288"/>
+                        </row>
+                        <row xml:id="row.73">
+                            <cell role="label" xml:id="cell.289">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.290">-</cell>
+                            <cell role="data" xml:id="cell.291">37</cell>
+                            <cell xml:id="cell.292"/>
+                        </row>
+                        <row xml:id="row.74">
+                            <cell role="label" xml:id="cell.293">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.294">2</cell>
+                            <cell role="data" xml:id="cell.295">130</cell>
+                            <cell xml:id="cell.296"/>
+                        </row>
+                        <row xml:id="row.75">
+                            <cell role="label" xml:id="cell.297">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.298">65</cell>
+                            <cell role="data" xml:id="cell.299">467</cell>
+                            <cell xml:id="cell.300"/>
+                        </row>
+                        <row xml:id="row.76">
+                            <cell role="label" xml:id="cell.301">Összes javítás a színben</cell>
+                            <cell xml:id="cell.302"/>
+                            <cell xml:id="cell.303"/>
+                            <cell role="data" xml:id="cell.304">532</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.27"><table cols="4" rows="14" xml:id="table.7">
+                        <head><hi rend="italic">VI. szín</hi></head>
+                        <row xml:id="row.77">
+                            <cell role="label" xml:id="cell.305">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.306"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.307"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.308"/>
+                        </row>
+                        <row xml:id="row.78">
+                            <cell role="label" xml:id="cell.309">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.310">-</cell>
+                            <cell role="data" xml:id="cell.311">126</cell>
+                            <cell xml:id="cell.312"/>
+                        </row>
+                        <row xml:id="row.79">
+                            <cell role="label" xml:id="cell.313">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.314">-</cell>
+                            <cell role="data" xml:id="cell.315">2</cell>
+                            <cell xml:id="cell.316"/>
+                        </row>
+                        <row xml:id="row.80">
+                            <cell role="label" xml:id="cell.317">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.318">-</cell>
+                            <cell role="data" xml:id="cell.319">-</cell>
+                            <cell xml:id="cell.320"/>
+                        </row>
+                        <row xml:id="row.81">
+                            <cell role="label" xml:id="cell.321">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.322">3</cell>
+                            <cell role="data" xml:id="cell.323">12</cell>
+                            <cell xml:id="cell.324"/>
+                        </row>
+                        <row xml:id="row.82">
+                            <cell role="label" xml:id="cell.325">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.326">17</cell>
+                            <cell role="data" xml:id="cell.327">40</cell>
+                            <cell xml:id="cell.328"/>
+                        </row>
+                        <row xml:id="row.83">
+                            <cell role="label" xml:id="cell.329">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.330">-</cell>
+                            <cell role="data" xml:id="cell.331">69</cell>
+                            <cell xml:id="cell.332"/>
+                        </row>
+                        <row xml:id="row.84">
+                            <cell role="label" xml:id="cell.333">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.334">28</cell>
+                            <cell role="data" xml:id="cell.335">41</cell>
+                            <cell xml:id="cell.336"/>
+                        </row>
+                        <row xml:id="row.85">
+                            <cell role="label" xml:id="cell.337">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.338">6</cell>
+                            <cell role="data" xml:id="cell.339">4</cell>
+                            <cell xml:id="cell.340"/>
+                        </row>
+                        <row xml:id="row.86">
+                            <cell role="label" xml:id="cell.341">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.342">-</cell>
+                            <cell role="data" xml:id="cell.343">25</cell>
+                            <cell xml:id="cell.344"/>
+                        </row>
+                        <row xml:id="row.87">
+                            <cell role="label" xml:id="cell.345">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.346">-</cell>
+                            <cell role="data" xml:id="cell.347">31</cell>
+                            <cell xml:id="cell.348"/>
+                        </row>
+                        <row xml:id="row.88">
+                            <cell role="label" xml:id="cell.349">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.350">5</cell>
+                            <cell role="data" xml:id="cell.351">93</cell>
+                            <cell xml:id="cell.352"/>
+                        </row>
+                        <row xml:id="row.89">
+                            <cell role="label" xml:id="cell.353">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.354">59</cell>
+                            <cell role="data" xml:id="cell.355">443</cell>
+                            <cell xml:id="cell.356"/>
+                        </row>
+                        <row xml:id="row.90">
+                            <cell role="label" xml:id="cell.357">Összes javítás a színben</cell>
+                            <cell xml:id="cell.358"/>
+                            <cell xml:id="cell.359"/>
+                            <cell role="data" xml:id="cell.360">502</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.28">A mindenre kiterjedő szakértői vizsgálat során a VI. színben, a 42.
+                    kéziratoldalon teljesen kirajzolódó, mutató-, középső és gyűrűsujjtól származó
+                    lenyomat volt feltárható. A bőr fodorszálaiban detektálható festékanyag
+                    megegyezik a szerző által használt tinta anyagával, amiből arra
+                    következtethetünk, hogy a lenyomat nagy valószínűséggel
+                        <persName>Madách</persName> kezétől származik. [<persName>Tolnai Vilmos<idno
+                            type="ITIdata">Q151361</idno></persName> még több, részlegesen
+                    kirajzolódó ujjlenyomatot észlelt, vö. <bibl><persName>Tolnai</persName> 1925
+                        90.</bibl>!]</p>
+                <p xml:id="p.29">A hatalmas mennyiségű javítást magára vállaló <persName>Arany<idno
+                            corresp="Arany János"/></persName> - a gyors ütemű munka
+                    következményeképpen - szintén hibázik, vagy nem következetesen módosít. A szerző
+                    szerint konzekvens névalak-rövidítései közül a VI. szín- ben a „Péter a.” alakot
+                    nem egészítette ki, a 266. sor után pedig „Péter ap.” alakra javított.</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.30"><table cols="4" rows="14" xml:id="table.8">
+                        <head><hi rend="italic">VII. szín</hi></head>
+                        <row xml:id="row.91">
+                            <cell role="label" xml:id="cell.361">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.362"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.363"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.364"/>
+                        </row>
+                        <row xml:id="row.92">
+                            <cell role="label" xml:id="cell.365">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.366">1</cell>
+                            <cell role="data" xml:id="cell.367">150</cell>
+                            <cell xml:id="cell.368"/>
+                        </row>
+                        <row xml:id="row.93">
+                            <cell role="label" xml:id="cell.369">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.370">-</cell>
+                            <cell role="data" xml:id="cell.371">1</cell>
+                            <cell xml:id="cell.372"/>
+                        </row>
+                        <row xml:id="row.94">
+                            <cell role="label" xml:id="cell.373">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.374">1</cell>
+                            <cell role="data" xml:id="cell.375">-</cell>
+                            <cell xml:id="cell.376"/>
+                        </row>
+                        <row xml:id="row.95">
+                            <cell role="label" xml:id="cell.377">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.378">5</cell>
+                            <cell role="data" xml:id="cell.379">15</cell>
+                            <cell xml:id="cell.380"/>
+                        </row>
+                        <row xml:id="row.96">
+                            <cell role="label" xml:id="cell.381">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.382">54</cell>
+                            <cell role="data" xml:id="cell.383">38</cell>
+                            <cell xml:id="cell.384"/>
+                        </row>
+                        <row xml:id="row.97">
+                            <cell role="label" xml:id="cell.385">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.386">1</cell>
+                            <cell role="data" xml:id="cell.387">75</cell>
+                            <cell xml:id="cell.388"/>
+                        </row>
+                        <row xml:id="row.98">
+                            <cell role="label" xml:id="cell.389">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.390">44</cell>
+                            <cell role="data" xml:id="cell.391">61</cell>
+                            <cell xml:id="cell.392"/>
+                        </row>
+                        <row xml:id="row.99">
+                            <cell role="label" xml:id="cell.393">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.394">2</cell>
+                            <cell role="data" xml:id="cell.395">9</cell>
+                            <cell xml:id="cell.396"/>
+                        </row>
+                        <row xml:id="row.100">
+                            <cell role="label" xml:id="cell.397">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.398">-</cell>
+                            <cell role="data" xml:id="cell.399">42</cell>
+                            <cell xml:id="cell.400"/>
+                        </row>
+                        <row xml:id="row.101">
+                            <cell role="label" xml:id="cell.401">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.402">2</cell>
+                            <cell role="data" xml:id="cell.403">34</cell>
+                            <cell xml:id="cell.404"/>
+                        </row>
+                        <row xml:id="row.102">
+                            <cell role="label" xml:id="cell.405">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.406">15</cell>
+                            <cell role="data" xml:id="cell.407">129</cell>
+                            <cell xml:id="cell.408"/>
+                        </row>
+                        <row xml:id="row.103">
+                            <cell role="label" xml:id="cell.409">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.410">125</cell>
+                            <cell role="data" xml:id="cell.411">554</cell>
+                            <cell xml:id="cell.412"/>
+                        </row>
+                        <row xml:id="row.104">
+                            <cell role="label" xml:id="cell.413">Összes javítás a színben</cell>
+                            <cell xml:id="cell.414"/>
+                            <cell xml:id="cell.415"/>
+                            <cell role="data" xml:id="cell.416">679</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.31">A VII. szín viszont arra nyújt szemléletes példákat (így az „Adám”
+                    névalak következetes ékezethiányával, amit persze <persName>Arany<idno
+                            corresp="Arany János"/></persName> módosít), hogy
+                        <persName>Madách</persName> a <title><hi rend="italic"
+                    >Tragédiá</hi></title>t gyorsan, nagy lendülettel, feszült alkotói állapotban
+                    vetette papírra. Kézírására ezért jellemző a nagyon kicsi szóközök használata,
+                    illetve a szavakon belüli betűkötések hiánya. Ezeken <persName>Arany<idno
+                            corresp="Arany János"/></persName> átírással, egybehúzogatással
+                    segített, megkönnyítendő a nyomdász munkáját.</p>
+                <p xml:id="p.32">A szín nagy terjedelme miatt itt különösen jól érzékelhető, hogy a
+                    szerzői és az Arany-javítások aránya kéziratoldalanként nem változik.</p>
+                <p xml:id="p.33"><table cols="4" rows="14" xml:id="table.9">
+                        <head><hi rend="italic">VIII. szín</hi></head>
+                        <row xml:id="row.105">
+                            <cell role="label" xml:id="cell.417">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.418"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.419"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.420"/>
+                        </row>
+                        <row xml:id="row.106">
+                            <cell role="label" xml:id="cell.421">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.422">1-</cell>
+                            <cell role="data" xml:id="cell.423">47</cell>
+                            <cell xml:id="cell.424"/>
+                        </row>
+                        <row xml:id="row.107">
+                            <cell role="label" xml:id="cell.425">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.426">-</cell>
+                            <cell role="data" xml:id="cell.427">1</cell>
+                            <cell xml:id="cell.428"/>
+                        </row>
+                        <row xml:id="row.108">
+                            <cell role="label" xml:id="cell.429">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.430">1</cell>
+                            <cell role="data" xml:id="cell.431">-</cell>
+                            <cell xml:id="cell.432"/>
+                        </row>
+                        <row xml:id="row.109">
+                            <cell role="label" xml:id="cell.433">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.434">2</cell>
+                            <cell role="data" xml:id="cell.435">6</cell>
+                            <cell xml:id="cell.436"/>
+                        </row>
+                        <row xml:id="row.110">
+                            <cell role="label" xml:id="cell.437">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.438">19</cell>
+                            <cell role="data" xml:id="cell.439">32</cell>
+                            <cell xml:id="cell.440"/>
+                        </row>
+                        <row xml:id="row.111">
+                            <cell role="label" xml:id="cell.441">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.442">-</cell>
+                            <cell role="data" xml:id="cell.443">69</cell>
+                            <cell xml:id="cell.444"/>
+                        </row>
+                        <row xml:id="row.112">
+                            <cell role="label" xml:id="cell.445">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.446">8</cell>
+                            <cell role="data" xml:id="cell.447">33</cell>
+                            <cell xml:id="cell.448"/>
+                        </row>
+                        <row xml:id="row.113">
+                            <cell role="label" xml:id="cell.449">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.450">3</cell>
+                            <cell role="data" xml:id="cell.451">1</cell>
+                            <cell xml:id="cell.452"/>
+                        </row>
+                        <row xml:id="row.114">
+                            <cell role="label" xml:id="cell.453">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.454">-</cell>
+                            <cell role="data" xml:id="cell.455">30</cell>
+                            <cell xml:id="cell.456"/>
+                        </row>
+                        <row xml:id="row.115">
+                            <cell role="label" xml:id="cell.457">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.458">-</cell>
+                            <cell role="data" xml:id="cell.459">24</cell>
+                            <cell xml:id="cell.460"/>
+                        </row>
+                        <row xml:id="row.116">
+                            <cell role="label" xml:id="cell.461">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.462">5</cell>
+                            <cell role="data" xml:id="cell.463">87</cell>
+                            <cell xml:id="cell.464"/>
+                        </row>
+                        <row xml:id="row.117">
+                            <cell role="label" xml:id="cell.465">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.466">38</cell>
+                            <cell role="data" xml:id="cell.467">330</cell>
+                            <cell xml:id="cell.468"/>
+                        </row>
+                        <row xml:id="row.118">
+                            <cell role="label" xml:id="cell.469">Összes javítás a színben</cell>
+                            <cell xml:id="cell.470"/>
+                            <cell xml:id="cell.471"/>
+                            <cell role="data" xml:id="cell.472">368</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.34">A színeket a szerző számokkal jelezte, ezeket az I-VII. szín élén
+                            <persName>Arany<idno corresp="Arany János"/></persName> betűvel kiírta.
+                    A VIII. színtől azonban a változtatástól eltekintett. Újabb jele az időhiánynak,
+                    most már <persName>Madách</persName> generális javítási felhatalmazásának
+                    birtokában.</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.35"><table cols="4" rows="14" xml:id="table.10">
+                        <head><hi rend="italic">IX. szín</hi></head>
+                        <row xml:id="row.119">
+                            <cell role="label" xml:id="cell.473">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.474"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.475"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.476"/>
+                        </row>
+                        <row xml:id="row.120">
+                            <cell role="label" xml:id="cell.477">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.478">6</cell>
+                            <cell role="data" xml:id="cell.479">51</cell>
+                            <cell xml:id="cell.480"/>
+                        </row>
+                        <row xml:id="row.121">
+                            <cell role="label" xml:id="cell.481">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.482">-</cell>
+                            <cell role="data" xml:id="cell.483">-</cell>
+                            <cell xml:id="cell.484"/>
+                        </row>
+                        <row xml:id="row.122">
+                            <cell role="label" xml:id="cell.485">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.486">-</cell>
+                            <cell role="data" xml:id="cell.487">1</cell>
+                            <cell xml:id="cell.488"/>
+                        </row>
+                        <row xml:id="row.123">
+                            <cell role="label" xml:id="cell.489">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.490">1</cell>
+                            <cell role="data" xml:id="cell.491">6</cell>
+                            <cell xml:id="cell.492"/>
+                        </row>
+                        <row xml:id="row.124">
+                            <cell role="label" xml:id="cell.493">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.494">14</cell>
+                            <cell role="data" xml:id="cell.495">38</cell>
+                            <cell xml:id="cell.496"/>
+                        </row>
+                        <row xml:id="row.125">
+                            <cell role="label" xml:id="cell.497">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.498">-</cell>
+                            <cell role="data" xml:id="cell.499">73</cell>
+                            <cell xml:id="cell.500"/>
+                        </row>
+                        <row xml:id="row.126">
+                            <cell role="label" xml:id="cell.501">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.502">12</cell>
+                            <cell role="data" xml:id="cell.503">39</cell>
+                            <cell xml:id="cell.504"/>
+                        </row>
+                        <row xml:id="row.127">
+                            <cell role="label" xml:id="cell.505">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.506">3</cell>
+                            <cell role="data" xml:id="cell.507">-</cell>
+                            <cell xml:id="cell.508"/>
+                        </row>
+                        <row xml:id="row.128">
+                            <cell role="label" xml:id="cell.509">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.510">-</cell>
+                            <cell role="data" xml:id="cell.511">26</cell>
+                            <cell xml:id="cell.512"/>
+                        </row>
+                        <row xml:id="row.129">
+                            <cell role="label" xml:id="cell.513">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.514">1</cell>
+                            <cell role="data" xml:id="cell.515">25</cell>
+                            <cell xml:id="cell.516"/>
+                        </row>
+                        <row xml:id="row.130">
+                            <cell role="label" xml:id="cell.517">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.518">6</cell>
+                            <cell role="data" xml:id="cell.519">64</cell>
+                            <cell xml:id="cell.520"/>
+                        </row>
+                        <row xml:id="row.131">
+                            <cell role="label" xml:id="cell.521">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.522">43</cell>
+                            <cell role="data" xml:id="cell.523">323</cell>
+                            <cell xml:id="cell.524"/>
+                        </row>
+                        <row xml:id="row.132">
+                            <cell role="label" xml:id="cell.525">Összes javítás a színben</cell>
+                            <cell xml:id="cell.526"/>
+                            <cell xml:id="cell.527"/>
+                            <cell role="data" xml:id="cell.528">366</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.36"><table cols="4" rows="14" xml:id="table.11">
+                        <head><hi rend="italic">X. szín</hi></head>
+                        <row xml:id="row.133">
+                            <cell role="label" xml:id="cell.529">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.530"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.531"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.532"/>
+                        </row>
+                        <row xml:id="row.134">
+                            <cell role="label" xml:id="cell.533">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.534">-</cell>
+                            <cell role="data" xml:id="cell.535">48</cell>
+                            <cell xml:id="cell.536"/>
+                        </row>
+                        <row xml:id="row.135">
+                            <cell role="label" xml:id="cell.537">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.538">1</cell>
+                            <cell role="data" xml:id="cell.539">-</cell>
+                            <cell xml:id="cell.540"/>
+                        </row>
+                        <row xml:id="row.136">
+                            <cell role="label" xml:id="cell.541">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.542">3</cell>
+                            <cell role="data" xml:id="cell.543">-</cell>
+                            <cell xml:id="cell.544"/>
+                        </row>
+                        <row xml:id="row.137">
+                            <cell role="label" xml:id="cell.545">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.546">2</cell>
+                            <cell role="data" xml:id="cell.547">3</cell>
+                            <cell xml:id="cell.548"/>
+                        </row>
+                        <row xml:id="row.138">
+                            <cell role="label" xml:id="cell.549">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.550">12</cell>
+                            <cell role="data" xml:id="cell.551">6</cell>
+                            <cell xml:id="cell.552"/>
+                        </row>
+                        <row xml:id="row.139">
+                            <cell role="label" xml:id="cell.553">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.554">-</cell>
+                            <cell role="data" xml:id="cell.555">38</cell>
+                            <cell xml:id="cell.556"/>
+                        </row>
+                        <row xml:id="row.140">
+                            <cell role="label" xml:id="cell.557">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.558">12</cell>
+                            <cell role="data" xml:id="cell.559">18</cell>
+                            <cell xml:id="cell.560"/>
+                        </row>
+                        <row xml:id="row.141">
+                            <cell role="label" xml:id="cell.561">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.562">2</cell>
+                            <cell role="data" xml:id="cell.563">-</cell>
+                            <cell xml:id="cell.564"/>
+                        </row>
+                        <row xml:id="row.142">
+                            <cell role="label" xml:id="cell.565">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.566">1</cell>
+                            <cell role="data" xml:id="cell.567">18</cell>
+                            <cell xml:id="cell.568"/>
+                        </row>
+                        <row xml:id="row.143">
+                            <cell role="label" xml:id="cell.569">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.570">1</cell>
+                            <cell role="data" xml:id="cell.571">12</cell>
+                            <cell xml:id="cell.572"/>
+                        </row>
+                        <row xml:id="row.144">
+                            <cell role="label" xml:id="cell.573">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.574">2</cell>
+                            <cell role="data" xml:id="cell.575">25</cell>
+                            <cell xml:id="cell.576"/>
+                        </row>
+                        <row xml:id="row.145">
+                            <cell role="label" xml:id="cell.577">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.578">36</cell>
+                            <cell role="data" xml:id="cell.579">168</cell>
+                            <cell xml:id="cell.580"/>
+                        </row>
+                        <row xml:id="row.146">
+                            <cell role="label" xml:id="cell.581">Összes javítás a színben</cell>
+                            <cell xml:id="cell.582"/>
+                            <cell xml:id="cell.583"/>
+                            <cell role="data" xml:id="cell.584">204</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.37"><table cols="4" rows="14" xml:id="table.12">
+                        <head><hi rend="italic">XI. szín</hi></head>
+                        <row xml:id="row.147">
+                            <cell role="label" xml:id="cell.585">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.586"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.587"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.588"/>
+                        </row>
+                        <row xml:id="row.148">
+                            <cell role="label" xml:id="cell.589">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.590">3</cell>
+                            <cell role="data" xml:id="cell.591">225</cell>
+                            <cell xml:id="cell.592"/>
+                        </row>
+                        <row xml:id="row.149">
+                            <cell role="label" xml:id="cell.593">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.594">4</cell>
+                            <cell role="data" xml:id="cell.595">1</cell>
+                            <cell xml:id="cell.596"/>
+                        </row>
+                        <row xml:id="row.150">
+                            <cell role="label" xml:id="cell.597">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.598">-</cell>
+                            <cell role="data" xml:id="cell.599">1</cell>
+                            <cell xml:id="cell.600"/>
+                        </row>
+                        <row xml:id="row.151">
+                            <cell role="label" xml:id="cell.601">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.602">7</cell>
+                            <cell role="data" xml:id="cell.603">22</cell>
+                            <cell xml:id="cell.604"/>
+                        </row>
+                        <row xml:id="row.152">
+                            <cell role="label" xml:id="cell.605">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.606">30</cell>
+                            <cell role="data" xml:id="cell.607">60</cell>
+                            <cell xml:id="cell.608"/>
+                        </row>
+                        <row xml:id="row.153">
+                            <cell role="label" xml:id="cell.609">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.610">-</cell>
+                            <cell role="data" xml:id="cell.611">143</cell>
+                            <cell xml:id="cell.612"/>
+                        </row>
+                        <row xml:id="row.154">
+                            <cell role="label" xml:id="cell.613">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.614">34</cell>
+                            <cell role="data" xml:id="cell.615">120</cell>
+                            <cell xml:id="cell.616"/>
+                        </row>
+                        <row xml:id="row.155">
+                            <cell role="label" xml:id="cell.617">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.618">8</cell>
+                            <cell role="data" xml:id="cell.619">3</cell>
+                            <cell xml:id="cell.620"/>
+                        </row>
+                        <row xml:id="row.156">
+                            <cell role="label" xml:id="cell.621">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.622">5</cell>
+                            <cell role="data" xml:id="cell.623">49</cell>
+                            <cell xml:id="cell.624"/>
+                        </row>
+                        <row xml:id="row.157">
+                            <cell role="label" xml:id="cell.625">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.626">2</cell>
+                            <cell role="data" xml:id="cell.627">47</cell>
+                            <cell xml:id="cell.628"/>
+                        </row>
+                        <row xml:id="row.158">
+                            <cell role="label" xml:id="cell.629">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.630">11</cell>
+                            <cell role="data" xml:id="cell.631">206</cell>
+                            <cell xml:id="cell.632"/>
+                        </row>
+                        <row xml:id="row.159">
+                            <cell role="label" xml:id="cell.633">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.634">104</cell>
+                            <cell role="data" xml:id="cell.635">877</cell>
+                            <cell xml:id="cell.636"/>
+                        </row>
+                        <row xml:id="row.160">
+                            <cell role="label" xml:id="cell.637">Összes javítás a színben</cell>
+                            <cell xml:id="cell.638"/>
+                            <cell xml:id="cell.639"/>
+                            <cell role="data" xml:id="cell.640">981</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.38"><table cols="4" rows="14" xml:id="table.13">
+                        <head><hi rend="italic">XII. szín</hi></head>
+                        <row xml:id="row.161">
+                            <cell role="label" xml:id="cell.641">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.642"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.643"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.644"/>
+                        </row>
+                        <row xml:id="row.162">
+                            <cell role="label" xml:id="cell.645">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.646">4</cell>
+                            <cell role="data" xml:id="cell.647">164</cell>
+                            <cell xml:id="cell.648"/>
+                        </row>
+                        <row xml:id="row.163">
+                            <cell role="label" xml:id="cell.649">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.650">-</cell>
+                            <cell role="data" xml:id="cell.651">-</cell>
+                            <cell xml:id="cell.652"/>
+                        </row>
+                        <row xml:id="row.164">
+                            <cell role="label" xml:id="cell.653">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.654">-</cell>
+                            <cell role="data" xml:id="cell.655">-</cell>
+                            <cell xml:id="cell.656"/>
+                        </row>
+                        <row xml:id="row.165">
+                            <cell role="label" xml:id="cell.657">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.658">3</cell>
+                            <cell role="data" xml:id="cell.659">9</cell>
+                            <cell xml:id="cell.660"/>
+                        </row>
+                        <row xml:id="row.166">
+                            <cell role="label" xml:id="cell.661">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.662">20</cell>
+                            <cell role="data" xml:id="cell.663">39</cell>
+                            <cell xml:id="cell.664"/>
+                        </row>
+                        <row xml:id="row.167">
+                            <cell role="label" xml:id="cell.665">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.666">-</cell>
+                            <cell role="data" xml:id="cell.667">106</cell>
+                            <cell xml:id="cell.668"/>
+                        </row>
+                        <row xml:id="row.168">
+                            <cell role="label" xml:id="cell.669">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.670">26</cell>
+                            <cell role="data" xml:id="cell.671">110</cell>
+                            <cell xml:id="cell.672"/>
+                        </row>
+                        <row xml:id="row.169">
+                            <cell role="label" xml:id="cell.673">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.674">5</cell>
+                            <cell role="data" xml:id="cell.675">2</cell>
+                            <cell xml:id="cell.676"/>
+                        </row>
+                        <row xml:id="row.170">
+                            <cell role="label" xml:id="cell.677">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.678">4</cell>
+                            <cell role="data" xml:id="cell.679">42</cell>
+                            <cell xml:id="cell.680"/>
+                        </row>
+                        <row xml:id="row.171">
+                            <cell role="label" xml:id="cell.681">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.682">2</cell>
+                            <cell role="data" xml:id="cell.683">53</cell>
+                            <cell xml:id="cell.684"/>
+                        </row>
+                        <row xml:id="row.172">
+                            <cell role="label" xml:id="cell.685">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.686">11</cell>
+                            <cell role="data" xml:id="cell.687">145</cell>
+                            <cell xml:id="cell.688"/>
+                        </row>
+                        <row xml:id="row.173">
+                            <cell role="label" xml:id="cell.689">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.690">75</cell>
+                            <cell role="data" xml:id="cell.691">670</cell>
+                            <cell xml:id="cell.692"/>
+                        </row>
+                        <row xml:id="row.174">
+                            <cell role="label" xml:id="cell.693">Összes javítás a színben</cell>
+                            <cell xml:id="cell.694"/>
+                            <cell xml:id="cell.695"/>
+                            <cell role="data" xml:id="cell.696">745</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.39"><table cols="4" rows="14" xml:id="table.14">
+                        <head><hi rend="italic">XIII. szín</hi></head>
+                        <row xml:id="row.175">
+                            <cell role="label" xml:id="cell.697">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.698"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.699"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.700"/>
+                        </row>
+                        <row xml:id="row.176">
+                            <cell role="label" xml:id="cell.701">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.702">-</cell>
+                            <cell role="data" xml:id="cell.703">39</cell>
+                            <cell xml:id="cell.704"/>
+                        </row>
+                        <row xml:id="row.177">
+                            <cell role="label" xml:id="cell.705">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.706">-</cell>
+                            <cell role="data" xml:id="cell.707">-</cell>
+                            <cell xml:id="cell.708"/>
+                        </row>
+                        <row xml:id="row.178">
+                            <cell role="label" xml:id="cell.709">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.710">-</cell>
+                            <cell role="data" xml:id="cell.711">-</cell>
+                            <cell xml:id="cell.712"/>
+                        </row>
+                        <row xml:id="row.179">
+                            <cell role="label" xml:id="cell.713">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.714">-</cell>
+                            <cell role="data" xml:id="cell.715">4</cell>
+                            <cell xml:id="cell.716"/>
+                        </row>
+                        <row xml:id="row.180">
+                            <cell role="label" xml:id="cell.717">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.718">3</cell>
+                            <cell role="data" xml:id="cell.719">9</cell>
+                            <cell xml:id="cell.720"/>
+                        </row>
+                        <row xml:id="row.181">
+                            <cell role="label" xml:id="cell.721">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.722">-</cell>
+                            <cell role="data" xml:id="cell.723">39</cell>
+                            <cell xml:id="cell.724"/>
+                        </row>
+                        <row xml:id="row.182">
+                            <cell role="label" xml:id="cell.725">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.726">4</cell>
+                            <cell role="data" xml:id="cell.727">34</cell>
+                            <cell xml:id="cell.728"/>
+                        </row>
+                        <row xml:id="row.183">
+                            <cell role="label" xml:id="cell.729">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.730">1</cell>
+                            <cell role="data" xml:id="cell.731">1</cell>
+                            <cell xml:id="cell.732"/>
+                        </row>
+                        <row xml:id="row.184">
+                            <cell role="label" xml:id="cell.733">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.734">1</cell>
+                            <cell role="data" xml:id="cell.735">17</cell>
+                            <cell xml:id="cell.736"/>
+                        </row>
+                        <row xml:id="row.185">
+                            <cell role="label" xml:id="cell.737">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.738">1-</cell>
+                            <cell role="data" xml:id="cell.739">22</cell>
+                            <cell xml:id="cell.740"/>
+                        </row>
+                        <row xml:id="row.186">
+                            <cell role="label" xml:id="cell.741">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.742">2</cell>
+                            <cell role="data" xml:id="cell.743">35</cell>
+                            <cell xml:id="cell.744"/>
+                        </row>
+                        <row xml:id="row.187">
+                            <cell role="label" xml:id="cell.745">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.746">11</cell>
+                            <cell role="data" xml:id="cell.747">200</cell>
+                            <cell xml:id="cell.748"/>
+                        </row>
+                        <row xml:id="row.188">
+                            <cell role="label" xml:id="cell.749">Összes javítás a színben</cell>
+                            <cell xml:id="cell.750"/>
+                            <cell xml:id="cell.751"/>
+                            <cell role="data" xml:id="cell.752">211</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.40"><table cols="4" rows="14" xml:id="table.15">
+                        <head><hi rend="italic">XIV. szín</hi></head>
+                        <row xml:id="row.189">
+                            <cell role="label" xml:id="cell.753">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.754"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.755"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.756"/>
+                        </row>
+                        <row xml:id="row.190">
+                            <cell role="label" xml:id="cell.757">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.758">1</cell>
+                            <cell role="data" xml:id="cell.759">50</cell>
+                            <cell xml:id="cell.760"/>
+                        </row>
+                        <row xml:id="row.191">
+                            <cell role="label" xml:id="cell.761">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.762">-</cell>
+                            <cell role="data" xml:id="cell.763">-</cell>
+                            <cell xml:id="cell.764"/>
+                        </row>
+                        <row xml:id="row.192">
+                            <cell role="label" xml:id="cell.765">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.766">3-</cell>
+                            <cell role="data" xml:id="cell.767">1</cell>
+                            <cell xml:id="cell.768"/>
+                        </row>
+                        <row xml:id="row.193">
+                            <cell role="label" xml:id="cell.769">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.770">-</cell>
+                            <cell role="data" xml:id="cell.771">2</cell>
+                            <cell xml:id="cell.772"/>
+                        </row>
+                        <row xml:id="row.194">
+                            <cell role="label" xml:id="cell.773">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.774">10</cell>
+                            <cell role="data" xml:id="cell.775">12</cell>
+                            <cell xml:id="cell.776"/>
+                        </row>
+                        <row xml:id="row.195">
+                            <cell role="label" xml:id="cell.777">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.778">-</cell>
+                            <cell role="data" xml:id="cell.779">38</cell>
+                            <cell xml:id="cell.780"/>
+                        </row>
+                        <row xml:id="row.196">
+                            <cell role="label" xml:id="cell.781">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.782">6</cell>
+                            <cell role="data" xml:id="cell.783">47</cell>
+                            <cell xml:id="cell.784"/>
+                        </row>
+                        <row xml:id="row.197">
+                            <cell role="label" xml:id="cell.785">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.786">3</cell>
+                            <cell role="data" xml:id="cell.787">2</cell>
+                            <cell xml:id="cell.788"/>
+                        </row>
+                        <row xml:id="row.198">
+                            <cell role="label" xml:id="cell.789">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.790">-</cell>
+                            <cell role="data" xml:id="cell.791">11</cell>
+                            <cell xml:id="cell.792"/>
+                        </row>
+                        <row xml:id="row.199">
+                            <cell role="label" xml:id="cell.793">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.794">1-</cell>
+                            <cell role="data" xml:id="cell.795">22</cell>
+                            <cell xml:id="cell.796"/>
+                        </row>
+                        <row xml:id="row.200">
+                            <cell role="label" xml:id="cell.797">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.798">-</cell>
+                            <cell role="data" xml:id="cell.799">61</cell>
+                            <cell xml:id="cell.800"/>
+                        </row>
+                        <row xml:id="row.201">
+                            <cell role="label" xml:id="cell.801">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.802">20</cell>
+                            <cell role="data" xml:id="cell.803">246</cell>
+                            <cell xml:id="cell.804"/>
+                        </row>
+                        <row xml:id="row.202">
+                            <cell role="label" xml:id="cell.805">Összes javítás a színben</cell>
+                            <cell xml:id="cell.806"/>
+                            <cell xml:id="cell.807"/>
+                            <cell role="data" xml:id="cell.808">266</cell>
+                        </row>
+                    </table></p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.41"><table cols="4" rows="14" xml:id="table.16">
+                        <head><hi rend="italic">XV. szín</hi></head>
+                        <row xml:id="row.203">
+                            <cell role="label" xml:id="cell.809">Javítás, módosítás
+                                megnevezése</cell>
+                            <cell role="label" xml:id="cell.810"><persName>Madách Imre</persName>
+                                kézeredete</cell>
+                            <cell role="label" xml:id="cell.811"><persName>Arany János</persName>
+                                kézeredete</cell>
+                            <cell xml:id="cell.812"/>
+                        </row>
+                        <row xml:id="row.204">
+                            <cell role="label" xml:id="cell.813">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.814">-</cell>
+                            <cell role="data" xml:id="cell.815">44</cell>
+                            <cell xml:id="cell.816"/>
+                        </row>
+                        <row xml:id="row.205">
+                            <cell role="label" xml:id="cell.817">Teljes sor törlése új sor
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.818">-</cell>
+                            <cell role="data" xml:id="cell.819">1</cell>
+                            <cell xml:id="cell.820"/>
+                        </row>
+                        <row xml:id="row.206">
+                            <cell role="label" xml:id="cell.821">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.822">-</cell>
+                            <cell role="data" xml:id="cell.823">-</cell>
+                            <cell xml:id="cell.824"/>
+                        </row>
+                        <row xml:id="row.207">
+                            <cell role="label" xml:id="cell.825">Sor részbeni törlése, javítása;
+                                szórend módosítása</cell>
+                            <cell role="data" xml:id="cell.826">1</cell>
+                            <cell role="data" xml:id="cell.827">6</cell>
+                            <cell xml:id="cell.828"/>
+                        </row>
+                        <row xml:id="row.208">
+                            <cell role="label" xml:id="cell.829">Szó vagy szótag törlése,
+                                javítása</cell>
+                            <cell role="data" xml:id="cell.830">3</cell>
+                            <cell role="data" xml:id="cell.831">18</cell>
+                            <cell xml:id="cell.832"/>
+                        </row>
+                        <row xml:id="row.209">
+                            <cell role="label" xml:id="cell.833">Szóhatárok javítása, betűcsoportok
+                                összekötése</cell>
+                            <cell role="data" xml:id="cell.834">-</cell>
+                            <cell role="data" xml:id="cell.835">53</cell>
+                            <cell xml:id="cell.836"/>
+                        </row>
+                        <row xml:id="row.210">
+                            <cell role="label" xml:id="cell.837">Betű(k) vagy betűcsoport(ok)
+                                javítása, törlése, megerősítése</cell>
+                            <cell role="data" xml:id="cell.838">6</cell>
+                            <cell role="data" xml:id="cell.839">35</cell>
+                            <cell xml:id="cell.840"/>
+                        </row>
+                        <row xml:id="row.211">
+                            <cell role="label" xml:id="cell.841">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.842">-</cell>
+                            <cell role="data" xml:id="cell.843">3</cell>
+                            <cell xml:id="cell.844"/>
+                        </row>
+                        <row xml:id="row.212">
+                            <cell role="label" xml:id="cell.845">Kettőzött betűk javítása</cell>
+                            <cell role="data" xml:id="cell.846">-</cell>
+                            <cell role="data" xml:id="cell.847">23</cell>
+                            <cell xml:id="cell.848"/>
+                        </row>
+                        <row xml:id="row.213">
+                            <cell role="label" xml:id="cell.849">Ékezet, aposztróf javítása</cell>
+                            <cell role="data" xml:id="cell.850">-</cell>
+                            <cell role="data" xml:id="cell.851">32</cell>
+                            <cell xml:id="cell.852"/>
+                        </row>
+                        <row xml:id="row.214">
+                            <cell role="label" xml:id="cell.853">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.854">1</cell>
+                            <cell role="data" xml:id="cell.855">96</cell>
+                            <cell xml:id="cell.856"/>
+                        </row>
+                        <row xml:id="row.215">
+                            <cell role="label" xml:id="cell.857">Összes javítás kézeredet
+                                szerint</cell>
+                            <cell role="data" xml:id="cell.858">11</cell>
+                            <cell role="data" xml:id="cell.859">311</cell>
+                            <cell xml:id="cell.860"/>
+                        </row>
+                        <row xml:id="row.216">
+                            <cell role="label" xml:id="cell.861">Összes javítás a színben</cell>
+                            <cell xml:id="cell.862"/>
+                            <cell xml:id="cell.863"/>
+                            <cell role="data" xml:id="cell.864">322</cell>
+                        </row>
+                    </table></p>
+                <p xml:id="p.42">Az alábbiakban táblázatban összesítjük a <title><hi rend="italic"
+                            >Tragédia</hi></title> kéziratán feltárt változtatásokat a kézeredet
+                    szerinti bontásban:</p>
+                <p xml:id="p.43">(L. a kihajtható összesítő táblázatot!)</p>
+                <p xml:id="p.44">Vállalkozásunk sikeréhez nagyban hozzájárultak olyan segítők,
+                    akiknek ezúton szeretnénk megköszönni áldozatos munkájukat: a Magyar Tudományos
+                    Akadémia Könyvtára kézirattári osztályvezetőjének, dr. <persName>F. Csanak
+                            Dórának<idno type="ITIdata">Q143113</idno></persName> (aki engedélyezte
+                    a kézirat laboratóriumi vizsgálatát), dr. <persName>Horányi Károly<idno
+                            type="ITIdata"/></persName> tudományos munkatársnak (több éven keresztül
+                    vigyázta a kézirat sérthetetlenségét a vizsgálat idején), valamint a
+                    dokumentálási munkákban közreműködő, a speciális felvételeket kidolgozó
+                    fotográfusoknak, <persName>Szekeres Józsefnek<idno type="ITIdata"/></persName>,
+                        <persName>Kovács Mártonnénak<idno type="ITIdata"/></persName> és
+                        <persName>Steiger Józsefnek<idno type="ITIdata"/></persName>.</p>
+                <p xml:id="p.45">Dr. <persName>Wohlrab József<idno type="ITIdata"/></persName></p>
+                <p xml:id="p.46">igazságügyi kéz- és gépírásszakértő</p>
+                <p xml:id="p.47"><table cols="37" rows="18" xml:id="table.17">
+                        <head>Összesítő táblázat (címlap + I–XV. szín)</head>
+                        <row xml:id="row.217">
+                            <cell role="label" xml:id="cell.865">A szín száma</cell>
+                            <cell cols="2" role="label" xml:id="cell.866"><hi rend="italic"
+                                    >Címlap</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.867"><hi rend="italic"
+                                >I.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.868"><hi rend="italic"
+                                >II.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.869"><hi rend="italic"
+                                    >III.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.870"><hi rend="italic"
+                                >IV.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.871"><hi rend="italic"
+                                >V.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.872"><hi rend="italic"
+                                >VI.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.873"><hi rend="italic"
+                                    >VII.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.874"><hi rend="italic"
+                                    >VIII.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.875"><hi rend="italic"
+                                >IX.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.876"><hi rend="italic"
+                                >X.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.877"><hi rend="italic"
+                                >XI.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.878"><hi rend="italic"
+                                    >XII.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.879"><hi rend="italic"
+                                    >XIII.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.880"><hi rend="italic"
+                                    >XIV.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.881"><hi rend="italic"
+                                >XV.</hi></cell>
+                            <cell cols="2" role="label" xml:id="cell.882"><hi rend="italic">Összes
+                                    javítás</hi></cell>
+                            <cell cols="2" role="label" rows="4" xml:id="cell.883"/>
+                        </row>
+                        <row xml:id="row.218">
+                            <cell role="label" xml:id="cell.884">Kézeredet</cell>
+                            <cell role="label" xml:id="cell.885"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.886"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.887"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.888"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.889"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.890"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.891"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.892"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.893"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.894"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.895"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.896"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.897"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.898"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.899"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.900"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.901"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.902"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.903"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.904"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.905"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.906"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.907"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.908"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.909"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.910"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.911"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.912"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.913"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.914"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.915"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.916"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                            <cell role="label" xml:id="cell.917"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.918"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                        </row>
+                        <row xml:id="row.219">
+                            <cell role="label" xml:id="cell.919">Javításszám</cell>
+                            <cell role="data" xml:id="cell.920">3</cell>
+                            <cell role="data" xml:id="cell.921">-</cell>
+                            <cell role="data" xml:id="cell.922">36</cell>
+                            <cell role="data" xml:id="cell.923">143</cell>
+                            <cell role="data" xml:id="cell.924">66</cell>
+                            <cell role="data" xml:id="cell.925">224</cell>
+                            <cell role="data" xml:id="cell.926">27</cell>
+                            <cell role="data" xml:id="cell.927">279</cell>
+                            <cell role="data" xml:id="cell.928">106</cell>
+                            <cell role="data" xml:id="cell.929">483</cell>
+                            <cell role="data" xml:id="cell.930">65</cell>
+                            <cell role="data" xml:id="cell.931">467</cell>
+                            <cell role="data" xml:id="cell.932">59</cell>
+                            <cell role="data" xml:id="cell.933">443</cell>
+                            <cell role="data" xml:id="cell.934">125</cell>
+                            <cell role="data" xml:id="cell.935">554</cell>
+                            <cell role="data" xml:id="cell.936">38</cell>
+                            <cell role="data" xml:id="cell.937">330</cell>
+                            <cell role="data" xml:id="cell.938">43</cell>
+                            <cell role="data" xml:id="cell.939">323</cell>
+                            <cell role="data" xml:id="cell.940">36</cell>
+                            <cell role="data" xml:id="cell.941">168</cell>
+                            <cell role="data" xml:id="cell.942">104</cell>
+                            <cell role="data" xml:id="cell.943">877</cell>
+                            <cell role="data" xml:id="cell.944">75</cell>
+                            <cell role="data" xml:id="cell.945">670</cell>
+                            <cell role="data" xml:id="cell.946">11</cell>
+                            <cell role="data" xml:id="cell.947">200</cell>
+                            <cell role="data" xml:id="cell.948">20</cell>
+                            <cell role="data" xml:id="cell.949">246</cell>
+                            <cell role="data" xml:id="cell.950">11</cell>
+                            <cell role="data" xml:id="cell.951">311</cell>
+                            <cell role="data" xml:id="cell.952">825</cell>
+                            <cell role="data" xml:id="cell.953">5718</cell>
+                        </row>
+                        <row xml:id="row.220">
+                            <cell role="label" xml:id="cell.954">Színenkénti javítás</cell>
+                            <cell cols="2" role="data" xml:id="cell.955">3</cell>
+                            <cell cols="2" role="data" xml:id="cell.956">179</cell>
+                            <cell cols="2" role="data" xml:id="cell.957">290</cell>
+                            <cell cols="2" role="data" xml:id="cell.958">306</cell>
+                            <cell cols="2" role="data" xml:id="cell.959">589</cell>
+                            <cell cols="2" role="data" xml:id="cell.960">532</cell>
+                            <cell cols="2" role="data" xml:id="cell.961">502</cell>
+                            <cell cols="2" role="data" xml:id="cell.962">679</cell>
+                            <cell cols="2" role="data" xml:id="cell.963">368</cell>
+                            <cell cols="2" role="data" xml:id="cell.964">366</cell>
+                            <cell cols="2" role="data" xml:id="cell.965">204</cell>
+                            <cell cols="2" role="data" xml:id="cell.966">981</cell>
+                            <cell cols="2" role="data" xml:id="cell.967">745</cell>
+                            <cell cols="2" role="data" xml:id="cell.968">211</cell>
+                            <cell cols="2" role="data" xml:id="cell.969">266</cell>
+                            <cell cols="2" role="data" xml:id="cell.970">322</cell>
+                            <cell cols="2" role="data" xml:id="cell.971">6543</cell>
+                        </row>
+                        <row xml:id="row.221">
+                            <cell role="label" rows="2" xml:id="cell.972">Javítás típusa</cell>
+                            <cell cols="2" rows="2" xml:id="cell.973"/>
+                            <cell cols="2" rows="2" xml:id="cell.974"/>
+                            <cell cols="2" rows="2" xml:id="cell.975"/>
+                            <cell cols="2" rows="2" xml:id="cell.976"/>
+                            <cell cols="2" rows="2" xml:id="cell.977"/>
+                            <cell cols="2" rows="2" xml:id="cell.978"/>
+                            <cell cols="2" rows="2" xml:id="cell.979"/>
+                            <cell cols="2" rows="2" xml:id="cell.980"/>
+                            <cell cols="2" rows="2" xml:id="cell.981"/>
+                            <cell cols="2" rows="2" xml:id="cell.982"/>
+                            <cell cols="2" rows="2" xml:id="cell.983"/>
+                            <cell cols="2" rows="2" xml:id="cell.984"/>
+                            <cell cols="2" rows="2" xml:id="cell.985"/>
+                            <cell cols="2" rows="2" xml:id="cell.986"/>
+                            <cell cols="2" rows="2" xml:id="cell.987"/>
+                            <cell cols="2" rows="2" xml:id="cell.988"/>
+                            <cell cols="2" role="label" rows="2" xml:id="cell.989">Javítástípusok
+                                összegzése</cell>
+                            <cell cols="2" role="label" xml:id="cell.990">Összes javítás
+                                %-ban</cell>
+                        </row>
+                        <row xml:id="row.222">
+                            <cell role="label" xml:id="cell.991"><persName>MI<idno
+                                        corresp="Madách Imre"/></persName></cell>
+                            <cell role="label" xml:id="cell.992"><persName>AJ<idno
+                                        corresp="Arany János"/></persName></cell>
+                        </row>
+                        <row xml:id="row.223">
+                            <cell role="label" xml:id="cell.993">Szerzői utasításban lévő nevek,
+                                címek, számok, aláhúzások átírása, kiegészítése</cell>
+                            <cell role="data" xml:id="cell.994">-</cell>
+                            <cell role="data" xml:id="cell.995">-</cell>
+                            <cell role="data" xml:id="cell.996">-</cell>
+                            <cell role="data" xml:id="cell.997">25</cell>
+                            <cell role="data" xml:id="cell.998">-</cell>
+                            <cell role="data" xml:id="cell.999">75</cell>
+                            <cell role="data" xml:id="cell.1000">-</cell>
+                            <cell role="data" xml:id="cell.1001">63</cell>
+                            <cell role="data" xml:id="cell.1002">-</cell>
+                            <cell role="data" xml:id="cell.1003">95</cell>
+                            <cell role="data" xml:id="cell.1004">-</cell>
+                            <cell role="data" xml:id="cell.1005">108</cell>
+                            <cell role="data" xml:id="cell.1006">-</cell>
+                            <cell role="data" xml:id="cell.1007">126</cell>
+                            <cell role="data" xml:id="cell.1008">1</cell>
+                            <cell role="data" xml:id="cell.1009">150</cell>
+                            <cell role="data" xml:id="cell.1010">-</cell>
+                            <cell role="data" xml:id="cell.1011">47</cell>
+                            <cell role="data" xml:id="cell.1012">6</cell>
+                            <cell role="data" xml:id="cell.1013">51</cell>
+                            <cell role="data" xml:id="cell.1014">-</cell>
+                            <cell role="data" xml:id="cell.1015">48</cell>
+                            <cell role="data" xml:id="cell.1016">3</cell>
+                            <cell role="data" xml:id="cell.1017">225</cell>
+                            <cell role="data" xml:id="cell.1018">4</cell>
+                            <cell role="data" xml:id="cell.1019">164</cell>
+                            <cell role="data" xml:id="cell.1020">-</cell>
+                            <cell role="data" xml:id="cell.1021">39</cell>
+                            <cell role="data" xml:id="cell.1022">1</cell>
+                            <cell role="data" xml:id="cell.1023">50</cell>
+                            <cell role="data" xml:id="cell.1024">-</cell>
+                            <cell role="data" xml:id="cell.1025">44</cell>
+                            <cell role="data" xml:id="cell.1026">14</cell>
+                            <cell role="data" xml:id="cell.1027">1310</cell>
+                            <cell role="data" xml:id="cell.1028">1,32</cell>
+                            <cell role="data" xml:id="cell.1029">22,91</cell>
+                        </row>
+                        <row xml:id="row.224">
+                            <cell role="label" xml:id="cell.1030">Teljes sor törlése új sor(ok)
+                                beírásával</cell>
+                            <cell role="data" xml:id="cell.1031">-</cell>
+                            <cell role="data" xml:id="cell.1032">-</cell>
+                            <cell role="data" xml:id="cell.1033">2</cell>
+                            <cell role="data" xml:id="cell.1034">4</cell>
+                            <cell role="data" xml:id="cell.1035">6</cell>
+                            <cell role="data" xml:id="cell.1036">3</cell>
+                            <cell role="data" xml:id="cell.1037">2</cell>
+                            <cell role="data" xml:id="cell.1038">4</cell>
+                            <cell role="data" xml:id="cell.1039">32</cell>
+                            <cell role="data" xml:id="cell.1040">1</cell>
+                            <cell role="data" xml:id="cell.1041">1</cell>
+                            <cell role="data" xml:id="cell.1042">6</cell>
+                            <cell role="data" xml:id="cell.1043">-</cell>
+                            <cell role="data" xml:id="cell.1044">2</cell>
+                            <cell role="data" xml:id="cell.1045">-</cell>
+                            <cell role="data" xml:id="cell.1046">1</cell>
+                            <cell role="data" xml:id="cell.1047">-</cell>
+                            <cell role="data" xml:id="cell.1048">1</cell>
+                            <cell role="data" xml:id="cell.1049">-</cell>
+                            <cell role="data" xml:id="cell.1050">-</cell>
+                            <cell role="data" xml:id="cell.1051">1</cell>
+                            <cell role="data" xml:id="cell.1052">-</cell>
+                            <cell role="data" xml:id="cell.1053">4</cell>
+                            <cell role="data" xml:id="cell.1054">1</cell>
+                            <cell role="data" xml:id="cell.1055">-</cell>
+                            <cell role="data" xml:id="cell.1056">-</cell>
+                            <cell role="data" xml:id="cell.1057">-</cell>
+                            <cell role="data" xml:id="cell.1058">-</cell>
+                            <cell role="data" xml:id="cell.1059">-</cell>
+                            <cell role="data" xml:id="cell.1060">-</cell>
+                            <cell role="data" xml:id="cell.1061">-</cell>
+                            <cell role="data" xml:id="cell.1062">1</cell>
+                            <cell role="data" xml:id="cell.1063">48</cell>
+                            <cell role="data" xml:id="cell.1064">24</cell>
+                            <cell role="data" xml:id="cell.1065">5,83</cell>
+                            <cell role="data" xml:id="cell.1066">0,42</cell>
+                        </row>
+                        <row xml:id="row.225">
+                            <cell role="label" xml:id="cell.1067">Új sor beírása előzmény
+                                nélkül</cell>
+                            <cell role="data" xml:id="cell.1068">-</cell>
+                            <cell role="data" xml:id="cell.1069">-</cell>
+                            <cell role="data" xml:id="cell.1070">2</cell>
+                            <cell role="data" xml:id="cell.1071">1</cell>
+                            <cell role="data" xml:id="cell.1072">7</cell>
+                            <cell role="data" xml:id="cell.1073">-</cell>
+                            <cell role="data" xml:id="cell.1074">-</cell>
+                            <cell role="data" xml:id="cell.1075">-</cell>
+                            <cell role="data" xml:id="cell.1076">15</cell>
+                            <cell role="data" xml:id="cell.1077">1</cell>
+                            <cell role="data" xml:id="cell.1078">4</cell>
+                            <cell role="data" xml:id="cell.1079">-</cell>
+                            <cell role="data" xml:id="cell.1080">-</cell>
+                            <cell role="data" xml:id="cell.1081">-</cell>
+                            <cell role="data" xml:id="cell.1082">1</cell>
+                            <cell role="data" xml:id="cell.1083">-</cell>
+                            <cell role="data" xml:id="cell.1084">1</cell>
+                            <cell role="data" xml:id="cell.1085">-</cell>
+                            <cell role="data" xml:id="cell.1086">-</cell>
+                            <cell role="data" xml:id="cell.1087">1</cell>
+                            <cell role="data" xml:id="cell.1088">3</cell>
+                            <cell role="data" xml:id="cell.1089">-</cell>
+                            <cell role="data" xml:id="cell.1090">-</cell>
+                            <cell role="data" xml:id="cell.1091">1</cell>
+                            <cell role="data" xml:id="cell.1092">-</cell>
+                            <cell role="data" xml:id="cell.1093">-</cell>
+                            <cell role="data" xml:id="cell.1094">-</cell>
+                            <cell role="data" xml:id="cell.1095">-</cell>
+                            <cell role="data" xml:id="cell.1096">-</cell>
+                            <cell role="data" xml:id="cell.1097">1</cell>
+                            <cell role="data" xml:id="cell.1098">-</cell>
+                            <cell role="data" xml:id="cell.1099">-</cell>
+                            <cell role="data" xml:id="cell.1100">33</cell>
+                            <cell role="data" xml:id="cell.1101">5</cell>
+                            <cell role="data" xml:id="cell.1102">4,02</cell>
+                            <cell role="data" xml:id="cell.1103">0,08</cell>
+                        </row>
+                        <row xml:id="row.226">
+                            <cell role="label" xml:id="cell.1104">Sor részbeni javítása</cell>
+                            <cell role="data" xml:id="cell.1105">-</cell>
+                            <cell role="data" xml:id="cell.1106">-</cell>
+                            <cell role="data" xml:id="cell.1107">4</cell>
+                            <cell role="data" xml:id="cell.1108">7</cell>
+                            <cell role="data" xml:id="cell.1109">5</cell>
+                            <cell role="data" xml:id="cell.1110">9</cell>
+                            <cell role="data" xml:id="cell.1111">6</cell>
+                            <cell role="data" xml:id="cell.1112">4</cell>
+                            <cell role="data" xml:id="cell.1113">5</cell>
+                            <cell role="data" xml:id="cell.1114">10</cell>
+                            <cell role="data" xml:id="cell.1115">6</cell>
+                            <cell role="data" xml:id="cell.1116">15</cell>
+                            <cell role="data" xml:id="cell.1117">3</cell>
+                            <cell role="data" xml:id="cell.1118">12</cell>
+                            <cell role="data" xml:id="cell.1119">5</cell>
+                            <cell role="data" xml:id="cell.1120">15</cell>
+                            <cell role="data" xml:id="cell.1121">2</cell>
+                            <cell role="data" xml:id="cell.1122">6</cell>
+                            <cell role="data" xml:id="cell.1123">1</cell>
+                            <cell role="data" xml:id="cell.1124">6</cell>
+                            <cell role="data" xml:id="cell.1125">2</cell>
+                            <cell role="data" xml:id="cell.1126">3</cell>
+                            <cell role="data" xml:id="cell.1127">7</cell>
+                            <cell role="data" xml:id="cell.1128">22</cell>
+                            <cell role="data" xml:id="cell.1129">3</cell>
+                            <cell role="data" xml:id="cell.1130">9</cell>
+                            <cell role="data" xml:id="cell.1131">-</cell>
+                            <cell role="data" xml:id="cell.1132">4</cell>
+                            <cell role="data" xml:id="cell.1133">-</cell>
+                            <cell role="data" xml:id="cell.1134">2</cell>
+                            <cell role="data" xml:id="cell.1135">1</cell>
+                            <cell role="data" xml:id="cell.1136">6</cell>
+                            <cell role="data" xml:id="cell.1137">5</cell>
+                            <cell role="data" xml:id="cell.1138">130</cell>
+                            <cell role="data" xml:id="cell.1139">6,07</cell>
+                            <cell role="data" xml:id="cell.1140">2,29</cell>
+                        </row>
+                        <row xml:id="row.227">
+                            <cell role="label" xml:id="cell.1141">Szó v. szótag javítása</cell>
+                            <cell role="data" xml:id="cell.1142">1</cell>
+                            <cell role="data" xml:id="cell.1143">-</cell>
+                            <cell role="data" xml:id="cell.1144">13</cell>
+                            <cell role="data" xml:id="cell.1145">16</cell>
+                            <cell role="data" xml:id="cell.1146">25</cell>
+                            <cell role="data" xml:id="cell.1147">23</cell>
+                            <cell role="data" xml:id="cell.1148">8</cell>
+                            <cell role="data" xml:id="cell.1149">36</cell>
+                            <cell role="data" xml:id="cell.1150">26</cell>
+                            <cell role="data" xml:id="cell.1151">60</cell>
+                            <cell role="data" xml:id="cell.1152">28</cell>
+                            <cell role="data" xml:id="cell.1153">29</cell>
+                            <cell role="data" xml:id="cell.1154">17</cell>
+                            <cell role="data" xml:id="cell.1155">40</cell>
+                            <cell role="data" xml:id="cell.1156">54</cell>
+                            <cell role="data" xml:id="cell.1157">38</cell>
+                            <cell role="data" xml:id="cell.1158">19</cell>
+                            <cell role="data" xml:id="cell.1159">32</cell>
+                            <cell role="data" xml:id="cell.1160">14</cell>
+                            <cell role="data" xml:id="cell.1161">38</cell>
+                            <cell role="data" xml:id="cell.1162">12</cell>
+                            <cell role="data" xml:id="cell.1163">6</cell>
+                            <cell role="data" xml:id="cell.1164">30</cell>
+                            <cell role="data" xml:id="cell.1165">60</cell>
+                            <cell role="data" xml:id="cell.1166">20</cell>
+                            <cell role="data" xml:id="cell.1167">39</cell>
+                            <cell role="data" xml:id="cell.1168">3</cell>
+                            <cell role="data" xml:id="cell.1169">9</cell>
+                            <cell role="data" xml:id="cell.1170">10</cell>
+                            <cell role="data" xml:id="cell.1171">12</cell>
+                            <cell role="data" xml:id="cell.1172">3</cell>
+                            <cell role="data" xml:id="cell.1173">18</cell>
+                            <cell role="data" xml:id="cell.1174">282</cell>
+                            <cell role="data" xml:id="cell.1175">456</cell>
+                            <cell role="data" xml:id="cell.1176">34,22</cell>
+                            <cell role="data" xml:id="cell.1177">7,97</cell>
+                        </row>
+                        <row xml:id="row.228">
+                            <cell role="label" xml:id="cell.1178">Szóhatárok javítása</cell>
+                            <cell role="data" xml:id="cell.1179">-</cell>
+                            <cell role="data" xml:id="cell.1180">-</cell>
+                            <cell role="data" xml:id="cell.1181">-</cell>
+                            <cell role="data" xml:id="cell.1182">16</cell>
+                            <cell role="data" xml:id="cell.1183">-</cell>
+                            <cell role="data" xml:id="cell.1184">38</cell>
+                            <cell role="data" xml:id="cell.1185">-</cell>
+                            <cell role="data" xml:id="cell.1186">57</cell>
+                            <cell role="data" xml:id="cell.1187">-</cell>
+                            <cell role="data" xml:id="cell.1188">47</cell>
+                            <cell role="data" xml:id="cell.1189">-</cell>
+                            <cell role="data" xml:id="cell.1190">63</cell>
+                            <cell role="data" xml:id="cell.1191">-</cell>
+                            <cell role="data" xml:id="cell.1192">69</cell>
+                            <cell role="data" xml:id="cell.1193">1</cell>
+                            <cell role="data" xml:id="cell.1194">75</cell>
+                            <cell role="data" xml:id="cell.1195">-</cell>
+                            <cell role="data" xml:id="cell.1196">69</cell>
+                            <cell role="data" xml:id="cell.1197">-</cell>
+                            <cell role="data" xml:id="cell.1198">73</cell>
+                            <cell role="data" xml:id="cell.1199">-</cell>
+                            <cell role="data" xml:id="cell.1200">38</cell>
+                            <cell role="data" xml:id="cell.1201">-</cell>
+                            <cell role="data" xml:id="cell.1202">143</cell>
+                            <cell role="data" xml:id="cell.1203">-</cell>
+                            <cell role="data" xml:id="cell.1204">106</cell>
+                            <cell role="data" xml:id="cell.1205">-</cell>
+                            <cell role="data" xml:id="cell.1206">39</cell>
+                            <cell role="data" xml:id="cell.1207">-</cell>
+                            <cell role="data" xml:id="cell.1208">38</cell>
+                            <cell role="data" xml:id="cell.1209">-</cell>
+                            <cell role="data" xml:id="cell.1210">53</cell>
+                            <cell role="data" xml:id="cell.1211">1</cell>
+                            <cell role="data" xml:id="cell.1212">924</cell>
+                            <cell role="data" xml:id="cell.1213">0,12</cell>
+                            <cell role="data" xml:id="cell.1214">16,16</cell>
+                        </row>
+                        <row xml:id="row.229">
+                            <cell role="label" xml:id="cell.1215">Betű(k) v. betűcsoport(ok)
+                                jav.</cell>
+                            <cell role="data" xml:id="cell.1216">1</cell>
+                            <cell role="data" xml:id="cell.1217">-</cell>
+                            <cell role="data" xml:id="cell.1218">9</cell>
+                            <cell role="data" xml:id="cell.1219">20</cell>
+                            <cell role="data" xml:id="cell.1220">17</cell>
+                            <cell role="data" xml:id="cell.1221">19</cell>
+                            <cell role="data" xml:id="cell.1222">11</cell>
+                            <cell role="data" xml:id="cell.1223">39</cell>
+                            <cell role="data" xml:id="cell.1224">27</cell>
+                            <cell role="data" xml:id="cell.1225">65</cell>
+                            <cell role="data" xml:id="cell.1226">22</cell>
+                            <cell role="data" xml:id="cell.1227">54</cell>
+                            <cell role="data" xml:id="cell.1228">28</cell>
+                            <cell role="data" xml:id="cell.1229">41</cell>
+                            <cell role="data" xml:id="cell.1230">44</cell>
+                            <cell role="data" xml:id="cell.1231">61</cell>
+                            <cell role="data" xml:id="cell.1232">8</cell>
+                            <cell role="data" xml:id="cell.1233">33</cell>
+                            <cell role="data" xml:id="cell.1234">12</cell>
+                            <cell role="data" xml:id="cell.1235">39</cell>
+                            <cell role="data" xml:id="cell.1236">12</cell>
+                            <cell role="data" xml:id="cell.1237">18</cell>
+                            <cell role="data" xml:id="cell.1238">34</cell>
+                            <cell role="data" xml:id="cell.1239">120</cell>
+                            <cell role="data" xml:id="cell.1240">26</cell>
+                            <cell role="data" xml:id="cell.1241">110</cell>
+                            <cell role="data" xml:id="cell.1242">4</cell>
+                            <cell role="data" xml:id="cell.1243">34</cell>
+                            <cell role="data" xml:id="cell.1244">6</cell>
+                            <cell role="data" xml:id="cell.1245">47</cell>
+                            <cell role="data" xml:id="cell.1246">6</cell>
+                            <cell role="data" xml:id="cell.1247">35</cell>
+                            <cell role="data" xml:id="cell.1248">267</cell>
+                            <cell role="data" xml:id="cell.1249">735</cell>
+                            <cell role="data" xml:id="cell.1250">32,40</cell>
+                            <cell role="data" xml:id="cell.1251">12,68</cell>
+                        </row>
+                        <row xml:id="row.230">
+                            <cell role="label" xml:id="cell.1252">Kezdőbetűk javítása</cell>
+                            <cell role="data" xml:id="cell.1253">1</cell>
+                            <cell role="data" xml:id="cell.1254">-</cell>
+                            <cell role="data" xml:id="cell.1255">3</cell>
+                            <cell role="data" xml:id="cell.1256">9</cell>
+                            <cell role="data" xml:id="cell.1257">1</cell>
+                            <cell role="data" xml:id="cell.1258">3</cell>
+                            <cell role="data" xml:id="cell.1259">-</cell>
+                            <cell role="data" xml:id="cell.1260">-</cell>
+                            <cell role="data" xml:id="cell.1261">1</cell>
+                            <cell role="data" xml:id="cell.1262">7</cell>
+                            <cell role="data" xml:id="cell.1263">2</cell>
+                            <cell role="data" xml:id="cell.1264">6</cell>
+                            <cell role="data" xml:id="cell.1265">6</cell>
+                            <cell role="data" xml:id="cell.1266">4</cell>
+                            <cell role="data" xml:id="cell.1267">2</cell>
+                            <cell role="data" xml:id="cell.1268">9</cell>
+                            <cell role="data" xml:id="cell.1269">3</cell>
+                            <cell role="data" xml:id="cell.1270">1</cell>
+                            <cell role="data" xml:id="cell.1271">3</cell>
+                            <cell role="data" xml:id="cell.1272">-</cell>
+                            <cell role="data" xml:id="cell.1273">2</cell>
+                            <cell role="data" xml:id="cell.1274">-</cell>
+                            <cell role="data" xml:id="cell.1275">8</cell>
+                            <cell role="data" xml:id="cell.1276">3</cell>
+                            <cell role="data" xml:id="cell.1277">5</cell>
+                            <cell role="data" xml:id="cell.1278">2</cell>
+                            <cell role="data" xml:id="cell.1279">1</cell>
+                            <cell role="data" xml:id="cell.1280">1</cell>
+                            <cell role="data" xml:id="cell.1281">3</cell>
+                            <cell role="data" xml:id="cell.1282">2</cell>
+                            <cell role="data" xml:id="cell.1283">-</cell>
+                            <cell role="data" xml:id="cell.1284">3</cell>
+                            <cell role="data" xml:id="cell.1285">41</cell>
+                            <cell role="data" xml:id="cell.1286">50</cell>
+                            <cell role="data" xml:id="cell.1287">4,97</cell>
+                            <cell role="data" xml:id="cell.1288">0,87</cell>
+                        </row>
+                        <row xml:id="row.231">
+                            <cell role="label" xml:id="cell.1289">Kettőzött betűk jav.</cell>
+                            <cell role="data" xml:id="cell.1290">-</cell>
+                            <cell role="data" xml:id="cell.1291">-</cell>
+                            <cell role="data" xml:id="cell.1292">-</cell>
+                            <cell role="data" xml:id="cell.1293">7</cell>
+                            <cell role="data" xml:id="cell.1294">-</cell>
+                            <cell role="data" xml:id="cell.1295">14</cell>
+                            <cell role="data" xml:id="cell.1296">-</cell>
+                            <cell role="data" xml:id="cell.1297">15</cell>
+                            <cell role="data" xml:id="cell.1298">-</cell>
+                            <cell role="data" xml:id="cell.1299">16</cell>
+                            <cell role="data" xml:id="cell.1300">-</cell>
+                            <cell role="data" xml:id="cell.1301">19</cell>
+                            <cell role="data" xml:id="cell.1302">-</cell>
+                            <cell role="data" xml:id="cell.1303">25</cell>
+                            <cell role="data" xml:id="cell.1304">-</cell>
+                            <cell role="data" xml:id="cell.1305">42</cell>
+                            <cell role="data" xml:id="cell.1306">-</cell>
+                            <cell role="data" xml:id="cell.1307">30</cell>
+                            <cell role="data" xml:id="cell.1308">-</cell>
+                            <cell role="data" xml:id="cell.1309">26</cell>
+                            <cell role="data" xml:id="cell.1310">1</cell>
+                            <cell role="data" xml:id="cell.1311">18</cell>
+                            <cell role="data" xml:id="cell.1312">5</cell>
+                            <cell role="data" xml:id="cell.1313">49</cell>
+                            <cell role="data" xml:id="cell.1314">4</cell>
+                            <cell role="data" xml:id="cell.1315">42</cell>
+                            <cell role="data" xml:id="cell.1316">1</cell>
+                            <cell role="data" xml:id="cell.1317">17</cell>
+                            <cell role="data" xml:id="cell.1318">-</cell>
+                            <cell role="data" xml:id="cell.1319">11</cell>
+                            <cell role="data" xml:id="cell.1320">-</cell>
+                            <cell role="data" xml:id="cell.1321">23</cell>
+                            <cell role="data" xml:id="cell.1322">10</cell>
+                            <cell role="data" xml:id="cell.1323">354</cell>
+                            <cell role="data" xml:id="cell.1324">1,21</cell>
+                            <cell role="data" xml:id="cell.1325">6,19</cell>
+                        </row>
+                        <row xml:id="row.232">
+                            <cell role="label" xml:id="cell.1326">Ékezet, aposztróf jav.</cell>
+                            <cell role="data" xml:id="cell.1327">-</cell>
+                            <cell role="data" xml:id="cell.1328">-</cell>
+                            <cell role="data" xml:id="cell.1329">-</cell>
+                            <cell role="data" xml:id="cell.1330">10</cell>
+                            <cell role="data" xml:id="cell.1331">-</cell>
+                            <cell role="data" xml:id="cell.1332">15</cell>
+                            <cell role="data" xml:id="cell.1333">-</cell>
+                            <cell role="data" xml:id="cell.1334">22</cell>
+                            <cell role="data" xml:id="cell.1335">-</cell>
+                            <cell role="data" xml:id="cell.1336">54</cell>
+                            <cell role="data" xml:id="cell.1337">-</cell>
+                            <cell role="data" xml:id="cell.1338">37</cell>
+                            <cell role="data" xml:id="cell.1339">-</cell>
+                            <cell role="data" xml:id="cell.1340">31</cell>
+                            <cell role="data" xml:id="cell.1341">2</cell>
+                            <cell role="data" xml:id="cell.1342">34</cell>
+                            <cell role="data" xml:id="cell.1343">-</cell>
+                            <cell role="data" xml:id="cell.1344">24</cell>
+                            <cell role="data" xml:id="cell.1345">1</cell>
+                            <cell role="data" xml:id="cell.1346">25</cell>
+                            <cell role="data" xml:id="cell.1347">1</cell>
+                            <cell role="data" xml:id="cell.1348">12</cell>
+                            <cell role="data" xml:id="cell.1349">2</cell>
+                            <cell role="data" xml:id="cell.1350">47</cell>
+                            <cell role="data" xml:id="cell.1351">2</cell>
+                            <cell role="data" xml:id="cell.1352">53</cell>
+                            <cell role="data" xml:id="cell.1353">-</cell>
+                            <cell role="data" xml:id="cell.1354">22</cell>
+                            <cell role="data" xml:id="cell.1355">-</cell>
+                            <cell role="data" xml:id="cell.1356">22</cell>
+                            <cell role="data" xml:id="cell.1357">-</cell>
+                            <cell role="data" xml:id="cell.1358">32</cell>
+                            <cell role="data" xml:id="cell.1359">8</cell>
+                            <cell role="data" xml:id="cell.1360">440</cell>
+                            <cell role="data" xml:id="cell.1361">0,97</cell>
+                            <cell role="data" xml:id="cell.1362">7,87</cell>
+                        </row>
+                        <row xml:id="row.233">
+                            <cell role="label" xml:id="cell.1363">Központozás javítása</cell>
+                            <cell role="data" xml:id="cell.1364">-</cell>
+                            <cell role="data" xml:id="cell.1365">-</cell>
+                            <cell role="data" xml:id="cell.1366">3</cell>
+                            <cell role="data" xml:id="cell.1367">28</cell>
+                            <cell role="data" xml:id="cell.1368">5</cell>
+                            <cell role="data" xml:id="cell.1369">25</cell>
+                            <cell role="data" xml:id="cell.1370">-</cell>
+                            <cell role="data" xml:id="cell.1371">39</cell>
+                            <cell role="data" xml:id="cell.1372">1</cell>
+                            <cell role="data" xml:id="cell.1373">127</cell>
+                            <cell role="data" xml:id="cell.1374">2</cell>
+                            <cell role="data" xml:id="cell.1375">130</cell>
+                            <cell role="data" xml:id="cell.1376">5</cell>
+                            <cell role="data" xml:id="cell.1377">93</cell>
+                            <cell role="data" xml:id="cell.1378">15</cell>
+                            <cell role="data" xml:id="cell.1379">129</cell>
+                            <cell role="data" xml:id="cell.1380">5</cell>
+                            <cell role="data" xml:id="cell.1381">87</cell>
+                            <cell role="data" xml:id="cell.1382">6</cell>
+                            <cell role="data" xml:id="cell.1383">64</cell>
+                            <cell role="data" xml:id="cell.1384">2</cell>
+                            <cell role="data" xml:id="cell.1385">25</cell>
+                            <cell role="data" xml:id="cell.1386">11</cell>
+                            <cell role="data" xml:id="cell.1387">206</cell>
+                            <cell role="data" xml:id="cell.1388">11</cell>
+                            <cell role="data" xml:id="cell.1389">145</cell>
+                            <cell role="data" xml:id="cell.1390">2</cell>
+                            <cell role="data" xml:id="cell.1391">35</cell>
+                            <cell role="data" xml:id="cell.1392">-</cell>
+                            <cell role="data" xml:id="cell.1393">61</cell>
+                            <cell role="data" xml:id="cell.1394">1</cell>
+                            <cell role="data" xml:id="cell.1395">96</cell>
+                            <cell role="data" xml:id="cell.1396">69</cell>
+                            <cell role="data" xml:id="cell.1397">1290</cell>
+                            <cell role="data" xml:id="cell.1398">8,37</cell>
+                            <cell role="data" xml:id="cell.1399">22,56</cell>
+                        </row>
+                        <row xml:id="row.234">
+                            <cell xml:id="cell.1400"/>
+                            <cell xml:id="cell.1401"/>
+                            <cell xml:id="cell.1402"/>
+                            <cell xml:id="cell.1403"/>
+                            <cell xml:id="cell.1404"/>
+                            <cell xml:id="cell.1405"/>
+                            <cell xml:id="cell.1406"/>
+                            <cell xml:id="cell.1407"/>
+                            <cell xml:id="cell.1408"/>
+                            <cell xml:id="cell.1409"/>
+                            <cell xml:id="cell.1410"/>
+                            <cell xml:id="cell.1411"/>
+                            <cell xml:id="cell.1412"/>
+                            <cell xml:id="cell.1413"/>
+                            <cell xml:id="cell.1414"/>
+                            <cell xml:id="cell.1415"/>
+                            <cell xml:id="cell.1416"/>
+                            <cell xml:id="cell.1417"/>
+                            <cell xml:id="cell.1418"/>
+                            <cell xml:id="cell.1419"/>
+                            <cell xml:id="cell.1420"/>
+                            <cell xml:id="cell.1421"/>
+                            <cell xml:id="cell.1422"/>
+                            <cell xml:id="cell.1423"/>
+                            <cell xml:id="cell.1424"/>
+                            <cell xml:id="cell.1425"/>
+                            <cell xml:id="cell.1426"/>
+                            <cell xml:id="cell.1427"/>
+                            <cell xml:id="cell.1428"/>
+                            <cell xml:id="cell.1429"/>
+                            <cell xml:id="cell.1430"/>
+                            <cell xml:id="cell.1431"/>
+                            <cell xml:id="cell.1432"/>
+                            <cell xml:id="cell.1433"/>
+                            <cell xml:id="cell.1434"/>
+                            <cell role="data" xml:id="cell.1435">100,00</cell>
+                            <cell role="data" xml:id="cell.1436">100,00</cell>
+                        </row>
+                    </table></p>
+            </div>
+        </body>
+    </text>
+</TEI>

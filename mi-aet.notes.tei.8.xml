@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="8" type="main">A kézirat fogadtatása</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.8</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.8.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>661-662.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">A kézirat fogadtatása</head>
+                <p xml:id="p.1">Ezt - akárcsak a megírás napra pontos időkörét - maga
+                        <persName>Madách</persName> rögzítette; <persName>Nagy Ivánnak<idno
+                            type="ITIdata">Q249885</idno></persName><date when="1861-11-02">1861.
+                        november 2-i</date> levelében írta: ,Már több esztendeénél, hogy készen van.
+                    Említettem több ösmerősöm előtt hogy írtam egy költeményt mellyben Az isten, az
+                    ördög Ádám Luther Dantón, Aphrodite, boszorkányok s tudj isten mi minden
+                    játszik; hogy kezdődik a’ teremtéssel, játszik az égben az egész földön az ürben
+                    - mosolyogtak rá, de olvasni nem akarta senki.” (<bibl>MÖM II. 929.<idno
+                            type="ITIdata">Q412729</idno></bibl>) Az egy évig pihentetés
+                        <persName>Madách</persName> bevett írói szokása volt, amint arról
+                    ugyanaznap, de már <persName>Arany Jánosnak<idno type="ITIdata"
+                        >Q140423</idno></persName> számolt be: „Ha Írtam valamit, rendesen
+                    esztendeig rá sem néztem. Akkor elővehetém s megbírálhatám mint idegen művet...”
+                        (<bibl>MÖM II. 867.<idno type="ITIdata">Q412729</idno></bibl>) Mint a kúriás
+                    megyékben mindenütt az <date from="1850" to="1859">1850-es</date> években,
+                            <placeName>Nógrádban<idno type="ITIdata">Q337887</idno></placeName> is a
+                    közéleti fórumait elvesztett nemesség számos tagja különcségek művelésébe
+                    merült. <persName>Madách</persName> baráti köre dúskált az ilyen figurákban;
+                    említhetjük a felsősztregovai <persName>Sréter Miklóst<idno type="ITIdata"
+                        /></persName>, a mindent megverselő helyi poétát, a nógrádszakali
+                    könyvmolyt, <persName>Szentiványi Bogomért<idno type="ITIdata"
+                        >Q469619</idno></persName>, a találmányok iránt rajongó, ám akár a légyről
+                    is költeményt író, <placeName>Kelecsényben<idno type="ITIdata"
+                        >Q6811</idno></placeName> lakott <persName>Lutter Jánost<idno type="ITIdata"
+                        /></persName>. (Vö. <bibl>Balogh 1996 75-87.<idno type="ITIdata"
+                            >Q469805</idno></bibl>!) <persName>Bory László<idno type="ITIdata"
+                            >Q469618</idno></persName> is idesorolható mint afféle társasági költő,
+                    akinek <title><hi rend="italic">A bolhák eredete</hi></title> c. „mythologiai
+                    hősköltemény”- e éppen <persName>Madáchnak</persName> készült <date
+                        when="1856-12-25">1856 karácsonyára</date> ajándékul. (Szövegét 1.
+                        <bibl>Andor 1998 214-222.<idno type="ITIdata">Q469797</idno></bibl>!)</p>
+                <p xml:id="p.2"><persName>Madách</persName> nem írt alkalmi verseket. Költeményt
+                        <date from="1840">1840 óta</date> nem publikált, fiatalkori publicisztikáját
+                    elfelejtették. A <title><hi rend="italic">Tragédia</hi></title> titkolása - mint
+                    láttuk, családban és szűk baráti körben egyaránt - nemcsak alkatából, hanem
+                    igényességéből is fakadt: „Igen van nekem is hiúságom, nagyobb mint amaz [ti. a
+                    mindenáron publikálás], - semmi középszerűt nem adni világ elé.” (az
+                        <persName>Arany Jánosnak</persName> küldött, idézett, <date
+                        when="1861-11-02">1861. november 2-diki</date> levélben, <bibl>MÖM II.
+                            867.<idno type="ITIdata">Q412729</idno></bibl>) A meglepő témájú és az
+                    alkalmi, udvarházi költészethez képest nagyterjedelmű művel, hirtelen előálló
+                        <persName>Madáchot</persName> tehát a legszűkebb nógrádi nyilvánosságban
+                    okkal-joggal fogadta értetlenség, megmosolygás és elhárítás. (Egyben ez lett a
+                    szerzőségi híreszteléseknek az alapja is, amelyekről fentebb szóltunk:
+                    áttulajdonítva a művet az ismert versifikátorok egyikének.)</p>
+                <p xml:id="p.3">Amint a <title><hi rend="italic"
+                    >Keletkezéstörténet</hi></title><ref/> históriáiban tapasztaltuk, utóbb többen
+                    igényelték az első olvasó/első meghallgató titulusát. Ez azonban a régi, hűséges
+                    barát volt: „Végre múlt tavasszal Szontagh Pál barátunknak fel olvasám s ő
+                    sürgetet[t] adván Aranynak bírálat végett.” (<bibl><title>Madách levele Nagy
+                            Ivánnak, 1861. november 2.</title> - MÖM II. 929.<idno type="ITIdata"
+                            >Q412729</idno></bibl>) Ugyanez, a családi hagyományból, anekdotás
+                    formában feljegyezve: <bibl>Morvay 1898 15-16.<idno type="ITIdata"
+                            >Q470086</idno></bibl> Az utóbbi helyen egy névjavítást is említettek,
+                    mint <persName>Szontagh<idno type="ITIdata">Q49539</idno></persName> javasolta
+                    változtatást a K szövegén: Miltiades nevének írásmódját.</p>
+                <p xml:id="p.4"><persName>Borsody Miklósnak<idno type="ITIdata"
+                        >Q41966</idno></persName>, fia és unokaöccse nevelőjének maga a szerző
+                    mutatta meg a művet: „Pár héttel elutazása előtt történt, hogy egy negyedrét
+                    oldalú füzetet adott át Borsodynak. Vastagon írt betűkkel állt a címlapon a
+                    felirat: Az ember tragédiája.” (<bibl>Balogh 1996 147.<idno type="ITIdata"
+                            >Q469805</idno></bibl>) Mint vitapartnert szintén említi a bölcsészeti
+                    és teológiai tanulmányokat egyaránt végzett nevelőt a családi hagyomány:
+                        <bibl>Kálnay 1884 26.<idno type="ITIdata">Q469961</idno></bibl> és -
+                            <persName>Szontaghra<idno corresp="Szontagh Pál"/></persName> hivatkozva
+                    - <bibl>Morvay 1898 11.<idno type="ITIdata">Q470086</idno></bibl> Ezek alapján
+                    éledt fel legújabban a gyanú, hogy ő volt az, aki „esetleg a házigazdája
+                    tollhibáira felhívta a figyelmet.” (<bibl>Nagyné Nemes Györgyi: <title><hi
+                                rend="italic">Nevelők a második sztregovai korszakban: Borsody
+                                Miklós és Jancsó Sándor</hi></title></bibl> =
+                            <bibl><persName>Nagyné-Andor</persName> 1997 57.<idno type="ITIdata"
+                            >Q470095</idno></bibl>)</p>
+                <p xml:id="p.5">Volt olyan szabadkai, lokálpatrióta vélekedés, amely
+                        <persName>Jámbor Pálnak<idno type="ITIdata">Q146658</idno></persName> a
+                            <title><hi rend="italic">Kiadástörténet</hi></title>ben<ref/>
+                    részletezendő szerepét kiterjesztette az első olvasó és bíráló funkciójára is.
+                            (<persName>Jámbor<idno corresp="Jámbor Pál"/></persName><date
+                        from="1861" to="1882">1861 és 1882 között</date> a szabadkai főgimnázium
+                    igazgatója volt, és <date when="1897">1897-ben</date> bekövetkezett haláláig
+                    ezután is a városban élt.) A hiedelemre l. <bibl><title><hi rend="italic">Milkó
+                                Izidor hátrahagyott írásai L k. Gesztenyefám</hi></title>, kiadta
+                            <persName>Szeli István</persName>, Növi Sad 1966. 181.</bibl> Az adatot
+                    idéző <persName>Krizsán László<idno type="ITIdata">Q277033</idno></persName>
+                    tanulmányának félrevezető címe van, amit az újabb legendaképződéseket
+                    megelőzendő kell megállapítanunk: <title><hi rend="italic">Jámbor Pál és "Az
+                            ember tragédiája” végleges szövegének kialakulása</hi></title>
+                        (<bibl>Krizsán 1998<idno type="ITIdata">Q470000</idno></bibl>).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

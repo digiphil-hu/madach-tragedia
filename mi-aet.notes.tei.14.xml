@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="14" type="main">Illusztráció</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.14</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.14.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>704-705.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Illusztráció</head>
+                <p xml:id="p.1"><persName>Than Mór<idno type="ITIdata"
+                            >Q151529</idno></persName><title><hi rend="italic">Ádám az
+                        űrben</hi></title> c. olajfestményét az <orgName>MNG<idno type="ITIdata"
+                            >Q469680</idno></orgName> őrzi (Itsz. 2766.). A nagyméretű - 173 x 202
+                    cm - kép a <title><hi rend="italic">Tragédia</hi></title> első és a szerző
+                    életében jelenlegi ismereteink szerint egyetlen illusztrációja, amely (az
+                    egykorú leírás szerint) „Madách költeményéből azon jelenetet ábrázolja, amint a
+                    föld szellem visszaszólítja Ádámot, ki dacos önbizalommal Luciferrel a
+                    megmérheteüen űrben ismereden czél felé repül.” (<bibl>VU, 1864. 6. sz. febr. 7.
+                        62.</bibl>) A festő tehát annyit változtatott <persName>Madách</persName>
+                    szövegén, hogy a Földszellemet meg is jelenítette (mégpedig az istenábrázolás
+                    hagyományos eszközeivel, mintegy az Úr képviselőjeként), amíg a Xlll. színben
+                    csak szava hallható a szerzői utasítás szerint. A Sixtus-kápolna
+                    Michelangelo-freskói által ihletett kép mai, sommás művészettörténeti
+                    értékelését l. <bibl>Cennerné 1982 15.<idno type="ITIdata"
+                    >Q469832</idno></bibl>! Az életmű-katalógusban a festmény fekete-fehér
+                    reprodukciójával: <bibl>uo. 91. (61. tétel)</bibl></p>
+                <p xml:id="p.2">A festmény - a róla szóló legkorábbi híradás tanúsága szerint -
+                        <date when="1863-08">1863 augusztusa</date> előtt elkészült, és belőle
+                    metszetváltozat is készült. Ez utóbbi került ezután a 63 díszkiadásnak
+                    borítójára, vö. a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.9"><title><hi
+                                rend="italic">Kiadástörténet</hi></title></ref> c. alfejezettel!</p>
+                <p xml:id="p.3"><bibl>VU, 1863. 33. sz. aug. 16. 295.</bibl>: a Magyar
+                    Képzőművészeti Társulat <date when="1863-08-05"> aug. 5-i</date>
+                    igazgatóválasztmányi üléséről, a kiadandó album tartalmáról: „...miután Székely
+                    Bertalan úr versenyzett művét visszavette, - <sic>Thán</sic> Mór úrnak a
+                    mücsarnokban levő, az »<title>Ember tragédiája</title>« czímű olajfestménye
+                    választatott, s annak közzétételével Grim[m] Rudolf úr bizatott meg.”</p>
+                <p xml:id="p.4"><bibl>Koszorú, 1863. 18. sz. nov. 1. 431.</bibl>: a Társulat <date
+                        when="1863-10-15">okt. 15</date>/<date when="1863-10-16">16-i</date>
+                    választmányi ülése a tárgyévben két füzet kiadása mellett döntött, megerősítve,
+                    hogy az egyik kiválasztott mű <persName>Than Mór</persName><title><hi
+                            rend="italic">Tragédia</hi></title>-jelenete.</p>
+                <p xml:id="p.5"><bibl>Koszorú, 1864. 25. sz. dec. 27. 599.</bibl>: a Társulat <date
+                        when="1863-02-18">1863. febr. 18-án</date> festménysorsolást tart, a
+                    legmagasabb becsára két Than-képnek van, az egyik „Jelenet az ember
+                    tragédiájából...”</p>
+                <p xml:id="p.6"><bibl>VU, 1864. 6. sz. febr. 7. 62.</bibl>: a Társulat albumának
+                    111. füzetében megjelent <persName>Than Mór</persName> festményének kőnyomata.
+                    „Kőre rajzolta Grim[m] Rudolf, nyomatott Pollák testvéreknél.”</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.7"><title>JELENET AZ EMBER TRAGÉDIÁJÁBÓL</title>
+                            (<persName><sic>Madach</sic> Imre</persName> költeménye után) Festette
+                        <persName>Than Mór</persName>. Rajzolta <persName>Grimm Rezső</persName>.
+                    Nyomt[atták]. Pollák Testvérek Pesten 1864. 470 x 350 mm, felül 30 mm
+                    magasságban íves. - A kísérő szöveglapon <persName>K.
+                                G.</persName><supplied><persName><unclear>Kazinczy
+                                Gábor</unclear><idno type="ITIdata"
+                        >Q152549</idno></persName></supplied>?: <title><hi rend="italic">Jelenet Az
+                            ember tragédiájából Than Mór képe</hi></title>. Ebben az irodalom és a
+                    képzőművészet egymásra hatásáról olvashatunk, majd - a mélyebb elemzés
+                    elhárításával - így értelmezi a képet és az alapjául szolgáló szöveget: „...a
+                    kép magyarázatául is a szemlélőt csak a könyv 13-ik színére utaljuk, melyben a
+                    föld szelleme visszaszólítja Ádámot a földre, ki nyűgnek és nyomornak
+                    tapasztalván ezredéveken át a földi létet; ön lelke erejébe vetett daczos
+                    bizalommal más ismeretlen czél, más lét felé repűl az ürben, Luczifer
+                    kíséretében. Jelentése az, hogy az ember rabja e földnek, melyen túl csak
+                    gondolatban, óhajban emelkedhetik, de életföltételei lelánczolják a porhoz,
+                    habár e széttéphetetlen lánczcsörgése végig kínozza is a tudalmas lelket
+                    kiolthatadan szomjusággal, mely a magasba vonja szüntelen, de melyet el nem ér,
+                    sőt bele sem tekinthet.” (Megjegyezzük, hogy a Rudolf -&gt; Rezső névmagyarítás
+                    a korban bevett, vö. Rudolf trónörökös „Rezső királyfi” néven emlegetésével, így
+                        <persName>Grimm Rudolf<idno type="ITIdata">Q145765</idno></persName> és
+                    Rezső azonos személy. A másik Grimm-testvért <persName>Vincének<idno
+                            type="ITIdata">Q145771</idno></persName> hívták.)</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.8"><bibl>Koszorú, 1864. 26. sz. jún. 26. 619.</bibl>: a Magyar
+                    Képzőművészeti Társulat június 16-i választmányi ülésére hivatkozva közli, a
+                    kőnyomat „második nyomása is elkészült.”</p>
+                <p xml:id="p.9"><bibl><title>Pesti Hölgy-Divatlap</title>, 1864. 13. sz. júl.
+                        1.</bibl> a borító Hírszekrény rovatában: „<sic>Thán</sic> Mór birodalmi
+                    alapból ezer f[o]r[in]t-on vett nagyszerű festményét: J<title>elenet az »Ember
+                        tragoediájából«</title> a nemzeti múzeumnak ajándékozták.” - Az
+                        <orgName>MNG</orgName> nyilvántartása szerint a vásárló és ajándékozó
+                        <persName>I. Ferenc József<idno type="ITIdata">Q61024</idno></persName>
+                    volt, ami megmagyarázza a hír óvatoskodó megfogalmazását is.</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.10">(Megjegyezzük még, hogy a <title>Bolond Miska</title> c. élclap
+                        <date when="1862-04-13">1862. április 13-i</date> számában megjelent,
+                            „<title><hi rend="italic">Az ember tragédiája</hi></title>" címet
+                    viselő, hat képből álló karikatúra-sorozat csak a címet kölcsönözte
+                        <persName>Madách</persName> művéből, más összefüggésben nincs vele.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="10" type="main">Megjelenés a szerző életében</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.10</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.10.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>673-678.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Megjelenés a szerző életében</head>
+                <p xml:id="p.1"><bibl><title>AZ | EMBER TRAGÉDIÁJA</title>. | DRÁMAI KÖLTEMÉNY. |
+                        IRTA | <persName>MADÁCH IMRE</persName>. | KIADTA A KISFALUDY-TÁRSASÁG. |
+                        PEST. | <persName>EMICH GUSZTÁV</persName>, MAGYAR AKADÉMIAI NYOMDÁSZ. |
+                        MDCCCLXI.</bibl> (A továbbiakban: <bibl><abbr>61.</abbr></bibl>)</p>
+                <p xml:id="p.2">A címlapot a <orgName><abbr>KisfT</abbr></orgName> emblémája
+                    díszítette. A mű - amint arra <persName>Arany<idno corresp="Arany János"
+                        /></persName> már idézett, <date when="1862-08-03">1862. augusztus
+                        3-i</date>, <persName>Kazinczy Gábornak</persName> szóló levele utalt - 1500
+                    példányban jelent meg. Ezt a példányszámot (általában az illetménykötetekre, a
+                    „Pártolói Könyvtár” részére) az <date when="1861-02-28">1861. február
+                        28-i</date> ülés határozta meg (vö. <bibl><abbr>AJÖM XIII.</abbr> 525.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/></bibl>!). (<date when="1861-04-25">1861. ápr. 25-én</date>
+                    a pártolói tagság létszáma 913 volt, vö. <bibl><abbr>AJÖM XIII.</abbr> 526.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/hivatali-iratok-1.-nagyszalonta-nagykrs-budapest-1831-65/"
+                            type="url"/></bibl>!)</p>
+                <p xml:id="p.3">A szerző húsz tiszteletpéldányt kapott (l.
+                        <persName>Arany</persName> levelét. <bibl>Pest 1862. január 24. - MÖM II.
+                            1015.<idno type="ITIdata">Q412729</idno></bibl>!), amelyet családjában
+                    és nógrádi barátai között osztott szét. Erre utal a három ismert dedikáció útja:
+                        <persName>Veres Pálné Beniczky Herminnek<idno type="ITIdata"
+                        >Q151937</idno></persName> (<date when="1862-01-24">1862. január
+                    24.</date>), <persName>Szentiványi Bogomérnak<idno type="ITIdata"
+                        >Q469619</idno></persName> (<date when="1862-01-31">1862. január 31.</date>)
+                    és unokahúgának, <persName>Károlyi Miksáné Huszár Annának<idno type="ITIdata"
+                            >Q469704</idno></persName> (<date when="1862-02-02">1862. február
+                        2.</date>), vö. <bibl>MKK 297.<idno type="ITIdata">Q470077</idno></bibl>! A
+                    kutatás további feladatait a tiszteletpéldányok nyomon követésében ebben az
+                    irányban jelöli ki <persName>Balogh Károly<idno type="ITIdata"
+                        >Q83972</idno></persName> emlékirata is: „Ő 20 példányt kapott és vitt
+                    belőle Sréternek is egyet - szánon.” (<bibl>Balogh 1996 158.<idno type="ITIdata"
+                            >Q469805</idno></bibl>)</p>
+                <p xml:id="p.4">A kötet könyvesbolti forgalomba nem került: „Bolti ára nincs,
+                    szétküldetik a Kisfaludy-társaság pártolóinak.” (<bibl>SzF 1862. I. félév, 13.
+                        sz. január 30. 208.</bibl>) Ezért <persName>Arany<idno corresp="Arany János"
+                        /></persName> - meggyőződéssel vallva a <title><hi rend="italic"
+                            >Tragédia</hi></title> remekmű-voltát - már rögtön e megjelenést
+                    követően, <date when="1862-01-24">1862. január 24-i</date> levelében „egy
+                    hihetően nem sokára szükséges 2-ik kiadás”-ról írt, majd kisvártatva, <date
+                        when="1862-02-13">február 13-án</date> megismételte véleményét („...istennek
+                    hála, ide s tova sürgető szükség lesz.”), sőt <date when="1862-03-06">március
+                        6-án</date> rá is kérdezett <persName>Madách</persName> vonatkozó terveire:
+                    „Ad vocem, jövő kiadás: mi szándékod van ez iránt?” (<bibl>MÖM II. 1015., II.
+                        1017., II. 1020.<idno type="ITIdata">Q412729</idno></bibl>) Mivel
+                        <persName>Madách</persName> válaszáról semmiféle adat nem áll
+                    rendelkezésünkre, a kérdést alighanem személyesen beszélték meg. Erre először
+                        <date when="1862-03-27">1862. március 27-én</date> kerülhetett sor, amikor a
+                    szerző <placeName>Pestre<idno type="ITIdata">Q111</idno></placeName> érkezett,
+                    hogy megtartsa <orgName><abbr>KisfT</abbr></orgName>-i székfoglalóját, másodszor
+                    pedig <date from="1862-08-07" to="1862-08-11">augusztus 7. és 11. között</date>,
+                    közös csesztvei-alsósztregovai-szliácsi időzésük során. Mindenesetre
+                        <persName>Madách</persName><persName>Szász Károlyról<idno type="ITIdata"
+                            >Q150786</idno></persName> - <date when="1862-09-12">1862. szeptember
+                        12-i</date> levelében - már akkor kérte bírálója további tanácsait,
+                    „...midőn épen müvem második kiadása készűl...” (<bibl>MÖM II. 945.<idno
+                            type="ITIdata">Q412729</idno></bibl>)</p>
+                <p xml:id="p.5"><persName>Arany<idno corresp="Arany János"/></persName> az első
+                    kiadás megjelenése után is, két levélben is (a hivatkozott <date
+                        when="1862-01-24">január 24-iben</date> és a <date when="1862-02-13">február
+                        13-án</date> írottban) felajánlotta a szerzőnek, hogy a várt és sürgetett
+                    második kiadásban visszaállíthatja eredeti szövegét, amit
+                        <persName>Madách</persName><date when="1862-02-20">február 20-án</date>
+                    ismételt köszönetnyilvánítás mellett elhárított (<bibl>MÖM II. 1015-1016., II.
+                        1017., II. 869.<idno type="ITIdata">Q412729</idno></bibl>). Ezért a második
+                    kiadásnak vagy a K-K1 (az Arany-javításokkal együtt) vagy a
+                            <bibl><abbr>61</abbr></bibl> lehetett az alapja. Mivel - amint azt az
+                    első kiadás korrektúrája kapcsán említettük - a K-Kl és a
+                        <bibl><abbr>61</abbr></bibl> szövegállapota között is mutatkoztak eltérések
+                            <persName>Aranynak<idno corresp="Arany János"/></persName> a fenn nem
+                    maradt korrektúraíveken végrehajtott további módosításai révén,
+                        <persName>Madách</persName> helyesen döntött, amikor a
+                        <bibl><abbr>61</abbr></bibl> nyomtatott szövegét vette alapszövegül.
+                    Egyetlen kéziratát azonban nem kérte vissza <persName>Aranytól<idno
+                            corresp="Arany János"/></persName>, az változatlanul
+                        <placeName>Pesten</placeName> maradt („...kéziratod nálam még használható
+                    állapotban megvan” - írta <persName>Arany<idno corresp="Arany János"
+                        /></persName><date when="1862-02-13">február 13-án</date>), s végül
+                            <persName>Aranytól<idno corresp="Arany János"/></persName> került a
+                            <orgName><abbr>KisfT</abbr></orgName> levéltárába és azzal együtt
+                    jelenlegi közgyűjteményi lelőhelyére. A <bibl><abbr>61</abbr></bibl> egyik
+                    tiszteletpéldányát használta kézipéldányul, ebbe jegyezte fekete ceruzával saját
+                    és <persName>Szász Károlytól</persName> kért-kapott javításait.</p>
+                <p xml:id="p.6">Emlékeztetünk rá, hogy
+                            <persName>Szász</persName><persName>Arany<idno corresp="Arany János"
+                        /></persName> helyett (l. a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#p.49">694.
+                        oldalt</ref>!) írta meg ismertető bírálatát a
+                        <title><abbr>SzF</abbr>-be</title> (nyolc részben jelent meg, <date
+                        from="1862-02-13" to="1862-04-03">1862. február 13. és április 3.
+                        között</date>). <persName>Madách</persName> bizalmát az szerezte meg, hogy
+                        <persName>Szász</persName> volt az egyetlen, aki két konkrét
+                    szövegkifogással élt, s rokonszenvét csak fokozta, hogy a <title>Kritikai
+                        Lapok</title><date when="1862-07-01">1862. július 1-jei</date> számában
+                    megvédte őt <persName>Zilahy Károly<idno type="ITIdata"
+                            >Q60931</idno></persName><title><hi rend="italic">Az ember
+                            tragédiájáról</hi></title> (<title><hi rend="italic"
+                        >Levéltöredék.</hi></title>) c. cikkével szemben. (A vitára l. a <title><hi
+                            rend="italic">Fogadtatás</hi></title> c. alfejezetet: <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#p.52"
+                        >690.</ref> és <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.12#p.56"
+                        >692.</ref>! ) Mindennek alapján kérte <persName>Madách</persName> -
+                    említett, <date when="1862-09-12"> szeptember 12</date>-i levelében - a
+                    szövegben a kritikában említettekhez „hasonló homályos helyek” kijelölését
+                        (<bibl>MÖM II. 945.<idno type="ITIdata">Q412729</idno></bibl>).
+                            <persName>Szász<idno corresp="Szász Károly"/></persName> - szüreti
+                    távolléte miatt - csak <date when="1862-10-06">október 6-án</date> válaszolt
+                    érdemben <placeName>Sztregovára<idno type="ITIdata">Q1731</idno></placeName>,
+                    ekkor közölte javítási javaslatait, szám szerint újabb 72-őt (<bibl>MÖM II.
+                            1122-1126.<idno type="ITIdata">Q412729</idno></bibl>). így a Szász-féle
+                    módosítási javaslatok száma összesen 74.</p>
+                <p xml:id="p.7"><persName>Madáchnak</persName> a javításokat tartalmazó kézipéldánya
+                    jelenleg (ismét) lappang. Az <date from="1930" to="1939">1930</date>-as években
+                        <persName>Klein Dezső<idno type="ITIdata"/></persName> műgyűjtő tulajdonában
+                    volt, aki készséggel bocsátotta az akkor fiatal bibliográfus, <persName>Kozocsa
+                            Sándor<idno type="ITIdata">Q46588</idno></persName> rendelkezésére,
+                    feldolgozás céljából. Ezeket a jegyzeteit közölte ő évtizedekkel később:
+                        <bibl>Kozocsa 1968 366-373.<idno type="ITIdata">Q469997</idno></bibl> Maga a
+                    példány is felbukkant <persName>Szabó Józsefnél<idno type="ITIdata"
+                            >Q333601</idno></persName> (vö. <bibl><title><hi rend="italic"
+                                >Madách-gyűjtemény Balassagyarmaton</hi></title>, Palócföld 1969/3.
+                        77</bibl>!), ám a győri <orgName>Xantus János Múzeumba</orgName>, ahová a
+                    Szabó-gyűjtemény leltározatlan állapotban került, a kollekció kétségkívül
+                    legértékesebb darabja már nem jutott el. Így munkánk során az MKSz-közleményt
+                    használtuk.</p>
+                <p xml:id="p.8">A <title><hi rend="italic">Tragédia</hi></title> második (és egyben
+                    szerzője életében utolsó) kiadásának szövegmunkáit <date from="1862-10-10"
+                        to="1862-10-28">1862. október 10. és október 28.</date> közé tehetjük,
+                    figyelembe véve a postajárást és a Sztregova-Pest kétnapos utazást is. Ez az
+                    intenzívebb periódus „bele is fér” <persName>Madách</persName> életrajzába: sem
+                    a kronológia (<bibl>Radó 1987 281.<idno type="ITIdata">Q470112</idno></bibl>),
+                    sem a két személyi okmánytár (<bibl>MID<idno type="ITIdata"
+                        >Q470047</idno></bibl>, <bibl>ÚMID<idno type="ITIdata"
+                    >Q470148</idno></bibl>) nem jelez ekkorról olyan tevékenységet, amely elvonta
+                    volna <persName>Madáchot</persName> a munkától. Ezért azt feltételezzük, hogy
+                    amikor <date when="1862-10-29">1862. október 29-én</date> vagy <date
+                        when="1862-10-30">30-án</date><placeName>Pestre</placeName> érkezett - útban
+                            <placeName>Nagyváradra<idno type="ITIdata">Q96</idno></placeName>, hogy
+                    magával hozza volt feleségétől, <persName>Fráter Erzsébettől<idno type="ITIdata"
+                            >Q254251</idno></persName><persName>Jolán<idno type="ITIdata"
+                            >Q469745</idno></persName> leányát -, magával hozhatta a
+                            <bibl><abbr>61</abbr></bibl> javított kézipéldányát, amely
+                            <persName>Emich<idno type="ITIdata">Q241231</idno></persName> számára
+                    kézirat helyett szolgált. A szerződés megkötésére <date when="1862-10-30">1862.
+                        október 30-án</date> került sor. <bibl>Radó (1987 276.)</bibl> a szöveget
+                    nem ismerve, egy levélbeli, a szerződés 1. pontjára történő hivatkozás alapján a
+                    megjegyzést „1862. július előttre” tette. A szerződés leírását l. <bibl>MKK
+                            519.<idno type="ITIdata">Q470077</idno></bibl>! Teljes szövege először
+                    csak a Madách-okmánytárban jelent meg (<bibl>ÚMID 306.<idno type="ITIdata"
+                            >Q470148</idno></bibl>), ezért itt újraközöljük.</p>
+                <milestone unit="emptyLine"/>
+                <p xml:id="p.9">„Szerződés</p>
+                <p xml:id="p.10">egy részt <persName>Madách Imre</persName> mint szerző, más részt
+                        <persName>Emich Gusztáv</persName> id. mint kiadó közt:</p>
+                <p xml:id="p.11">1. <persName>Madách Imre</persName> „<title>Az ember
+                        Tragédiája</title>” czimű művének második kiadását (az első kiadás a
+                    Kisfaludy-társaság kiadványa) eladja id. <persName>Emich Gusztávnak</persName>,
+                    ki <hi rend="italic">ezerötszáz</hi> példányt nyomtathat s ezért hatszáz
+                    o[sztrák]. é[rtékű]. forint díjat fizet a szerzőnek két rátában, jelesűl: 300
+                    f[orin]- tot 1863 évi junius 6<hi rend="super"><hi rend="underline"
+                    >án</hi></hi>, a második 300 forintot pedig 1863 december 24<hi rend="super"><hi
+                            rend="underline">én</hi></hi>; húsz példányt a szerzőnek küld s
+                    ezenkívül saját kiadványú művekből 40 f[orin]t értékű könyveket.</p>
+                <p xml:id="p.12">2. A kiállítás csinosságáról a kiadó kezeskedik, a correcturát és
+                    revisiót elvállalja s a példányok ára a kiállítás költségeihez képest később fog
+                    a kiadó és szerző közt megállapitatni.</p>
+                <p xml:id="p.13">3. Harmadik kiadás szükségének esetére, a szerző ezt 300 előleg
+                    lefizetendő forintért, új 1500 példányban, <persName>Emich Gusztáv</persName>nak
+                    kötelezi. Kelt, Pesten 1862 Oct. 30<hi rend="super"><hi rend="underline"
+                        >án</hi></hi></p>
+                <p xml:id="p.14"><persName>Emich Gusztáv</persName></p>
+                <p xml:id="p.15">m[int]. kiadó</p>
+                <p xml:id="p.16"><persName>Madách Imre</persName></p>
+                <p xml:id="p.17">mint szerző”</p>
+                <p xml:id="p.18">(„AZ <persName>EMICH GUSZTÁV</persName> MAGY. AKADÉMIAI
+                    KÖNYVNYOMDÁJA.” fejléces papíron készült szerződés: OSZK Kt. An. Lit. 3848.
+                        <persName>Madách</persName> aláírása autográf.)</p>
+                <p xml:id="p.19">A szerződésen olvasható még a második kiadás pénzügyi
+                    elszámolásának igazolása; ez a szövegrész teljes egészében autográf: „Fentebbi
+                    szerződés első két pontjából T. <persName>Emich Gusztáv</persName> urat kötelező
+                    feltételeknek nevezett Kiadó Ur hogy eleget tett elösmerem s ezennel nyugtatom.
+                    Kelt A. Sztregován, 1864 Feb 17<hi rend="super"><hi rend="underline"
+                        >én</hi></hi><persName>Madách Imre</persName>.” (A szerződésnek van továbbá
+                    egy pesti, <date when="1868-07-07">1868. július 7-i</date> záradéka, amelyben a
+                    visszavonuló <persName>Emich Gusztáv</persName> megbízásából fia a <title><hi
+                            rend="italic">Tragédia</hi></title> kiadói jogait az <orgName>Athenaeum
+                        Rt.</orgName>-re ruházta át.)</p>
+                <p xml:id="p.20">A szerződéshez néhány megjegyzést fűzhetünk.</p>
+                <p xml:id="p.21">- A tiszteletdíj nagyságát illetően igazolódtak
+                            <persName>Arany<idno corresp="Arany János"/></persName> levélbeli
+                    mondatai az első kiadásról: „...egy moralis testűlet kedvező fogadásában
+                    bizonynyal több volt rád nézve, mint ha könyvárus <hi rend="italic">még egyszer
+                        annyit</hi> fizetett volna.” (<bibl><title>Levele Madáchnak, Pest 1862.
+                            február 13.</title> - MÖM II. 1017.<idno type="ITIdata"
+                        >Q412729</idno></bibl> - Kiemelés tőlünk.)</p>
+                <p xml:id="p.22">- <persName>Madách</persName> elégedett volt ugyan az első kiadás
+                    kiállításával („a’ lehető legkedvesebb izlésemre is”), <persName>Arany<idno
+                            corresp="Arany János"/></persName> azonban nem. A Kazinczy
+                    Gábor-levélből idézett kifogásokat a betűtípusok megválasztásáról a szerzőnek is
+                    megismételte levelében (<bibl><title>Pest, 1862. március 6.</title> - MÖM II.
+                            1019.<idno type="ITIdata">Q412729</idno></bibl>), leszögezve mentségét:
+                    „De a társaságnak szerződése lévén <persName>Emich-hel</persName>, se papirja se
+                    kiállitása nem lehetett különb” - a 2. pont erre vonatkozik.</p>
+                <p xml:id="p.23">- Szokatlannak tűnhet az 1. pont kitétele az Emich-könyvek
+                    megküldéséről. <persName>Madách</persName> leveleiben és intézkedéseiben azonban
+                    vissza-visszatért a folyóirat-előfizetés és a könyvtárgyarapítás
+                            <placeName>Sztregováról<idno type="ITIdata">Q1731</idno></placeName>
+                    nehezen lebonyolítható problémája, sőt a <title><hi rend="italic"
+                        >Tragédia</hi></title> második kiadása honoráriumának első rátájával is
+                    hasonlót tervezett, vö. levelével <persName>Nagy Ivánnak<idno type="ITIdata"
+                            >Q249885</idno></persName> (<bibl><title>Alsósztregova, 1863. szeptember
+                            9.</title> - MÖM II. 935.<idno type="ITIdata"
+                    >Q412729</idno></bibl>)!</p>
+                <p xml:id="p.24">- Végül: hiányzik a szerződésből a „kézirat” átadásának
+                    szabályozása, amit közvetett bizonyítéknak látunk amellett, hogy
+                        <persName>Madách</persName> a <bibl><abbr>61</abbr></bibl> javított
+                    kézipéldányát már át is adta a kiadónak. (Ugyanerre látszik utalni, hogy
+                            <persName>Kozocsa<idno type="ITIdata">Q46588</idno></persName> szerint -
+                        <bibl>1968 366.<idno type="ITIdata">Q469997</idno></bibl> - a
+                            <bibl><abbr>61</abbr></bibl> kézipéldányán neve alá odajegyezte: „a Kisf
+                    társ. tagja.” Későbbi átadás esetén az <date when="1863-01-13">1863. január
+                        13-án</date> megkapott MTA levelező tagságot is feltüntette volna. A második
+                    kiadás - a továbbiakban: <bibl><abbr>63</abbr></bibl> - címlapjáról a kívánt
+                    irodalmi rang egyébként elmaradt.)</p>
+                <p xml:id="p.25"><persName>Madách</persName> - nyilván a
+                        <bibl><abbr>61</abbr></bibl> erőltetett ütemű nyomdai előállítására gondolva
+                    - hamari megjelenésben reménykedett. Olyannyira, hogy <persName>Szász
+                        Károlynak</persName> nem is köszönte meg <date when="1862">1862-ben</date> a
+                    javítási javaslatokat; azt dedikált tiszteletpéldánnyal szándékozván megtenni.
+                        <date when="1863-02-01">1863. február 1-jén</date> azonban már nem várhatott
+                    tovább, mivel „...a kiadás olly sokára halad, hogy már kénytelen vagyok ezt
+                    megelőzve e’ néhány sorral legalább egy forró kézszorítást küldeni addig is...”
+                        (<bibl>MÖM II. 946.<idno type="ITIdata">Q412729</idno></bibl>)
+                        <persName>Emich</persName> egyébként csak szokásos üzletpolitikáját követte,
+                    aminek sarkalatos elve volt, hogy a nevezetes újdonságokkal az évi négy országos
+                    vásár időpontjaira rukkolt elő. (Így járt el <date when="1847"
+                            >1847-ben</date><persName>Petőfi<idno type="ITIdata"
+                        >Q149546</idno></persName><title><hi rend="italic">Összes
+                        költeményei</hi></title>vel is.) A szerződés szerinti első fizetési
+                    kötelezettség olyan időpontú, hogy abba még a <date when="1863-06"
+                        >júniusi</date>, Medárd-napi vásár is belefér - szerencsére a megjelenéssel
+                        <persName>Emich</persName> nem várt addig.</p>
+                <p xml:id="p.26">A <bibl><abbr>63</abbr></bibl> pontos megjelenési napját nem
+                    ismerjük. <persName>Madách</persName> végül <date when="1863-03-18">1863.
+                        március 18-án</date> postázhatta <persName>Szász Károlynak</persName> a
+                    köszönetnyilvánító levelet és a tiszteletpéldányt (<bibl>MÖM II. 947.<idno
+                            type="ITIdata">Q412729</idno></bibl>) Figyelembe véve a
+                        <placeName>Pest</placeName>-<placeName>Sztregova</placeName> postázást, a
+                    megjelenést <date when="1863-03-10">1863. március 10.</date> körülre tehetjük
+                    (vö. <bibl>Radó 1987 290.<idno type="ITIdata">Q470112</idno></bibl> óvatosabb
+                    véleményével: „1863. III. 18. előtt”!), azaz a megjelentetés a <date
+                        when="1863-03">márciusi</date>, József-napi vásárra történt.</p>
+                <p xml:id="p.27">Semmiféle adatunk nincs <bibl>Madách</bibl> és
+                        <persName>Emich</persName> munkakapcsolatáról; ilyet a szerződés 2.
+                    pontjának kizáró megfogalmazása szerint nem is feltételezhetünk. Az utókor
+                    textológiai véleménye szerint a korrektúrázás átengedése hibának bizonyult. Noha
+                        <persName>Emich</persName> „magyar akadémiai nyomdász” alaposan dolgozott,
+                    ez nem érhetett föl <persName>Arany János</persName> három
+                    korrektúra-fordulójának alaposságával. Ezért már a
+                        <bibl><abbr>63-ban</abbr></bibl> megkezdődött a (zömmel ritmikai)
+                    szövegromlás, amely utóbb, felgyorsulva, az „igen rossz verselő
+                        <persName>Madách</persName>” minősítéshez vezetett. Annak sincs nyoma, hogy
+                        <persName>Emich</persName> az árat (a kötet 1 forint 80 krajcárba került)
+                    egyeztette volna a szerzővel.</p>
+                <p xml:id="p.28"><title>AZ | EMBER TRAGÉDIÁJA</title>. | DRÁMAI KÖLTEMÉNY. | IRTA |
+                        <persName>MADÁCH IMRE</persName>. | (MÁSODIK TETEMESEN JAVÍTOTT KIADÁS.) |
+                    PEST, | <persName>EMICH GUSZTÁV</persName> SAJÁTJA. | MDCCCLXIII.</p>
+                <p xml:id="p.29">A nagy tapasztalatú <persName>Emich</persName> rutinosan dolgozott:
+                    megőrizte a <bibl><abbr>61</abbr></bibl> tördelését, legfeljebb néhány sor
+                    áttördelést alkalmazott, így mind a <bibl><abbr>61</abbr></bibl>, mind a
+                            <bibl><abbr>63</abbr></bibl> 218 számozott lapot tartalmazott. (Az
+                    áttördelésekről a SZÖVEGÁLLAPOTOK lapalji jegyzeteiben adunk számot.) A nagyobb
+                    formátum, a megfelelő betűtípusok alkalmazása - az azonos tördelés ellenére - az
+                    olvasókban a „Kiállítása az előzőnél sokkal díszesebb” (<bibl>VU 1863. 25. sz.
+                        április 5. 125.</bibl>) benyomását keltette.</p>
+                <p xml:id="p.30">A <bibl><abbr>63</abbr></bibl> tiszteletpéldányainak nyomon
+                    követésére eddigelé nem történt kísérlet. A kötet honoráriumügyei azonban
+                    elhúzódtak. Az országos aszály miatt ínséges <date when="1863">1863.</date>
+                    évben <persName>Emich</persName> késve fizetett, a köszvénnyel betegeskedő
+                        <persName>Madách</persName> pedig <date when="1863-09-09">1863. szeptember
+                        9-én</date><persName>Nagy Ivánt<idno type="ITIdata"
+                        >Q249885</idno></persName> kérte meg az első ráta 300 forintjának
+                    felvételére. Hangja az újabb, <date when="1863-11-01">november 1-jei</date>
+                    levélben kétségbeesettre váltott, <date when="1863-11-04">november 4-én</date> a
+                    pesti takarékpénztárnál 120 forintos váltója járt volna le:
+                        „...<persName>Emichnek</persName> mond el e körülményt s ha ő lenne oka,
+                    hogy ily kellemetlenségbe jőjek, ezt nekie soha nem bírnám megbocsájtani s
+                    valóban nem illő cselekedete lenne. - (...) az itteni pénz szükséget lehetetlen
+                    le írni.” (<bibl>MÖM II. 935-936.<idno type="ITIdata">Q412729</idno></bibl>) Az
+                    eset <date when="1864">1864-ben</date> megismétlődött: <date when="1864-02-17"
+                        >február 17-én</date> ismét <persName>Nagy Ivánt</persName> kérte
+                    közbenjárásra. A honorárium második hányada egy újabb, 240 forintos váltó
+                    kiegyenlítésére kellett. (<bibl>MÖM II. 936.<idno type="ITIdata"
+                        >Q412729</idno></bibl> - Ennek a levélnek volt melléklete a fentebb közölt
+                    szerződés a kifizetés előlegezett igazolásával. Az utóbbi külön közölve:
+                        <bibl>ÚMID 311.<idno type="ITIdata">Q470148</idno></bibl>; dátumhibával,
+                        <date when="1864-02-11">február 1<hi rend="italic">l</hi>-nek</date>
+                    olvasva.) Noha a két honoráriumügylet részleteiről nem rendelkezünk
+                    dokumentumokkal vagy adatokkal, <persName>Emich<idno corresp="Emich Gusztáv"
+                        /></persName> korrektségéről (akit annak idején <persName>Petőfi<idno
+                            corresp="Petőfi Sándor"/></persName> ajánlott e tulajdonsága miatt
+                    kiadóul <persName>Aranynak<idno corresp="Arany János"/></persName>) nem lehetnek
+                    kétségeink. Ellenkező esetben aligha tervezte volna <persName>Madách</persName>,
+                    hogy a <title><hi rend="italic">Tündérálom</hi></title> második kiadását és
+                    összegyűjtött verseit is nála jelenteti meg (<bibl>MÖM II. 937.<idno
+                            type="ITIdata">Q412729</idno></bibl>). Az előbbi megírására, az utóbbiak
+                    sajtó alá rendezésére éppúgy nem kerülhetett már sor, mint <title><hi
+                            rend="italic">Az ember tragédiája</hi></title> szerzője életében
+                    harmadik kiadására.</p>
+                <p xml:id="p.31"><date when="1864-10-15">1864. október 15-én</date>, amikor az
+                    újságok még javában közöltek nekrológokat, keretezett hirdetés jelent meg
+                        <title>A Hon</title> c. lapban, amelyet <persName>Emich</persName> tett
+                    közzé, hírlelve benne a 3 forintba kerülő „díszkiadás”-t, amely mellett kaphatók
+                    a <bibl><abbr>63</abbr></bibl> fűzött, 1 forint 80 krajcáros példányai is. (A
+                    „díszkiadás” mibenlétére az <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.15"><title><hi
+                                rend="italic">Illusztráció</hi></title></ref> c. alfejezetben térünk
+                    vissza.) További kiadástörténeti vizsgálódásnak kell majd a jövőben eldöntenie,
+                    hogy <persName>Emich</persName><persName>Madách</persName> halálhírére - ezt
+                    először a <title>Magyar Sajtó</title> c. lap tette közzé <date when="1864-10-07"
+                        >október 7-én</date> - reagált-e ezzel, vagy pedig (és ez a valószínűbb)
+                    ekkorra sikerült megszereznie, a halálesettől függetlenül, <persName>Than
+                            Mór<idno type="ITIdata">Q151529</idno></persName> festménye
+                    metszetváltozatának címlapjogát, ami persze jóval korábbi előkészületeket és
+                    tárgyalásokat igényelt. <persName>Emich</persName> mindkét esetben a
+                            <bibl><abbr>63</abbr></bibl> eszerint még szép számban raktáron lévő
+                    példányait használhatta fel. Ezért a „díszkiadást” nem tekintjük külön
+                    edíciónak, nem feltételezhetjük az utánnyomást sem, hanem csupán a
+                            <bibl><abbr>63</abbr></bibl> címlapkiadásáról beszélhetünk.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

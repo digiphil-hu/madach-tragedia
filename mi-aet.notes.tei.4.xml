@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="4" type="main">Egyéb rövidítések</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.4</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.4.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>641-642.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEIXML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Egyéb rövidítések</head>
+                <list xml:id="list.1">
+                    <item xml:id="item.1"><p xml:id="p.1"><abbr>a. m.</abbr></p><p xml:id="p.2"
+                            >annyi mint</p></item>
+                    <item xml:id="item.2"><p xml:id="p.3"><abbr>ang.</abbr></p><p xml:id="p.4"
+                            >angol</p></item>
+                    <item xml:id="item.3"><p xml:id="p.5"><abbr>bevez.</abbr></p><p xml:id="p.6"
+                            >bevezette</p></item>
+                    <item xml:id="item.4"><p xml:id="p.7"><abbr>Bp.</abbr></p><p xml:id="p.8"
+                                    ><placeName>Budapest<idno type="ITIdata"
+                            >Q93</idno></placeName></p></item>
+                    <item xml:id="item.5"><p xml:id="p.9"><abbr>br.</abbr></p><p xml:id="p.10"
+                            >báró</p></item>
+                    <item xml:id="item.6"><p xml:id="p.11"><abbr>c.</abbr></p><p xml:id="p.12"
+                            >című</p></item>
+                    <item xml:id="item.7"><p xml:id="p.13"><abbr>cm</abbr></p><p xml:id="p.14"
+                            >centiméter</p></item>
+                    <item xml:id="item.8"><p xml:id="p.15"><abbr>er.</abbr></p><p xml:id="p.16"
+                            >eredetileg</p></item>
+                    <item xml:id="item.9"><p xml:id="p.17"><abbr>f.</abbr></p><p xml:id="p.18"
+                            >fólió</p></item>
+                    <item xml:id="item.10"><p xml:id="p.19"><abbr>felv.</abbr></p><p xml:id="p.20"
+                            >felvonás</p></item>
+                    <item xml:id="item.11"><p xml:id="p.21"><abbr>ford.</abbr></p><p xml:id="p.22"
+                            >fordította</p></item>
+                    <item xml:id="item.12"><p xml:id="p.23"><abbr>fr.</abbr></p><p xml:id="p.24"
+                            >francia</p></item>
+                    <item xml:id="item.13"><p xml:id="p.25"><abbr>gör.</abbr></p><p xml:id="p.26"
+                            >görög</p></item>
+                    <item xml:id="item.14"><p xml:id="p.27"><abbr>h.</abbr></p><p xml:id="p.28"
+                            >hasáb</p></item>
+                    <item xml:id="item.15"><p xml:id="p.29"><abbr>i. e.</abbr></p><p xml:id="p.30"
+                            >időszámítás előtt</p></item>
+                    <item xml:id="item.16"><p xml:id="p.31"><abbr>i. m.</abbr></p><p xml:id="p.32"
+                            >idézett mű</p></item>
+                    <item xml:id="item.17"><p xml:id="p.33"><abbr>i. sz.</abbr></p><p xml:id="p.34"
+                            >időszámítás szerint</p></item>
+                    <item xml:id="item.18"><p xml:id="p.35"><abbr>id.</abbr></p><p xml:id="p.36"
+                            >idézett</p></item>
+                    <item xml:id="item.19"><p xml:id="p.37"><abbr>ill.</abbr></p><p xml:id="p.38"
+                            >illetve</p></item>
+                    <item xml:id="item.20"><p xml:id="p.39"><abbr>ism.</abbr></p><p xml:id="p.40"
+                            >ismertetve</p></item>
+                    <item xml:id="item.21"><p xml:id="p.41"><abbr>jegyz.</abbr></p><p xml:id="p.42"
+                            >jegyzetelte</p></item>
+                    <item xml:id="item.22"><p xml:id="p.43"><abbr>k.</abbr></p><p xml:id="p.44"
+                            >kötet</p></item>
+                    <item xml:id="item.23"><p xml:id="p.45"><abbr>klny.</abbr></p><p xml:id="p.46"
+                            >különnyomat</p></item>
+                    <item xml:id="item.24"><p xml:id="p.47"><abbr>krk.</abbr></p><p xml:id="p.48"
+                            >kritikai kiadás</p></item>
+                    <item xml:id="item.25"><p xml:id="p.49"><abbr>Kt.</abbr>, <abbr>kt.</abbr></p><p
+                            xml:id="p.50">kézirattár</p></item>
+                    <item xml:id="item.26"><p xml:id="p.51"><abbr>l.</abbr></p><p xml:id="p.52"
+                            >lásd!</p></item>
+                    <item xml:id="item.27"><p xml:id="p.53"><abbr>lat.</abbr></p><p xml:id="p.54"
+                            >latin</p></item>
+                    <item xml:id="item.28"><p xml:id="p.55"><abbr>ltsz.</abbr></p><p xml:id="p.56"
+                            >leltári szám</p></item>
+                    <item xml:id="item.29"><p xml:id="p.57"><abbr>MTA</abbr></p><p xml:id="p.58"
+                                ><orgName>Magyar Tudományos Akadémia<idno type="ITIdata"
+                                >Q86</idno></orgName></p></item>
+                    <item xml:id="item.30"><p xml:id="p.59"><abbr>MTAK</abbr></p><p xml:id="p.60">a
+                                <orgName>Magyar Tudományos Akadémia Könyvtára<idno type="ITIdata"
+                                    >Q2263</idno></orgName>, <placeName><abbr>Bp.</abbr><idno
+                                    corresp="Budapest"/></placeName></p></item>
+                    <item xml:id="item.31"><p xml:id="p.61"><abbr>mm</abbr></p><p xml:id="p.62"
+                            >milliméter</p></item>
+                    <item xml:id="item.32"><p xml:id="p.63"><abbr>ném.</abbr></p><p xml:id="p.64"
+                            >német</p></item>
+                    <item xml:id="item.33"><p xml:id="p.65"><abbr>OSZK</abbr></p><p xml:id="p.66"
+                                ><orgName>Országos Széchényi Könyvtár<idno type="ITIdata"
+                                    >Q1667</idno></orgName>, <placeName><abbr>Bp.</abbr><idno
+                                    corresp="Budapest"/></placeName></p></item>
+                    <item xml:id="item.34"><p xml:id="p.67"><abbr>összeáll.</abbr></p><p
+                            xml:id="p.68">összeállította</p></item>
+                    <item xml:id="item.35"><p xml:id="p.69"><abbr>PIM</abbr></p><p xml:id="p.70"
+                                ><orgName>Petőfi Irodalmi Múzeum<idno type="ITIdata"
+                                >Q2292</idno></orgName>, <placeName><abbr>Bp.</abbr><idno
+                                    corresp="Budapest"/></placeName></p></item>
+                    <item xml:id="item.36"><p xml:id="p.71"><abbr>r.</abbr></p><p xml:id="p.72"
+                            >rektó</p></item>
+                    <item xml:id="item.37"><p xml:id="p.73"><abbr>s. a. r.</abbr></p><p
+                            xml:id="p.74">sajtó alá rendezte</p></item>
+                    <item xml:id="item.38"><p xml:id="p.75"><abbr>sh.</abbr></p><p xml:id="p.76"
+                            >sajtóhiba</p></item>
+                    <item xml:id="item.39"><p xml:id="p.77"><abbr>szerk.</abbr></p><p xml:id="p.78"
+                            >szerkesztette</p></item>
+                    <item xml:id="item.40"><p xml:id="p.79"><abbr>th.</abbr></p><p xml:id="p.80"
+                            >tollhiba</p></item>
+                    <item xml:id="item.41"><p xml:id="p.81"><abbr>ti.</abbr></p><p xml:id="p.82"
+                            >tudniillik</p></item>
+                    <item xml:id="item.42"><p xml:id="p.83"><abbr>tkp.</abbr></p><p xml:id="p.84"
+                            >tulajdonképpen</p></item>
+                    <item xml:id="item.43"><p xml:id="p.85"><abbr>ui.</abbr></p><p xml:id="p.86"
+                            >ugyanis</p></item>
+                    <item xml:id="item.44"><p xml:id="p.87"><abbr>ÚjF</abbr></p><p xml:id="p.88">új
+                            folyam</p></item>
+                    <item xml:id="item.45"><p xml:id="p.89"><abbr>uo.</abbr></p><p xml:id="p.90"
+                            >ugyanott</p></item>
+                    <item xml:id="item.46"><p xml:id="p.91"><abbr>v.</abbr></p><p xml:id="p.92"
+                            >verzó</p></item>
+                    <item xml:id="item.47"><p xml:id="p.93"><abbr>vlsz.</abbr></p><p xml:id="p.94"
+                            >valószínűleg</p></item>
+                    <item xml:id="item.48"><p xml:id="p.95"><abbr>vö.</abbr></p><p xml:id="p.96"
+                            >vesd össze!</p></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

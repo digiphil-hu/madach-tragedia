@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="2" type="main">A szövegforrások és a felhasznált irodalom
+                    rövidítései</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.2</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.2.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>629-639.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEIXML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">A szövegforrások és a felhasznált irodalom rövidítései</head>
+                <list xml:id="list.1">
+                    <item xml:id="item.1"><p xml:id="p.1">AJÖM VII.</p><p xml:id="p.2"
+                                    ><bibl><title>Arany János összes művei</title>. Krk. VII.
+                                    <title>Drámafordítások</title> 1., s. a. r. Ruttkay Kálmán, Bp.
+                                    1961.<idno type="ITIdata">Q347916</idno></bibl></p></item>
+                    <item xml:id="item.2"><p xml:id="p.3">AJÖM XI.</p><p xml:id="p.4"
+                                    ><bibl><title>Arany János összes művei</title>. Krk. XI.
+                                    <title>Prózai művek 2.</title> 1860-1882, s. a. r. Németh G.
+                                Béla, Bp. 1968.<idno type="ITIdata">Q347963</idno></bibl></p></item>
+                    <item xml:id="item.3"><p xml:id="p.5">AJÖM XII.</p><p xml:id="p.6"
+                                    ><bibl><title>Arany János összes művei</title>. Krk. XII.
+                                    <title>Prózai művek 3</title>, s. a. r. Németh G. Béla, Bp.
+                                    1963.<idno type="ITIdata">Q347965</idno></bibl></p></item>
+                    <item xml:id="item.4"><p xml:id="p.7">AJÖM XIII.</p><p xml:id="p.8"
+                                    ><bibl><title>Arany János összes művei</title>. Krk. XIII.
+                                    <title>Hivatali iratok I.</title> 1831-1865, kiad. Dánielisz
+                                Endre, Toros László, Gergely Pál, Bp. 1966.<idno type="ITIdata"
+                                    >Q347966</idno></bibl></p></item>
+                    <item xml:id="item.5"><p xml:id="p.9">AJÖM XVII.</p><p xml:id="p.10"
+                                    ><bibl><title>Arany János összes művei</title>. Krk. XVII.
+                                    <title>Levelezés 3.</title> (1857-1861), s. a. r. Korompay H.
+                                János, Bp. 2004.<idno type="ITIdata"
+                        >Q338268</idno></bibl></p></item>
+                    <item xml:id="item.6"><p xml:id="p.11">Alexander 1900</p><p xml:id="p.12"
+                                ><bibl>Madách Imre: <title>Az ember tragédiája</title>. Jegyzetekkel
+                                és magyarázatokkal kiad. Alexander Bernát, Bp. 1900.<idno
+                                    type="ITIdata">Q469796</idno></bibl></p></item>
+                    <item xml:id="item.7"><p xml:id="p.13">Andor 1998</p><p xml:id="p.14"
+                                ><bibl>Andor Csaba: <title>Ki írta Az ember tragédiáját?</title>
+                                    =<title>Ismeretlen epizódok Madách életéből</title>, Bp. 1998.
+                                (MK ÚJF 9.) 197-225.<idno type="ITIdata"
+                        >Q469797</idno></bibl></p></item>
+                    <item xml:id="item.8"><p xml:id="p.15">Andor 2000</p><p xml:id="p.16"
+                                ><bibl>Andor Csaba: <title>A siker éve: 1861. Madách élete</title>.
+                                Bp. 2000.<idno type="ITIdata">Q469798</idno></bibl></p></item>
+                    <item xml:id="item.9"><p xml:id="p.17">Arany 1982</p><p xml:id="p.18"
+                                    ><bibl><title>Arany János leveleskönyve</title>, vál., szerk.,
+                                bevezetőt és a mutatókat készítette Sáfrán Györgyi, Bp. 1982.<idno
+                                    type="ITIdata">Q469799</idno></bibl></p></item>
+                    <item xml:id="item.10"><p xml:id="p.19">Arany 1993</p><p xml:id="p.20"
+                                ><bibl>Arany János: <title>„Tisztelt írótárs!” Kötetben még nem
+                                    szereplő kritikai írások, glosszák</title>, szerk. és jegyz.
+                                Kovács Sándor Iván, Bp. Magyar Irodalomtörténeti Társaság 1993.<idno
+                                    type="ITIdata">Q469801</idno></bibl></p></item>
+                    <item xml:id="item.11"><p xml:id="p.21">Ath</p><p xml:id="p.22"
+                                    ><bibl><title>Athenaeum</title><idno type="ITIdata"
+                                    >Q327795</idno></bibl></p></item>
+                    <item xml:id="item.12"><p xml:id="p.23">Babits 1923</p><p xml:id="p.24"
+                                ><bibl>Babits Mihály: <title>Előszó egy új Madách-kiadáshoz</title>,
+                                Ny 1923.1. 170-172.<idno type="ITIdata"
+                        >Q469802</idno></bibl></p></item>
+                    <item xml:id="item.13"><p xml:id="p.25">Balogh 1934</p><p xml:id="p.26"
+                                ><bibl>Balogh [III.] Károly: <title>Madách[,] a költő és az
+                                    ember</title>, Bp. [1934.]<idno type="ITIdata"
+                                >Q469804</idno></bibl></p></item>
+                    <item xml:id="item.14"><p xml:id="p.27">Balogh 1996</p><p xml:id="p.28"
+                                ><bibl>Balogh [II.] Károly: <title>Gyermekkorom emlékei</title>, Bp.
+                                1996. (MK ÚJF 6.)<idno type="ITIdata"
+                        >Q469805</idno></bibl></p></item>
+                    <item xml:id="item.15"><p xml:id="p.29">Baránszky 1974</p><p xml:id="p.30"
+                                ><bibl>Baránszky Jób László: <title>Az ember tragédiája
+                                    szerkezetei</title>, ItK 1974. 358-371.<idno type="ITIdata"
+                                    >Q469806</idno></bibl></p></item>
+                    <item xml:id="item.16"><p xml:id="p.31">Baranyi 1963a</p><p xml:id="p.32"
+                                ><bibl>Baranyi Imre: <title>A fiatal Madách gondolatvilága (Madách
+                                    és az Athenaeum)</title>, Bp. 1963. (ItFüz 42.)<idno
+                                    type="ITIdata">Q393102</idno></bibl></p></item>
+                    <item xml:id="item.17"><p xml:id="p.33">Baranyi 1963b</p><p xml:id="p.34"
+                                ><bibl>Baranyi Imre: <title>Az ember tragédiája és a pozitivista
+                                    forráskutatás</title>, StudLit 1963. 101-123.<idno
+                                    type="ITIdata">Q469809</idno></bibl></p></item>
+                    <item xml:id="item.18"><p xml:id="p.35">Bárdos 2001</p><p xml:id="p.36"
+                                ><bibl>Bárdos József: <title>Szabadon bűn és erény közt</title>, Bp.
+                                2001. (MK ÚJF 24.)<idno type="ITIdata"
+                        >Q469810</idno></bibl></p></item>
+                    <item xml:id="item.19"><p xml:id="p.37">Barta 1942</p><p xml:id="p.38"
+                                ><bibl>Barta János: <title>Madách Imre</title>, Bp. [1942.] (Magyar
+                                    írók)<idno type="ITIdata">Q469811</idno></bibl></p></item>
+                    <item xml:id="item.20"><p xml:id="p.39">Becker 1908</p><p xml:id="p.40"
+                                ><bibl>Becker Hugó: <title>Madách lírája és Az ember
+                                    tragédiája</title>, Szeged 1908. (Segédkönyvek a magyar irodalmi
+                                oktatáshoz 7.)<idno type="ITIdata">Q469812</idno></bibl></p></item>
+                    <item xml:id="item.21"><p xml:id="p.41">Belohorszky 1971</p><p xml:id="p.42"
+                                ><bibl>Belohorszky Pál: <title>Madách és Kierkegaard</title>, It
+                                1971. 886-896.<idno type="ITIdata">Q469814</idno></bibl></p></item>
+                    <item xml:id="item.22"><p xml:id="p.43">Belohorszky 1973</p><p xml:id="p.44"
+                                ><bibl>Belohorszky Pál: <title>Madách és a bűntudat
+                                    filozófiája</title>, It 1973. 883-902.<idno type="ITIdata"
+                                    >Q469815</idno></bibl></p></item>
+                    <item xml:id="item.23"><p xml:id="p.45">Bíró 2004</p><p xml:id="p.46"><bibl>Bíró
+                                Béla: <title>Madách és az „egyezményes filozófia”</title>. Liget
+                                2004/10. 44-57.<idno type="ITIdata">Q469816</idno></bibl></p></item>
+                    <item xml:id="item.24"><p xml:id="p.47">Bodor 1905</p><p xml:id="p.48"
+                                ><bibl>Bodor Aladár: <title>Az ember tragédiája mint az egyén
+                                    tragédiája</title>, Bp. 1905.<idno type="ITIdata"
+                                >Q469817</idno></bibl></p></item>
+                    <item xml:id="item.25"><p xml:id="p.49">Bogoly 1994</p><p xml:id="p.50"
+                                ><bibl>Bogoly József Ágoston: <title>Tolnai Vilmos, Az ember
+                                    tragédiája első kritikai kiadásának létrehozója</title>, MKSz
+                                    281-291.<idno type="ITIdata">Q469818</idno></bibl></p></item>
+                    <item xml:id="item.26"><p xml:id="p.51">BpSz</p><p xml:id="p.52"
+                                ><title>Budapesti Szemle<idno type="ITIdata"
+                            >Q327255</idno></title></p></item>
+                    <item xml:id="item.27"><p xml:id="p.53">BUKSZ 1997</p><p xml:id="p.54"
+                                ><bibl>Kerényi Ferenc: <title>Védtelen klasszikusok</title>, BUKSZ
+                                (Budapesti Könyvszemle) 1997. 52-57.<idno type="ITIdata"
+                                    >Q469819</idno></bibl>; <bibl>Striker Sándor: <title>Levédett
+                                    klasszikusok - avagy a kákán is csomó</title>, BUKSZ 1997.
+                                    128-131.<idno type="ITIdata">Q469821</idno></bibl>;
+                                <bibl>Kerényi Ferenc: <title>(Nem) válasz</title>, BUKSZ 1997.
+                                    131.<idno type="ITIdata">Q469822</idno></bibl></p></item>
+                    <item xml:id="item.28"><p xml:id="p.55">Cennerné 1982</p><p xml:id="p.56"
+                                ><bibl>Cennerné Wilhelmb Gizella: <title>Than Mór (1828-
+                                    1890)</title>, Bp. 1982.<idno type="ITIdata"
+                                >Q469832</idno></bibl></p></item>
+                    <item xml:id="item.29"><p xml:id="p.57">Czeizel 1980</p><p xml:id="p.58"
+                                ><bibl>Czeizel Endre: <title>Az orvos-genetikus szemével</title>,
+                                Bp. 1980.<idno type="ITIdata">Q469833</idno></bibl></p></item>
+                    <item xml:id="item.30"><p xml:id="p.59">Czeizel 2001</p><p xml:id="p.60"
+                                ><bibl>Czeizel Endre: <title>Aki költő akar lenni, pokolra kell
+                                    annak menni?</title>. Bp. 2001.<idno type="ITIdata"
+                                    >Q329621</idno></bibl></p></item>
+                    <item xml:id="item.31"><p xml:id="p.61">CzF</p><p xml:id="p.62"><bibl>Czuczor
+                                Gergely-Fogarasi János: <title>A magyar nyelv szótára I-VI.</title>
+                                Pest 1862-1874.<idno type="ITIdata">Q329603</idno></bibl></p></item>
+                    <item xml:id="item.32"><p xml:id="p.63">Czilchert 1838</p><p xml:id="p.64"
+                                ><bibl>Czilchert Róbert: <title>Az általános elszegényedés és a
+                                    párisi szegénybeteg intézetek</title>, Ath 1838. II. 157-162. és
+                                169-177. h.<idno type="ITIdata">Q469836</idno></bibl></p></item>
+                    <item xml:id="item.33"><p xml:id="p.65">Czóbel 1912</p><p xml:id="p.66"
+                                ><bibl>Czóbel Ernő: <title>Madách és Cormenin-Timon</title>, EPhK
+                                    1912.860-864.<idno type="ITIdata"
+                        >Q469838</idno></bibl></p></item>
+                    <item xml:id="item.34"><p xml:id="p.67">Cs/ÖM V.</p><p xml:id="p.68"
+                                    ><bibl><title>Csokonai Vitéz Mihály összes művei</title>. Krk.
+                                    <title>Költemények 5.</title> 1800-1805, s. a. r. Szilágyi
+                                Ferenc, Bp. 2002.<idno type="ITIdata"
+                        >Q348456</idno></bibl></p></item>
+                    <item xml:id="item.35"><p xml:id="p.69">Dénes 1925</p><p xml:id="p.70"
+                                ><bibl>Dénes Szilárd: <title>Arany János és Az ember tragédiája
+                                    stílusa</title>, MNy 1925. 35-42.<idno type="ITIdata"
+                                    >Q405741</idno></bibl></p></item>
+                    <item xml:id="item.36"><p xml:id="p.71">Dobossy 1958</p><p xml:id="p.72"
+                                ><bibl>Dobossy László: <title>Adalék Az ember tragédiája falanszter-
+                                    jelenetének magyarázataihoz</title>, It 1958. 149-151.<idno
+                                    type="ITIdata">Q469844</idno></bibl></p></item>
+                    <item xml:id="item.37"><p xml:id="p.73">Eisemann 1992</p><p xml:id="p.74"
+                                ><bibl>Eisemann György: <title>Létértelmező motívumok Az ember
+                                    tragédiájában</title>, It 1992. 1-26.<idno type="ITIdata"
+                                    >Q469845</idno></bibl></p></item>
+                    <item xml:id="item.38"><p xml:id="p.75">Elek 1941</p><p xml:id="p.76"><bibl>Elek
+                                Oszkár: <title>Izóra Az ember tragédiájában</title>, It 1941.
+                                    65-68.<idno type="ITIdata">Q469846</idno></bibl></p></item>
+                    <item xml:id="item.39"><p xml:id="p.77">Élk</p><p xml:id="p.78"
+                                ><title>Életképek</title><idno type="ITIdata"
+                        >Q327440</idno></p></item>
+                    <item xml:id="item.40"><p xml:id="p.79">Eötvös 1852</p><p xml:id="p.80"
+                                ><bibl>Eötvös József: <title>A karthausi I-II.</title>, Pest
+                                    1852.<idno type="ITIdata">Q469847</idno></bibl></p></item>
+                    <item xml:id="item.41"><p xml:id="p.81">Eötvös 1854</p><p xml:id="p.82"
+                                ><bibl>Eötvös József: <title>A XIX. század uralkodó eszméinek
+                                    befolyása az álladalomra I-II.</title>, Pest 1854.<idno
+                                    type="ITIdata">Q469848</idno></bibl></p></item>
+                    <item xml:id="item.42"><p xml:id="p.83">EPhK</p><p xml:id="p.84"
+                                ><title>Egyetemes Philologiai Közlöny</title><idno type="ITIdata"
+                                >Q327459</idno></p></item>
+                    <item xml:id="item.43"><p xml:id="p.85">Erdélyi 1991</p><p xml:id="p.86"
+                                ><bibl>Erdélyi János: <title>Irodalmi tanulmányok és
+                                    pályaképek</title>, s. a. r. és a jegyzeteket írt T. Erdélyi
+                                Ilona, Bp. 1991. (Fontes 14.)<idno type="ITIdata"
+                                >Q469849</idno></bibl></p></item>
+                    <item xml:id="item.44"><p xml:id="p.87">Erdélyi K. 1895</p><p xml:id="p.88"
+                                ><bibl>Erdélyi Károly: <title>Madách és fordítói</title>. Magyar
+                                Szemle 1895. 7. sz. 74-75. és 8. sz. 86-88.<idno type="ITIdata"
+                                    >Q469916</idno></bibl></p></item>
+                    <item xml:id="item.45"><p xml:id="p.89">ErdLev</p><p xml:id="p.90"
+                                    ><bibl><title>Erdélyi János levelezése I-II</title>, s. a. r. és
+                                jegyzeteket írta T. Erdélyi Ilona, Bp. 1960-1962. (Fontes 2-3.)<idno
+                                    type="ITIdata">Q329605</idno></bibl></p></item>
+                    <item xml:id="item.46"><p xml:id="p.91">Fáj 1992</p><p xml:id="p.92"><bibl>Fáj
+                                Attila: <title>Madách Tragédiájának történetfilozófiája</title>. Jel
+                                1992. 185-187.<idno type="ITIdata">Q469917</idno></bibl></p></item>
+                    <item xml:id="item.47"><p xml:id="p.93">Fényes 1851</p><p xml:id="p.94"
+                                ><bibl>Fényes Elek: <title>Magyarország geographiai szótára
+                                    I-II.</title>, Pest 1851.<idno type="ITIdata"
+                                >Q469918</idno></bibl></p></item>
+                    <item xml:id="item.48"><p xml:id="p.95">Fenyő 1997</p><p xml:id="p.96"
+                                ><bibl>Fenyő István: <title>A centralisták</title>, Bp. 1997.<idno
+                                    type="ITIdata">Q469919</idno></bibl></p></item>
+                    <item xml:id="item.49"><p xml:id="p.97">FK</p><p xml:id="p.98"
+                                    ><bibl><title>Filológiai Közlöny</title><idno type="ITIdata"
+                                    >Q23995</idno></bibl></p></item>
+                    <item xml:id="item.50"><p xml:id="p.99">FL</p><p xml:id="p.100"
+                                    ><bibl><title>Fővárosi Lapok</title><idno type="ITIdata"
+                                    >Q327576</idno></bibl></p></item>
+                    <item xml:id="item.51"><p xml:id="p.101">Fónagy 1999</p><p xml:id="p.102"
+                                ><bibl>Fónagy Iván: <title>A költői nyelvről</title>, Bp. 1999.<idno
+                                    type="ITIdata">Q469920</idno></bibl></p></item>
+                    <item xml:id="item.52"><p xml:id="p.103">Fried 1983</p><p xml:id="p.104"
+                                ><bibl>Fried István: <title>„... majd az élet korlátozza
+                                    önmagát...”</title>, Palócföld 1983/1. 58-64.<idno
+                                    type="ITIdata">Q469921</idno></bibl></p></item>
+                    <item xml:id="item.53"><p xml:id="p.105">Galamb 1917</p><p xml:id="p.106"
+                                ><bibl>Galamb Sándor: <title>Kant és Madách</title>. ItK 1917. 181-
+                                    183.<idno type="ITIdata">Q404688</idno></bibl></p></item>
+                    <item xml:id="item.54"><p xml:id="p.107">Gelencsér 1970</p><p xml:id="p.108"
+                                ><bibl>Gelencsér Géza: <title>A Sziszüphosz-paradoxon avagy
+                                    optimizmus Az ember tragédiájában</title>, It 1970.
+                                    911-925.<idno type="ITIdata">Q469923</idno></bibl></p></item>
+                    <item xml:id="item.55"><p xml:id="p.109">Gulyás 1934.</p><p xml:id="p.110"
+                                ><bibl>Gulyás Pál: <title>Madách</title>, Válasz 1934. máj.,
+                                    40-47.<idno type="ITIdata">Q469924</idno></bibl></p></item>
+                    <item xml:id="item.56"><p xml:id="p.111">Gy. Juhász 1930</p><p xml:id="p.112"
+                                ><bibl>Gy. Juhász László: <title>Madách és Lamennais</title>,
+                                Széphalom 1930/3-4. 89-92.<idno type="ITIdata"
+                            >Q406372</idno></bibl></p></item>
+                    <item xml:id="item.57"><p xml:id="p.113">Győrffy 1959</p><p xml:id="p.114"
+                                ><bibl>Győrffy Miklós: <title>Madách kiadatlan levelei</title>, It
+                                1959. 68-103.<idno type="ITIdata">Q469926</idno></bibl></p></item>
+                    <item xml:id="item.58"><p xml:id="p.115">GyPLev</p><p xml:id="p.116"
+                                    ><bibl><title>Gyulai Pál levelezése 1843-tól 1867-ig</title>, s.
+                                a. r. és a jegyzeteket írta Somogyi Sándor, Bp. 1961. (Fontes
+                                    4.)<idno type="ITIdata">Q347574</idno></bibl></p></item>
+                    <item xml:id="item.59"><p xml:id="p.117">Homonnay 1845</p><p xml:id="p.118"
+                                ><bibl>Homonnay Imre: <title>Beszélgetés a’ versíró és a’ halál
+                                    köztt</title>, Buda 1845.<idno type="ITIdata"
+                                >Q469928</idno></bibl></p></item>
+                    <item xml:id="item.60"><p xml:id="p.119">Horváth 1984a</p><p xml:id="p.120"
+                                ><bibl>Horváth Károly: <title>Ádám alakjának világirodalmi
+                                    előzményeihez</title>, ItK 1984. 52-57.<idno type="ITIdata"
+                                    >Q469929</idno></bibl></p></item>
+                    <item xml:id="item.61"><p xml:id="p.121">Horváth 1984b</p><p xml:id="p.122"
+                                ><bibl>Horváth Károly <title>"Ádám alakjának világirodalmi
+                                    előzményeihez” című előadásának vitája</title>, ItK 1984.
+                                    128-130.<idno type="ITIdata">Q469930</idno></bibl></p></item>
+                    <item xml:id="item.62"><p xml:id="p.123">Horváth 1984c</p><p xml:id="p.124"
+                                ><bibl>Horváth Károly: <title>Madách Imre</title>, Bp. 1984. (Nagy
+                                magyar írók)<idno type="ITIdata">Q469931</idno></bibl></p></item>
+                    <item xml:id="item.63"><p xml:id="p.125">Horváth 1987-1988</p><p xml:id="p.126"
+                                ><bibl>Horváth Károly: <title>Az ember tragédiája újabb
+                                    kiadásairól</title>, ItK 1987-1988. 635-641.<idno type="ITIdata"
+                                    >Q469932</idno></bibl></p></item>
+                    <item xml:id="item.64"><p xml:id="p.127">Horváth 1989</p><p xml:id="p.128"
+                                ><bibl>Horváth Károly: <title>Az ember tragédiája és a korabeli
+                                    kritika</title>, ItK 1989. 530-557.<idno type="ITIdata"
+                                    >Q469933</idno></bibl></p></item>
+                    <item xml:id="item.65"><p xml:id="p.129">Horváth 1993</p><p xml:id="p.130"
+                                ><bibl>Horváth Károly: <title>Az ember tragédiája szereplőinek és
+                                    motívumainak bibliai és világirodalmi előzményeiről</title>, ItK
+                                1993. 301-336.<idno type="ITIdata">Q469934</idno></bibl></p></item>
+                    <item xml:id="item.66"><p xml:id="p.131">Ipolyi 1854</p><p xml:id="p.132"
+                                ><bibl>Ipolyi Arnold: <title>Magyar mythologia</title>. Pest 1854.
+                                (Hasonmás kiadás: Bp. 1987.)<idno type="ITIdata"
+                                >Q469959</idno></bibl></p></item>
+                    <item xml:id="item.67"><p xml:id="p.133">It</p><p xml:id="p.134"
+                                ><title>Irodalomtörténet</title><idno type="ITIdata"
+                            >Q23784</idno></p></item>
+                    <item xml:id="item.68"><p xml:id="p.135">ItFüz</p><p xml:id="p.136"
+                                ><title>Irodalomtörténeti Füzetek</title><idno type="ITIdata"
+                                >Q329664</idno></p></item>
+                    <item xml:id="item.69"><p xml:id="p.137">ItK</p><p xml:id="p.138"
+                                ><title>Irodalomtörténeti Közlemények</title><idno type="ITIdata"
+                                >Q23791</idno></p></item>
+                    <item xml:id="item.70"><p xml:id="p.139">Kádár 1993</p><p xml:id="p.140"
+                                ><bibl>Kádár Judit: <title>Az ember tragédiája, Byron Káinja és a
+                                    Madách-filológia</title>, ItK 1993. 600-620.<idno type="ITIdata"
+                                    >Q469960</idno></bibl></p></item>
+                    <item xml:id="item.71"><p xml:id="p.141">Kálnay 1884</p><p xml:id="p.142"
+                                ><bibl>Kálnay Nándor: <title>Csesztve község története és
+                                    leírása</title>, Bp. 1884.<idno type="ITIdata"
+                                >Q469961</idno></bibl></p></item>
+                    <item xml:id="item.72"><p xml:id="p.143">Kántor 1966</p><p xml:id="p.144"
+                                ><bibl>Kántor Lajos: <title>Százéves harc,"Az ember tragédiájá”-
+                                    ért</title>, Bp. 1966. (ItFüz 53.)<idno type="ITIdata"
+                                    >Q469962</idno></bibl></p></item>
+                    <item xml:id="item.73"><p xml:id="p.145">Kardeván 1913/1914</p><p xml:id="p.146"
+                                ><bibl>Kardeván Károly: <title>Madách és Eötvös</title> = <title>A
+                                    lőcsei m. kir. főreálisk. értesítője</title> 1913/1914.
+                                    3-16.<idno type="ITIdata">Q380393</idno></bibl></p></item>
+                    <item xml:id="item.74"><p xml:id="p.147">Kardeván 1914</p><p xml:id="p.148"
+                                ><bibl>Kardeván Károly: <title>Madách és Büchner</title>, It 1914.
+                                    408-409.<idno type="ITIdata">Q467940</idno></bibl></p></item>
+                    <item xml:id="item.75"><p xml:id="p.149">Kardeván 1933a</p><p xml:id="p.150"
+                                ><bibl>Kardeván Károly: <title>Madách és Luther</title>, It 1933.
+                                    84-88.<idno type="ITIdata">Q469964</idno></bibl></p></item>
+                    <item xml:id="item.76"><p xml:id="p.151">Kardeván 1933b</p><p xml:id="p.152"
+                                ><bibl>Kardeván Károly: <title>Madách és Heine</title>, It 1933.
+                                    189-196.<idno type="ITIdata">Q468380</idno></bibl></p></item>
+                    <item xml:id="item.77"><p xml:id="p.153">Kardeván 1935</p><p xml:id="p.154"
+                                ><bibl>Kardeván Károly: <title>Az ember tragédiájának
+                                    magyarázata</title>, Bp. 1935. (Magyar írók 1.)<idno
+                                    type="ITIdata">Q469965</idno></bibl></p></item>
+                    <item xml:id="item.78"><p xml:id="p.155">Kardeván 1939</p><p xml:id="p.156"
+                                ><bibl>Kardeván Károly: <title>Az angyalok második kara Az ember
+                                    tragédiájában</title>, It 1939. 176-179.<idno type="ITIdata"
+                                    >Q469966</idno></bibl></p></item>
+                    <item xml:id="item.79"><p xml:id="p.157">Kardeván 1947</p><p xml:id="p.158"
+                                ><bibl>Kardeván Károly: <title>Eötvös és Madách
+                                    társadalomszemlélete</title>. It 1947. 21-33.<idno
+                                    type="ITIdata">Q384767</idno></bibl></p></item>
+                    <item xml:id="item.80"><p xml:id="p.159">Kardeván 1948</p><p xml:id="p.160"
+                                ><bibl>Kardeván Károly: <title>Madách egyik verséhez</title>, EPhK
+                                1948. 91-94.<idno type="ITIdata">Q469967</idno></bibl></p></item>
+                    <item xml:id="item.81"><p xml:id="p.161">Kardos 1933</p><p xml:id="p.162"
+                                ><bibl>Kardos Albert: <title>Az ember tragédiája és a
+                                    zsoltároskönyv</title>. Protestáns Szemle 1933. 366-370.<idno
+                                    type="ITIdata">Q469968</idno></bibl></p></item>
+                    <item xml:id="item.82"><p xml:id="p.163">Kármán 1905</p><p xml:id="p.164"
+                                ><bibl>Kármán Mór: <title>Az ember tragédiája</title>, BpSz 124. k.
+                                1905. 57-115.<idno type="ITIdata">Q469969</idno></bibl></p></item>
+                    <item xml:id="item.83"><p xml:id="p.165">Károsy 1935</p><p xml:id="p.166"
+                                ><bibl>Károsy Pál: <title>Az ember tragédiája első
+                                fordítója</title>. Evangélikus Családi Lap 1935. 3. sz. jan.
+                                    20.<idno type="ITIdata">Q469970</idno></bibl></p></item>
+                    <item xml:id="item.84"><p xml:id="p.167">Kéky 1936</p><p xml:id="p.168"
+                                ><bibl>Kéky Lajos: <title>A százéves Kisfaludy Társaság
+                                    1836-1936</title>, Bp. 1936.<idno type="ITIdata"
+                                >Q338221</idno></bibl></p></item>
+                    <item xml:id="item.85"><p xml:id="p.169">Kerényi 1971</p><p xml:id="p.170"
+                                ><bibl>Kerényi Ferenc: <title>Egy márciusi ifjú Nógrádban: Madách
+                                    Pál</title>, Palócföld 1971/4. 44-50.<idno type="ITIdata"
+                                    >Q469972</idno></bibl></p></item>
+                    <item xml:id="item.86"><p xml:id="p.171">Kerényi 1983</p><p xml:id="p.172"
+                                ><bibl>Kerényi Ferenc: <title>Madách Imre hagyatékának néhány
+                                    filológiai problémája</title> = <title>Nógrád megyei Múzeumok
+                                    Évkönyve IX.</title>, Salgótarján, 1983. 37-51.<idno
+                                    type="ITIdata">Q469973</idno></bibl></p></item>
+                    <item xml:id="item.87"><p xml:id="p.173">Kerényi 1991</p><p xml:id="p.174"
+                                ><bibl>Kerényi Ferenc: <title>Madách lírájának
+                                    kronológiájáról</title>, It 1991. 377-385.<idno type="ITIdata"
+                                    >Q469977</idno></bibl></p></item>
+                    <item xml:id="item.88"><p xml:id="p.175">Kéri 1841</p><p xml:id="p.176"
+                                ><bibl>Kéri (ford. ném.-ből): <title>A jelenkor társas
+                                élete</title>, Ath 1841. II. 1105-1112., 1121-1125., 1137-1141.
+                                    h.<idno type="ITIdata">Q469979</idno></bibl></p></item>
+                    <item xml:id="item.89"><p xml:id="p.177">KET</p><p xml:id="p.178"
+                                    ><bibl><title>Közhasznú esmeretek tára I-XII</title>, Pest
+                                    1831-1834.<idno type="ITIdata">Q327953</idno></bibl></p></item>
+                    <item xml:id="item.90"><p xml:id="p.179">KisfTÉ</p><p xml:id="p.180"
+                                ><title>Kisfaludy Társaság Évlapjai</title><idno type="ITIdata"
+                                >Q327481</idno></p></item>
+                    <item xml:id="item.91"><p xml:id="p.181">Kolb 1844</p><p xml:id="p.182"
+                                ><bibl>[G. F. Kolb -]ném.-ből ford. Bajza József: <title>Az emberi
+                                    mivelődés történetei I-II</title>, Pest 1844.<idno
+                                    type="ITIdata">Q469983</idno></bibl></p></item>
+                    <item xml:id="item.92"><p xml:id="p.183">Kovácsné 1934</p><p xml:id="p.184"
+                                ><bibl>Kovács Dezsőné: <title>Kepler anyja</title>, Pásztortűz
+                                1934/5. 91-92.<idno type="ITIdata">Q469985</idno></bibl></p></item>
+                    <item xml:id="item.93"><p xml:id="p.185">Kozáky 1925</p><p xml:id="p.186"
+                                ><bibl>Kozáky István: <title>"Az Ember tragédiája” s a modern
+                                    haláltánc-költészet</title>, Napkelet 1925. 497-504.<idno
+                                    type="ITIdata">Q469996</idno></bibl></p></item>
+                    <item xml:id="item.94"><p xml:id="p.187">Kozocsa 1968</p><p xml:id="p.188"
+                                ><bibl>Kozocsa Sándor: <title>Madách Imre javításai „Az ember
+                                    tragédiája” első kiadásához</title>, MKSz 1968. 366-373.<idno
+                                    type="ITIdata">Q469997</idno></bibl></p></item>
+                    <item xml:id="item.95"><p xml:id="p.189">Kölcsey 2001</p><p xml:id="p.190"
+                                ><bibl>Kölcsey Ferenc: <title>Versek és versfordítások</title>,
+                                krk., s. a. r. Szabó G. Zoltán, Bp. 2001. (Kölcsey Ferenc Minden
+                                    Munkái)<idno type="ITIdata">Q338861</idno></bibl></p></item>
+                    <item xml:id="item.96"><p xml:id="p.191">Kristóf 1923</p><p xml:id="p.192"
+                                ><bibl>Kristóf György: <title>Eötvös és Madách</title> =
+                                    <title>Petőfi és Madách tanulmányok</title>, Cluj-Kolozsvár
+                                1923. 136-156.<idno type="ITIdata">Q469998</idno></bibl></p></item>
+                    <item xml:id="item.97"><p xml:id="p.193">Krizsán 1998</p><p xml:id="p.194"
+                                ><bibl>Krizsán László: <title>Jámbor Pál és „Az ember tragédiája”
+                                    végleges szövegének kialakulása</title> = <title>V. Madách
+                                    Szimpózium</title>, Bp.-Balassagyarmat 1998. (MK ÚjF 11.)
+                                    147-159.<idno type="ITIdata">Q470000</idno></bibl></p></item>
+                    <item xml:id="item.98"><p xml:id="p.195">Lónyai 1885</p><p xml:id="p.196"
+                                    ><bibl><title>Gróf Lónyai Menyhért önéletrajzi töredéke</title>,
+                                BpSz 102. sz. 1885. jún., 337-356.<idno type="ITIdata"
+                                    >Q470003</idno></bibl></p></item>
+                    <item xml:id="item.99"><p xml:id="p.197">Lotze 1981</p><p xml:id="p.198"
+                                ><bibl>Lotze, Dieter P.: <title>Imre Madách</title>, Boston
+                                    1981.<idno type="ITIdata">Q470005</idno></bibl></p></item>
+                    <item xml:id="item.100"><p xml:id="p.199">Lukács 1843</p><p xml:id="p.200"
+                                ><bibl>Lukács Móric: <title>Néhány szó a socialismusról</title>, Ath
+                                1843. I. 53-66.<idno type="ITIdata">Q470006</idno></bibl></p></item>
+                    <item xml:id="item.101"><p xml:id="p.201">Lukácsy 1983</p><p xml:id="p.202"
+                                ><bibl>Lukácsy Sándor: <title>Kincsásás V. Álmok a
+                                    történelemről</title>, Kortárs 1983/11. 1763-1768.<idno
+                                    type="ITIdata">Q470007</idno></bibl></p></item>
+                    <item xml:id="item.102"><p xml:id="p.203">Lukácsy 1994</p><p xml:id="p.204"
+                                ><bibl>Lukácsy Sándor: <title>Isten gyertyácskái</title>, Pécs
+                                    1994.<idno type="ITIdata">Q470008</idno></bibl></p></item>
+                    <item xml:id="item.103"><p xml:id="p.205">Lukácsy 1995</p><p xml:id="p.206"
+                                ><bibl>Lukácsy Sándor: <title>A hazudni büszke író</title>, Bp.
+                                    1995.<idno type="ITIdata">Q470009</idno></bibl></p></item>
+                    <item xml:id="item.104"><p xml:id="p.207">Majthényi A. 2000</p><p xml:id="p.208"
+                                    ><bibl><title>Majthényi Anna levelezése</title>, szerk., a
+                                bevezetőt és a kommentárokat írta Andor Csaba, Bp. 2000. (MK ÚjF
+                                    18.)<idno type="ITIdata">Q470010</idno></bibl></p></item>
+                    <item xml:id="item.105"><p xml:id="p.209">Mályuszné 1959</p><p xml:id="p.210"
+                                ><bibl>Mályuszné Császár Edit: <title>A Budai Népszínház és
+                                    közönsége</title> = <title>TanBpm XIII.</title>, 1959.
+                                    261-314.<idno type="ITIdata">Q410986</idno></bibl></p></item>
+                    <item xml:id="item.106"><p xml:id="p.211">Mályuszné 1964</p><p xml:id="p.212"
+                                ><bibl>Mályuszné Császár Edit: <title>Molnár György, a
+                                    rendező</title>, Bp. 1964. (<title>Színháztörténeti könyvtár
+                                    16.</title>)<idno type="ITIdata"
+                        >Q413075</idno></bibl></p></item>
+                    <item xml:id="item.107"><p xml:id="p.213">Martinkó 1978</p><p xml:id="p.214"
+                                ><bibl>Martinkó András: <title>Vörösmarty és Az ember
+                                    tragédiája</title> = MT 185-214.<idno type="ITIdata"
+                                    >Q470026</idno></bibl></p></item>
+                    <item xml:id="item.108"><p xml:id="p.215">Marót 1914</p><p xml:id="p.216"
+                                ><bibl>Marót Károly: <title>Egy pillantás Madách költői műhelyébe
+                                    (Madách-Byron-Plutarkhosz)</title>, EPhK 1915. 783-787.<idno
+                                    type="ITIdata">Q404473</idno></bibl></p></item>
+                    <item xml:id="item.109"><p xml:id="p.217">MID</p><p xml:id="p.218"
+                                    ><bibl><title>Madách Imre-dokumentumok a Nógrád megyei
+                                    Levéltárban</title>, összeáll. Leblancné Kelemen Mária,
+                                Salgótarján 1984. (Adatok és források a Nógrád megyei Levéltárból
+                                    13.)<idno type="ITIdata">Q470047</idno></bibl></p></item>
+                    <item xml:id="item.110"><p xml:id="p.219">Mignet 1845</p><p xml:id="p.220"
+                                ><bibl>Mignet, Francois-August-Marie, ford. Gaal József: <title>A
+                                    franczia forradalom története I-II</title>, Pest 1845.<idno
+                                    type="ITIdata">Q470073</idno></bibl></p></item>
+                    <item xml:id="item.111"><p xml:id="p.221">Mihályi 1964</p><p xml:id="p.222"
+                                ><bibl>Mihályi József: <title>Az ember tragédiája nyelvéről</title>.
+                                Irodalmi és Nyelvi Közlemények, Bp. 1964/3-4. 41-81.<idno
+                                    type="ITIdata">Q470074</idno></bibl></p></item>
+                    <item xml:id="item.112"><p xml:id="p.223">Mikola 1908</p><p xml:id="p.224"
+                                ><bibl>Mikola Sándor: <title>A történeti Kepler, vonatkozással Az
+                                    ember tragédiájára</title>, klny. a Beöthy-emlékkönyvből, Bp.
+                                1908. (<bibl>az emlékkönyvben: 375-390.<idno type="ITIdata"
+                                        >Q470075</idno></bibl>)<idno type="ITIdata"
+                                >Q470076</idno></bibl></p></item>
+                    <item xml:id="item.113"><p xml:id="p.225">MK</p><p xml:id="p.226"
+                                    ><bibl><title>Madách Könyvtár</title><idno type="ITIdata"
+                                    >Q345819</idno></bibl></p></item>
+                    <item xml:id="item.114"><p xml:id="p.227">MKK</p><p xml:id="p.228"
+                                    ><bibl><title>Madách Imre kéziratai és levelezése
+                                    (katalógus)</title>, összeáll. Andor Csaba, Leblancné Kelemen
+                                Mária, Bp. 1992. (Klasszikus magyar írók kéziratainak és
+                                levelezésének katalógusai 2.)<idno type="ITIdata"
+                                >Q470077</idno></bibl></p></item>
+                    <item xml:id="item.115"><p xml:id="p.229">MKSz</p><p xml:id="p.230"
+                                    ><bibl><title>Magyar Könyvszemle</title><idno type="ITIdata"
+                                    >Q23935</idno></bibl></p></item>
+                    <item xml:id="item.116"><p xml:id="p.231">MNy</p><p xml:id="p.232"
+                                    ><bibl><title>Magyar Nyelv</title><idno type="ITIdata"
+                                    >Q23712</idno></bibl></p></item>
+                    <item xml:id="item.117"><p xml:id="p.233">MNyr</p><p xml:id="p.234"
+                                    ><bibl><title>Magyar Nyelvőr</title><idno type="ITIdata"
+                                    >Q23714</idno></bibl></p></item>
+                    <item xml:id="item.118"><p xml:id="p.235">Molnár 1881</p><p xml:id="p.236"
+                                ><bibl>Molnár György: <title>Világostól Világosig</title>, Arad
+                                    1881.<idno type="ITIdata">Q411569</idno></bibl></p></item>
+                    <item xml:id="item.119"><p xml:id="p.237">Móra 1936</p><p xml:id="p.238"
+                                ><bibl>Móra Ferenc: <title>Ki írta az Ember tragédiáját?</title> =
+                                    <title>Napok, holdak, elmúlt csillagok</title>, Bp. 1936.
+                                    123-127.<idno type="ITIdata">Q470080</idno></bibl></p></item>
+                    <item xml:id="item.120"><p xml:id="p.239">Morvay 1897</p><p xml:id="p.240"
+                                ><bibl>Morvay Győző: <title>Magyarázó tanulmány Az ember
+                                    tragédiájához</title>, Nagybánya 1897.<idno type="ITIdata"
+                                    >Q470085</idno></bibl></p></item>
+                    <item xml:id="item.121"><p xml:id="p.241">Morvay 1898</p><p xml:id="p.242"
+                                ><bibl>Morvay Győző: <title>Adalékok Madách Imre életéhez</title>,
+                                Bp. 1898.<idno type="ITIdata">Q470086</idno></bibl></p></item>
+                    <item xml:id="item.122"><p xml:id="p.243">Morvay 1914</p><p xml:id="p.244"
+                                ><bibl>Morvay Győző: <title>Madách és Hogarth</title>, It 1914.
+                                    464.<idno type="ITIdata">Q470087</idno></bibl></p></item>
+                    <item xml:id="item.123"><p xml:id="p.245">Morvay 1934</p><p xml:id="p.246"
+                                ><bibl>Morvay Győző: <title>Az Ember Tragédiája és a
+                                    koponyatan</title>, It 1934. 80.<idno type="ITIdata"
+                                    >Q470088</idno></bibl></p></item>
+                    <item xml:id="item.124"><p xml:id="p.247">MÖM</p><p xml:id="p.248"
+                                    ><bibl><title>Madách Imre összes művei I-II</title>, s. a. r.,
+                                bevez. és a jegyzeteket írta Halász Gábor, Bp. 1942.<idno
+                                    type="ITIdata">Q412729</idno></bibl></p></item>
+                    <item xml:id="item.125"><p xml:id="p.249">MT</p><p xml:id="p.250"
+                                    ><bibl><title>Madách-tanulmányok</title>, szerk. Horváth Károly,
+                                Bp. 1978.<idno type="ITIdata">Q470027</idno></bibl></p></item>
+                    <item xml:id="item.126"><p xml:id="p.251">MVM</p><p xml:id="p.252"
+                                    ><bibl><title>Madách Imre válogatott művei</title>, s. a. r.
+                                Horváth Károly és Kerényi Ferenc, Bp. 1989.<idno type="ITIdata"
+                                    >Q470093</idno></bibl></p></item>
+                    <item xml:id="item.127"><p xml:id="p.253">Nagyné-Andor 1997</p><p xml:id="p.254"
+                                ><bibl>Nagyné Nemes Györgyi-Andor Csaba: <title>Madách Imre rajzai
+                                    és festményei</title>, Balassagyarmat-Bp. 1997. (MKÚjF 7.)<idno
+                                    type="ITIdata">Q470095</idno></bibl></p></item>
+                    <item xml:id="item.128"><p xml:id="p.255">Németh 1933</p><p xml:id="p.256"
+                                ><bibl>Németh Antal: <title>Az ember tragédiája a színpadon</title>,
+                                Bp. 1933.<idno type="ITIdata">Q469447</idno></bibl></p></item>
+                    <item xml:id="item.129"><p xml:id="p.257">Németh G. 1973</p><p xml:id="p.258"
+                                ><bibl>Németh G. Béla: <title>Két korszak határán</title>, It 1973.
+                                    851-882.<idno type="ITIdata">Q470096</idno></bibl> és <bibl>MT
+                                    107-132.<idno type="ITIdata">Q470097</idno></bibl></p></item>
+                    <item xml:id="item.130"><p xml:id="p.259">Nendtvich 1851</p><p xml:id="p.260"
+                                ><bibl>Nendtvich Károly: <title>A föld jövője geológiai szempontból
+                                    tekintve</title>, ÚMM X. füzet, 1851. júl. 1.<idno
+                                    type="ITIdata">Q470098</idno></bibl></p></item>
+                    <item xml:id="item.131"><p xml:id="p.261">Ny</p><p xml:id="p.262"
+                                    ><bibl><title>Nyugat</title><idno type="ITIdata"
+                                >Q155</idno></bibl></p></item>
+                    <item xml:id="item.132"><p xml:id="p.263">Pais 1918</p><p xml:id="p.264"
+                                ><bibl>Pais Dezső: <title>Madách és Eötvös</title>, It 1918.
+                                    175.<idno type="ITIdata">Q381084</idno></bibl></p></item>
+                    <item xml:id="item.133"><p xml:id="p.265">Palágyi 1900</p><p xml:id="p.266"
+                                ><bibl>Palágyi Menyhért: <title>Madách Imre élete és
+                                    költészete</title>, Bp. 1900.<idno type="ITIdata"
+                                >Q470099</idno></bibl></p></item>
+                    <item xml:id="item.134"><p xml:id="p.267">Pap 1852</p><p xml:id="p.268"
+                                    ><bibl><title>Pap Endre hátrahagyott munkái I-II</title>, kiad.
+                                Csengery Antal, Kemény Zsigmond, Pest 1852.<idno type="ITIdata"
+                                    >Q390026</idno></bibl></p></item>
+                    <item xml:id="item.135"><p xml:id="p.269">PH</p><p xml:id="p.270"
+                                    ><bibl><title>Pesti Hirlap</title><idno type="ITIdata"
+                            /></bibl></p></item>
+                    <item xml:id="item.136"><p xml:id="p.271">PN</p><p xml:id="p.272"
+                                    ><bibl><title>Pesti Napló</title><idno type="ITIdata"
+                                    >Q310304</idno></bibl></p></item>
+                    <item xml:id="item.137"><p xml:id="p.273">Pollák 1936</p><p xml:id="p.274"
+                                ><bibl>Pollák Miksa: <title>Madách Imre és a Biblia II.</title>,
+                                Izraelita Magyar Irodalmi Társulat Évkönyve 1936. 135-167.<idno
+                                    type="ITIdata">Q470101</idno></bibl></p></item>
+                    <item xml:id="item.138"><p xml:id="p.275">Praznovszky 1995</p><p xml:id="p.276"
+                                ><bibl>Praznovszky Mihály: <title>Madách Imre: Az ember tragédiája
+                                    (A fordítások jegyzéke)</title>, Bp. 1995.<idno type="ITIdata"
+                                    >Q470108</idno></bibl></p></item>
+                    <item xml:id="item.139"><p xml:id="p.277">Praznovszky 1998</p><p xml:id="p.278"
+                                ><bibl>Praznovszky Mihály: <title>A Madách-jelenség,
+                                    1861-1864</title> = <title>"A szellemdiadal ünnepei.” A magyar
+                                    irodalom kultikus szokásrendje a XIX. század közepén</title>.
+                                Bp. 1998. 87-118.<idno type="ITIdata"
+                        >Q470110</idno></bibl></p></item>
+                    <item xml:id="item.140"><p xml:id="p.279">Pukánszkyné 1979</p><p xml:id="p.280"
+                                ><bibl>Pukánszkyné Kádár Jolán: <title>A Budai Népszínház
+                                    története</title>, s. a. r. Staud Géza, Bp. 1979.<idno
+                                    type="ITIdata">Q470111</idno></bibl></p></item>
+                    <item xml:id="item.141"><p xml:id="p.281">Radó FK</p><p xml:id="p.282"
+                                ><bibl>Radó György: <title>Az ember tragédiája a világ nyelvein
+                                    I-VI</title>, FK 1964. 313-353., 1965. 93-124., 1966. 67-108.,
+                                1968. 75-111., 1971. 382-403., 1972. 47-71.<idno type="ITIdata"
+                                    >Q409000</idno></bibl></p></item>
+                    <item xml:id="item.142"><p xml:id="p.283">Radó 1987</p><p xml:id="p.284"
+                                ><bibl>Radó György: <title>Madách Imre</title>. Életrajzi krónika,
+                                Salgótarján 1987.<idno type="ITIdata"
+                        >Q470112</idno></bibl></p></item>
+                    <item xml:id="item.143"><p xml:id="p.285">Révay 1923</p><p xml:id="p.286"
+                                ><bibl>Révay József: <title>Az Ember Tragédiája álom-motívumának
+                                    ősei</title>, Ny 1923/3. 165-169.<idno type="ITIdata"
+                                    >Q470113</idno></bibl></p></item>
+                    <item xml:id="item.144"><p xml:id="p.287">Riedl 1911</p><p xml:id="p.288"
+                                ><bibl>RDL [ = Riedl Frigyes]: <title>Az „Ember Tragédiájá”-nak
+                                    eszkimó-jelenete</title>, EPhK 1911. 434-435.<idno
+                                    type="ITIdata">Q470114</idno></bibl></p></item>
+                    <item xml:id="item.145"><p xml:id="p.289">Schéda 1978</p><p xml:id="p.290"
+                                ><bibl>Schéda Mária: <title>Madách első drámakísérleteinek néhány
+                                    lélektani tanulsága</title>, ItK 1978. 613-618.<idno
+                                    type="ITIdata">Q470115</idno></bibl></p></item>
+                    <item xml:id="item.146"><p xml:id="p.291">Scheiber 1996</p><p xml:id="p.292"
+                                ><bibl>Scheiber Sándor: <title>Folklór és tárgytörténet</title>, Bp.
+                                    1996.<idno type="ITIdata">Q470124</idno></bibl></p></item>
+                    <item xml:id="item.147"><p xml:id="p.293">Simonyi 1916</p><p xml:id="p.294"
+                                ><bibl>Simonyi Zsigmond: <title>Arany János és a helyesírás</title>,
+                                MNyr 1916. 1-6.<idno type="ITIdata">Q467983</idno></bibl></p></item>
+                    <item xml:id="item.148"><p xml:id="p.295">Sőtér 1965</p><p xml:id="p.296"
+                                ><bibl>Sőtér István: <title>Álom a történelemről. Madách Imre és Az
+                                    ember tragédiája</title>, Bp. 1965. (Korunk tudománya)<idno
+                                    type="ITIdata">Q470125</idno></bibl></p></item>
+                    <item xml:id="item.149"><p xml:id="p.297"><abbr>Staud 1924</abbr></p><p
+                            xml:id="p.298"><bibl>Staud Géza: <title>Madách Imre összes levelei
+                                    I-II</title>, Bp. 1942.<idno type="ITIdata"
+                                >Q412730</idno></bibl></p></item>
+                    <item xml:id="item.150"><p xml:id="p.299">Striker 1996</p><p xml:id="p.300"
+                                ><bibl>Striker Sándor: <title>Az ember tragédiája rekonstrukciója
+                                    I-II</title>, Bp. 1996.<idno type="ITIdata"
+                                >Q470126</idno></bibl></p></item>
+                    <item xml:id="item.151"><p xml:id="p.301">StudLit</p><p xml:id="p.302"
+                                    ><bibl><title>Studia Litteraria</title>. A debreceni Kossuth
+                                Lajos Tudományegyetem Magyar Irodalomtörténeti Intézetének
+                                közleményei, Bp.-Debrecen 1963.<idno type="ITIdata"
+                                >Q24016</idno></bibl></p></item>
+                    <item xml:id="item.152"><p xml:id="p.303">Szabad 1967</p><p xml:id="p.304"
+                                ><bibl>Szabad György: <title>Forradalom és kiegyezés válaszútján
+                                    (1860-1861)</title>, Bp. 1967.<idno type="ITIdata"
+                                    >Q413124</idno></bibl></p></item>
+                    <item xml:id="item.153"><p xml:id="p.305">Szabó T. 1972</p><p xml:id="p.306"
+                                ><bibl>Szabó T. Attila: <title>Nyelv és múlt. Válogatott
+                                    tanulmányok, cikkek III.</title>, Bukarest 1972. 282-286.<idno
+                                    type="ITIdata">Q470127</idno></bibl></p></item>
+                    <item xml:id="item.154"><p xml:id="p.307">Szathmári 1976</p><p xml:id="p.308"
+                                ><bibl>Szathmári István: <title>A Tragédia szövegmódosításai és a
+                                    korabeli irodalmi nyelv</title> = <title>Madách - ma</title>,
+                                szerk. Mezei József, Bp. 1976. 121-130.<idno type="ITIdata"
+                                    >Q470131</idno></bibl></p></item>
+                    <item xml:id="item.155"><p xml:id="p.309">Szegedy-Maszák 1978</p><p
+                            xml:id="p.310"><bibl>Szegedy-Maszák Mihály: <title>Történelemértelmezés
+                                    és szerkezet Az ember tragédiájában</title>, ItK 1973.
+                                    403-408.<idno type="ITIdata">Q470132</idno></bibl> Kibővítve:
+                                <bibl>MT 133-164.<idno type="ITIdata"
+                        >Q470134</idno></bibl></p></item>
+                    <item xml:id="item.156"><p xml:id="p.311">Szelényi 1906</p><p xml:id="p.312"
+                                ><bibl>Szelényi Ödön: <title>Madách és Luther</title>, Protestáns
+                                Szemle 1906. 438-446.<idno type="ITIdata"
+                        >Q470135</idno></bibl></p></item>
+                    <item xml:id="item.157"><p xml:id="p.313">Szemere 1974</p><p xml:id="p.314"
+                                ><bibl>Szemere Gyula: <title>Az akadémiai helyesírás története
+                                    (1832-1954)</title>, Bp. 1974.<idno type="ITIdata"
+                                    >Q470136</idno></bibl></p></item>
+                    <item xml:id="item.158"><p xml:id="p.315">SzF</p><p xml:id="p.316"
+                                    ><bibl><title>Szépirodalmi Figyelő</title><idno type="ITIdata"
+                                    >Q23947</idno></bibl></p></item>
+                    <item xml:id="item.159"><p xml:id="p.317">Szigetvári 1898</p><p xml:id="p.318"
+                                ><bibl>Szigetvári Iván: <title>Madách és a socialismus</title>, EPhK
+                                1898. 804-813.<idno type="ITIdata">Q470138</idno></bibl></p></item>
+                    <item xml:id="item.160"><p xml:id="p.319">Szigetvári 1926</p><p xml:id="p.320"
+                                ><bibl>Szigetvári Iván: <title>Madách Imre és a francia
+                                    forradalom</title>, It 1926. 157.<idno type="ITIdata"
+                                    >Q470139</idno></bibl></p></item>
+                    <item xml:id="item.161"><p xml:id="p.321">Szöllősi 1983</p><p xml:id="p.322"
+                                ><bibl>Szöllősi István: <title>Gondolatok Madách
+                                    Tragédiájáról</title>, Confessio 1983/3. 72-77.<idno
+                                    type="ITIdata">Q470140</idno></bibl></p></item>
+                    <item xml:id="item.162"><p xml:id="p.323">Szt</p><p xml:id="p.324"
+                                    ><bibl><title>Szimbólumtár</title>, szerk. Pál József és Újvári
+                                Edit, Bp. 1997.<idno type="ITIdata">Q338262</idno></bibl></p></item>
+                    <item xml:id="item.163"><p xml:id="p.325">Szücsi 1915</p><p xml:id="p.326"
+                                ><bibl>Szücsi József: <title>Madách Imre könyvtára</title>, MKSz
+                                1915. 5-28.<idno type="ITIdata">Q470142</idno></bibl></p></item>
+                    <item xml:id="item.164"><p xml:id="p.327">TanBpm</p><p xml:id="p.328"
+                                ><bibl>Tanulmányok Budapest múltjából<idno type="ITIdata"
+                                    >Q23957</idno></bibl></p></item>
+                    <item xml:id="item.165"><p xml:id="p.329">Tarbay 1993</p><p xml:id="p.330"
+                                ><bibl>Tarbay Ede: <title>Arany János csapdái</title>. Jelenlét
+                                1993. jan. 16.<idno type="ITIdata">Q470146</idno></bibl></p></item>
+                    <item xml:id="item.166"><p xml:id="p.331">Tolnai 1903</p><p xml:id="p.332"
+                                ><bibl>Tolnai Vilmos: <title>Madách egyik sorához</title>, EPhK
+                                1903. 188-189.<idno type="ITIdata">Q470150</idno></bibl></p></item>
+                    <item xml:id="item.167"><p xml:id="p.333">Tolnai 1911</p><p xml:id="p.334"
+                                ><bibl>Tolnai Vilmos: <title>Madách londoni és
+                                    phalanster-jelenetének egyik forrásáról</title>, EPhK 1911.
+                                    377-386.<idno type="ITIdata">Q470151</idno></bibl></p></item>
+                    <item xml:id="item.168"><p xml:id="p.335">Tolnai 1914a</p><p xml:id="p.336"
+                                ><bibl>Tolnai Vilmos: <title>Az ember tragédiája londoni
+                                    színéhez</title>, It 1914.317-318.<idno type="ITIdata"
+                                    >Q470152</idno></bibl></p></item>
+                    <item xml:id="item.169"><p xml:id="p.337">Tolnai 1914b</p><p xml:id="p.338"
+                                ><bibl>Tolnai Vilmos: <title>Madách Ember Tragédiájához</title>, It
+                                1914. 408.<idno type="ITIdata"/></bibl></p></item>
+                    <item xml:id="item.170"><p xml:id="p.339">Tolnai 1917</p><p xml:id="p.340"
+                                ><bibl>Tolnai Vilmos: <title>Madách Imre forrásaihoz</title>, It
+                                1917. 46-48.<idno type="ITIdata">Q404690</idno></bibl></p></item>
+                    <item xml:id="item.171"><p xml:id="p.341">Tolnai 1923</p><p xml:id="p.342"
+                                ><bibl>Madách Imre: <title>Az ember tragédiája. Első szövegkritikai
+                                    kiadás</title>, s. a. r. Tolnai Vilmos, Bp. 1923. 1924.<idno
+                                    type="ITIdata">Q470154</idno></bibl></p></item>
+                    <item xml:id="item.172"><p xml:id="p.343">Tolnai 1925</p><p xml:id="p.344"
+                                ><bibl>Tolnai Vilmos: <title>Madách-ereklyék</title>, ItK 1925.
+                                    84-90.<idno type="ITIdata">Q470155</idno></bibl></p></item>
+                    <item xml:id="item.173"><p xml:id="p.345">Tolnai 1927</p><p xml:id="p.346"
+                                ><bibl>Tolnai Vilmos: <title>Madách Ember Tragédiája római színének
+                                    forrásaihoz</title>, EPhK 1927. 167-170.<idno type="ITIdata"
+                                    >Q470156</idno></bibl></p></item>
+                    <item xml:id="item.174"><p xml:id="p.347">Tolnai 1934</p><p xml:id="p.348"
+                                ><bibl>Tolnai Vilmos: <title>Madách szövegei</title>, It 1934.
+                                    198-201.<idno type="ITIdata">Q470157</idno></bibl></p></item>
+                    <item xml:id="item.175"><p xml:id="p.349">Tolnai 1937</p><p xml:id="p.350"
+                                ><bibl>Tolnai Vilmos: <title>Madách és Weber Demokritosa</title>,
+                                ItK 1937. 273-276.<idno type="ITIdata"
+                        >Q407154</idno></bibl></p></item>
+                    <item xml:id="item.176"><p xml:id="p.351">ÚMID</p><p xml:id="p.352"
+                                    ><bibl><title>Újabb Madách Imre-dokumentumok a Nógrád megyei
+                                    Levéltárból és az ország közgyűjteményeiből</title>, összeáll.
+                                Leblancné Kelemen Mária, szerk. A. Varga László, Salgótarján 1993.
+                                (Adatok, források és tanulmányok a Nógrád megyei Levéltárból
+                                    18.)<idno type="ITIdata">Q470148</idno></bibl></p></item>
+                    <item xml:id="item.177"><p xml:id="p.353">ÚMM</p><p xml:id="p.354"
+                                    ><bibl><title>Új Magyar Múzeum</title><idno type="ITIdata"
+                                    >Q329039</idno></bibl></p></item>
+                    <item xml:id="item.178"><p xml:id="p.355">Vajda 2004</p><p xml:id="p.356"
+                                    ><bibl><title>Vajda Péter művei</title>, s. a. r. Mudra Viktória
+                                és Zákány Tóth Péter, Bp. 2004. (Magyar Remekírók. Új folyjam)<idno
+                                    type="ITIdata">Q329668</idno></bibl></p></item>
+                    <item xml:id="item.179"><p xml:id="p.357">Vértesy 1914</p><p xml:id="p.358"
+                                ><bibl>Vértesy Jenő: <title>Madách Imre írói hagyatéka</title>, It
+                                1914. 294-305.<idno type="ITIdata">Q470158</idno></bibl></p></item>
+                    <item xml:id="item.180"><p xml:id="p.359">Vértesy 1916</p><p xml:id="p.360"
+                                ><bibl>Vértesy Jenő: <title>Gibbon, mint szépíróink forrása</title>,
+                                It 1916. 16-30.<idno type="ITIdata">Q404492</idno></bibl></p></item>
+                    <item xml:id="item.181"><p xml:id="p.361">VJÖM VII.</p><p xml:id="p.362"
+                                    ><bibl><title>Vajda János összes művei VII. Publicisztikai
+                                    írások 1.</title> Krk. S. a. r. Miklóssy János, Seress József,
+                                M. Varró Judit, Bp. 1979.<idno type="ITIdata"
+                            >Q470160</idno></bibl></p></item>
+                    <item xml:id="item.182"><p xml:id="p.363">Voinovich 1914</p><p xml:id="p.364"
+                                ><bibl>Voinovich Géza: <title>Madách Imre és Az ember
+                                    tragédiája</title>, Bp. 1914. [Csak akkor használtuk, ha ezt a
+                                tudománytörténeti kronológia vagy egybevetés indokolta.]<idno
+                                    type="ITIdata">Q470163</idno></bibl></p></item>
+                    <item xml:id="item.183"><p xml:id="p.365">Voinovich 1922</p><p xml:id="p.366"
+                                ><bibl>Voinovich Géza: <title>Madách Imre és Az ember
+                                    tragédiája</title>, Bp. 1922. [Ha különleges szempont nem szólt
+                                ellene, ezt használtuk.]<idno type="ITIdata"
+                            >Q470164</idno></bibl></p></item>
+                    <item xml:id="item.184"><p xml:id="p.367">VÖM 9.</p><p xml:id="p.368"
+                                    ><bibl><title>Vörösmarty Mihály összes művei 9. Drámák IV.
+                                    (Csongor és Tünde, Kincskeresők, Vérnász)</title> Krk. S. a. r.
+                                Fehér Géza, Staud Géza, Taxner-Tóth Ernő, Bp. 1989.<idno
+                                    type="ITIdata">Q470161</idno></bibl></p></item>
+                    <item xml:id="item.185"><p xml:id="p.369">VÖM 10.</p><p xml:id="p.370"
+                                    ><bibl><title>Vörösmarty Mihály összes művei 10. Drámák
+                                    V.</title> Krk. Kiad. Fehér Géza, Bp. 1971.<idno type="ITIdata"
+                                    >Q470162</idno></bibl></p></item>
+                    <item xml:id="item.186"><p xml:id="p.371">Vörös 1991</p><p xml:id="p.372"
+                                ><bibl>Vörös Imre: <title>Természetszemlélet a felvilágosodás kori
+                                    magyar irodalomban</title>, Bp. 1991.<idno type="ITIdata"
+                                    >Q338218</idno></bibl></p></item>
+                    <item xml:id="item.187"><p xml:id="p.373">Waldapfel 1900</p><p xml:id="p.374"
+                                ><bibl>Waldapfel János: <title>Isten három attribútuma Az ember
+                                    tragédiájában</title>, EPhK 1900. 175-179.<idno type="ITIdata"
+                                    >Q470167</idno></bibl></p></item>
+                    <item xml:id="item.188"><p xml:id="p.375">Waldapfel 1942</p><p xml:id="p.376"
+                                ><bibl>Waldapfel József: <title>Madách és Rousseau</title>, ItK
+                                1942. 159-160.<idno type="ITIdata">Q407551</idno></bibl> (kötetben:
+                                <bibl>Irodalmi tanulmányok, Bp. 1957. 438-439.)<idno type="ITIdata"
+                                    >Q349956</idno></bibl></p></item>
+                    <item xml:id="item.189"><p xml:id="p.377">Waldapfel 1954</p><p xml:id="p.378"
+                                ><bibl>Madách Imre: <title>Az ember tragédiája</title>, kiad. és
+                                bevez. Waldapfel József, Bp. 1954. 1955. 1956. 1958.<idno
+                                    type="ITIdata">Q470168</idno></bibl></p></item>
+                    <item xml:id="item.190"><p xml:id="p.379">Waldapfel 1965</p><p xml:id="p.380"
+                                ><bibl>Waldapfel József: <title>Madách és Fourier</title>, Magyar
+                                Tudomány 1965. 383-397.<idno type="ITIdata"
+                            >Q470166</idno></bibl></p></item>
+                    <item xml:id="item.191"><p xml:id="p.381">Zilahy 1866</p><p xml:id="p.382"
+                                    ><bibl><title>Zilahy Károly munkái I-II</title>, Pest 1866.<idno
+                                    type="ITIdata">Q470165</idno></bibl></p></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

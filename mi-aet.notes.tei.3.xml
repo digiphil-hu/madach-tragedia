@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="3" type="main">Bibliai helyek rövidítései</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.3</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.3.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>640.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEIXML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Bibliai helyek rövidítései</head>
+                <p xml:id="p.1"><title><hi rend="italic">Ószövetség</hi></title></p>
+                <list xml:id="list.1">
+                    <item xml:id="item.1"><p xml:id="p.2"><abbr>1Móz</abbr></p><p xml:id="p.3">Mózes
+                            első könyve</p></item>
+                    <item xml:id="item.2"><p xml:id="p.4"><abbr>1Kir</abbr></p><p xml:id="p.5"
+                            >Királyok első könyve</p></item>
+                    <item xml:id="item.3"><p xml:id="p.6"><abbr>2Krón</abbr></p><p xml:id="p.7"
+                            >Krónikák második könyve</p></item>
+                    <item xml:id="item.4"><p xml:id="p.8"><abbr>Jób</abbr></p><p xml:id="p.9">Jób
+                            könyve</p></item>
+                    <item xml:id="item.5"><p xml:id="p.10"><abbr>Zsolt</abbr></p><p xml:id="p.11"
+                            >Zsoltárok könyve</p></item>
+                    <item xml:id="item.6"><p xml:id="p.12"><abbr>Préd</abbr></p><p xml:id="p.13"
+                            >Prédikátor könyve</p></item>
+                    <item xml:id="item.7"><p xml:id="p.14"><abbr>Iz</abbr></p><p xml:id="p.15"
+                            >Izaiás könyve</p></item>
+                    <item xml:id="item.8"><p xml:id="p.16"><abbr>Dán</abbr></p><p xml:id="p.17"
+                            >Dániel könyve</p></item>
+                </list>
+                <p xml:id="p.18"><title><hi rend="italic">Újszövetség</hi></title></p>
+                <list xml:id="list.2">
+                    <item xml:id="item.9"><p xml:id="p.19"><abbr>Mk</abbr></p><p xml:id="p.20">Márk
+                            evangéliuma</p></item>
+                    <item xml:id="item.10"><p xml:id="p.21"><abbr>Mt</abbr></p><p xml:id="p.22">Máté
+                            evangéliuma</p></item>
+                    <item xml:id="item.11"><p xml:id="p.23"><abbr>Lk</abbr></p><p xml:id="p.24"
+                            >Lukács evangéliuma</p></item>
+                    <item xml:id="item.12"><p xml:id="p.25"><abbr>Jn</abbr></p><p xml:id="p.26"
+                            >János evangéliuma</p></item>
+                    <item xml:id="item.13"><p xml:id="p.27"><abbr>Csel</abbr></p><p xml:id="p.28"
+                            >Apostolok cselekedetei</p></item>
+                    <item xml:id="item.14"><p xml:id="p.29"><abbr>2Pét</abbr></p><p xml:id="p.30"
+                            >Péter második levele</p></item>
+                    <item xml:id="item.15"><p xml:id="p.31"><abbr>Júd</abbr></p><p xml:id="p.32"
+                            >Júdás levele</p></item>
+                    <item xml:id="item.16"><p xml:id="p.33"><abbr>Jel</abbr></p><p xml:id="p.34"
+                            >Jelenések könyve</p></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

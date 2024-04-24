@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="17" type="main">Madách Imre és Arany János
+                    helyesírásáról</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.17</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.17.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>725-729.</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Madách Imre és Arany János helyesírásáról</head>
+                <p xml:id="p.1"><persName>Arany János</persName> kötetünkben meghatározott
+                    javításainak tartalmi elemzése nem a krk. feladata. A szövegből és a
+                    szövegjavításokból leszűrhető elsődleges következtetések levonása azonban igen.
+                    Az írásszakértői véleményből s a táblázatos kimutatásból (mivel azok sajátos,
+                    bár egyeztetett szempontrendszert érvényesítettek) az alábbiakat állapíthatjuk
+                    meg:</p>
+                <p xml:id="p.2">- <persName>Arany<idno corresp="Arany János"/></persName>
+                    javításainak 74,3%-a tekinthető helyesírási jobbításnak,</p>
+                <p xml:id="p.3">további 22,91%-a technikai szerkesztés céljait szolgálta. (Együtt:
+                    97,21%.)</p>
+                <p xml:id="p.4">Ezekből következően a tartalmi módosítás az Arany-javítások 2,79%-ra
+                    szűkül. Vagyis a szerkesztő-kiadó költőtárs tartotta magát második, <date
+                        when="1861-10-27">1861. október 27-i</date> levelében foglalt
+                    álláspontjához, ahol a helyesírást látta vitán felül
+                    megváltoztatandónak:„...(kivéve néhol a helyesírást, mert azt minden esetre
+                    kell)”, ti. módosítani (<bibl>MÖM II. 1002.<idno type="ITIdata"
+                        >Q412729</idno></bibl>, <bibl><abbr>AJÖM XVII.</abbr> 600.<ref
+                            target="/aj_lev_17_1359.tei"/></bibl>). Mindez azért hangsúlyozandó,
+                    mert az újabb kvantitatív vizsgálatok, a sorok nagy számán végrehajtott
+                    változtatásokra hivatkozva, a K-K1 megkülönböztetést abszolutizálták: „<time>Az
+                        ember tragédiája</time> kétszer született meg. Először <hi rend="smallcaps"
+                        >MADÁCH</hi> sokat emlegetett sztregovai oroszlánbarlangjában 1859. febr.
+                    17-e és 1860. márc. 26-a között, majd másodszorra <hi rend="smallcaps"
+                        >ARANY</hi> János keze alatt, 1861 őszén.”
+                            (<bibl><persName>Striker</persName> 1996 113.<idno type="ITIdata"
+                            >Q470126</idno></bibl>) Most, hogy az írásszakértői vizsgálat
+                    megsokszorozta az Arany-javítások számát, nem növekedett ezzel automatikusan az
+                    érdemi javítások száma, sőt részarányuk csökkent. Mindössze öt olyan esetet
+                    találtunk (az Arany-módosítások 0,08%-a), amikor <persName>Arany<idno
+                            corresp="Arany János"/></persName> szövegelőzmény nélkül írt be új sort;
+                    közülük is kettő a színpadi helyzetet magyarázó szerzői utasítás. Ugyancsak nem
+                    találni nyomát a többfázisú megírásnak vagy interpolálásnak az állítólagos
+                            <title><hi rend="italic">Lucifer</hi></title> c. műből, egy „<title><hi
+                            rend="italic">Ős-Tragédiá</hi></title>”-ból[. (Vö. a <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.7"><title><hi
+                                rend="italic">Keletkezéstörténet</hi></title></ref> c.
+                    alfejezettel!) Sem az íráskép megváltozása, sem a javítások hiánya nem mutatja
+                    korábbi, öszszefüggő szöveg átmásolását, holott a nehezen fogalmazó Madách
+                    igyekezett átmenteni korábbi művei használható részeit, akár néhány mondat
+                    erejéig is, amint arra a <title><hi rend="italic">Tárgyi
+                        magyarázatok</hi></title> alfejezetében több példát is hozunk. Ugyanezt
+                    szemlélteti az általunk meg nem különböztetett, de a német textológiában külön
+                    kezelt, ún. azonnali szerzői javítások (Sofortkorrektur) viszonylag egyenletes
+                    eloszlása is.</p>
+                <p xml:id="p.5">Ami az Arany-javítások csaknem háromnegyedét kitevő helyesírást
+                    illeti, a két költő a korabeli ortográfiai gyakorlatnak szinte végpontjain
+                    helyezhető el. <persName>Madách</persName> - apjának írt fr. nyelvű névnapi
+                    köszöntése szerint - öt és fél éves korában már tudott írni (<bibl>MÖM II.
+                            891.<idno type="ITIdata">Q412729</idno></bibl>); anyjának írott korai
+                    levelei tanúsága szerint (<bibl>MÖM II. 891-892.<idno type="ITIdata"
+                            >Q412729</idno></bibl>) a házitanítóktól azt az archaikus helyesírást
+                    sajátította el, amelyet a Magyar Tudós Társaság első szabályzata már 1832-ben
+                    korszerűsített: <title><hi rend="italic">Magyar helyesírás' és szóragasztás'
+                            főbb szabályai</hi></title>. <persName>Arany<idno corresp="Arany János"
+                        /></persName> viszont - mondhatni - mindig is tolla után élt: városi
+                    nótáriusként, gimnáziumi tanárként, majd mint szerkesztő és mint a
+                        <orgName>Kisfaludy Társaság<idno type="ITIdata">Q87</idno></orgName>
+                    igazgatója folyamatosan adminisztrált. Helyesírása így korszerű és biztos volt,
+                    amit csak erősített, hogy szívesen foglalkozott nyelvészeti kérdésekkel.</p>
+                <p xml:id="p.6"><persName>Madách</persName> ugyanakkor nyelvhasználatában és
+                    helyesírásában is „reformkori ember” maradt (vö.
+                            <bibl><persName>Mihályi</persName> 1964<idno type="ITIdata"
+                            >Q470074</idno></bibl>!); ezen vármegyei tevékenysége mit sem
+                    változtatott. <persName>Barta János<idno type="ITIdata"
+                        >Q141542</idno></persName> a <title><hi rend="italic">Duló Zebedeus
+                            kalandjai</hi></title> c. Madách-novella (<date when="1842">1842</date>)
+                    kapcsán írta le ortográfiáját is megszabó alkotói szokásait: „... kéziratából ki
+                    lehet olvasni, hogy írás közben szinte indulatszerű hév viszi előre, olyannyira,
+                    hogy betűket felcserél, kihagy...” (<bibl><persName>Barta</persName> 1942
+                            61-62.<idno type="ITIdata">Q469811</idno></bibl>) Ugyanilyen, az
+                    írásszakértői vélemény által a <title><hi rend="italic">Tragédia</hi></title>
+                    K-n is rögzített sajátosság figyelhető meg már <date when="1843-12-01">1843.
+                        december 1-jei</date>, <persName>Szontagh Pálnak<idno type="ITIdata"
+                            >Q49539</idno></persName> írott levelében, amelyben a következő,
+                    önirónikus részlet található: „ - ???;;-; - Ezen interpunctiocat úgy nézd, mint
+                    segéd sereget, pótold velek a hiányokat, tudom sok helyt ki maradtak, hol a
+                    gondolat gyorsab vólt kezemnél.” (<bibl>MÖM II. 957.<idno type="ITIdata"
+                            >Q412729</idno></bibl> és <bibl><persName>Győrffy</persName> 1959
+                            72.<idno type="ITIdata">Q469926</idno></bibl>)</p>
+                <p xml:id="p.7"><persName>Arany<idno corresp="Arany János"/></persName>
+                    szöveggondozásának alapelveit (szerencsére) egyidős forrásból ismerjük: abból a
+                    bírálatból, amelyet # jegy alatt <persName>Petőfi<idno type="ITIdata"
+                            >Q149546</idno></persName><title><hi rend="italic">Az
+                        apostol</hi></title> c. elbeszélő költeményének megcsonkított, sőt átírt
+                    kiadásáról írt az <title><abbr>SzF</abbr></title>-be (<bibl><abbr>AJÖM
+                            XI.</abbr> 344-345.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/pr%C3%B3zai-m%C5%B1vek-2.-1860-1882/"
+                            type="url"/><idno type="ITIdata">Q347963</idno></bibl>) „Nem is haladt
+                    azóta [ti. <persName>Petőfi</persName> óta] a magyar helyesírás, kivéve talán,
+                    hogy az ő kettős ly-ei helyett (mel<hi rend="italic">l</hi>y, il<hi
+                        rend="italic">l</hi>y, o<hi rend="italic">l</hi>ly) egy <hi rend="italic"
+                        >l</hi>y kapott lábra...” - ez a <title><hi rend="italic"
+                        >Tragédia</hi></title> esetében is alapvető javítástípus lett; zömét teszi
+                    az írásszakértői vélemény „<title>Kettőzött betűk javítása</title>” cím alá
+                    foglalt, 343 esetben (az összes Arany-javítások 5,91%-ában) észlelt
+                    módosításainak. A recenzióból kitűnik, hogy <persName>Arany<idno
+                            corresp="Arany János"/></persName> általában híve volt a költői egyéni
+                    helyesírás megőrzésének: <title><hi rend="italic">Az apostol</hi></title>
+                    kapcsán például elhárította a köny &gt; kö<hi rend="italic">n</hi>ny, eml<hi
+                        rend="italic">e</hi>jét &gt; eml<hi rend="italic">ő</hi>jét (a jambus
+                    rontása miatt), álmodj' &gt; álmodj, lombokr<hi rend="italic">u</hi>l &gt;
+                        lombokr<hi rend="italic">ó</hi>l, kin<hi rend="italic">n</hi> &gt; kin<hi
+                        rend="italic">t</hi>, va<hi rend="italic">j</hi>on &gt; val<hi rend="italic"
+                        >j</hi>on, f<hi rend="italic">ö</hi>léjök &gt; f<hi rend="italic"
+                    >e</hi>léjök típusú javításokat, a szóhatárok eltolását, és a kiadónak (a
+                            <title><hi rend="italic">Tragédiá</hi></title>t is kinyomtató Emich
+                    Gusztávnak): „Nem volt joga felcserélni, elhagyni, más helyre rakni
+                        <persName>Petőfi</persName> írásjeleit...” Mindezeket
+                        <persName>Madách</persName> művén is érvényesítette.</p>
+                <p xml:id="p.8">Ugyanakkor a korabeli írói gyakorlat számottevő egyéni változatokat
+                    mutatott; az Akadémia <date when="1855">1855-ben</date> létrehozott
+                    Nyelvtudományi Bizottsága kezdettől fogva törekedett is az „országosan
+                    megállapodott szokás” kialakítására (vö. <bibl><persName>Szemere</persName> 1974
+                        15-16.</bibl>!). <persName>Arany<idno corresp="Arany János"/></persName>
+                    sajátosságait <persName>Simonyi Zsigmond<idno type="ITIdata"
+                        >Q48632</idno></persName> vette számba. Ő is kiemelte az aposztrófok
+                    elhagyását (az írásszakértői vélemény „<title>Ékezet, aposztróf
+                    javítása</title>” címszava alatt; a 413 eset, 7,12% zöme), az
+                    egybeírás-különírás következetlenségeit, és rögzített néhány egyéni megoldást,
+                    ami témánk szempontjából azért fontos, mert bizonyítja <persName>Arany<idno
+                            corresp="Arany János"/></persName> megértését az egyéni változatok
+                    iránt; kivált, ha azokat még ritmikai megfontolás is támogatta
+                            (<bibl><persName>Simonyi</persName> 1916<idno type="ITIdata"
+                            >Q467983</idno></bibl>).</p>
+                <p xml:id="p.9">Már <persName>Simonyi</persName> említette, hogy
+                            <persName>Arany<idno corresp="Arany János"/></persName> (Akakievics
+                    Akaki álnéven, illetve A. A. monogram alatt) saját lapjában, a
+                        <title>Koszorú</title>ban, <date when="1865">1865-ben</date> cikkekben
+                    foglalkozott - erős etimologizáló hajlamról téve tanúbizonyságot - számára
+                    fontos nyelvészeti kérdésekkel. Hozzátehetjük, hogy <title><hi rend="italic">Az
+                            „AKI az akadémiában</hi></title>, illetve <title><hi rend="italic">A
+                            „vajon” kérdéséhez</hi></title> (<bibl><abbr>AJÖM XI.</abbr> 512-516. és
+                            845-846.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/pr%C3%B3zai-m%C5%B1vek-2.-1860-1882/"
+                            type="url"/></bibl>; <bibl>uo. 517-520. és 846-847.<ref
+                            target="/ajom11-proza-2.tei.67"/></bibl>) a <title><hi rend="italic"
+                            >Tragédia</hi></title>-javítások szempontjából is fontosak. Az előbbi
+                    írásban <persName>Arany<idno corresp="Arany János"/></persName> a különírás
+                    mellett érvelt (a ki, a mely, a hol stb.), mivel egy ősnyelvi tagolatlan
+                    felkiáltásból (a! e!) lett mutató névmás névelővé átalakult előtagját látta
+                    benne, amelynek teljesebb alakjából (a’ki) csak a kényelem hagyatta el az
+                    aposztrófot; az ún. „pattanó kettőzés” rövidülése (akki &gt; aki) pedig a
+                    kiejtést is szegényíti. <persName>Arany<idno corresp="Arany János"/></persName>
+                    szófejtése elszigetelődött (<persName>Toldy Ferenc<idno type="ITIdata"
+                            >Q151328</idno></persName>, <persName>Pompéry János<idno type="ITIdata"
+                            >Q245302</idno></persName> foglalt ellene állást), ezért még a
+                        <title>Koszorú</title> utolsó, <date when="1865-06-25">1865. június
+                        25-i</date> számában is visszatért rá egy glossza erejéig (<bibl><abbr>AJÖM
+                            XI.</abbr> 192. és 474.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/pr%C3%B3zai-m%C5%B1vekxn-xn-glosszk-fza.-szerkeszti-%C3%BCzenetek.-szerkeszt%C5%91i-megjegyz%C3%A9sek.-elfize/"
+                            type="url"/></bibl>). A K1 munkafázisában mindenesetre, felfogása
+                    szerint, következetesen elválasztotta <persName>Madách</persName> egybeírt
+                    vonatkozó névmásait. (Vö. még <bibl><persName>Simonyi</persName> 1916 3-4.<idno
+                            type="ITIdata">Q467983</idno></bibl>!) A <hi rend="italic">vajon</hi>t
+                            <persName>Arany<idno corresp="Arany János"/></persName> saját lapjaiban
+                    következetesen rövid mássalhangzóval írta, minthogy a vaj ~ vajh &gt; vagy
+                    kötőszó származéknak tartotta, amely röviden ejtve a köznyelvben is
+                    jelentésmegkülönböztető szerepet kapott a felszólító módú <hi rend="italic"
+                        >valljon</hi> alakhoz képest, és a <hi rend="italic">vajjon</hi> is csak
+                    akkor engedhető meg, ha a versmérték úgy kívánja. Ilyen szellemben javított a
+                            <title><hi rend="italic">Tragédiá</hi></title>n is.</p>
+                <p xml:id="p.10">Nem kíván(t) külön argumentálást <persName>Madách</persName>
+                    vitathatatlan archaizmusainak javítása, amilyen az igekötő és a mögötte álló ige
+                    összekötése (ez tette - a vonatkozó névmások mellett - a „Szóhatárok javítása”
+                    típus alá foglalt módosítások másik nagyobb csoportját) vagy a hiátuspótló <hi
+                        rend="italic">j</hi> beírása. Ugyanez vonatkozik tájszavaira és nyelvjárási
+                    alakváltozataira. „Talán nem hatott úgy át meg át a magyar népnyelv érzete, mint
+                        <hi rend="italic">oly nagy</hi> költőt kellene...” - írta
+                            <persName>Arany<idno corresp="Arany János"/></persName>, <date
+                        when="1861-11-05">1861. november 5-i</date> levelében. (A kiemelés is tőle,
+                    vö. <bibl>MÖM II. 1014.<idno type="ITIdata">Q412729</idno></bibl>,
+                            <bibl><abbr>AJÖM XVII.</abbr> 616.<ref target="/aj_lev_17_1362.tei"
+                        /></bibl>!) <persName>Balogh (II.) Károly<idno type="ITIdata"
+                        >Q83972</idno></persName> unokaöcs emlékezései ugyanakkor egy patriarchális,
+                    jobbágyaival nap mint nap érint- kező földesurat állítanak elénk
+                            (<bibl><persName>Balogh</persName> 1996 42.</bibl> és
+                            <bibl><persName>Balogh</persName> 1934 122.</bibl>). <date
+                        when="1861-11-02">1861. november 2-án</date>, tehát nem az Arany-levélre
+                    válaszul vagy mentegetőzésül, a kertjében dolgozó palóc parasztok dalát küldte
+                    meg <persName>Aranynak</persName> (<bibl>MÖM II. 868.<idno type="ITIdata"
+                            >Q412729</idno></bibl>, <bibl><abbr>AJÖM XVII.</abbr> 615.<ref
+                            target="/aj_lev_17_1361.tei"/></bibl>). Ugyanakkor mind
+                            <placeName>Alsósztregova<idno type="ITIdata">Q1731</idno></placeName>,
+                    mind pedig <placeName>Csesztve<idno type="ITIdata">Q11310</idno></placeName>
+                        (<date from="1844" to="1853">1844 és 1853 közötti</date> lakóhelye) „tót
+                    falu”-minősítést kapott (<bibl><persName>Fényes</persName> 1851 IV. 162. és I.
+                            218.<idno type="ITIdata">Q469918</idno></bibl>). A palóc tájnyelv hatása
+                        <persName>Madáchra</persName> ezért igen csekély. A nógrádi nyelvszokás
+                    részének tekinthetjük a több helyütt használt <hi rend="italic">silled</hi>
+                    (süllyed) alakot, a <hi rend="italic">dölfös</hi>t, a <hi rend="italic"
+                        >szemetlenség</hi>et, <hi rend="italic">picin</hi>t, a <hi rend="italic"
+                        >bizon</hi>t a <hi rend="italic">sikojtás</hi>t. (<persName>Arany</persName>
+                    valamennyit a köznyelvi változatra javította.) Valódi tájszó a <hi rend="italic"
+                        >fékető</hi> (főkötő) és a <hi rend="italic">guliba</hi> (kunyhó,
+                    viskó).</p>
+                <p xml:id="p.11"><persName>Arany<idno corresp="Arany János"/></persName> a K
+                    nagyszámú germanizmusa láttán így folytatta az idézett, <date when="1861-11-05"
+                        >1861. november 5-i</date> levelét: „Talán előbb kaptad a német s átalában
+                    idegen culturát, hogy sem a magyar nyelvszellem kitörölhelenűl ette volna be
+                    magát nyelvérzékedbe.” (<bibl>MÖM II. 1014.<idno type="ITIdata"
+                        >Q412729</idno></bibl>, <bibl><abbr>AJÖM XVII.</abbr> 616.<ref
+                            target="/aj_lev_17_1362.tei"/></bibl>) Javításainak értelmezésére l. a
+                        <ref target="https://hdl.handle.net/20.500.14368/mi-aet-notes.tei.1"
+                            ><title>SZÖVEGKRITIKAI DOKUMENTUMOK</title></ref>-at!</p>
+                <p xml:id="p.12">Drámai költeményről lévén szó, a további egybevetéshez
+                            <persName>Arany<idno corresp="Arany János"/></persName> egykorú
+                    Shakespeare-drámafordításait használhatjuk, a <title><hi rend="italic"
+                            >Szentivánéji álom</hi></title> (<date from="1858" to="1863">1858-
+                        1863</date>) és a <title><hi rend="italic">Hamlet</hi></title> (<date
+                        when="1866">1866</date>) magyar szövegét: <bibl><abbr>AJÖM VII</abbr>.
+                            1-80.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/dr%C3%A1maford%C3%ADt%C3%A1sok-1.-shakespeare/"
+                            type="url"/></bibl> és <bibl>81-239.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/dr%C3%A1maford%C3%ADt%C3%A1sok-1.-shakespeare/"
+                            type="url"/></bibl> E tekintetben <persName>Arany<idno
+                            corresp="Arany János"/></persName> álláspontját <date when="1862-01-24"
+                        >1862. január 24-i</date> levele tartalmazta: „... öntudatosan úgy jártam
+                    el, hogy a szerint használjak hosszú vagy rövid hangzót (<hi rend="italic"
+                        >i</hi>, <hi rend="italic">í</hi>, <hi rend="italic">u</hi>, <hi
+                        rend="italic">ú</hi> stb.), egyes vagy kettős consonánst (me<hi
+                        rend="italic">ly</hi>, me<hi rend="italic">lly</hi>) a mint a jambus igényli
+                    vala...” (<bibl>MÖM II. 1016.<idno type="ITIdata">Q412729</idno></bibl>)
+                    Valóban, a drámafordítások számos hasonló példával szolgálnak, és magyarázzák
+                            <persName>Arany<idno corresp="Arany János"/></persName> toleranciáját a
+                    ritmikai célzatú egyedi megoldások iránt. Hogy a <title><hi rend="italic"
+                            >Tragédia</hi></title>-javítások eseteinél maradjunk, ilyen volt a
+                    verseiben is következetesen használt <hi rend="italic">ne’kül</hi> (a <hi
+                        rend="italic">nélkül</hi> alakváltozataként), amely így jó jambust
+                    eredményezett vagy a simuló kérdőszó mindkét alakjának (-e ~ é) elfogadása. (Ez
+                    utóbbira a <title><hi rend="italic">Tragédia</hi></title> vonatkozásában
+                        <persName>Szabó T. Attila<idno type="ITIdata">Q150711</idno></persName>
+                    külön alfejezetben tért ki, vö. <bibl><persName>Szabó T.</persName> 1972.<idno
+                            type="ITIdata">Q470127</idno></bibl>!) A névutók és igeképzők hosszú
+                    magánhangzója (-<hi rend="italic">úl</hi>/, - <hi rend="italic">űl</hi>)
+                    esetében pedig a napi helyesírási gyakorlat kettőssége érvényesülhetett, a
+                    rövidülés tendenciajellegével, amelyet azonban csak <date when="1915"
+                        >1915-ben</date> tett kizárólagossá a szabályzat. (Vö.
+                            <bibl><persName>Szemere</persName> 1974 95-96.</bibl>!)</p>
+                <p xml:id="p.13">Szintén a műfajból következett a K-n javító <persName>Arany<idno
+                            corresp="Arany János"/></persName> dilemmája. A helyesírás
+                    korszerűsítése során ugyanis gyakran szembekerült a kor gyakorlatában szinte
+                    kizárólagosnak érzett drámai jambusvers ritmikájával. A korántsem könnyeden író
+                        <persName>Madách</persName> ortográfiái kényszermegoldásokon át törekedett
+                        <hi rend="italic">jambusi</hi> sorok megfaragására, míg <persName>Arany<idno
+                            corresp="Arany János"/></persName> megelégedett <hi rend="italic"
+                        >jambikus</hi> sorokkal - akár saját gyakorlatában. Egyetlen példát hozunk
+                    ennek szemléltetésére. A <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.4#l.77"
+                            ><title>SZÖVEGÁLLAPOTOK IV.</title> színében, a 68.
+                        sorban</ref><persName>Madách</persName> „úgy-e bár” alakját
+                            <persName>Arany<idno corresp="Arany János"/></persName> nemcsak úgy
+                    javította, hogy kitette a második kötőjelet, hanem egyszersmind lehúzta az <hi
+                        rend="italic">ú</hi> ékezetét is. Az első kiadásban
+                        (<bibl><abbr>61</abbr></bibl>) viszont ismét a madáchi szóalak olvasható,
+                    ami csakis úgy képzelhető el, hogy a három korrektúraforduló valamelyikének ívén
+                    felülbírálta saját javítását. Hogy <persName>Arany<idno corresp="Arany János"
+                        /></persName> ezen a problémán a K1-n túlmenően is gondolkozott és
+                    dolgozott, azt éppen a hasonló, a K1 és a <bibl><abbr>61</abbr></bibl> között
+                    végrehajtott nagyszámú javítás bizonyítja. Ezeket a megoldásokat tehát
+                    semmiképpen nem tekinthetjük „ritmikai szövegromlás”-nak. Ráadásul a
+                            <bibl><abbr>61</abbr></bibl> szövegében <persName>Madách</persName> is
+                    elfogadta ezeket, miután nem élt az <persName>Arany<idno corresp="Arany János"
+                        /></persName> felkínálta lehetőséggel, hogy a második kiadásban
+                    visszatérjenek a K változatához. A <bibl><abbr>63</abbr></bibl> kiadásakor
+                    hasonlóan gondos munka nem folyt.</p>
+                <p xml:id="p.14">Az elmondottakból következik, hogy a <bibl><abbr>61</abbr></bibl>
+                    helyesírása jobb állapotú, mint az „ultima manus” elve szerinti
+                            <bibl><abbr>63</abbr></bibl>, ahol a szövegkritikai jegyzetekben már
+                    élnünk kellett a „ritmikai szövegromlás” fogalmával és az emendálással.</p>
+                <p xml:id="p.15">Végül említenünk kell a <persName>Madáchnál</persName> és
+                            <persName>Aranynál<idno corresp="Arany János"/></persName> közös
+                    megoldásokat, amelyeket mai nyelvérzékünk egyértelműen hibának tekint. A
+                    mellérendelő tagmondatok határát kötőszó (és, s, vagy) előtt a <date from="1801"
+                        to="1900">19. században</date> nem jelölte vessző. Ezt szabályzat csak <date
+                        when="1901">1901-ben</date> fogalmazta meg, részleges érvénnyel, vö.
+                            <bibl><persName>Szemere</persName> 1974 252-254.<idno type="ITIdata"
+                            >Q470136</idno></bibl>! Az alárendelő tagmondatok kötőszavai előtt - bár
+                    nem következetesen, de - szintén gyakori a vesszőhiány. Kivált akkor, ha a
+                    kötőszóval új verssor indult. Ilyenkor a kötelezően nagybetűs sorkezdet szinte
+                    központozással ért fel. Egy látványos példa a <title><hi rend="italic"
+                            >Hamlet</hi></title> Arany-fordításából (IV. felv. 595-597. sor): „...
+                    mit mernél csinálni / Hogy tettel inkább légy atyád fia / Mint puszta szóval?”
+                            (<bibl><abbr>AJÖM VII.</abbr> 206.<ref
+                            target="https://szovegtar.iti.mta.hu/hu/muvek/dr%C3%A1maford%C3%ADt%C3%A1sok-1.-shakespeare/"
+                            type="url"/></bibl>)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

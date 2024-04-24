@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title key="supplement" n="5" type="main">Vázlat, jegyzetek?</title>
+                <author><persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                            type="ITIdata">Q248580</idno></persName></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>Informatizált kritikai kiadás</edition>
+                <respStmt>
+                    <resp>editor in chief</resp>
+                    <persName><surname>Palkó</surname><forename>Gábor</forename><idno type="ITIdata"
+                            >Q245084</idno><idno type="ORCID">0000-0002-4394-8577</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>editor of the digital edition</resp>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML-editor</resp>
+                    <persName><surname>Kovács-Bobák</surname><forename>Barbara</forename><idno
+                            type="ITIdata">Q474117</idno></persName>
+                    <persName><surname>Fellegi</surname><forename>Zsófia</forename><idno
+                            type="ITIdata">Q349971</idno><idno type="ORCID"
+                            >0000-0001-9199-1759</idno></persName>
+                    <persName><surname>Vincze</surname><forename>Tímea</forename></persName>
+                    <persName><surname>Nemes-Jakab</surname><forename>Éva</forename><idno
+                            type="ITIdata">Q470038</idno></persName>
+                    <persName><surname>Hernády</surname><forename>Judit</forename><idno
+                            type="ITIdata">Q349962</idno><idno type="ORCID"
+                            >0009-0000-2513-8311</idno></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>creator</resp>
+                    <orgName> DigiPhil <ref type="url">http://digiphil.hu</ref></orgName>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName>Bölcsészettudományi Kutatóközpont Irodalomtudományi Intézet<idno
+                            type="ITIdata">Q2256</idno></orgName><ref type="url"
+                        >https://iti.abtk.hu</ref></publisher>
+                <pubPlace>Budapest <idno type="ITIdata">Q93</idno></pubPlace>
+                <date when="2024">2024</date>
+                <availability>
+                    <p>CC BY-NC-ND 4.0 DEED: Attribution-NonCommercial-NoDerivs 4.0
+                            International<ref type="url"
+                            >https://creativecommons.org/licenses/by-nc-nd/4.0/</ref></p>
+                </availability>
+                <idno type="PID">mi-aet-notes.tei.5</idno>
+                <ref
+                    target="https://github.com/digiphil-hu/madach-tragedia/blob/main/mi-aet-notes.tei.5.xml"
+                    type="url">A jegyzet TEI XML átirata a DigiPhil GitHub repozitóriumában</ref>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><persName><surname>Madách</surname><forename>Imre</forename><idno
+                                type="ITIdata">Q56413</idno></persName></author><title type="main"
+                        >Az ember tragédiája - Drámai költemény, Szinoptikus kritikai kiadás</title><respStmt>
+                        <resp>Sajtó alá rendezte és a jegyzeteket írta:</resp>
+                        <persName><surname>Kerényi</surname><forename>Ferenc</forename><idno
+                                type="ITIdata">Q248580</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>A mű kéziratának írásszakértői vizsgálatát végezte:</resp>
+                        <persName><surname>Wohlrab</surname><forename>József</forename><idno
+                                type="ITIdata">Q469623</idno></persName>
+                    </respStmt><respStmt>
+                        <resp>Lektorálta:</resp>
+                        <persName><surname>Kovács</surname><forename>Ilona</forename><idno
+                                type="ITIdata">Q190812</idno></persName>
+                        <persName><surname>Láng</surname><forename>József</forename><idno
+                                type="ITIdata">Q54322</idno></persName>
+                        <persName><surname>Stoll</surname><forename>Béla</forename><idno
+                                type="ITIdata">Q253314</idno></persName>
+                    </respStmt><date when="2005"
+                        >2005</date><pubPlace>Budapest</pubPlace><publisher>Argumentum
+                        Kiadó</publisher><biblScope unit="page"><idno type="ISBN"
+                            >963-446-307-X</idno>643-651</biblScope><idno type="ITIdata"
+                        >Q329545</idno><ref target="https://github.com/digiphil-hu/madach-tragedia"
+                        type="url">A kiadás TEI XML átiratai a DigiPhil GitHub
+                        repozitóriumában</ref><idno type="DOI"
+                        >https://doi.org/10.5281/zenodo.11032652</idno></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">magyar</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d.1">
+                <head type="title">Vázlat, jegyzetek?</head>
+                <p xml:id="p.1">„Erős hitem, hogy ő mindig irónnal vagy tollal kezében olvasott.
+                    Egyetlen eszmét sem bizott az emlékezet táblájára, honnan az könnyen tova száll,
+                    hanem papirszeletekre, s ezt az illető papircsomagba tette. (...) Hány ilyen
+                    csomagot, s ezekben hány ezer ily papirszeletet találtam irományai között, tele
+                    irva az ismeret minden neméből vett és saját elvonó [= általánosító]
+                    észrevételeivel kisért jegyzetekkel. E csomag itt philosophia, e másik
+                    dramaturgia, ez biblia, az mythosz, ez életirás, az történelem, ez politika, az
+                    költészet, ez kivonatok a <title><hi rend="italic">Corpus
+                    Juris</hi></title>-ból, az zenészet - és igy tovább.” A nógrádi barát, az
+                    ifjúkori irodalmi kísérletek példaképe, <persName>Bérczy Károly<idno
+                            type="ITIdata">Q142388</idno></persName> (1821-1867) jellemezte így
+                            <orgName><abbr>KisfT</abbr></orgName>-i emlékbeszédében
+                        <persName>Madách</persName> munkamódszerét a Társaság <date
+                        when="1866-02-06">1866. február 6-i</date> ülésén. (Megjelent: <bibl>PN
+                        1866. február 7-8.</bibl>; <bibl><orgName><abbr>KisfT</abbr></orgName>É UjF
+                        III. k. 1865/66-1866/67, Pest, 1869. 197-223., az idézet: 210.</bibl>;
+                        <persName>Gyulai Pál<idno type="ITIdata">Q145946</idno></persName>
+                    összkiadásában is: <bibl><title><hi rend="italic">Madách Imre összes
+                            müvei</hi></title>, Bp., 1880.1. k. XI-XXXVIIL, az idézet:
+                    XXVI.</bibl>)</p>
+                <p xml:id="p.2">Az „Erős hitem” arra vonatkozott, hogy a <placeName>Pesten<idno
+                            type="ITIdata">Q111</idno></placeName> élt <persName>Bérczy</persName>
+                    nem lát- (hat)ta munka közben az alsósztregovai kastély „oroszlánbarlang”-jában
+                    dolgozott <persName>Madáchot</persName>. Megállapítását részben a családi
+                    emlékezésekre alapította. „Olvasmányaiból nagy csomó jegyzet volt felhalmozva
+                    íróasztalán” - emlékezett unokaöccse, ifjabb <persName>Balogh Károly<idno
+                            type="ITIdata">Q83972</idno></persName> (<bibl>Balogh 1996 39.<idno
+                            type="ITIdata">Q469805</idno></bibl>). Megerősítette
+                        <persName>Bérczyt</persName> következtetésében a hagyaték, amelynek
+                    áttekintésére és gondozására őt a család kérte fel, és amely megbízásnak eleget
+                    is tett haláláig. Az említett „papirszeletek” (vagy csupán fennmaradt részeik?)
+                    ma is megvannak: OSZK Kt. 51 fóliót tesznek ki itt a „Kivonatok a Corpus
+                    jurisból” (<bibl>Quart. Hung. 2075.</bibl>, vö. <bibl>MKK 215.<idno
+                            type="ITIdata">Q470077</idno></bibl>), hetet a „Történeti anekdoták
+                    term[észet]. tudományos jegyzetek” (<bibl>Föl. Hung. 1402.</bibl>, vö. <bibl>MKK
+                            215-216.<idno type="ITIdata">Q470077</idno></bibl>), míg a „Vegyes
+                    jegyzetek” 112 lapra ragasztva olvashatók (<bibl>Quart. Hung. 2076.</bibl>, vö.
+                        <bibl>MKK 329-380.<idno type="ITIdata">Q470077</idno></bibl>, teljes
+                    szövegközlésükkel. Korábban - az irodalmi vázlatokkal és töredékekkel együtt
+                    közölve -: <bibl>MÖM II. 713-806.<idno type="ITIdata">Q412729</idno></bibl>). Az
+                    utóbbiak a legkülönbözőbb minőségű, nagyságú és formájú papírdarabkák. Sokszor
+                    előfordult, hogy egy régi feljegyzést <persName>Madách</persName> kivágott és
+                    átragasztott egy másik lapra - nem törődve azzal, hogy az egykori sorrend vagy
+                    elképzelés szerinti sorszám rajta maradt céduláján, és függetlenül attól is,
+                    hogy mi állt a feljegyzés verzóján (számadás, verskézirat stb.).</p>
+                <p xml:id="p.3"><persName>Madáchnak</persName> ez az anyaggyűjtő módszere,
+                    felkészülése az írásra nem volt egyedi: a kor képzésében híres mondások és
+                    történetek kijegyzése, idézetfüzetek vezetése, kompendiumok készítése
+                    mindennapos gyakorlat volt a nyilvános iskolarendszerben és a család körében
+                    végzett iskolázásban egyaránt. Hogy mindez <placeName>Alsósztregován<idno
+                            type="ITIdata">Q1731</idno></placeName> is dívott, azt a költő
+                    nővérének, <persName>Madách Máriának<idno type="ITIdata"
+                        >Q469746</idno></persName> (1813-1849) idézetgyűjtő füzetei bizonyítják.
+                    (Ism.: <bibl><title><hi rend="italic">Új források a Madách-család
+                                történetéhez</hi></title> = MT 1978 316-317.<idno type="ITIdata"
+                            >Q470091</idno></bibl>)</p>
+                <p xml:id="p.4">A hagyaték elemzése után <persName>Tolnai Vilmos<idno type="ITIdata"
+                            >Q151361</idno></persName> így rekonstruálta <persName>Madách</persName>
+                    általában gyakorolt megírási módszerét: „...a tervvázlatot, a mű egyes
+                    részleteit, párbeszédeket, a személyek jellemét és szerepkörét stb. mindenféle
+                    apró dirib-darab papirosokra irogatta, sokat törölve, sokat javítva s aztán
+                    egyvégtiben írta le az egész szöveget.” (<bibl>Tolnai 1923 V.<idno
+                            type="ITIdata">Q470154</idno></bibl>) Majd rögtön hozzátette, amit a más
+                    mű összefüggésében is hasznosítható feljegyzések „átmentése” amúgyis sugallt:
+                        „<title>Az Ember Tragédiájá</title>nak ilyesféle futólagos vázlatai, sajnos,
+                    nem maradtak fenn.” Vagyis - és most már az apja idézett emlékverseire építő
+                    legifjabb <persName>Balogh Károlyt<idno type="ITIdata"
+                    >Q238980</idno></persName>, <persName>Madáchnak</persName> mindmáig legjobb
+                    életrajzíróját idézzük: „Az első fogalmazványokat, vázlatait megsemmisíti...”
+                        (<bibl>Balogh 1934 162.<idno type="ITIdata">Q469804</idno></bibl>) Valóban:
+                    a <persName>Tolnai<idno corresp="Tolnai Vilmos"/></persName> által felsorolt
+                    vázlatok és jegyzetek csak a be nem fejezett vagy átdolgozásra szánt nagyobb
+                    művekről maradtak fenn, az elkészültekről - így <title><hi rend="italic">Az
+                            ember tragédiájá</hi></title>ról - nem. A hagyatékban egyetlen olyan
+                    cédula akad, amelynek szövegéhez a költő, alkalmasint egy későbbi átmentés
+                    pillanatában, utólag hozzáfűzte: „Az Ember traged: 13ik jelenetében rokon.”
+                        (<bibl>OSZK Kt. Quart. Hung. 2076. 87.</bibl> f. r., vö. <bibl>MKK 370.<idno
+                            type="ITIdata">Q470077</idno></bibl>!)</p>
+                <p xml:id="p.5">Ismerünk viszont egy 1 fólió terjedelmű, két oldalán írott
+                    Madách-autográfot, amelyet <persName>Gyulai<idno corresp="Gyulai Pál"
+                        /></persName> összkiadása óta - tévesen - a <title><hi rend="italic"
+                            >Tragédia</hi></title> vázlatának szoktak nevezni. (Még az
+                            <bibl><abbr>MKK-ban</abbr> is: 218.<idno type="ITIdata"
+                        >Q470077</idno></bibl>) A <persName>Bérczy</persName> helyére lépett
+                        <persName>Gyulai</persName> szerint „egy papirszeleten, a mely az első
+                    fogalmazásból maradhatott fenn, ez áll: '<title><hi rend="italic">Az Ember
+                            tragédiája</hi></title> drámai költemény. Kezdtem 1859. febr. 17-én,
+                    végeztem 1860. márcz. 26-án.’ Ezután következnek a jelenetek czímei, s a
+                    személyzet [= a szereplők] névsora.” (<bibl>Id. kiadás, VII.</bibl>) A
+                    kéziratlap addigi történetét, amely elszakadt mind a <title><hi rend="italic"
+                            >Tragédiá</hi></title>nak a <orgName><abbr>KisfT</abbr></orgName>
+                    levéltárával az <orgName><abbr>MTA-ra</abbr></orgName> került teljes
+                    kéziratától, mind pedig az alsósztregovai hagyatéknak a költő fia,
+                        <persName>Madách Aladár<idno type="ITIdata">Q56407</idno></persName> halála
+                    után az <orgName><abbr>OSZK-ba</abbr></orgName> került (<date when="1913"
+                        >1913</date>) törzsanyagától, összefoglalta: <bibl>Tolnai 1925 84—89.<idno
+                            type="ITIdata">Q470155</idno></bibl> Eszerint <persName>Madách
+                        Aladár</persName>, valamikor <date from="1880" to="1908">1880 és 1908
+                        között</date>, egyik barátjának, <persName>Palágyi Lajosnak<idno
+                            type="ITIdata">Q47596</idno></persName> ajándékozta. Tőle <date
+                        when="1921">1921-ben</date><persName>Szász Andor<idno type="ITIdata"
+                        /></persName> ügyvéd és könyvgyűjtő vásárolta meg. Így eshetett, hogy a
+                        <bibl>Tolnai 1923<idno type="ITIdata">Q470154</idno></bibl> az éppen
+                    lappangó autográfot nem használhatta fel. A kéziratlap későbbi útja így alakult:
+                        <persName>Szász Andor</persName> hagyatékából <date when="1943"
+                        >1943-ban</date><persName>Vasberényi Géza<idno type="ITIdata"
+                        >Q469748</idno></persName> (<placeName>Dunavecse<idno type="ITIdata"
+                            >Q6781</idno></placeName>) tulajdonába került, majd a posszesszor <date
+                        when="1981">1981-ben</date> bekövetkezett halála után közgyűjteménybe
+                    jutott. Mai jelzete: <bibl>PIM Kt. V-an. 4662.</bibl> Formátum- és betűhív
+                    közlése: <bibl>MÖM II. 740. és 741.<idno type="ITIdata">Q412729</idno></bibl>
+                    között. Hasonmás kiadását l. <bibl><title><hi rend="italic">Madách Imre:
+                                „...írtam egy költeményt...”</hi></title> bemutatja Kerényi Ferenc,
+                        Bp. 1983. (Kézirattár)</bibl> Mivel az autográf közvetlenül a <title><hi
+                            rend="italic">Tragédiá</hi></title>hoz kapcsolódik és ismételten
+                    hivatkozunk rá, újraközlése - természetesen formátum- és betűhív formában,
+                    javítva - jelen krk.-ban mindenképpen indokolt.</p>
+                <p xml:id="p.6">A munkalapnak a VII. szín sorszámához fűzött jegyzetének olvasatáról
+                    legújabb vita alakult ki. A <title>Szentírás</title>ból vett idézetek itt
+                    rögzített számát <persName>Halász Gábor<idno type="ITIdata"
+                        >Q242427</idno></persName> 18-nak olvasta (<bibl>MÖM II.<idno type="ITIdata"
+                            >Q412729</idno></bibl>, id. helyen); a hasonmás kiadásban pedig
+                    olvashatatlannak minősítettük. <persName>Bárdos Dóra<idno type="ITIdata"
+                            >Q469749</idno></persName> viszont (<bibl><title><hi rend="italic">A
+                                színpadi időről. Madách vázlatlapjának két kiolvashatatlan
+                                szava</hi></title> = MK ÚjF 35., Bp.-Balassagyarmat 2004.
+                        41-45.</bibl>) úgy vélte, hogy a K-Kl idézetsorainak 23-as száma 18-ra
+                    csökkentendő, mert a két utolsó vers, a XXXV. zsoltár 26. és 27. versének öt
+                    sora „már csak a háttérből hallatszik, nem a színpadi beszéd része.” (A
+                    magyarázat végső célja annak bizonyítása volt, hogy <persName>Madách</persName>
+                    - igen kifinomult dramaturgiával - színpadra szánta művét.) A kivonás nem
+                    indokolható; ugyanaz a szerzői utasítás vezeti be („karban, távolról”), mint az
+                    előző három verset.</p>
+                <p xml:id="p.7"><persName>Bene Kálmán<idno type="ITIdata">Q53931</idno></persName>
+                    szövegkiadása (<bibl><title><hi rend="italic">Az ember tragédiája. II.
+                                Szövegváltozatok, kommentárok</hi></title>, Szeged-Bp. 1999. MK ÚjF
+                        14. 10.</bibl>) 13-nak olvasta a versek számát; a ll., pontosan megjelölt
+                    zsoltáridézetet kiegészítette azzal a kettővel, amely szerinte a párbeszéd
+                    alatt, a XXII. 21-23. és a XXXV. 26-27. között hangozna el. Ez a XXII. zsoltár
+                    24. és 25. verse lenne. Túl azon, hogy hipotézisét a K-Kl-en semmi nem igazolja,
+                    nincs magyarázat a zsoltárok „váltására” sem.</p>
+                <p xml:id="p.8">E vélekedésekkel szemben, a kézirat (és a hasonmás) tüzetes
+                    vizsgálata azt bizonyítja, hogy a szám helyes olvasata: 17. Mindkét számjegy
+                    függőleges vonalát a munkalap kettős meghajtása törte meg, ezért „gyanús” az
+                    utóbbi 3 vagy 8 olvasatra. A lap tanúsága szerint azonban
+                        <persName>Madách</persName> a 3 számot a szokott módon, a 8 számot viszont
+                    széles terpesztéssel és felül nyitott hurokkal írta. A ll meg is felel a VII.
+                    színben megjelölt zsoltárverseknek: XXII. 1-3., XXXV. 1-3., XXII. 21-23. és
+                    XXXV. 26-27. A szerző tehát a zsoltárok verseit és nem a K-Kl sorait számolta,
+                    ami újabb bizonyítéka, hogy az idézeteket ne számozzuk a kiadásokban.</p>
+                <p xml:id="p.9">A munkalap rektóján: <table cols="11" rows="4" xml:id="table.1">
+                        <head type="main"><hi rend="underline">Az ember
+                                    t<supplied>ra</supplied>gö<supplied>d</supplied>iáia.</hi><add
+                                place="marginright" type="fw"><hi rend="italic">X Szentirás 11
+                                    vers</hi></add></head>
+                        <head type="sub">drámai költemény</head>
+                        <head type="num">kezdtem 1859 Feb 17 végeztem 1860 Mar 26-<hi rend="super"
+                                    ><hi rend="underline">án</hi></hi></head>
+                        <row xml:id="row.1">
+                            <cell xml:id="cell.1">1 Menyország 151</cell>
+                            <cell rows="3" xml:id="cell.2">}</cell>
+                            <cell rows="3" xml:id="cell.3">5</cell>
+                            <cell xml:id="cell.4">4 Egyptom</cell>
+                            <cell rows="3" xml:id="cell.5">}</cell>
+                            <cell rows="3" xml:id="cell.6">2</cell>
+                            <cell xml:id="cell.7">–252</cell>
+                            <cell xml:id="cell.8">7 Konstantinápoly</cell>
+                            <cell rows="3" xml:id="cell.9">}</cell>
+                            <cell rows="3" xml:id="cell.10">4</cell>
+                            <cell xml:id="cell.11">481x</cell>
+                        </row>
+                        <row xml:id="row.2">
+                            <cell xml:id="cell.12">2 Paradicsom 181</cell>
+                            <cell xml:id="cell.13">5 Athene</cell>
+                            <cell xml:id="cell.14">–266</cell>
+                            <cell xml:id="cell.15">8 Prága</cell>
+                            <cell xml:id="cell.16">242</cell>
+                        </row>
+                        <row xml:id="row.3">
+                            <cell xml:id="cell.17">3 Pálmafás vidék 214</cell>
+                            <cell xml:id="cell.18">6 Róma</cell>
+                            <cell xml:id="cell.19">–296</cell>
+                            <cell xml:id="cell.20">9 Páris</cell>
+                            <cell xml:id="cell.21">248</cell>
+                        </row>
+                        <row xml:id="row.4">
+                            <cell xml:id="cell.22"/>
+                            <cell xml:id="cell.23"/>
+                            <cell xml:id="cell.24"/>
+                            <cell xml:id="cell.25"/>
+                            <cell xml:id="cell.26"/>
+                            <cell xml:id="cell.27"/>
+                            <cell xml:id="cell.28"/>
+                            <cell xml:id="cell.29">10 Prága</cell>
+                            <cell xml:id="cell.30"/>
+                            <cell xml:id="cell.31"/>
+                            <cell xml:id="cell.32">179</cell>
+                        </row>
+                    </table><table cols="10" rows="3" xml:id="table.2">
+                        <row xml:id="row.5">
+                            <cell xml:id="cell.33">11 London</cell>
+                            <cell rows="3" xml:id="cell.34">}</cell>
+                            <cell rows="3" xml:id="cell.35">3</cell>
+                            <cell xml:id="cell.36">–592</cell>
+                            <cell xml:id="cell.37">13 Az ür</cell>
+                            <cell rows="3" xml:id="cell.38">}</cell>
+                            <cell rows="3" xml:id="cell.39">1</cell>
+                            <cell xml:id="cell.40">–150</cell>
+                            <cell rows="3" xml:id="cell.41">}</cell>
+                            <cell rows="3" xml:id="cell.42">4080</cell>
+                        </row>
+                        <row xml:id="row.6">
+                            <cell xml:id="cell.43">12 Phalanstere</cell>
+                            <cell xml:id="cell.44">–444</cell>
+                            <cell xml:id="cell.45">14 Jegesvidék</cell>
+                            <cell xml:id="cell.46">–176</cell>
+                        </row>
+                        <row xml:id="row.7">
+                            <cell xml:id="cell.47"/>
+                            <cell xml:id="cell.48"/>
+                            <cell xml:id="cell.49">15 Pálmafás vidék</cell>
+                            <cell xml:id="cell.50">–202</cell>
+                        </row>
+                    </table></p>
+                <p xml:id="p.10"><table cols="8" rows="42" xml:id="table.3">
+                        <row xml:id="row.8">
+                            <cell cols="3" role="label" xml:id="cell.51"><hi rend="underline"
+                                    >Személyek</hi> szereplők</cell>
+                            <cell cols="3" role="label" xml:id="cell.52"><del hand="#AJ"
+                                    >Égiek</del><del hand="#AJ">Szereplők</del></cell>
+                            <cell role="label" xml:id="cell.53"><del hand="#AJ">Karok</del></cell>
+                            <cell role="label" xml:id="cell.54">Néma személyek</cell>
+                        </row>
+                        <row xml:id="row.9">
+                            <cell cols="3" xml:id="cell.55">Egy agg eretnek</cell>
+                            <cell cols="3" xml:id="cell.56">Az úr</cell>
+                            <cell xml:id="cell.57"><del hand="#AJ">Angyalok kara</del></cell>
+                            <cell xml:id="cell.58">A csillagok védszellemei</cell>
+                        </row>
+                        <row xml:id="row.10">
+                            <cell cols="3" xml:id="cell.59">Egy csontváz</cell>
+                            <cell cols="3" xml:id="cell.60">Gábor főangyal</cell>
+                            <cell xml:id="cell.61"><del hand="#AJ">A</del></cell>
+                            <cell xml:id="cell.62">Angyalok kara</cell>
+                        </row>
+                        <row xml:id="row.11">
+                            <cell cols="3" xml:id="cell.63">Helene Izaura komornája</cell>
+                            <cell cols="3" xml:id="cell.64">Mihály –</cell>
+                            <cell xml:id="cell.65"/>
+                            <cell xml:id="cell.66">Nymphák</cell>
+                        </row>
+                        <row xml:id="row.12">
+                            <cell cols="3" xml:id="cell.67">–</cell>
+                            <cell cols="3" xml:id="cell.68">Ráfael –</cell>
+                            <cell xml:id="cell.69"/>
+                            <cell xml:id="cell.70">–</cell>
+                        </row>
+                        <row xml:id="row.13">
+                            <cell cols="3" xml:id="cell.71">Rudolf császár</cell>
+                            <cell cols="3" xml:id="cell.72">Lucifer</cell>
+                            <cell xml:id="cell.73"/>
+                            <cell xml:id="cell.74">Egyptusi rabszolgák</cell>
+                        </row>
+                        <row xml:id="row.14">
+                            <cell cols="3" xml:id="cell.75">1-2-3-4<hi rend="super">ik</hi>
+                                Udvaroncz</cell>
+                            <cell cols="3" xml:id="cell.76">Ádám</cell>
+                            <cell xml:id="cell.77"/>
+                            <cell xml:id="cell.78">felügyelőik –</cell>
+                        </row>
+                        <row xml:id="row.15">
+                            <cell cols="3" xml:id="cell.79">–</cell>
+                            <cell cols="3" xml:id="cell.80">Éva</cell>
+                            <cell xml:id="cell.81"/>
+                            <cell xml:id="cell.82">Pháraó kisérete</cell>
+                        </row>
+                        <row xml:id="row.16">
+                            <cell cols="3" xml:id="cell.83">Robespierre Guadet</cell>
+                            <cell cols="3" xml:id="cell.84">Egy Cherub.</cell>
+                            <cell xml:id="cell.85"/>
+                            <cell xml:id="cell.86">–</cell>
+                        </row>
+                        <row xml:id="row.17">
+                            <cell cols="3" xml:id="cell.87">Egy fiatal marquis</cell>
+                            <cell cols="3" xml:id="cell.88">A föld szelleme</cell>
+                            <cell xml:id="cell.89">munkások</cell>
+                            <cell xml:id="cell.90">Luczia szolgálói</cell>
+                        </row>
+                        <row xml:id="row.18">
+                            <cell cols="3" xml:id="cell.91">Egy tiszt</cell>
+                            <cell cols="3" xml:id="cell.92">–</cell>
+                            <cell xml:id="cell.93">rendőrök</cell>
+                            <cell xml:id="cell.94">Athénei nép</cell>
+                        </row>
+                        <row xml:id="row.19">
+                            <cell cols="3" xml:id="cell.95">Egy senqulotte</cell>
+                            <cell cols="3" xml:id="cell.96">Egy egyptusi rabszolga</cell>
+                            <cell xml:id="cell.97">kéjhölgyek</cell>
+                            <cell xml:id="cell.98">–fegyveresek</cell>
+                        </row>
+                        <row xml:id="row.20">
+                            <cell cols="3" xml:id="cell.99">–</cell>
+                            <cell cols="3" xml:id="cell.100">Kimon Milkiades fia</cell>
+                            <cell xml:id="cell.101"><del hand="#AJ">P</del> Zenészek</cell>
+                            <cell xml:id="cell.102"><del hand="#AJ">A chárisok</del></cell>
+                        </row>
+                        <row xml:id="row.21">
+                            <cell cols="3" xml:id="cell.103">Kepler egy tanítványa</cell>
+                            <cell cols="3" xml:id="cell.104"><del hand="#AJ">Lucia</del></cell>
+                            <cell xml:id="cell.105"><del hand="#AJ">Polgárok</del></cell>
+                            <cell xml:id="cell.106"><del hand="#AJ">A halál nemtője</del></cell>
+                        </row>
+                        <row xml:id="row.22">
+                            <cell cols="3" xml:id="cell.107">–</cell>
+                            <cell cols="3" xml:id="cell.108"><del hand="#AJ">Kimon fia</del></cell>
+                            <cell xml:id="cell.109"><del hand="#AJ">Egy elítélt</del></cell>
+                            <cell xml:id="cell.110">–</cell>
+                        </row>
+                        <row xml:id="row.23">
+                            <cell cols="3" xml:id="cell.111">Egy bábjátékos</cell>
+                            <cell xml:id="cell.112">1</cell>
+                            <cell rows="3" xml:id="cell.113">}</cell>
+                            <cell rows="3" xml:id="cell.114">athénei <del hand="#AJ">polgár</del>
+                                népből</cell>
+                            <cell xml:id="cell.115">Egy <sic>phanster</sic> beliek.</cell>
+                            <cell xml:id="cell.116">Gladiátorok római</cell>
+                        </row>
+                        <row xml:id="row.24">
+                            <cell cols="3" xml:id="cell.117">Egy ibolyaárus kis lány</cell>
+                            <cell xml:id="cell.118">2</cell>
+                            <cell xml:id="cell.119"/>
+                            <cell xml:id="cell.120">fuvolások</cell>
+                        </row>
+                        <row xml:id="row.25">
+                            <cell cols="3" xml:id="cell.121">Egy anya 50</cell>
+                            <cell xml:id="cell.122">3</cell>
+                            <cell xml:id="cell.123"/>
+                            <cell xml:id="cell.124">Tánczosnök</cell>
+                        </row>
+                        <row xml:id="row.26">
+                            <cell cols="3" xml:id="cell.125">Másik anya</cell>
+                            <cell cols="3" xml:id="cell.126">Crispus szabados</cell>
+                            <cell xml:id="cell.127">– 34</cell>
+                            <cell xml:id="cell.128">Romai rabszolgák</cell>
+                        </row>
+                        <row xml:id="row.27">
+                            <cell cols="3" xml:id="cell.129">Egy <del hand="#AJ">polgár</del>
+                                leány</cell>
+                            <cell cols="3" xml:id="cell.130">Tersites</cell>
+                            <cell xml:id="cell.131"/>
+                            <cell xml:id="cell.132">Temetési kiséret</cell>
+                        </row>
+                        <row xml:id="row.28">
+                            <cell cols="3" xml:id="cell.133">1<hi rend="super">ő</hi> Polgár
+                                lány</cell>
+                            <cell cols="3" xml:id="cell.134"><del hand="#AJ">Severus</del>
+                                polgár</cell>
+                            <cell xml:id="cell.135"/>
+                            <cell xml:id="cell.136">Barbár harczosok</cell>
+                        </row>
+                        <row xml:id="row.29">
+                            <cell cols="3" xml:id="cell.137">2<hi rend="super">ik</hi> detto</cell>
+                            <cell cols="3" xml:id="cell.138">1<hi rend="super">ö</hi> demagóg</cell>
+                            <cell xml:id="cell.139"/>
+                            <cell xml:id="cell.140">–</cell>
+                        </row>
+                        <row xml:id="row.30">
+                            <cell cols="3" xml:id="cell.141">Egy ékszerárus</cell>
+                            <cell cols="3" xml:id="cell.142">2<hi rend="super">ik</hi>
+                                demagóg</cell>
+                            <cell xml:id="cell.143"/>
+                            <cell xml:id="cell.144">Lovagok</cell>
+                        </row>
+                        <row xml:id="row.31">
+                            <cell cols="3" xml:id="cell.145">Egy korcsmáros</cell>
+                            <cell cols="3" xml:id="cell.146">1 polgár</cell>
+                            <cell xml:id="cell.147"/>
+                            <cell xml:id="cell.148">Keresztes vitézek</cell>
+                        </row>
+                        <row xml:id="row.32">
+                            <cell cols="3" xml:id="cell.149">1-2-3<hi rend="super">ik</hi>
+                                munkás</cell>
+                            <cell cols="3" xml:id="cell.150">2<hi rend="super">ik</hi> Polgár</cell>
+                            <cell xml:id="cell.151"/>
+                            <cell xml:id="cell.152"><sic>Konstantinaplolyi</sic> nép</cell>
+                        </row>
+                        <row xml:id="row.33">
+                            <cell cols="3" xml:id="cell.153">Egy kéjhölgy</cell>
+                            <cell cols="3" xml:id="cell.154">A halál nemtője</cell>
+                            <cell xml:id="cell.155"/>
+                            <cell xml:id="cell.156">detto katonák</cell>
+                        </row>
+                        <row xml:id="row.34">
+                            <cell cols="3" xml:id="cell.157">Egy katona</cell>
+                            <cell cols="3" xml:id="cell.158">Eros</cell>
+                            <cell xml:id="cell.159">20</cell>
+                            <cell xml:id="cell.160">Eretnekek</cell>
+                        </row>
+                        <row xml:id="row.35">
+                            <cell xml:id="cell.161">1<hi rend="super">ő</hi></cell>
+                            <cell rows="2" xml:id="cell.162">}</cell>
+                            <cell rows="2" xml:id="cell.163">mesterlegény <del hand="#AJ"
+                                    >Polgár</del></cell>
+                            <cell cols="3" xml:id="cell.164">A Charisok 23</cell>
+                            <cell xml:id="cell.165"/>
+                            <cell xml:id="cell.166">Barátok</cell>
+                        </row>
+                        <row xml:id="row.36">
+                            <cell xml:id="cell.167">2<hi rend="super">ik</hi></cell>
+                            <cell cols="3" xml:id="cell.168">–</cell>
+                            <cell xml:id="cell.169"/>
+                            <cell xml:id="cell.170">Boszorkányok</cell>
+                        </row>
+                        <row xml:id="row.37">
+                            <cell cols="3" xml:id="cell.171">1 koldús</cell>
+                            <cell cols="3" xml:id="cell.172">Catulus kéjencz</cell>
+                            <cell xml:id="cell.173"/>
+                            <cell xml:id="cell.174"><del hand="#AJ">Kisértetek</del></cell>
+                        </row>
+                        <row xml:id="row.38">
+                            <cell cols="3" xml:id="cell.175">1 koldús 64</cell>
+                            <cell cols="3" xml:id="cell.176"/>
+                            <cell xml:id="cell.177"/>
+                            <cell xml:id="cell.178">–</cell>
+                        </row>
+                        <row xml:id="row.39">
+                            <cell cols="3" xml:id="cell.179"/>
+                            <cell cols="3" xml:id="cell.180"/>
+                            <cell xml:id="cell.181"/>
+                            <cell xml:id="cell.182">Udvaroncok</cell>
+                        </row>
+                        <row xml:id="row.40">
+                            <cell cols="3" xml:id="cell.183"/>
+                            <cell cols="3" xml:id="cell.184"/>
+                            <cell xml:id="cell.185"/>
+                            <cell xml:id="cell.186">Udvarhölgyek</cell>
+                        </row>
+                        <row xml:id="row.41">
+                            <cell cols="3" xml:id="cell.187"/>
+                            <cell cols="3" xml:id="cell.188"/>
+                            <cell xml:id="cell.189"/>
+                            <cell xml:id="cell.190">–</cell>
+                        </row>
+                        <row xml:id="row.42">
+                            <cell cols="3" xml:id="cell.191"/>
+                            <cell xml:id="cell.192">Hippia</cell>
+                            <cell rows="2" xml:id="cell.193">}</cell>
+                            <cell rows="2" xml:id="cell.194">kéjhölgyek</cell>
+                            <cell xml:id="cell.195"/>
+                            <cell xml:id="cell.196">Franczia nép</cell>
+                        </row>
+                        <row xml:id="row.43">
+                            <cell cols="3" xml:id="cell.197"/>
+                            <cell xml:id="cell.198">Cluvia</cell>
+                            <cell xml:id="cell.199"/>
+                            <cell xml:id="cell.200">Senquulottok</cell>
+                        </row>
+                        <row xml:id="row.44">
+                            <cell cols="3" xml:id="cell.201"/>
+                            <cell cols="3" xml:id="cell.202">Péter apostol</cell>
+                            <cell xml:id="cell.203"/>
+                            <cell xml:id="cell.204">Ujonczok</cell>
+                        </row>
+                        <row xml:id="row.45">
+                            <cell cols="3" xml:id="cell.205"/>
+                            <cell cols="3" xml:id="cell.206">–</cell>
+                            <cell xml:id="cell.207"/>
+                            <cell xml:id="cell.208">Convent tagok</cell>
+                        </row>
+                        <row xml:id="row.46">
+                            <cell cols="3" xml:id="cell.209"/>
+                            <cell cols="3" xml:id="cell.210">1 konstantinap. polgár</cell>
+                            <cell xml:id="cell.211"/>
+                            <cell xml:id="cell.212">Londoni nép</cell>
+                        </row>
+                        <row xml:id="row.47">
+                            <cell cols="3" xml:id="cell.213"/>
+                            <cell cols="3" xml:id="cell.214">2<hi rend="super">ik</hi> detto 3<hi
+                                    rend="super">ik</hi> 4<hi rend="super">ik</hi></cell>
+                            <cell xml:id="cell.215"/>
+                            <cell xml:id="cell.216"/>
+                        </row>
+                        <row xml:id="row.48">
+                            <cell cols="3" xml:id="cell.217"/>
+                            <cell cols="3" xml:id="cell.218">1<hi rend="super">ő</hi><del hand="#AJ"
+                                    >Egy</del> barát, 2<hi rend="super">ik</hi> barát</cell>
+                            <cell xml:id="cell.219"/>
+                            <cell xml:id="cell.220"/>
+                        </row>
+                        <row xml:id="row.49">
+                            <cell cols="3" xml:id="cell.221"/>
+                            <cell cols="3" xml:id="cell.222"><gap extent="unknown"
+                                    reason="illegible" unit="char"/>Patriárcha 34</cell>
+                            <cell xml:id="cell.223"/>
+                            <cell xml:id="cell.224"/>
+                        </row>
+                    </table></p>
+                <p xml:id="p.11"><table cols="6" rows="23" xml:id="table.4">
+                        <head>A munkalap verzóján, csak az első hasábban:</head>
+                        <row xml:id="row.50">
+                            <cell cols="3" xml:id="cell.225">Egy zenész</cell>
+                            <cell xml:id="cell.226"/>
+                            <cell xml:id="cell.227"/>
+                            <cell xml:id="cell.228"/>
+                        </row>
+                        <row xml:id="row.51">
+                            <cell cols="3" xml:id="cell.229">Egy árus</cell>
+                            <cell xml:id="cell.230"/>
+                            <cell xml:id="cell.231"/>
+                            <cell xml:id="cell.232"/>
+                        </row>
+                        <row xml:id="row.52">
+                            <cell cols="3" xml:id="cell.233">Másik árus</cell>
+                            <cell xml:id="cell.234"/>
+                            <cell xml:id="cell.235"/>
+                            <cell xml:id="cell.236"/>
+                        </row>
+                        <row xml:id="row.53">
+                            <cell cols="3" xml:id="cell.237">Egy ifjú</cell>
+                            <cell xml:id="cell.238"/>
+                            <cell xml:id="cell.239"/>
+                            <cell xml:id="cell.240"/>
+                        </row>
+                        <row xml:id="row.54">
+                            <cell cols="3" xml:id="cell.241"><del hand="#AJ">Anya</del><del
+                                    hand="#AJ">Egy anya</del></cell>
+                            <cell xml:id="cell.242"/>
+                            <cell xml:id="cell.243"/>
+                            <cell xml:id="cell.244"/>
+                        </row>
+                        <row xml:id="row.55">
+                            <cell cols="3" xml:id="cell.245">Czigányasszony</cell>
+                            <cell xml:id="cell.246"/>
+                            <cell xml:id="cell.247"/>
+                            <cell xml:id="cell.248"/>
+                        </row>
+                        <row xml:id="row.56">
+                            <cell xml:id="cell.249">1</cell>
+                            <cell rows="4" xml:id="cell.250">}</cell>
+                            <cell rows="4" xml:id="cell.251">deák</cell>
+                            <cell xml:id="cell.252"/>
+                            <cell xml:id="cell.253"/>
+                            <cell xml:id="cell.254"/>
+                        </row>
+                        <row xml:id="row.57">
+                            <cell xml:id="cell.255">2</cell>
+                            <cell xml:id="cell.256"/>
+                            <cell xml:id="cell.257"/>
+                            <cell xml:id="cell.258"/>
+                        </row>
+                        <row xml:id="row.58">
+                            <cell xml:id="cell.259">3</cell>
+                            <cell xml:id="cell.260"/>
+                            <cell xml:id="cell.261"/>
+                            <cell xml:id="cell.262"/>
+                        </row>
+                        <row xml:id="row.59">
+                            <cell xml:id="cell.263">4</cell>
+                            <cell xml:id="cell.264"/>
+                            <cell xml:id="cell.265"/>
+                            <cell xml:id="cell.266"/>
+                        </row>
+                        <row xml:id="row.60">
+                            <cell cols="3" xml:id="cell.267">Egy nyegle</cell>
+                            <cell xml:id="cell.268"/>
+                            <cell xml:id="cell.269"/>
+                            <cell xml:id="cell.270"/>
+                        </row>
+                        <row xml:id="row.61">
+                            <cell xml:id="cell.271">1</cell>
+                            <cell rows="2" xml:id="cell.272">}</cell>
+                            <cell rows="2" xml:id="cell.273">ik Gyáros</cell>
+                            <cell xml:id="cell.274"/>
+                            <cell xml:id="cell.275"/>
+                            <cell xml:id="cell.276"/>
+                        </row>
+                        <row xml:id="row.62">
+                            <cell xml:id="cell.277">2</cell>
+                            <cell xml:id="cell.278"/>
+                            <cell xml:id="cell.279"/>
+                            <cell xml:id="cell.280"/>
+                        </row>
+                        <row xml:id="row.63">
+                            <cell cols="3" xml:id="cell.281">Lovel őrült gyáros <del hand="#AJ"
+                                    >72</del></cell>
+                            <cell xml:id="cell.282"/>
+                            <cell xml:id="cell.283"/>
+                            <cell xml:id="cell.284"/>
+                        </row>
+                        <row xml:id="row.64">
+                            <cell cols="3" xml:id="cell.285">Egy elitélt</cell>
+                            <cell xml:id="cell.286"/>
+                            <cell xml:id="cell.287"/>
+                            <cell xml:id="cell.288"/>
+                        </row>
+                        <row xml:id="row.65">
+                            <cell cols="3" xml:id="cell.289">Egy tudós</cell>
+                            <cell xml:id="cell.290"/>
+                            <cell xml:id="cell.291"/>
+                            <cell xml:id="cell.292"/>
+                        </row>
+                        <row xml:id="row.66">
+                            <cell cols="3" xml:id="cell.293">Egy aggastyán</cell>
+                            <cell xml:id="cell.294"/>
+                            <cell xml:id="cell.295"/>
+                            <cell xml:id="cell.296"/>
+                        </row>
+                        <row xml:id="row.67">
+                            <cell cols="3" xml:id="cell.297">Luther</cell>
+                            <cell xml:id="cell.298"/>
+                            <cell xml:id="cell.299"/>
+                            <cell xml:id="cell.300"/>
+                        </row>
+                        <row xml:id="row.68">
+                            <cell cols="3" xml:id="cell.301">Cassius</cell>
+                            <cell xml:id="cell.302"/>
+                            <cell xml:id="cell.303"/>
+                            <cell xml:id="cell.304"/>
+                        </row>
+                        <row xml:id="row.69">
+                            <cell cols="3" xml:id="cell.305">Angelo Mihály</cell>
+                            <cell xml:id="cell.306"/>
+                            <cell xml:id="cell.307"/>
+                            <cell xml:id="cell.308"/>
+                        </row>
+                        <row xml:id="row.70">
+                            <cell cols="3" xml:id="cell.309">Plátó</cell>
+                            <cell xml:id="cell.310"/>
+                            <cell xml:id="cell.311"/>
+                            <cell xml:id="cell.312"/>
+                        </row>
+                        <row xml:id="row.71">
+                            <cell cols="3" xml:id="cell.313"><del hand="#AJ">Egy nő</del></cell>
+                            <cell xml:id="cell.314"/>
+                            <cell xml:id="cell.315"/>
+                            <cell xml:id="cell.316"/>
+                        </row>
+                        <row xml:id="row.72">
+                            <cell cols="3" xml:id="cell.317">Egy eskimó 8 <del hand="#AJ">4</del>
+                                5</cell>
+                            <cell xml:id="cell.318"/>
+                            <cell xml:id="cell.319"/>
+                            <cell xml:id="cell.320"/>
+                        </row>
+                    </table></p>
+                <p xml:id="p.12">A hasonmás kiadás kísérő tanulmányában (56-58.) megcáfoltuk az
+                    állítást, hogy a feljegyzés utólag készült volna (<bibl>Tolnai 1925 88-89.<idno
+                            type="ITIdata">Q470155</idno></bibl>), de eltért a véleményünk
+                        <persName>Gyulai Pálétól</persName> is, aki - mint idéztük - a kéziratot az
+                    első kidolgozásból fennmaradtnak állította. Ugyanott bizonyítottuk, hogy
+                        <persName>Madách</persName> a feljegyzést a <title><hi rend="italic"
+                            >Tragédia</hi></title> megírásával párhuzamosan és folyamatosan vezette:
+                    a lúd tollal író szerző a teljes kéziraton mindenütt ugyanott váltott vagy
+                    metszett vissza tollat, ahol a kéziratlapon. A szereplők neveinek közlésünkben
+                    is látható elrendezése pedig azt szemlélteti, hogy <persName>Madách</persName>
+                    közben kifogyott a helyből. Utólag szúrta be a megírás kezdetének és
+                    befejezésének napját. A verssorok számának színenkénti összegezése a készülő mű
+                    arányainak szintén folyamatos ellenőrzését szolgálta, ahogyan azt ott a
+                            <title><hi rend="italic">Mária királynő</hi></title>höz (<date
+                        from="1855-01-01" to="1855-04-27">1855. január 1 - április 27.</date>) és a
+                            <title><hi rend="italic">Mózes</hi></title>hez (<date from="1860-06-09"
+                        to="1861-11-16">1860. június 9 - 1861. november 16.</date>) készített
+                    hasonló feljegyzések analógiájával bizonyítottuk. A színek csoportjaihoz fűzött,
+                    közlésünkben is szemlélhető arab számok (5 - 2 - 4 - 3 - 1) minden bizonnyal
+                    azokat a csoportosított feljegyzéskötegeket jelölték, amelyeket
+                        <persName>Madách</persName> ezúttal is megsemmisített az elkészült kézirat
+                    birtokában.</p>
+                <p xml:id="p.13">Az elmondottak alapján a „vázlat” helyett a továbbiakban a
+                    „munkalap” elnevezést használjuk dokumentumunkra.</p>
+                <p xml:id="p.14">Mivel a <title><hi rend="italic">Tragédia</hi></title> esetében is
+                    szokott alkotómódszerével dolgozott, <persName>Madáchot</persName> most sem
+                    érdekelte a munkalap verzóján maradt három töredék a XI., a londoni színből:
+                    egyszerűen áthúzta őket, érvénytelenítve tartalmukat, amikor a papírlap rektója
+                    betelt és a szereplők listája (éppen a XI. színben) áthúzódott a verzóra is. Az
+                    összesen kilenc sor terjedelmű három versrészlet a <title><hi rend="italic"
+                            >Tragédia</hi></title> véletlenül fennmaradt, egyedüli
+                    szövegvázlat-együttesének tekinthető. Az első két sor („Ex gratia speciali /
+                    Mortuus in hospitali”) változatlan formában került át a londoni színbe: <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.411"
+                        >395</ref>-<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.412"
+                        >396.</ref> sor. Annál többet küszködött a két verzióban is megfogalmazott
+                    másik részlettel, amelyből végül a Második mesterlegény dala lett. Az első, még
+                    háromsoros változat szerint:</p>
+                <lg xml:id="lg.1">
+                    <l xml:id="l.1">Aki munkás hét után</l>
+                    <l xml:id="l.2">Tréfás dal és csők között</l>
+                    <l xml:id="l.3">Tiszta szívvel mulatoz</l>
+                </lg>
+                <p xml:id="p.15">A négysorosra bővített, második megfogalmazás a későbbi, mert
+                    közelebb áll a teljes kézirat változatához, bár nem azonos azzal, sőt az
+                    érvényes verzióért folytatott poétái harc a munkalapon látható végeredmény
+                    nélkül maradt abba:</p>
+                <lg xml:id="lg.2">
+                    <l xml:id="l.4">A ki munkás hét után</l>
+                    <l xml:id="l.5">Frigyet az örömmel köt</l>
+                    <l xml:id="l.6">Csak <del hand="#AJ">Dal</del><del hand="#AJ">Tréfás dal</del> e
+                        dallal ajakán</l>
+                    <l xml:id="l.7">Kaczagja az ördögöt</l>
+                </lg>
+                <p xml:id="p.16">A könnyebb követhetőség kedvéért itt megismételjük a
+                    SZÖVEGÁLLAPOTOK <ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.234">XI:
+                        228</ref>-<ref
+                        target="https://hdl.handle.net/20.500.14368/mi-aet-genetic.tei.11#l.237"
+                        >232.</ref> sorát a K-Kl-ről:</p>
+                <lg xml:id="lg.3">
+                    <l xml:id="l.8"><del hand="#AJ">Aki</del> A ki munkás hét után</l>
+                    <l xml:id="l.9"><gap extent="unknown" reason="illegible" unit="char"/> Tiszta
+                            <del hand="#AJ">szívvel</del> szívvel, dal között</l>
+                    <l xml:id="l.10">Csókot és bort <del hand="#AJ">el köszönt</del> elköszönt,</l>
+                    <l xml:id="l.11">Kaczagja az ördögöt. -"</l>
+                </lg>
+                <p xml:id="p.17">A <title><hi rend="italic">Tragédia</hi></title> alkotómódszerére
+                    és előanyagára vonatkozó ismereteinket a következőkben foglalhatjuk össze:</p>
+                <p xml:id="p.18">- a drámai költemény írásakor <persName>Madách</persName> a nagyobb
+                    terjedelmű műveknél kialakított metódussal dolgozott: csoportosított
+                    feljegyzések + egyes részletek kidolgozása; a megírás után ezek
+                    megsemmisítése;</p>
+                <p xml:id="p.19">- a készülő mű legfontosabb adatait, az arányok ellenőrzését
+                    ezúttal is egy folyamatosan vezetett munkalapon végezte.</p>
+                <p xml:id="p.20"><title><hi rend="italic">Az ember tragédiája</hi></title> esetében
+                    tehát újabb dokumentumok felbukkanására e részben nem számíthatunk.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
